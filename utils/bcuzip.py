@@ -2,7 +2,7 @@ import sys, os, hashlib, json
 from Crypto.Cipher import AES
 
 class Bcuzip:
-    def __init__(self, file):
+    def __init__(self, file: str):
         self.title = None
         self.bytes = open(file, "rb").read()
         self.length = int.from_bytes(self.bytes[0x20:0x24], "little")
@@ -51,7 +51,7 @@ def bcuzip(file=None, folder=None):
                 if file.endswith(".bcuzip"):
                     process(os.path.join(folder, file))
 
-def process(file):
+def process(file: str):
     if not file.endswith(".bcuzip"):
         print(f"Invalid file: {file}. Please select a .bcuzip file.")
         return
