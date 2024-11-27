@@ -6,9 +6,6 @@ def main():
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers(dest="command", help="Available commands")
 
-    parser_bcuzip = subparsers.add_parser("bcuzip", help="Process a file or folder of .bcuzip files")
-    parser_bcuzip.add_argument("--file", help="Path to a .bcuzip file")
-    parser_bcuzip.add_argument("--folder", help="Path to a .bcuzip folder")
 
     args = parser.parse_args()
 
