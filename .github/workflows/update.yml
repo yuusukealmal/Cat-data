@@ -1,4 +1,4 @@
-name: Update Certain Game Datas
+name: Update Certain Game Data
 on:
     schedule:
       - cron: 0 3 * * *
@@ -19,7 +19,7 @@ jobs:
           run: |
             python -m pip install --upgrade pip
             python3 -m pip install -r requirements.txt
-        - name: Update Datas'
+        - name: Update Data
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           run: |
@@ -27,4 +27,4 @@ jobs:
         - name: Commit changes
           uses: stefanzweifel/git-auto-commit-action@v5
           with:
-           commit_message: Update Certain Game Datas
+            commit_message: Update Certain Game Data
