@@ -3,6 +3,9 @@ from enum import Enum
 from Crypto.Util.Padding import unpad
 from Crypto.Cipher import AES
 import hashlib
+import requests
+from bs4 import BeautifulSoup as bs4
+import ua_generator
 
 class env(Enum):
     LIST = 'b484857901742afc'
@@ -139,24 +142,78 @@ def check(apk=None, xapk=None):
             package = manifest["package_name"]
             return package if "jp.co.ponos.battlecats" in package else False
 
-def local(way: str, apk=None, xapk=None):
-    if not apk and not xapk:
-        print("Please select a file or folder")
-        sys.exit(1)
-    
-    _is_valid = check(apk, xapk)
-    if not _is_valid:
-        target = apk or xapk
-        print(f"Invalid file: {target}. Please select a valid certain game file.")
-        sys.exit(1)
+def get_latest_version(cc: str):
+    ua = str(ua_generator.generate())
+    with open(os.path.join(os.getcwd(), "version.json"), "r") as f:
+        j = json.load(f)
+    r = requests.get(j[cc]["version_url"], headers={"User-Agent": str(ua)})
+    soup = bs4(r.content, "lxml")
+    return soup.find("div", {"class": "version"}).text
 
-    cc = "jp" if _is_valid.endswith("battlecats") else _is_valid[-2:]
-    
-    if xapk:
-        with zipfile.ZipFile(xapk, "r") as zip:
-            zip.extract("InstallPack.apk")
-            xapk = os.getcwd() + "/InstallPack.apk"
-    process(APK(way, apk, cc) if apk else APK(way, xapk, cc))
-    
+def parse_version(version: str):
+    return int("".join([_.zfill(2) for _ in version.split(".")]))
+
+def check_version():
+    ls = []
+    with open(os.path.join(os.getcwd(), "version.json"), "r") as f:
+        j = json.load(f)
+    for i in ["JP", "TW", "EN", "KR"]:
+        _version = j[i]["version"]
+        version = get_latest_version(i)
+        if _version < parse_version(version):
+            ls.append(i)
+            j[i]["version"] = parse_version(version)
+    with open(os.path.join(os.getcwd(), "version.json"), "w") as f:
+        json.dump(j, f, indent=4) 
+    return ls
+
+def download_apk(version: str):
+    ua = str(ua_generator.generate())
+    with open(os.path.join(os.getcwd(), "version.json"), "r") as f:
+        j = json.load(f)
+    r = requests.get(
+        url = j[version]["download_url"],
+        headers={"User-Agent": str(ua)},
+        stream=True,
+        timeout=10,
+    )
+    with open(f"{version}.xapk", "wb") as f:
+        for chunk in r.iter_content(chunk_size=1024):
+            if chunk:
+                f.write(chunk)
+    return os.path.abspath(f"{version}.xapk")
+
+def local(way: str, apk=None, xapk=None):
+    if way != "latest":
+        if not (apk or xapk):
+            print("Please select a file or folder")
+            sys.exit(1)
+        
+        _is_valid = check(apk, xapk)
+        if not _is_valid:
+            print(f"Invalid file: {apk or xapk}. Please select a valid game file.")
+            sys.exit(1)
+        
+        cc = "jp" if _is_valid.endswith("battlecats") else _is_valid[-2:]
+        
+        if xapk:
+            with zipfile.ZipFile(xapk, "r") as zip:
+                zip.extract("InstallPack.apk")
+            xapk = os.path.join(os.getcwd(), "InstallPack.apk")
+
+        process(APK(way, apk or xapk, cc))
+        os.remove(apk or xapk)
+        
+    else:
+        _process = check_version()
+        for i in _process:
+            _path = download_apk(i)
+            with zipfile.ZipFile(_path, "r") as zip:
+                zip.extract("InstallPack.apk")
+            os.remove(_path)
+            xapk = os.path.join(os.getcwd(), "InstallPack.apk")
+            process(APK("new", xapk, i.lower()))
+            os.remove(xapk)
+        
 def process(pkg: APK):
     pkg.parse()
