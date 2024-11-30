@@ -2,6 +2,7 @@ import sys, re, os, subprocess, zipfile, json
 from enum import Enum
 from Crypto.Util.Padding import unpad
 from Crypto.Cipher import AES
+import hashlib
 
 class env(Enum):
     LIST = 'b484857901742afc'
@@ -98,16 +99,24 @@ class ITEM(APK):
     def to_file(self, name: str, data: bytes):
         with open(os.path.join(self.folder, name), "wb") as f:
             f.write(data)
-    
+
+    def get_hash(self, data: str|bytes):
+        if isinstance(data, str):
+            return hashlib.md5(open(data, 'rb').read()).hexdigest()
+        if isinstance(data, bytes):
+            return hashlib.md5(data).hexdigest()
+
     def parse(self):
         for _line in self.list.splitlines()[1:]:
             name, start, arrange = _line.split(",")
             _data = self.get_DATA(int(start), int(arrange))
-            if "ImageDataLocal" in self.item:
-                data = _data
-            else:
-                data = self.delete_padding(self.get_aes().decrypt(_data))
-            self.to_file(name, data)
+            _path = os.path.join(self.folder, name)
+
+            if "ImageDataLocal" not in self.item:
+                _data = self.delete_padding(self.get_aes().decrypt(_data))
+            
+            if not os.path.exists(_path) or self.get_hash(_path) != self.get_hash(_data):
+                self.to_file(name, _data)
 
 def check(apk=None, xapk=None):
     if apk:
