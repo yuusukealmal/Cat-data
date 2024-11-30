@@ -1,6 +1,7 @@
 import argparse
 from utils.bcuzip import bcuzip
 from utils.event import event
+from utils.local import local
 
 def main():
     parser = argparse.ArgumentParser()
@@ -13,6 +14,10 @@ def main():
     parser_event = subparsers.add_parser("event", help="Get events of .tsv files of a certain game")
     parser_event.add_argument("--old", action="store_true", help="Get files from the old way")
     parser_event.add_argument("--new", action="store_true", help="Get files from the new way")
+    
+    parser_local = subparsers.add_parser("local", help="Get local files from certain game")
+    parser_local.add_argument("--apk", help="Path to a certain game file (.apk)")
+    parser_local.add_argument("--xapk", help="Path to a certain file (.xapk)")
 
     args = parser.parse_args()
 
@@ -20,6 +25,8 @@ def main():
         bcuzip(file=args.file, folder=args.folder)
     elif args.command == "event":
         event(old=args.old, new=args.new)
+    elif args.command == "local":
+        local(apk=args.apk, xapk=args.xapk)
     else:
         parser.print_help()
 
