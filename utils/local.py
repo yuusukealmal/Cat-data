@@ -17,12 +17,16 @@ class env(Enum):
     KR_IV = '9b13c2121d39f1353a125fed98696649'
 
 class APK:
-    def __init__(self, path: str, cc: str):
+    def __init__(self, way: str, path: str, cc: str):
         self.path = path
         self.cc = cc
+        self.way = way
         self.package = self.get_package()
         self.LIST_KEY = env.LIST.value
-        self.PACK_KEY, self.IV_KEY = self.get_pack_iv()
+        if way=="new":
+            self.PACK_KEY, self.IV_KEY = self.get_pack_iv()
+        else:
+            self.PACK_KEY = self.get_pack()
         self.itmes = self.get_items()
 
     def get_package(self):
@@ -37,25 +41,27 @@ class APK:
         }
         return mapping.get(self.cc, (None, None)) 
     
+    def get_pack(self):
+        return env.PACK.value
+    
     def get_items(self):
         with zipfile.ZipFile(self.path, "r") as zip:
             return [i.split(".")[:-1][0] for i in zip.namelist() if i.endswith(".pack")]
         
     def parse(self):
         for _ in self.itmes:
-            _item = ITEM(self.path, self.cc, _)
+            _item = ITEM(self.way, self.path, self.cc, _)
             _item.parse()
             del _item
 
 class ITEM(APK):
-    def __init__(self, path: str, cc: str, item: str):
-        super().__init__(path, cc)
+    def __init__(self, way: str, path: str, cc: str, item: str):
+        super().__init__(way, path, cc)
         self.item = item
         self.PACK = self.get_PACK()
         self.LIST_AES = self.get_key_aes()
         self.list = self.get_LIST()
         self.folder = self.get_folder()
-        self.count = 0
     
     def get_PACK(self):
         with zipfile.ZipFile(self.path, "r") as zip:
@@ -67,7 +73,10 @@ class ITEM(APK):
         return _aes
 
     def get_aes(self):
-        _aes = AES.new(bytes.fromhex(self.PACK_KEY), AES.MODE_CBC, bytes.fromhex(self.IV_KEY))
+        if self.way == "new":
+            _aes = AES.new(bytes.fromhex(self.PACK_KEY), AES.MODE_CBC, bytes.fromhex(self.IV_KEY))
+        else:
+            _aes = AES.new(bytes(self.PACK_KEY, "utf-8"), AES.MODE_ECB)
         return _aes
 
     def get_LIST(self):
@@ -130,7 +139,7 @@ def check(apk=None, xapk=None):
             package = manifest["package_name"]
             return package if "jp.co.ponos.battlecats" in package else False
 
-def local(apk=None, xapk=None):
+def local(way: str, apk=None, xapk=None):
     if not apk and not xapk:
         print("Please select a file or folder")
         sys.exit(1)
@@ -147,7 +156,7 @@ def local(apk=None, xapk=None):
         with zipfile.ZipFile(xapk, "r") as zip:
             zip.extract("InstallPack.apk")
             xapk = os.getcwd() + "/InstallPack.apk"
-    process(APK(apk, cc) if apk else APK(xapk, cc))
+    process(APK(way, apk, cc) if apk else APK(way, xapk, cc))
     
 def process(pkg: APK):
     pkg.parse()

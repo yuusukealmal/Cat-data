@@ -16,6 +16,11 @@ def main():
     parser_event.add_argument("--new", action="store_true", help="Get files from the new way")
     
     parser_local = subparsers.add_parser("local", help="Get local files from certain game")
+
+    parser_local_ways = parser_local.add_mutually_exclusive_group(required=True)
+    parser_local_ways.add_argument("--old", action="store_true", help="Use the old way")
+    parser_local_ways.add_argument("--new", action="store_true", help="Use the new way")
+
     parser_local.add_argument("--apk", help="Path to a certain game file (.apk)")
     parser_local.add_argument("--xapk", help="Path to a certain file (.xapk)")
 
@@ -26,7 +31,7 @@ def main():
     elif args.command == "event":
         event(old=args.old, new=args.new)
     elif args.command == "local":
-        local(apk=args.apk, xapk=args.xapk)
+        local(way="new" if args.new else "old", apk=args.apk, xapk=args.xapk)
     else:
         parser.print_help()
 
