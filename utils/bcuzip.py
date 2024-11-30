@@ -34,7 +34,7 @@ class Bcuzip:
                 data = self.aes.decrypt(self.data[offset:offset + (size + (16 - size % 16))])[:size]
                 f.write(data)
 
-def bcuzip(file=None, folder=None):
+def bcuzip(file: str=None, folder: str=None):
     if file is None and folder is None:
         print("Please select a file or folder")
         sys.exit(1)
