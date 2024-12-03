@@ -118,9 +118,6 @@ class SERVER:
             if chunk:
                 with open(f"./assets{index}.zip", "ab") as f:
                     f.write(chunk)
-        self.PACK = env.PACK.value
-        self.zip = zip
-        self.cc = cc
 
 def server(apk: str=None, xapk: str=None):
     if not (apk or xapk):
