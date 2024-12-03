@@ -2,6 +2,7 @@ import argparse
 from utils.bcuzip import bcuzip
 from utils.event import event
 from utils.local import local
+from utils.server import server
 
 def main():
     parser = argparse.ArgumentParser()
@@ -24,6 +25,11 @@ def main():
 
     parser_local.add_argument("--apk", help="Path to a certain game file (.apk)")
     parser_local.add_argument("--xapk", help="Path to a certain file (.xapk)")
+    
+    parser_server = subparsers.add_parser("server", help="Get server files from certain game")
+    parser_server.add_argument("--apk", help="Path to a certain game file (.apk)")
+    parser_server.add_argument("--xapk", help="Path to a certain file (.xapk)")
+    
 
     args = parser.parse_args()
 
@@ -34,6 +40,8 @@ def main():
     elif args.command == "local":
         way = "latest" if args.latest else ("new" if args.new else "old")
         local(way=way, apk=args.apk, xapk=args.xapk)
+    elif args.command == "server":
+        server(apk=args.apk, xapk=args.xapk)
     else:
         parser.print_help()
 

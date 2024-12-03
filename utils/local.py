@@ -6,6 +6,8 @@ import hashlib
 import requests
 from bs4 import BeautifulSoup as bs4
 import ua_generator
+from .funcs import check
+from .server import server
 
 class env(Enum):
     LIST = 'b484857901742afc'
@@ -171,7 +173,7 @@ def download_apk(version: str):
                 f.write(chunk)
     return os.path.abspath(f"{version}.xapk")
 
-def local(way: str, apk=None, xapk=None):
+def local(way: str, apk=None, xapk=None, remote=False):
     if way != "latest":
         if not (apk or xapk):
             print("Please select a file")
@@ -198,10 +200,15 @@ def local(way: str, apk=None, xapk=None):
             _path = download_apk(i)
             with zipfile.ZipFile(_path, "r") as zip:
                 zip.extract("InstallPack.apk")
-            os.remove(_path)
             xapk = os.path.join(os.getcwd(), "InstallPack.apk")
             process(APK("new", xapk, i.lower()))
             os.remove(xapk)
+            if remote:
+                server(xapk=_path)
+            try:
+                os.remove(_path)
+            except:
+                pass
         
 def process(pkg: APK):
     pkg.parse()
