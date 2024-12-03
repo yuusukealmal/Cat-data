@@ -186,7 +186,7 @@ def download_apk(version: str):
 def local(way: str, apk=None, xapk=None):
     if way != "latest":
         if not (apk or xapk):
-            print("Please select a file or folder")
+            print("Please select a file")
             sys.exit(1)
         
         _is_valid = check(apk, xapk)
