@@ -93,8 +93,8 @@ class SERVER:
         if version < 1000000:
             version = "{}_{}_{}".format(self.package, version, index)
         else:
-            version = "{}_{:06d}_{:02d}_{:06d}".format(self.package, version//1000000, index, version%1000000)
-        
+            version = "{}_{:06d}_{:02d}_{:02d}".format(self.package, version // 100, index, version % 100)
+
         url = self.download_link.format(package = self.package, version = version)
         return url
     
