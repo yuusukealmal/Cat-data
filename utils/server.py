@@ -3,6 +3,7 @@ import struct
 from .funcs import check
 import requests, ua_generator
 from .cloudfront import CloudFront
+
 class LIB:
     def __init__(self, lib: bytes, cc: str):
         self.data = lib
@@ -106,7 +107,7 @@ class SERVER:
             "connection": "keep-alive",
             "cookie": sign,
             "range": "bytes=0-",
-            "user-agent": "Dalvik/2.1.0 (Linux; U; Android 9; Pixel 2 Build/PQ3A.190801.002)"
+            "user-agent": self.ua
         }
         url = self.get_zip_link(index)
         r = requests.get(url, headers=headers, stream=True)
