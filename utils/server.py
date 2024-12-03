@@ -58,22 +58,11 @@ class SERVER:
     def __init__(self, file: str, cc: str):
         self.file = file
         self.cc = cc
-        self.tsvs = self.get_tsv()
         self.lib = self.get_lib_file()
         self.versions = LIB(self.lib, self.cc).get_versions()
         self.package = self.get_package_name()
         self.ua  = self.get_ua()
         self.download_link = "https://nyanko-assets.ponosgames.com/iphone/{package}/download/{version}.zip"
-        
-    def get_tsv(self):
-        _path = None
-        with zipfile.ZipFile(self.file, "r") as zip:
-            _path = zip.extract(f"InstallPack.apk")
-        with zipfile.ZipFile(_path, "r") as zip:
-            for name in zip.namelist():
-                if name.startswith("assets/download_") and name.endswith(".tsv"):
-                    zip.extract(name)
-        os.remove(_path)
     
     def get_lib_file(self):
         _lib = None
@@ -128,6 +117,9 @@ class SERVER:
             if chunk:
                 with open(f"./assets{index}.zip", "ab") as f:
                     f.write(chunk)
+        self.PACK = env.PACK.value
+        self.zip = zip
+        self.cc = cc
 
 def server(apk: str=None, xapk: str=None):
     if not (apk or xapk):
