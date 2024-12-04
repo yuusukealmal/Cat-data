@@ -131,6 +131,7 @@ class ITEM(APK):
             
             if not os.path.exists(_path) or self.get_hash(_path) != self.get_hash(_data):
                 self.to_file(name, _data)
+        self.delete()
                 
     def delete(self):
         files = [i[0] for i in self.list.splitlines()[1:]]
@@ -219,4 +220,3 @@ def local(way: str, apk=None, xapk=None, remote=False):
         
 def process(pkg: APK):
     pkg.parse()
-    pkg.delete()
