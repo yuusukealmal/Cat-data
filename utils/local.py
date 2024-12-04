@@ -205,18 +205,21 @@ def local(way: str, apk=None, xapk=None, remote=False):
     else:
         _process = check_version()
         for i in _process:
-            _path = download_apk(i)
-            with zipfile.ZipFile(_path, "r") as zip:
-                zip.extract("InstallPack.apk")
-            xapk = os.path.join(os.getcwd(), "InstallPack.apk")
-            process(APK("new", xapk, i.lower()))
-            os.remove(xapk)
-            if remote:
-                server(xapk=_path)
             try:
-                os.remove(_path)
-            except:
-                pass
+                _path = download_apk(i)
+                with zipfile.ZipFile(_path, "r") as zip:
+                    zip.extract("InstallPack.apk")
+                xapk = os.path.join(os.getcwd(), "InstallPack.apk")
+                process(APK("new", xapk, i.lower()))
+                os.remove(xapk)
+                if remote:
+                    server(xapk=_path)
+                try:
+                    os.remove(_path)
+                except:
+                    pass
+            except Exception as e:
+                print(i, e)
         
 def process(pkg: APK):
     pkg.parse()
