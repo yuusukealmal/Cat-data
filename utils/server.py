@@ -166,16 +166,20 @@ class ITEM:
         
     def check(self):
         hash = self.get_hash(self.zip)
-        with open(os.path.join(os.getcwd(), "server.json"), "r") as f:
+        fp = os.path.join(os.getcwd(), "server.json")
+        
+        with open(fp, "r") as f:
             j = json.load(f)
 
-        if self.zip not in j[self.cc.upper()]:
-            j[self.cc.upper()][self.zip] = hash
+        file = os.path.basename(self.zip)
 
-        with open(os.path.join(os.getcwd(), "server.json"), "w") as f:
-            json.dump(j, f, indent=4)
-        
-        return j[self.cc.upper()][self.zip] == hash
+        if file not in j[self.cc.upper()] or j[self.cc.upper()][file] != hash:
+            j[self.cc.upper()][file] = hash
+            with open(fp, "w") as f:
+                json.dump(j, f, indent=4)
+            return False
+
+        return True
 
     def get_package_name(self):
         return "jp.co.ponos.battlecats{}".format(self.cc)
