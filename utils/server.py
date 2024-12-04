@@ -205,6 +205,10 @@ def server(apk: str=None, xapk: str=None):
         
     cc = "jp" if _is_valid.endswith("battlecats") else _is_valid[-2:]
     process(SERVER((apk or xapk), cc))
+    try:
+        os.remove(apk or xapk)
+    except:
+        pass
 
 def process(pkg: SERVER):
     for i in range(len(pkg.versions)):
