@@ -1,21 +1,21 @@
 {
     "JP": {
-        "version": 140000,
+        "version": 0,
         "version_url": "https://the-battle-cats-jp.en.uptodown.com/android/versions",
         "download_url": "https://d.apkpure.net/b/XAPK/jp.co.ponos.battlecats?version=latest"
     },
     "TW": {
-        "version": 130500,
+        "version": 0,
         "version_url": "https://jp-co-ponos-battlecatstw.en.uptodown.com/android/versions",
         "download_url": "https://d.apkpure.net/b/XAPK/jp.co.ponos.battlecatstw?version=latest"
     },
     "EN": {
-        "version": 130700,
+        "version": 0,
         "version_url": "https://the-battle-cats.en.uptodown.com/android/versions",
         "download_url": "https://d.apkpure.net/b/XAPK/jp.co.ponos.battlecatsen?version=latest"
     },
     "KR": {
-        "version": 130400,
+        "version": 0,
         "version_url": "https://jp-co-ponos-battlecatskr.en.uptodown.com/android/versions",
         "download_url": "https://d.apkpure.net/b/XAPK/jp.co.ponos.battlecatskr?version=latest"
     }
