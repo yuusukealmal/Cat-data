@@ -3,4 +3,4 @@ from utils.local import local
 
 if __name__ == "__main__":
     event(new=True)
-    local(way="latest")
+    local(way="latest", remote=True)
