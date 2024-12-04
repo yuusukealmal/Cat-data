@@ -5,7 +5,7 @@ from .funcs import check
 import requests, ua_generator
 from .cloudfront import CloudFront
 from Crypto.Cipher import AES
-from Crypto.Util.Padding import pad, unpad
+from Crypto.Util.Padding import unpad
 
 class LIB:
     def __init__(self, lib: bytes, cc: str):
