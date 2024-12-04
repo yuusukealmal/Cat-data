@@ -1,8 +1,11 @@
 import sys, os, zipfile, time
-import struct
+import struct, hashlib
+from enum import Enum
 from .funcs import check
 import requests, ua_generator
 from .cloudfront import CloudFront
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad, unpad
 
 class LIB:
     def __init__(self, lib: bytes, cc: str):
@@ -82,8 +85,7 @@ class SERVER:
         return _lib
     
     def get_package_name(self):
-        cc = "" if self.cc == "jp" else self.cc
-        return "battlecats{}".format(cc)
+        return "jp.co.ponos.battlecats{}".format(self.cc)
     
     def get_ua(self):
         return str(ua_generator.generate(device="mobile", platform="android"))
@@ -111,13 +113,85 @@ class SERVER:
         }
         url = self.get_zip_link(index)
         r = requests.get(url, headers=headers, stream=True)
-        while len(r.content) == 243:
-            print("retry {}".format(index))
-            r = requests.get(url, headers=headers, stream=True)
         for chunk in r.iter_content(chunk_size=1024):
             if chunk:
                 with open(f"./assets{index}.zip", "ab") as f:
                     f.write(chunk)
+        item = ITEM(os.path.abspath(f"./assets{index}.zip"), self.cc)
+        item.parse()
+        del item
+
+class env(Enum):
+    LIST = 'b484857901742afc'
+    PACK = '89a0f99078419c28'
+    
+class ITEM:
+    def __init__(self, zip: str, cc: str):
+        self.zip = zip
+        self.cc = cc
+        self.package = self.get_package_name()
+        self.LIST_KEY = env.LIST.value
+        self.PACK_KEY = env.PACK.value
+        self.PACK_AES = self.get_PACK_aes()
+        
+    def get_package_name(self):
+        cc = "" if self.cc == "jp" else self.cc
+        return "jp.co.ponos.battlecats{}".format(cc)
+
+    def get_LIST_aes(self):
+        _aes = AES.new(self.LIST_KEY.encode("utf-8"), AES.MODE_ECB)
+        return _aes
+
+    def get_PACK_aes(self):
+        _aes = AES.new(self.PACK_KEY.encode("utf-8"), AES.MODE_ECB)
+        return _aes
+
+    def get_folder(self, folder: str):
+        base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+        target_dir = os.path.join(base_dir, "Data", "server", self.package, folder) #self.item.split("/")[-1]
+        os.makedirs(target_dir, exist_ok=True)
+        return target_dir
+
+    def to_file(self, folder: str, file: str, data: bytes):
+        with open(os.path.join(self.get_folder(folder), file), "wb") as f:
+            f.write(data)
+
+    def get_hash(self, data: str|bytes):
+        if isinstance(data, str):
+            return hashlib.md5(open(data, 'rb').read()).hexdigest()
+        if isinstance(data, bytes):
+            return hashlib.md5(data).hexdigest()
+
+    def get_DATA(self, pack: bytes, start: int, arrange: int):
+        return pack[start:start + arrange]
+
+    def parse_pack(self, zip: str, name: str):
+        with zipfile.ZipFile(zip, "r") as zip:
+            _list = self.get_LIST_aes().decrypt(zip.read(name))
+            list = unpad(_list, AES.block_size).decode("utf-8")
+            folder = name.split("/")[0]
+            _data = zip.read(name.replace(".list", ".pack"))
+            self.parse_data(folder.split(".")[0], list, _data)
+
+    def parse_data(self, folder: str, list: str, data: bytes):
+        for _line in list.splitlines()[1:]:
+            name, start, arrange = _line.split(",")
+            __data = self.get_DATA(data, int(start), int(arrange))
+            _path = os.path.join(self.get_folder(folder))
+
+            _data = self.PACK_AES.decrypt(__data)
+
+            if not os.path.exists(os.path.join(_path, name)) or self.get_hash(os.path.join(_path, name)) != self.get_hash(_data):
+                self.to_file(self.get_folder(_path), name, _data)
+
+    def parse(self):
+        with zipfile.ZipFile(self.zip, "r") as zip:
+            for name in zip.namelist():
+                if name.endswith(".caf") or name.endswith(".ogg"):
+                    self.to_file(self.get_folder("Audio"), name, zip.read(name))
+                if name.endswith(".list"):
+                    self.parse_pack(self.zip, name)
+        os.remove(self.zip)
 
 def server(apk: str=None, xapk: str=None):
     if not (apk or xapk):
