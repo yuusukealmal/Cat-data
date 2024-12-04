@@ -92,13 +92,13 @@ class SERVER:
 
     def get_zip_link(self, index: int):
         version = self.versions[index]
-        
+        cc = self.package.split(".")[-1].replace("jp", "")
         if version < 1000000:
-            version = "{}_{}_{}".format(self.package, version, index)
+            version = "{}_{}_{}".format(cc, version, index)
         else:
-            version = "{}_{:06d}_{:02d}_{:02d}".format(self.package, version // 100, index, version % 100)
+            version = "{}_{:06d}_{:02d}_{:02d}".format(cc, version // 100, index, version % 100)
 
-        url = self.download_link.format(package = self.package, version = version)
+        url = self.download_link.format(package = cc, version = version)
         return url
     
     def download_zip(self, index: int):
@@ -135,8 +135,7 @@ class ITEM:
         self.PACK_AES = self.get_PACK_aes()
         
     def get_package_name(self):
-        cc = "" if self.cc == "jp" else self.cc
-        return "jp.co.ponos.battlecats{}".format(cc)
+        return "jp.co.ponos.battlecats{}".format(self.cc)
 
     def get_LIST_aes(self):
         _aes = AES.new(self.LIST_KEY.encode("utf-8"), AES.MODE_ECB)
