@@ -128,7 +128,6 @@ class SERVER:
         if self.cc == "en" and self.get_region_by_index(_index)[0] != "":
             version += "_" + self.get_region_by_index(_index)[0]
         url = self.download_link.format(package = cc, version = version)
-        print(url)
         return url
     
     def download_zip(self, index: int):
