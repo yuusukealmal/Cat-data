@@ -1,4 +1,4 @@
-import sys, os, zipfile, time
+import sys, os, zipfile, time, json
 import struct, hashlib
 from enum import Enum
 from .funcs import check
@@ -147,7 +147,8 @@ class SERVER:
                 with open(f"./assets{index}.zip", "ab") as f:
                     f.write(chunk)
         item = ITEM(os.path.abspath(f"./assets{index}.zip"), self.cc)
-        item.parse()
+        if not item.check():
+            item.parse()
         del item
 
 class env(Enum):
@@ -163,6 +164,19 @@ class ITEM:
         self.PACK_KEY = env.PACK.value
         self.PACK_AES = self.get_PACK_aes()
         
+    def check(self):
+        hash = self.get_hash(self.zip)
+        with open(os.path.join(os.getcwd(), "server.json"), "r") as f:
+            j = json.load(f)
+
+        if self.zip not in j[self.cc.upper()]:
+            j[self.cc.upper()][self.zip] = hash
+
+        with open(os.path.join(os.getcwd(), "server.json", "w")) as f:
+            json.dump(j, f, indent=4)
+        
+        return j[self.cc.upper()][self.zip] == hash
+
     def get_package_name(self):
         return "jp.co.ponos.battlecats{}".format(self.cc)
 
