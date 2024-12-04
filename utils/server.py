@@ -172,7 +172,7 @@ class ITEM:
         if self.zip not in j[self.cc.upper()]:
             j[self.cc.upper()][self.zip] = hash
 
-        with open(os.path.join(os.getcwd(), "server.json", "w")) as f:
+        with open(os.path.join(os.getcwd(), "server.json"), "w") as f:
             json.dump(j, f, indent=4)
         
         return j[self.cc.upper()][self.zip] == hash
