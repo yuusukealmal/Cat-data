@@ -172,13 +172,23 @@ class ITEM:
             _data = zip.read(name.replace(".list", ".pack"))
             self.parse_data(folder.split(".")[0], list, _data)
 
+    def delete_padding(self, pack_res: bytes):
+        padding_map = {
+            b'\x00': 1, b'\x01': 1, b'\x02': 2, b'\x03': 3, b'\x04': 4, b'\x05': 5,
+            b'\x06': 6, b'\x07': 7, b'\x08': 8, b'\t': 9, b'\n': 10, b'\x0b': 11, 
+            b'\x0c': 12, b'\r': 13, b'\x0e': 14, b'\x0f': 15, b'\x10': 16
+        }
+        last = pack_res[-1:]
+        padding_count = padding_map.get(last, 0)
+        return pack_res[:-padding_count] if padding_count > 0 else pack_res
+
     def parse_data(self, folder: str, list: str, data: bytes):
         for _line in list.splitlines()[1:]:
             name, start, arrange = _line.split(",")
             __data = self.get_DATA(data, int(start), int(arrange))
             _path = os.path.join(self.get_folder(folder))
 
-            _data = self.PACK_AES.decrypt(__data)
+            _data = self.delete_padding(self.PACK_AES.decrypt(__data))
 
             if not os.path.exists(os.path.join(_path, name)) or self.get_hash(os.path.join(_path, name)) != self.get_hash(_data):
                 self.to_file(self.get_folder(_path), name, _data)
