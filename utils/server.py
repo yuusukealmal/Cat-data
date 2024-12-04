@@ -194,7 +194,7 @@ class ITEM:
         os.remove(self.zip)
         
     def delete(self, list: str, folder: str):
-        files = [i[0] for i in list.splitlines()[1:]]
+        files = [i.split(",")[0] for i in list.splitlines()[1:]]
         for f in os.listdir(folder):
             if f not in files:
                 os.remove(os.path.join(folder, f))

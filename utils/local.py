@@ -134,7 +134,7 @@ class ITEM(APK):
         self.delete()
                 
     def delete(self):
-        files = [i[0] for i in self.list.splitlines()[1:]]
+        files = [i.split(",")[0] for i in self.list.splitlines()[1:]]
         for f in os.listdir(self.folder):
             if f not in files:
                 os.remove(os.path.join(self.folder, f))
