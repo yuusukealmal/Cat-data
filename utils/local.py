@@ -131,6 +131,12 @@ class ITEM(APK):
             
             if not os.path.exists(_path) or self.get_hash(_path) != self.get_hash(_data):
                 self.to_file(name, _data)
+                
+    def delete(self):
+        files = [i[0] for i in self.list.splitlines()[1:]]
+        for f in os.listdir(self.folder):
+            if f not in files:
+                os.remove(os.path.join(self.folder, f))
 
 def get_latest_version(cc: str):
     ua = str(ua_generator.generate())
@@ -213,3 +219,4 @@ def local(way: str, apk=None, xapk=None, remote=False):
         
 def process(pkg: APK):
     pkg.parse()
+    pkg.delete()

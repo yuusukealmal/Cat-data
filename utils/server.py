@@ -182,6 +182,7 @@ class ITEM:
 
             if not os.path.exists(os.path.join(_path, name)) or self.get_hash(os.path.join(_path, name)) != self.get_hash(_data):
                 self.to_file(self.get_folder(_path), name, _data)
+        self.delete(list, self.get_folder(_path))
 
     def parse(self):
         with zipfile.ZipFile(self.zip, "r") as zip:
@@ -191,6 +192,12 @@ class ITEM:
                 if name.endswith(".list"):
                     self.parse_pack(self.zip, name)
         os.remove(self.zip)
+        
+    def delete(self, list: str, folder: str):
+        files = [i[0] for i in list.splitlines()[1:]]
+        for f in os.listdir(folder):
+            if f not in files:
+                os.remove(os.path.join(folder, f))
 
 def server(apk: str=None, xapk: str=None):
     if not (apk or xapk):
