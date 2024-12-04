@@ -1431,10 +1431,10 @@ mission_receive_bulk_item_chara_evolve	Unit: "${charaName}" True Form
 mission_receive_bulk_item_chara_evolve2	Unit: "${charaName}" Ultra Form
 mission_receive_bulk_item_xp	${itemName} + ${itemNum}
 mission_receive_bulk_not_all	<color=255,255,0>You are holding too many items<br>to collect all Mission rewards.</color>
-mission_txt	Mission ${missionNum} complete!
+mission_txt	${missionNum} Mission(s) completed!
 scratch_SNS_004	I won %d Cat Food from the #BattleCatsScratcher!<br>Try once each week for a chance at an awesome prize!<br><br>#TheBattleCats #BattleCats #CatScratcher #CatsOfSummer2024
 slot_SNS_003	I got %d Cat Food from the Wildcat Slots in #TheBattleCats!<br><br>#BattleCats #10thYears
-SpecialRuleExplanation004	[Super Rare Sale]<br>Super Rare units can be deployed<br>at half-cost with half the cooldown speed.
+SpecialRuleExplanation004	【Super Rare Sale】<br>Super Rare units can be deployed<br>at half-cost with half the cooldown speed.
 SpecialRuleName004	Super Rare Sale
 stage_restriction_limit_7	Deployable units of each rarity: <color=255,255,0>%@</color>
 stage_restriction_limit_8	${rarity} x${value}
@@ -1479,6 +1479,36 @@ SpecialRuleExplanation003	【Cheap Labor】<br>All allied units can be deployed<
 SpecialRuleName002	Only One Rarity
 SpecialRuleName003	Cheap Labor
 stage_challenge_conditions	"${mapName}"<br>${stagelimitText1}<br>${stagelimitText2}<br>${stagelimitText3}
-stage_restriction_limit_9	Deployable units: <color=255,255,0> x${value}</color>
+stage_restriction_limit_9	Deployable units: <color=255,255,0> ${value}</color>
 unlock_popup_message_139	<flash>A mysterious lifeform has appeared<br>in the Ancient Forest Labyrinth!</flash>
 unlock_popup_message_140	<flash>Stage Clear Bonus!</flash><br>True Form for<br>Idi:N unlocked. Reach Lv. 30 and<br>XP and items to evolve!
+cert_tutorial1	<color=255,255,0>Fixed Lineup Stages</color><br>Features stages with pre-set units, Cat Cannon<br>settings, and Treasures. Tap the<br>button below to check your units!
+cert_tutorial2	View a hint before the start of battle<br>for stages with fixed lineups!<br>Tap the stage button to see it!
+cert_tutorial3	Tap the icon to show more info!<br>You can check enemies, one-time rewards,<br>and other important bits of info!
+fixed_formation_popup	You must use a fixed lineup in this stage.<br>The formation cannot be changed.<br>※View formation details at the pause menu.
+fixed_formation_slot_name	Fixed
+hint_popup000	<color=0,0,0>There are many types of enemies including<br>Red, Black, and Alien enemies.<br>For Red enemies, <color=0,0,255>Axe Cat<color=0,0,0> and<br><color=0,0,255>Fish Cat<color=0,0,0> are effective.</color>
+hint_popup001	<color=0,0,0>Against ranged attacker <color=0,0,255>Teacher Bear,<color=0,0,0><br>use Long-range units like <color=0,0,255>Lizard Cat<color=0,0,0>.<br>Versus hard-hitting enemies like <color=0,0,255>Le'boin<color=0,0,0>,<br>tough units like <color=0,0,255>Titan Cat<color=0,0,0> are the answer.<br>Leverage a Cat Unit's strengths to win!</color>
+hint_popup002	<color=0,0,0>Machine-like Metal enemies<br>take very little damage.<br>To deal with them, deploy units with the<br><color=0,0,255>Critical<color=0,0,0> ability</color>.
+hint_popup003	<color=0,0,0>Purple Zombie enemies<br>can revive even after being defeated.<br><color=0,0,255>Zombie Killer<color=0,0,0> units can defeat<br>Zombies and keep them from reviving</color>.
+hint_popup004	<color=0,0,0>Speedy and relentless enemies<br>can be held back by deploying <br>Units that are low-cost<br>and have high Vitality</color>.
+hint_popup005	<color=0,0,0>Some bosses will not appear until<br>the enemy base is attacked.<br>Make sure to stock up on money before<br>punching through the enemy's forces.</color>
+hint_popup006	<color=0,0,0>Debuffs like <color=0,0,255>Freeze and Slow<color=0,0,0><br>are an effective solution<br>to Traited enemies.<br>Use units with debuffs that counter<br>Traited enemies to win!</color>
+hint_popup007	<color=0,0,0>Some enemies have damage-nullifying<br>Barriers. These can be destroyed with<br>either a powerful attack or by a Unit<br>with the <color=0,0,255>Barrier Breaker<color=0,0,0>  ability.</color>
+hint_popup008	<color=0,0,0>Zombies will burrow underground<br>when near a Cat unit.<br>Counter this maneuver by pacing<br>unit deployment accordingly.</color>
+mission_receive_bulk_item_map	"${mapName}" Challenge Permit
+mission_receive_item_map	<color=255,255,0>Reward: "${mapName}" Challenge Permit</color>
+SpecialRuleExplanation005	【Deploy Limit】<br>A maximum of 60 units<br>can be deployed.
+SpecialRuleName005	Deploy Limit
+unlock_popup_message_141	<flash>You've reached ★ Rank 1!</flash><br>Your new rank is on your Officer's Club Card.<br>Stages that should be clearable at ★ Rank 1<br>are indicated with pink ★s.
+unlock_popup_message_142	<flash>You've reached ★ Rank 2!</flash><br>Your new rank is on your Officer's Club Card.<br>Stages that should be clearable at ★ Rank 2<br>are indicated with pink ★s.
+unlock_popup_message_143	<flash>You've reached ★ Rank 3!</flash><br>Your new rank is on your Officer's Club Card.<br>Stages that should be clearable at ★ Rank 3<br>are indicated with pink ★s.
+unlock_popup_message_144	<flash>You've reached ★ Rank 4!</flash><br>Your new rank is on your Officer's Club Card.<br>Stages that should be clearable at ★ Rank 4<br>are indicated with pink ★s.
+unlock_popup_message_145	<flash>You've reached ★ Rank 5!</flash><br>Your new rank is on your Officer's Club Card.<br>Stages that should be clearable at ★ Rank 5<br>are indicated with pink ★s.
+unlock_popup_message_146	<flash>You've reached ★ Rank 6!</flash><br>Your new rank is on your Officer's Club Card.<br>Stages that should be clearable at ★ Rank 6<br>are indicated with pink ★s.
+unlock_popup_message_147	<flash>You've reached ★ Rank 7!</flash><br>Your new rank is on your Officer's Club Card.<br>Stages that should be clearable at ★ Rank 7<br>are indicated with pink ★s.
+unlock_popup_message_148	<flash>You've reached ★ Rank 8!</flash><br>Your new rank is on your Officer's Club Card.<br>Stages that should be clearable at ★ Rank 8<br>are indicated with pink ★s.
+unlock_popup_message_149	<flash>You've reached ★ Rank 9!</flash><br>Your new rank is on your Officer's Club Card.<br>Stages that should be clearable at ★ Rank 9<br>are indicated with pink ★.
+unlock_popup_message_150	<flash>You've reached ★ Rank 10!</flash><br>Your new rank is on your Officer's Club Card.<br>Stages that should be clearable at ★ Rank 10<br>are indicated with pink ★s.
+unlock_popup_message_151	<flash>You've reached ★ Rank 11!</flash><br>Your new rank is on your Officer's Club Card.<br>Stages that should be clearable at ★ Rank 11<br>are indicated with pink ★s.
+unlock_popup_message_152	<flash>You've reached ★ Rank 12!</flash><br>Your new rank is on your Officer's Club Card.<br>Stages that should be clearable at ★ Rank 12<br>are indicated with pink ★s.

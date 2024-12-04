@@ -185,8 +185,8 @@
 %s|Fille unique de la dynastie politique la plus puissante|du Centaure, an 1192. Belle, intelligente, pleine d’esprit...|Et pourtant, elle a épousé un chihuahua vedette|de télé-réalité. Se renforce après avoir subi des dégâts.|
 %s|Même s’il n’est pas encore diplômé,|ses histoires d’adultes sont tellement approfondies|et documentées que ses amis l’appellent « Professeur ».|Pourtant, il n’a toujours pas eu de rendez-vous galant.|
 %s|仮1|仮2|仮3|仮4|
-%s|||||
-%s|||||
+%s|仮1|仮2|仮3|仮4|
+%s|仮1|仮2|仮3|仮4|
 %s|||||
 %s|||||
 %s|||||
@@ -671,7 +671,7 @@
 %s|||||
 %s|||||
 %s|||||
-%s|||||
+%s|仮1|仮2|仮3|仮4|
 %s|||||
 %s|||||
 %s|仮1|仮2|仮3|仮4|
@@ -699,4 +699,13 @@
 %s|Un comique immortel qui a échangé tout sentiment|contre la réplique ultime. Son amnésie chronique lui|fait perdre le fil de ses blagues à chaque spectacle|mais ça n'a pas l'air de l'inquiéter.
 %s|Le fruit du travail d'un ancien chercheur qui voulait|créer un être supérieur dépassant l'humanité.|Après avoir guidé les Chats vers une autre dimension,|son égo fut consumé par un étrange cristal.
 %s|Spécimen n° ???. Statut : microbes instables|détectés. Énergie au combat : incalculable.|Se reproduit en conservant et en semant des graines.|La forme de vie ultime est à portée de main.
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
+%s
 %s

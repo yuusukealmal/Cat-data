@@ -1407,8 +1407,8 @@ Itemshop_ad_popup2	XP verdient: +${xp}!
 stage_restriction_limit_6	${rarity}: ${value} oder weniger
 SpecialRuleName000	Treuhandkonto
 SpecialRuleName001	Abklingzeitgleichheit
-SpecialRuleExplanation000	Treuhandkonto<br>Beginne den Kampf mit einem Haufen Geld,<br>aber erhalte kein Geld über Zeit<br>oder bei Siegen über Feinde.
-SpecialRuleExplanation001	Abklingzeitgleichheit<br>Einsatzabklingzeiten werden für alle<br>verbündeten Einheiten auf die gleiche Rate gesetzt.
+SpecialRuleExplanation000	(Treuhandkonto)<br>Beginne den Kampf mit einem Haufen Geld,<br>aber erhalte kein Geld über Zeit<br>oder bei Siegen über Feinde.
+SpecialRuleExplanation001	(Abklingzeitgleichheit)<br>Einsatzabklingzeiten werden für alle<br>verbündeten Einheiten auf die gleiche Rate gesetzt.
 treasure_get	Doppeltippe auf ein Symbol, um zu einem Level zu reisen, in dem diese Belohnung erhältlich ist.
 treasure_geterror	Zu einem noch nicht freigeschalteten Level kannst du nicht reisen.
 treasure_popup1	<color=255,255,0> ${treasureRank} ${treasureName}</color> ${text} ${stageName}
@@ -1427,8 +1427,8 @@ mission_receive_bulk_item_chara_evolve	Einheit: „${charaName}“ Wahre Form
 mission_receive_bulk_item_chara_evolve2	Einheit: „${charaName}“ Ultra-Form
 mission_receive_bulk_item_xp	${itemName} + ${itemNum}
 mission_receive_bulk_not_all	<color=255,255,0>Du hast zu viele Gegenstände,<br>um alle Missionsbelohnungen abzuholen.</color>
-mission_txt	Mission ${missionNum} abgeschlossen!
-SpecialRuleExplanation004	[Superselt.-AV]  <br>Superseltene Einheiten können zum halben Preis<br>mit der Hälfte der Abklingzeit eingesetzt werden.
+mission_txt	${missionNum} Mission(en) abgeschlossen!
+SpecialRuleExplanation004	(Superselt.-AV)<br>Superseltene Einheiten können zum halben Preis<br>mit der Hälfte der Abklingzeit eingesetzt werden.
 SpecialRuleName004	Superselt.-AV
 stage_restriction_limit_7	Einsetzbare Einheiten jeder Seltenheit: <color=255,255,0>%@</color>
 stage_restriction_limit_8	${rarity} x${value}
@@ -1476,3 +1476,33 @@ stage_challenge_conditions	„${mapName}“<br>${stagelimitText1}<br>${stagelimi
 stage_restriction_limit_9	Einsetzbare Einheiten: <color=255,255,0> x${value}</color>
 unlock_popup_message_139	<flash>Eine mysteriöse Lebensform ist<br>im uralten Waldlabyrinth erschienen!</flash>
 unlock_popup_message_140	<flash>Levelabschluss-Bonus!</flash><br>Wahre Form für<br>Idi:N freigeschaltet. Erreiche St. 30 und<br>nutze XP und Gegenstände zum Entwickeln!
+cert_tutorial1	<color=255,255,0>Level mit festen Aufstellungen</color><br>Dies sind Level mit voreingestellten Einheiten,<br>Katzenkanonen-Einstellungen und Schätzen. Tippe auf<br>die Schaltfläche unten, um deine Einheiten zu prüfen!
+cert_tutorial2	Sieh dir vor Kampfbeginn einen Tipp<br>für Level mit festen Aufstellungen an!<br>Tippe auf die Level-Schaltfläche, um ihn zu sehen!
+cert_tutorial3	Tippe auf das Symbol, um mehr Informationen anzuzeigen!<br>Du kannst Feinde, einmalige Belohnungen<br>und andere wichtige Informationen prüfen!
+fixed_formation_popup	Dieses Level hat eine feste Aufstellung.<br>Die Formation kann nicht geändert werden.<br>※Details können im Pausenmenü eingesehen werden.
+fixed_formation_slot_name	Festgelegt
+hint_popup000	<color=0,0,0>Es gibt viele Arten von Feinden, darunter<br>Rote, Schwarze und Aliens.<br>Gegen rote Feinde sind <color=0,0,255>Axtkatze<color=0,0,0> und<br><color=0,0,255>Fischkatze<color=0,0,0> effektiv.</color>
+hint_popup001	<color=0,0,0>Für Distanzangreifer wie <color=0,0,255>Lehrerbär<color=0,0,0> nutze<br>Einheiten wie <color=0,0,255>Echsenkatze<color=0,0,0> mit großer Reichweite.<br>Für starke Angreifer wie <color=0,0,255>Le'boin<color=0,0,0> sind harte<br>Einheiten wie <color=0,0,255>Titanenkatze<color=0,0,0> bestens geeignet.<br>Nutze die Stärken einer Katzeneinheit zum Sieg!</color>
+hint_popup002	<color=0,0,0>Maschinenähnliche eiserne Feinde<br>erleiden nur sehr wenig Schaden.<br>Um mit ihnen fertigzuwerden nutze<br>Einheiten mit der <color=0,0,255>kritischen <color=0,0,0>Fähigkeit.</color>
+hint_popup003	<color=0,0,0>Lila Zombie-Feinde können wiederauferstehen,<br>auch wenn sie besiegt wurden.<br><color=0,0,255>Zombietöter<color=0,0,0>-Einheiten können Zombies<br>besiegen und die Wiederauferstehung verhindern.</color>
+hint_popup004	<color=0,0,0>Schnelle und unerbittliche Feinde<br>können durch den Einsatz von<br>Einheiten aufgehalten werden, die kostengünstig<br>sind und eine hohe Vitalität aufweisen.</color>
+hint_popup005	<color=0,0,0>Manche Bosse tauchen erst auf, wenn<br>die feindliche Basis angegriffen wird.<br>Achte darauf, dass du dich mit Geld eindeckst, bevor du dich<br>durch die feindlichen Truppen schlägst.</color>
+hint_popup006	<color=0,0,0>Schwächungszauber wie <color=0,0,255>Einfrieren und Lähmen<color=0,0,0><br>sind eine effektive Lösung<br>gegen Feinde mit Werten.<br>Nutze Einheiten mit Schwächungseffekten<br>gegen Feinde mit Werten, um zu siegen!</color>
+hint_popup007	<color=0,0,0>Einige Feinde haben Barrieren,<br>die Schaden aufheben. Diese können entweder durch<br>einen starken Angriff oder eine Einheit<br>mit der Fähigkeit <color=0,0,255>Abwehrbrecher<color=0,0,0> zerstört werden.</color>
+hint_popup008	<color=0,0,0>Zombies lauern im Untergrund,<br>wenn sie sich in der Nähe einer Katzeneinheit befinden.<br>Verhindere dieses Manöver, indem du<br>den Einsatz deiner Einheiten entsprechend abpasst.</color>
+mission_receive_bulk_item_map	Herausforderungserlaubnis für „${mapName}“
+mission_receive_item_map	<color=255,255,0>Belohnung: Herausforderungserlaubnis für „${mapName}“</color>
+SpecialRuleExplanation005	(Einsatzgrenze)<br>Es können maximal 60 Einheiten<br>eingesetzt werden.
+SpecialRuleName005	Einsatzgrenze
+unlock_popup_message_141	<flash>Du hast ★ Rang 1 erreicht!</flash><br>Dein neuer Rang steht auf deiner Offiziersklub-Karte.<br>Level, die mit Rang 1 abgeschlossen werden können,<br>sind mit rosa ★ gekennzeichnet.
+unlock_popup_message_142	<flash>Du hast ★ Rang 2 erreicht!</flash><br>Dein neuer Rang steht auf deiner Offiziersklub-Karte.<br>Level, die mit Rang 2 abgeschlossen werden können,<br>sind mit rosa ★ gekennzeichnet.
+unlock_popup_message_143	<flash>Du hast ★ Rang 3 erreicht!</flash><br>Dein neuer Rang steht auf deiner Offiziersklub-Karte.<br>Level, die mit Rang 3 abgeschlossen werden können,<br>sind mit rosa ★ gekennzeichnet.
+unlock_popup_message_144	<flash>Du hast ★ Rang 4 erreicht!</flash><br>Dein neuer Rang steht auf deiner Offiziersklub-Karte.<br>Level, die mit Rang 4 abgeschlossen werden können,<br>sind mit rosa ★ gekennzeichnet.
+unlock_popup_message_145	<flash>Du hast ★ Rang 5 erreicht!</flash><br>Dein neuer Rang steht auf deiner Offiziersklub-Karte.<br>Level, die mit Rang 5 abgeschlossen werden können,<br>sind mit rosa ★ gekennzeichnet.
+unlock_popup_message_146	<flash>Du hast ★ Rang 6 erreicht!</flash><br>Dein neuer Rang steht auf deiner Offiziersklub-Karte.<br>Level, die mit Rang 6 abgeschlossen werden können,<br>sind mit rosa ★ gekennzeichnet.
+unlock_popup_message_147	<flash>Du hast ★ Rang 7 erreicht!</flash><br>Dein neuer Rang steht auf deiner Offiziersklub-Karte.<br>Level, die mit Rang 7 abgeschlossen werden können,<br>sind mit rosa ★ gekennzeichnet.
+unlock_popup_message_148	<flash>Du hast ★ Rang 8 erreicht!</flash><br>Dein neuer Rang steht auf deiner Offiziersklub-Karte.<br>Level, die mit Rang 8 abgeschlossen werden können,<br>sind mit rosa ★ gekennzeichnet.
+unlock_popup_message_149	<flash>Du hast ★ Rang 9 erreicht!</flash><br>Dein neuer Rang steht auf deiner Offiziersklub-Karte.<br>Level, die mit Rang 9 abgeschlossen werden können,<br>sind mit rosa ★ gekennzeichnet.
+unlock_popup_message_150	<flash>Du hast ★ Rang 10 erreicht!</flash><br>Dein neuer Rang steht auf deiner Offiziersklub-Karte.<br>Level, die mit Rang 10 abgeschlossen werden können,<br>sind mit rosa ★ gekennzeichnet.
+unlock_popup_message_151	<flash>Du hast ★ Rang 11 erreicht!</flash><br>Dein neuer Rang steht auf deiner Offiziersklub-Karte.<br>Level, die mit Rang 11 abgeschlossen werden können,<br>sind mit rosa ★ gekennzeichnet.
+unlock_popup_message_152	<flash>Du hast ★ Rang 12 erreicht!</flash><br>Dein neuer Rang steht auf deiner Offiziersklub-Karte.<br>Level, die mit Rang 12 abgeschlossen werden können,<br>sind mit rosa ★ gekennzeichnet.

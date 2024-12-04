@@ -1407,8 +1407,8 @@ Itemshop_ad_popup2	Tu as gagné XP +${xp} !
 stage_restriction_limit_6	${rarity} : ${value} ou moins
 SpecialRuleName000	Fonds fiduciaire
 SpecialRuleName001	Égalité de recharge
-SpecialRuleExplanation000	Fonds fiduciaire<br>Tu as plein d’argent au début de la bataille,<br>mais tu n’en gagnes pas au fil du temps<br>ni en battant les ennemis.
-SpecialRuleExplanation001	Égalité de recharge<br>Toutes les unités alliées partagent<br>la même fréquence de déploiement.
+SpecialRuleExplanation000	【Fonds fiduciaire】<br>Tu as plein d’argent au début de la bataille,<br>mais tu n’en gagnes pas au fil du temps<br>ni en battant les ennemis.
+SpecialRuleExplanation001	【Égalité de recharge】<br>Toutes les unités alliées partagent<br>la même fréquence de déploiement.
 treasure_get	Touche deux fois une icône pour te rendre à un niveau qui propose cette récompense.
 treasure_geterror	Tu ne peux pas accéder à un niveau non débloqué.
 treasure_popup1	<color=255,255,0> ${treasureRank} ${treasureName}</color> ${text} ${stageName}
@@ -1425,10 +1425,10 @@ mission_receive_bulk_item_chara_evolve	Unité : "${charaName}" forme ultime
 mission_receive_bulk_item_chara_evolve2	Unité : "${charaName}" ultra forme
 mission_receive_bulk_item_xp	${itemName} + ${itemNum}
 mission_receive_bulk_not_all	<color=255,255,0>Tu possèdes trop d'objets<br>pour récupérer toutes les récompenses de mission.</color>
-mission_txt	${missionNum} mission(s) accomplie !
+mission_txt	${missionNum} mission(s) accomplie(s) !
 scratch_SNS_004	
 slot_SNS_003	J’ai gagné %d Miams aux Machines à sous Chat sauvage de #TheBattleCats !<br><br>#BattleCats #10Ans
-SpecialRuleExplanation004	[Vente super rare]  <br>Les unités super rares peuvent être déployées<br>pour la moitié du coût et avec un délai de récupération divisé par deux.
+SpecialRuleExplanation004	【Vente super rare]  <br>Les unités super rares peuvent être déployées<br>pour la moitié du coût et avec un délai de récupération divisé par deux.
 SpecialRuleName004	Vente super rare
 stage_restriction_limit_7	Unités déployables de chaque rareté : <color=255,255,0>%@</color>
 stage_restriction_limit_8	${rarity} x${value}
@@ -1468,11 +1468,41 @@ matatabi_guide5	${stageName} est <br>disponible tous les vendredis<br>${commonTe
 matatabi_transition	Requis : ${itemName}<br>Choisir une destination ?
 medama_complete	Objets vedettes TERMINÉ !
 medama_rennsuu	Gagne un objet vedette après avoir utilisé des Chapsules ${value} fois !
-SpecialRuleExplanation002	【Une rareté seulement】<br>Une seule unité de chaque rareté peut être déployée à la fois.<br>Votre armée de Chats peut être configurée à votre guise.
+SpecialRuleExplanation002	【1 rareté seulement】<br>Une seule unité de chaque rareté peut être déployée à la fois.<br>Votre armée de Chats peut être configurée à votre guise.
 SpecialRuleExplanation003	【Travail bon marché】<br>Toutes les unités alliées peuvent être déployées<br>pour 500 ￠.
-SpecialRuleName002	Une rareté seulement
+SpecialRuleName002	1 rareté seulement
 SpecialRuleName003	Travail bon marché
 stage_challenge_conditions	${mapName}<br>${stagelimitText1}<br>${stagelimitText2}<br>${stagelimitText3}
 stage_restriction_limit_9	Unités déployables : <color=255,255,0> x${value}</color>
 unlock_popup_message_139	<flash>Une mystérieuse forme de vie est apparue<br>dans le Labyrinthe de l'ancienne forêt !</flash>
 unlock_popup_message_140	<flash>Bonus de fin de niveau !</flash><br>Forme ultime de<br>Idi:N débloquée. Atteins le niv. 30 et<br>obtiens de l'XP et des objets pour évoluer !
+cert_tutorial1	<color=255,255,0>Niveaux avec formations fixes</color><br>Comprend des niveaux avec des unités, des Chanons<br>et des trésors prédéfinis.<br>Touche le bouton ci-dessous pour consulter tes unités !
+cert_tutorial2	Affiche un conseil avant la bataille<br>pour les niveaux avec formations fixes !<br>Touche le bouton du niveau pour le voir !
+cert_tutorial3	Touche l'icône pour afficher plus d'infos !<br>Consulte les ennemis, les récompenses<br>uniques et autres infos importantes !
+fixed_formation_popup	Ce niveau a une formation fixe.<br>La formation ne peut pas être modifiée.<br>*Plus de détails depuis le menu Pause de la bataille.
+fixed_formation_slot_name	Fixe
+hint_popup000	<color=0,0,0>Il existe plusieurs types d'ennemis,<br>notamment les rouges, noirs et aliens.<br>Concernant les rouges, <color=0,0,255>Chat borgne<color=0,0,0> et<br><color=0,0,255>Chat poisson<color=0,0,0> sont efficaces.</color>
+hint_popup001	<color=0,0,0>Pour les attaques à longue portée de <color=0,0,255>Professeur Ours<color=0,0,0>,<br>utilise des unités à longue portée comme <color=0,0,255>Chat lézard<color=0,0,0>.<br>Pour les puissants assaillants comme <color=0,0,255>Élèfe<color=0,0,0>,<br>des unités robustes comme <color=0,0,255>Chat titan<color=0,0,0> sont la solution.<br>Tire parti des atouts d'une unité féline pour gagner !</color>
+hint_popup002	<color=0,0,0>Les ennemis métal de type mécanique<br>subissent très peu de dégâts.<br>Pour en venir à bout, déploie des unités dotées de<br>la capacité <color=0,0,255>Critique<color=0,0,0>.</color>.
+hint_popup003	<color=0,0,0>Les zombies violets<br>peuvent revivre même après avoir été vaincus.<br>Les unités <color=0,0,255>Tueur de zombies<color=0,0,0> peuvent les vaincre<br>et les empêcher de ressusciter.</color>
+hint_popup004	<color=0,0,0>Les ennemis rapides et acharnés<br>peuvent être maîtrisés en déployant<br>des unités peu coûteuses<br>et dotées de beaucoup de santé.</color>
+hint_popup005	<color=0,0,0>Certains boss n'apparaissent que<br>lorsque la base ennemie est attaquée.<br>Assure-toi de faire des réserves d'argent<br>avant de perforer les rangs ennemis.</color>
+hint_popup006	<color=0,0,0>Les debuffs comme <color=0,0,255>Immobilisation et Ralentissement<color=0,0,0><br>sont efficaces contre<br>les ennemis à caractéristiques.<br>Utilise des unités avec des debuffs<br>qui contrent ces ennemis pour gagner !</color>
+hint_popup007	<color=0,0,0>Certains ennemis ont des barrières qui<br>annulent les dégâts. Elles peuvent être détruites<br>par une attaque puissante ou par<br>une unité ayant la capacité <color=0,0,255>Brise-barrière<color=0,0,0>.</color>
+hint_popup008	<color=0,0,0>Les zombies creusent sous terre<br>à proximité d'une unité féline.<br>Contrecarre cette manœuvre en organisant<br>en conséquence le déploiement des unités.</color>
+mission_receive_bulk_item_map	Permis de défi ${mapName}
+mission_receive_item_map	<color=255,255,0>Récompense : permis de défi ${mapName}</color>
+SpecialRuleExplanation005	【Limite déploiement】<br>60 unités maximum<br>peuvent être déployées.
+SpecialRuleName005	Limite déploiement
+unlock_popup_message_141	<flash>Tu as atteint le ★ rang 1 !</flash><br>Ton nouveau rang figure sur ta carte Club des officiers.<br>Les niveaux accessibles au rang 1<br>sont indiqués par des ★ roses.
+unlock_popup_message_142	<flash>Tu as atteint le ★ rang 2 !</flash><br>Ton nouveau rang figure sur ta carte Club des officiers.<br>Les niveaux accessibles au rang 2<br>sont indiqués par des ★ roses.
+unlock_popup_message_143	<flash>Tu as atteint le ★ rang 3 !</flash><br>Ton nouveau rang figure sur ta carte Club des officiers.<br>Les niveaux accessibles au rang 3<br>sont indiqués par des ★ roses.
+unlock_popup_message_144	<flash>Tu as atteint le ★ rang 4 !</flash><br>Ton nouveau rang figure sur ta carte Club des officiers.<br>Les niveaux accessibles au rang 4<br>sont indiqués par des ★ roses.
+unlock_popup_message_145	<flash>Tu as atteint le ★ rang 5 !</flash><br>Ton nouveau rang figure sur ta carte Club des officiers.<br>Les niveaux accessibles au rang 5<br>sont indiqués par des ★ roses.
+unlock_popup_message_146	<flash>Tu as atteint le ★ rang 6 !</flash><br>Ton nouveau rang figure sur ta carte Club des officiers.<br>Les niveaux accessibles au rang 6<br>sont indiqués par des ★ roses.
+unlock_popup_message_147	<flash>Tu as atteint le ★ rang 7 !</flash><br>Ton nouveau rang figure sur ta carte Club des officiers.<br>Les niveaux accessibles au rang 7<br>sont indiqués par des ★ roses.
+unlock_popup_message_148	<flash>Tu as atteint le ★ rang 8 !</flash><br>Ton nouveau rang figure sur ta carte Club des officiers.<br>Les niveaux accessibles au rang 8<br>sont indiqués par des ★ roses.
+unlock_popup_message_149	<flash>Tu as atteint le ★ rang 9 !</flash><br>Ton nouveau rang figure sur ta carte Club des officiers.<br>Les niveaux accessibles au rang 9<br>sont indiqués par des ★ roses.
+unlock_popup_message_150	<flash>Tu as atteint le ★ rang 10 !</flash><br>Ton nouveau rang figure sur ta carte Club des officiers.<br>Les niveaux accessibles au rang 10<br>sont indiqués par des ★ roses.
+unlock_popup_message_151	<flash>Tu as atteint le ★ rang 11 !</flash><br>Ton nouveau rang figure sur ta carte Club des officiers.<br>Les niveaux accessibles au rang 11<br>sont indiqués par des ★ roses.
+unlock_popup_message_152	<flash>Tu as atteint le ★ rang 12 !</flash><br>Ton nouveau rang figure sur ta carte Club des officiers.<br>Les niveaux accessibles au rang 12<br>sont indiqués par des ★ roses.

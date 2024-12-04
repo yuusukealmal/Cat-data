@@ -1511,3 +1511,34 @@ stage_restriction_limit_9	생산 가능 캐릭터 수: <color=255,255,0>${value}
 unlock_popup_message_139	<flash>'고대 나무의 미궁' 스테이지 레벨1에서 수수께끼의 생명체를 발견!</flash>
 unlock_popup_message_140	<flash>스테이지 클리어 보너스!</flash><br>EX캐릭터 「이디:N」<br>제3형태 해방! Lv30 달성 후<br>필요한 XP, 소재를 사용해서 진화 가능합니다.
 item_pack_name_84	레어티켓 3장
+cert_tutorial1	<color=255,255,0>고정 편성 스테이지</color><br>캐릭터, 냥코 대포 편성 내용과 보물 획득 상황<br>캐릭터, 파란 구슬의 레벨이 정해져 있다냥!<br>아래의 버튼을 탭하면 출진 슬롯 확인 가능!
+cert_tutorial2	편성이 정해져 있는 스테이지에서는<br>도전하기 전에 공략의 힌트를 볼 수 있다냥!<br>스테이지 버튼을 탭해서 확인하자냥!
+cert_tutorial3	아이콘을 탭하면 자세한 내용을 확인할 수 있다냥!<br>출현하는 적, 1번만 획득 가능한 보수 등등<br>유용한 정보가 가득하다냥!
+fixed_formation_popup	정해져 있는 편성으로 도전하는 스테이지입니다<br>편성은 변경할 수 없습니다<br>※전투 중, 일시정지로 편성을 확인할 수 있습니다
+fixed_formation_slot_name	고정
+hint_popup000	<color=0,0,0>빨간 적, 검은 적, 에이리언 등<br>여러 속성을 가진 적이 있다냥<br>빨간 적에는 <color=0,0,255>배틀 고양이<color=0,0,0>나<br><color=0,0,255>고양이 피쉬<color=0,0,0>가 효과적이다냥</color>
+hint_popup001	<color=0,0,0>사정거리가 긴 <color=0,0,255>곰 선생<color=0,0,0>에게는<br>더 사정거리가 긴 <color=0,0,255>고양이 도마뱀<color=0,0,0>으로 대항하자냥<br>공격력이 높은 <color=0,0,255>빠옹<color=0,0,0>에게는<br>터프한 <color=0,0,255>거신 고양이<color=0,0,0>로 대항하자냥<br>캐릭터들의 개성을 살리는 것이 중요하다냥!</color>
+hint_popup002	<color=0,0,0>기계 같은 외형의 메탈 적에게는<br>좀처럼 데미지를 입히기 어렵다냥<br>메탈 적에게도 데미지를 크게 입힐 수 있는<br><color=0,0,255>크리티컬<color=0,0,0> 능력으로 대항하자냥</color>
+hint_popup003	<color=0,0,0>보라색의 좀비 적은<br>쓰러트려도 부활하는 특성을 가지고 있다냥<br><color=0,0,255>좀비 킬러<color=0,0,0> 능력을 가진 캐릭터로<br>좀비를 쓰러트리면 부활을 막을 수 있다냥</color>
+hint_popup004	<color=0,0,0>빠르게 몰려오는 적은<br>코스트가 싸고 대량으로 생산할 수 있는<br>캐릭터를 끊임없이 내보내면<br>적의 진군을 막을 수 있다냥</color>
+hint_popup005	<color=0,0,0>적의 성을 공격하기 전까지<br>보스가 등장하지 않는 스테이지가 있다냥<br>적은 바로 쓰러트리지 말고 시간을 들여<br>돈을 충분히 모은 다음 보스에 도전하자냥</color>
+hint_popup006	<color=0,0,0>특정 속성의 적에게<br><color=0,0,255>움직임을 멈춘다, 느리게 한다<color=0,0,0> 등의<br>방해 효과를 가진 캐릭터가 있다냥<br>적의 속성에 따라 방해 캐릭터를 사용해서<br>승리로 이끌자냥</color>
+hint_popup007	<color=0,0,0>데미지를 입지 않는 베리어를 가진<br>적이 있다냥. 강력한 공격으로 파괴하거나<br>일정 확률로 베리어를 파괴하는<br><color=0,0,255>베리어 브레이커<color=0,0,0>를 가진<br>캐릭터로 대항하자냥</color>
+hint_popup008	<color=0,0,0>좀비는 아군 캐릭터에 가까워지면<br>땅으로 숨어서 이동한다냥<br>좀비가 다시 나타날 때를 대비해서<br>캐릭터를 너무 많이 생산하지 않도록 하자냥</color>
+item_pack_name_81	기간 한정! 챌린저 세일
+mission_receive_bulk_item_map	「${mapName}」 도전권
+mission_receive_item_map	<color=255,255,0>보수: 「${mapName}」 도전권</color>
+SpecialRuleExplanation005	【생산 캐릭터수 제한】<br>1번의 전투에서 생산 가능한 캐릭터 수가<br>60개까지로 제한됩니다
+SpecialRuleName005	생산 캐릭터수 제한
+unlock_popup_message_141	<flash>냥코도 승단 시험 ★1단 인정!</flash><br>냥코 클럽의 회원 카드에 기록된다냥<br>1단의 실력으로 클리어할 수 있는 스테이지는<br>난이도의 ★이 핑크색으로 변한다냥
+unlock_popup_message_142	<flash>냥코도 승단 시험 ★2단 인정!</flash><br>냥코 클럽의 회원 카드에 기록된다냥<br>2단의 실력으로 클리어할 수 있는 스테이지는<br>난이도의 ★이 핑크색으로 변한다냥
+unlock_popup_message_143	<flash>냥코도 승단 시험 ★3단 인정!</flash><br>냥코 클럽의 회원 카드에 기록된다냥<br>3단의 실력으로 클리어할 수 있는 스테이지는<br>난이도의 ★이 핑크색으로 변한다냥
+unlock_popup_message_144	<flash>냥코도 승단 시험 ★4단 인정!</flash><br>냥코 클럽의 회원 카드에 기록된다냥<br>4단의 실력으로 클리어할 수 있는 스테이지는<br>난이도의 ★이 핑크색으로 변한다냥
+unlock_popup_message_145	<flash>냥코도 승단 시험 ★5단 인정!</flash><br>냥코 클럽의 회원 카드에 기록된다냥<br>5단의 실력으로 클리어할 수 있는 스테이지는<br>난이도의 ★이 핑크색으로 변한다냥
+unlock_popup_message_146	<flash>냥코도 승단 시험 ★6단 인정!</flash><br>냥코 클럽의 회원 카드에 기록된다냥<br>6단의 실력으로 클리어할 수 있는 스테이지는<br>난이도의 ★이 핑크색으로 변한다냥
+unlock_popup_message_147	<flash>냥코도 승단 시험 ★7단 인정!</flash><br>냥코 클럽의 회원 카드에 기록된다냥<br>7단의 실력으로 클리어할 수 있는 스테이지는<br>난이도의 ★이 핑크색으로 변한다냥
+unlock_popup_message_148	<flash>냥코도 승단 시험 ★8단 인정!</flash><br>냥코 클럽의 회원 카드에 기록된다냥<br>8단의 실력으로 클리어할 수 있는 스테이지는<br>난이도의 ★이 핑크색으로 변한다냥
+unlock_popup_message_149	<flash>냥코도 승단 시험 ★9단 인정!</flash><br>냥코 클럽의 회원 카드에 기록된다냥<br>9단의 실력으로 클리어할 수 있는 스테이지는<br>난이도의 ★이 핑크색으로 변한다냥
+unlock_popup_message_150	<flash>냥코도 승단 시험 ★10단 인정!</flash><br>냥코 클럽의 회원 카드에 기록된다냥<br>10단의 실력으로 클리어할 수 있는 스테이지는<br>난이도의 ★이 핑크색으로 변한다냥
+unlock_popup_message_151	<flash>냥코도 승단 시험 ★11단 인정!</flash><br>냥코 클럽의 회원 카드에 기록된다냥<br>11단의 실력으로 클리어할 수 있는 스테이지는<br>난이도의 ★이 핑크색으로 변한다냥
+unlock_popup_message_152	<flash>냥코도 승단 시험 ★12단 인정!</flash><br>냥코 클럽의 회원 카드에 기록된다냥<br>12단의 실력으로 클리어할 수 있는 스테이지는<br>난이도의 ★이 핑크색으로 변한다냥

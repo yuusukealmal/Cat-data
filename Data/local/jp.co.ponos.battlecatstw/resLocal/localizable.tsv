@@ -1512,3 +1512,34 @@ stage_restriction_limit_9	可生產的角色數量：<color=255,255,0>${value}�
 unlock_popup_message_139	<flash>在「古代樹迷宮」關卡等級1發現了謎樣生命體！</flash>
 unlock_popup_message_140	<flash>過關獎勵！</flash><br>取得EX角色「異弟:N」<br>第3進化！合計等級30級以上即可進化<br>使用XP、素材進化。
 item_pack_name_84	購買 稀有券3張
+cert_tutorial1	<color=255,255,0>指定編成關卡</color><br>角色與貓咪砲的編成、寶物的取得狀況<br>角色與藍色珠珠的等級都是固定的！<br>點擊編成按鈕就可以確認出陣列表！
+cert_tutorial2	指定編成的關卡會出現提示<br>可以在挑戰前確認並作為攻略時的參考！<br>點擊關卡名稱來確認看看吧！
+cert_tutorial3	點擊各圖示就可以確認詳細內容！<br>出現的敵人和僅限掉落一次的獎勵等<br>有許多可以派上用場的資訊喔！
+fixed_formation_popup	這是指定編成的關卡<br>玩家無法變更編成<br>※可以在戰鬥中點選暫停按鈕來確認編成
+fixed_formation_slot_name	指定
+hint_popup000	<color=0,0,0>遊戲中有紅色敵人、黑色敵人、<br>異星戰士等各種屬性的敵人<br>對抗紅色敵人時使用<br><color=0,0,255>戰鬥貓<color=0,0,0>和<color=0,0,255>魚貓<color=0,0,0>會更有效</color>
+hint_popup001	<color=0,0,0>遇到射程長的<color=0,0,255>熊熊老師<color=0,0,0>就用<br>射程更長的<color=0,0,255>龍貓<color=0,0,0>來對抗<br>攻擊力高的<color=0,0,255>澎湃<color=0,0,0>則用<br>強壯的<color=0,0,255>巨人貓<color=0,0,0>來對抗<br>善用各貓咪的特色就能取得優勢</color>
+hint_popup002	<color=0,0,0>外表像是機器人的鋼鐵敵人<br>是很難給予傷害的<br>使用<color=0,0,255>會心一擊<color=0,0,0>的能力<br>就能對鋼鐵敵人造成正常傷害</color>
+hint_popup003	<color=0,0,0>紫色的不死生物<br>有著被打倒後還會重生的特徵<br>使用擁有<color=0,0,255>終結不死<color=0,0,0>能力的角色<br>來打倒不死生物就能阻止其重生</color>
+hint_popup004	<color=0,0,0>對抗快速地攻擊而來的敵人<br>不斷派出成本低<br>且能大量生產的角色 <br>就可以阻止敵人持續推進</color>
+hint_popup005	<color=0,0,0>有些關卡在敵方城堡<br>受攻擊前魔王都不會出現<br>故意不打倒敵人來賺取時間<br>累積足夠金錢再挑戰魔王</color>
+hint_popup006	<color=0,0,0>有些角色持有能讓<br>特定屬性的敵人<br><color=0,0,255>動作停止、變慢<color=0,0,0>等妨害效果<br>依照敵人屬性使用有妨礙效果的角色<br>來在戰鬥中取得優勢</color>
+hint_popup007	<color=0,0,0>有些敵人會張開不受傷害的護盾<br>用強力的攻擊來破壞它<br>或是用持有<color=0,0,255>破壞護盾<color=0,0,0>效果的角色<br>就有一定機率破壞護盾<br>選用合適的角色來戰鬥吧</color>
+hint_popup008	<color=0,0,0>不死生物會在我方角色靠近時<br>潛到地面下並偷偷鑽過來<br>為了對抗鑽過來的不死生物<br>要留意別生產太多角色</color>
+item_pack_name_81	購買 入門者優惠
+mission_receive_bulk_item_map	「${mapName}」的挑戰權利
+mission_receive_item_map	<color=255,255,0>獎勵：「${mapName}」的挑戰權利</color>
+SpecialRuleExplanation005	【生產角色數限制】<br>1次的戰鬥中最多只能<br>生產60隻角色
+SpecialRuleName005	生產角色數限制
+unlock_popup_message_141	<flash>貓咪道檢定 ★1段過關！</flash><br>貓咪俱樂部的會員卡上將追加認證<br>用1段的實力足以通過的關卡<br>其難度★將會變成粉紅色
+unlock_popup_message_142	<flash>貓咪道檢定 ★2段過關！</flash><br>貓咪俱樂部的會員卡上將追加認證<br>用2段的實力足以通過的關卡<br>其難度★將會變成粉紅色
+unlock_popup_message_143	<flash>貓咪道檢定 ★3段過關！</flash><br>貓咪俱樂部的會員卡上將追加認證<br>用3段的實力足以通過的關卡<br>其難度★將會變成粉紅色
+unlock_popup_message_144	<flash>貓咪道檢定 ★4段過關！</flash><br>貓咪俱樂部的會員卡上將追加認證<br>用4段的實力足以通過的關卡<br>其難度★將會變成粉紅色
+unlock_popup_message_145	<flash>貓咪道檢定 ★5段過關！</flash><br>貓咪俱樂部的會員卡上將追加認證<br>用5段的實力足以通過的關卡<br>其難度★將會變成粉紅色
+unlock_popup_message_146	<flash>貓咪道檢定 ★6段過關！</flash><br>貓咪俱樂部的會員卡上將追加認證<br>用6段的實力足以通過的關卡<br>其難度★將會變成粉紅色
+unlock_popup_message_147	<flash>貓咪道檢定 ★7段過關！</flash><br>貓咪俱樂部的會員卡上將追加認證<br>用7段的實力足以通過的關卡<br>其難度★將會變成粉紅色
+unlock_popup_message_148	<flash>貓咪道檢定 ★8段過關！</flash><br>貓咪俱樂部的會員卡上將追加認證<br>用8段的實力足以通過的關卡<br>其難度★將會變成粉紅色
+unlock_popup_message_149	<flash>貓咪道檢定 ★9段過關！</flash><br>貓咪俱樂部的會員卡上將追加認證<br>用9段的實力足以通過的關卡<br>其難度★將會變成粉紅色
+unlock_popup_message_150	<flash>貓咪道檢定 ★10段過關！</flash><br>貓咪俱樂部的會員卡上將追加認證<br>用10段的實力足以通過的關卡<br>其難度★將會變成粉紅色
+unlock_popup_message_151	<flash>貓咪道檢定 ★11段過關！</flash><br>貓咪俱樂部的會員卡上將追加認證<br>用11段的實力足以通過的關卡<br>其難度★將會變成粉紅色
+unlock_popup_message_152	<flash>貓咪道檢定 ★12段過關！</flash><br>貓咪俱樂部的會員卡上將追加認證<br>用12段的實力足以通過的關卡<br>其難度★將會變成粉紅色

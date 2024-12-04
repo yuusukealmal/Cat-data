@@ -474,6 +474,93 @@
       "CharaLimit": [
         765
       ]
+    },
+    "41": {
+      "Map": [
+        13011
+      ],
+      "Stage": [
+        5
+      ],
+      "CostLimitMin": [
+        1000
+      ]
+    },
+    "42": {
+      "Map": [
+        13020
+      ],
+      "Stage": [
+        5
+      ],
+      "RarityLimit": [
+        0
+      ],
+      "SlotLimit": [
+        9
+      ],
+      "SlotOptionRule": [
+        "More"
+      ]
+    },
+    "43": {
+      "Map": [
+        13035
+      ],
+      "Stage": [
+        5
+      ],
+      "RarityLimit": [
+        3
+      ],
+      "SlotLimit": [
+        8
+      ],
+      "SlotOptionRule": [
+        "More"
+      ]
+    },
+    "44": {
+      "Map": [
+        13042
+      ],
+      "Stage": [
+        5
+      ],
+      "CostLimitMax": [
+        2000
+      ]
+    },
+    "45": {
+      "Map": [
+        13048
+      ],
+      "Stage": [
+        0
+      ],
+      "SlotLimit": [
+        5
+      ],
+      "SlotOptionRule": [
+        "Less"
+      ]
+    },
+    "46": {
+      "Map": [
+        34000
+      ],
+      "Stage": [
+        0
+      ],
+      "RarityLimit": [
+        2
+      ],
+      "SlotLimit": [
+        9
+      ],
+      "SlotOptionRule": [
+        "More"
+      ]
     }
   }
 }

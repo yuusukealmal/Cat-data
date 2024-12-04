@@ -1,6 +1,7 @@
 {
   "MapID": {
     "36000": {
+      "ContentsType": 0,
       "RuleNameLabel": "SpecialRuleName000",
       "RuleExplanationLabel": "SpecialRuleExplanation000",
       "RuleType": {
@@ -12,6 +13,7 @@
       }
     },
     "36001": {
+      "ContentsType": 0,
       "RuleNameLabel": "SpecialRuleName001",
       "RuleExplanationLabel": "SpecialRuleExplanation001",
       "RuleType": {
@@ -23,6 +25,7 @@
       }
     },
     "36002": {
+      "ContentsType": 0,
       "RuleNameLabel": "SpecialRuleName002",
       "RuleExplanationLabel": "SpecialRuleExplanation002",
       "RuleType": {
@@ -39,6 +42,7 @@
       }
     },
     "36003": {
+      "ContentsType": 0,
       "RuleNameLabel": "SpecialRuleName003",
       "RuleExplanationLabel": "SpecialRuleExplanation003",
       "RuleType": {
@@ -50,6 +54,7 @@
       }
     },
     "36004": {
+      "ContentsType": 0,
       "RuleNameLabel": "SpecialRuleName004",
       "RuleExplanationLabel": "SpecialRuleExplanation004",
       "RuleType": {
@@ -71,6 +76,88 @@
             50,
             100,
             100
+          ]
+        }
+      }
+    },
+    "36005": {
+      "ContentsType": 0,
+      "RuleNameLabel": "SpecialRuleName005",
+      "RuleExplanationLabel": "SpecialRuleExplanation005",
+      "RuleType": {
+        "7": {
+          "Parameters": [
+            60
+          ]
+        }
+      }
+    },
+    "1385": {
+      "ContentsType": 1,
+      "RuleType": {
+        "0": {
+          "Parameters": [
+            4500
+          ]
+        }
+      }
+    },
+    "1386": {
+      "ContentsType": 1,
+      "RuleType": {
+        "0": {
+          "Parameters": [
+            4500
+          ]
+        }
+      }
+    },
+    "1387": {
+      "ContentsType": 1,
+      "RuleType": {
+        "0": {
+          "Parameters": [
+            4500
+          ]
+        }
+      }
+    },
+    "1388": {
+      "ContentsType": 1,
+      "RuleType": {
+        "0": {
+          "Parameters": [
+            4500
+          ]
+        }
+      }
+    },
+    "1389": {
+      "ContentsType": 1,
+      "RuleType": {
+        "0": {
+          "Parameters": [
+            4500
+          ]
+        }
+      }
+    },
+    "4070": {
+      "ContentsType": 1,
+      "RuleType": {
+        "0": {
+          "Parameters": [
+            4500
+          ]
+        }
+      }
+    },
+    "4071": {
+      "ContentsType": 1,
+      "RuleType": {
+        "0": {
+          "Parameters": [
+            4500
           ]
         }
       }

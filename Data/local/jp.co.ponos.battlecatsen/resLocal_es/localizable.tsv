@@ -1407,8 +1407,8 @@ Itemshop_ad_popup2	¡Ganas +${xp} XP!
 stage_restriction_limit_6	${rarity}: ${value} o menos
 SpecialRuleName000	Fondo fiduciario
 SpecialRuleName001	Tiempo de espera
-SpecialRuleExplanation000	Fondo fiduciario<br>Empiezas la batalla con mucho dinero,<br>pero no ganas dinero con el tiempo<br>ni venciendo enemigos.
-SpecialRuleExplanation001	Tiempo de espera<br>Los tiempos de espera de despliegue son los mismos<br>para todas las unidades aliadas.
+SpecialRuleExplanation000	【Fondo fiduciario】<br>Empiezas la batalla con mucho dinero,<br>pero no ganas dinero con el tiempo<br>ni venciendo enemigos.
+SpecialRuleExplanation001	【Tiempo de espera】<br>Los tiempos de espera de despliegue son los mismos<br>para todas las unidades aliadas.
 treasure_get	Toca dos veces un icono para ir a la fase donde ese premio está disponible.
 treasure_geterror	No puedes ir a una fase que no has desbloqueado.
 treasure_popup1	<color=255,255,0> ${treasureRank} ${treasureName}</color> ${text} ${stageName}
@@ -1428,7 +1428,7 @@ mission_receive_bulk_item_chara_evolve2	Unidad: «${charaName}» (Ultraforma)
 mission_receive_bulk_item_xp	${itemName} + ${itemNum}
 mission_receive_bulk_not_all	<color=255,255,0>Tienes demasiados objetos y no puedes<br>recoger todos los premios de las misiones.</color>
 mission_txt	Misiones completadas: ${missionNum}
-SpecialRuleExplanation004	[Mejora superrara] <br>Las unidades superraras se pueden desplegar<br>a mitad de precio con la mitad de tiempo de espera.
+SpecialRuleExplanation004	【Mejora superrara] <br>Las unidades superraras se pueden desplegar<br>a mitad de precio con la mitad de tiempo de espera.
 SpecialRuleName004	Mejora superrara
 stage_restriction_limit_7	Las unidades desplegables de cada rareza: <color=255,255,0>%@</color>
 stage_restriction_limit_8	${rarity}: ${value}
@@ -1476,3 +1476,33 @@ stage_challenge_conditions	«${mapName}»<br>${stagelimitText1}<br>${stagelimitT
 stage_restriction_limit_9	Unidades desplegables:<color=255,255,0> x${value}</color>
 unlock_popup_message_139	<flash>¡Ha aparecido un ser vivo misterioso<br>en el Laberinto del Bosque Viejo!</flash>
 unlock_popup_message_140	<flash>¡Bonus por superar la fase!</flash><br>Forma final de<br>Idi:N desbloqueada. ¡Consigue el nivel 30<br>la XP y los objetos para mutar!
+cert_tutorial1	<color=255,255,0>Las fases de formación fija</color><br>incluyen unidades preestablecidas, ajustes de la<br>gatorreta y tesoros. ¡Toca el<br>botón de abajo para ver tus unidades!
+cert_tutorial2	¡Consulta los consejos antes de comenzar una batalla<br>con fases de formaciones fijas!<br>¡Toca el botón de la fase para verlos!
+cert_tutorial3	¡Toca el icono para saber más!<br>¡Puedes ver los enemigos, los premios<br>y otros detalles importantes!
+fixed_formation_popup	Esta fase tiene una formación fija.<br>La formación no se puede cambiar.<br>※Puedes ver los detalles en el menú de pausa.
+fixed_formation_slot_name	Fija
+hint_popup000	<color=0,0,0>Hay muchos tipos de enemigos, desde<br>los rojos y los negros hasta los álienes.<br>Si quieres combatir a los enemigos rojos, el <color=0,0,255>Gato Hachero<color=0,0,0> y el<br><color=0,0,255>Piscigato<color=0,0,0>les darán leña.</color>
+hint_popup001	<color=0,0,0>Para combatir al tirador de largo alcance <color=0,0,255>Profeoso,<color=0,0,0><br>usa unidades de largo alcance como el <color=0,0,255>Gato Lagarto<color=0,0,0>.<br>Para combatir enemigos muy fuertes como <color=0,0,255>L'Fante<color=0,0,0>,<br>usar unidades potentes como el <color=0,0,255>Gato Titán<color=0,0,0> da buen resultado.<br>¡Aprovecha los puntos fuertes de una unidad felina para ganar!</color>
+hint_popup002	<color=0,0,0>Los enemigos metálicos<br>reciben muy poco daño.<br>Aplástalos desplegando unidades con la<br>habilidad de daño <color=0,0,255>crítico<color=0,0,0>.</color>
+hint_popup003	<color=0,0,0>Los enemigos zombis morados<br>pueden revivir incluso tras derrotarlos.<br><color=0,0,255>Las unidades matazombis<color=0,0,0> pueden vencer a los<br>zombis y evitar que revivan.</color>
+hint_popup004	<color=0,0,0>Puedes frenar a los enemigos<br>veloces e implacables desplegando <br>unidades de bajo coste<br>y vitalidad alta.</color>
+hint_popup005	<color=0,0,0>Algunos jefes no aparecen hasta que<br>la base enemiga es atacada.<br>No olvides llenarte bien los bolsillos antes<br>de machacar a las fuerzas enemigas.</color>
+hint_popup006	<color=0,0,0>Las penalizaciones de <color=0,0,255>paralización y ralentización<color=0,0,0><br>son efectivas<br>contra enemigos con rasgos.<br>¡Usa unidades con penalización para combatir<br>a los enemigos con rasgos y ganar!</color>
+hint_popup007	<color=0,0,0>Algunos enemigos tienen barreras<br>antidaños. Destrúyelos con<br>un ataque potente o con una unidad<br>que disponga de habilidades <color=0,0,255>rompebarreras<color=0,0,0>.</color>
+hint_popup008	<color=0,0,0>Los zombis se meten bajo tierra<br>cuando se acerca una unidad felina.<br>Contrarresta sus artimañas<br>desplegando tus unidades con estrategia.</color>
+mission_receive_bulk_item_map	Acceso a la fase "${mapName}"
+mission_receive_item_map	<color=255,255,0>Premio: Acceso a la fase "${mapName}"</color>
+SpecialRuleExplanation005	【Máximo despliegue】<br>Puedes desplegar<br>un máximo de 60 unidades.
+SpecialRuleName005	Máximo despliegue
+unlock_popup_message_141	<flash>¡Has alcanzado la ★ de Rango 1!</flash><br>Tu nuevo rango se ha registrado en tu tarjeta del Club de Oficiales.<br>Las fases que puedes superar en el Rango 1<br>están marcadas con ★ rosas.
+unlock_popup_message_142	<flash>¡Has alcanzado la ★ de Rango 2!</flash><br>Tu nuevo rango se ha registrado en tu tarjeta del Club de Oficiales.<br>Las fases que puedes superar en el Rango 2<br>están marcadas con ★ rosas.
+unlock_popup_message_143	<flash>¡Has alcanzado la ★ de Rango 3!</flash><br>Tu nuevo rango se ha registrado en tu tarjeta del Club de Oficiales.<br>Las fases que puedes superar en el Rango 3<br>están marcadas con ★ rosas.
+unlock_popup_message_144	<flash>¡Has alcanzado la ★ de Rango 4!</flash><br>Tu nuevo rango se ha registrado en tu tarjeta del Club de Oficiales.<br>Las fases que puedes superar en el Rango 4<br>están marcadas con ★ rosas.
+unlock_popup_message_145	<flash>¡Has alcanzado la ★ de Rango 5!</flash><br>Tu nuevo rango se ha registrado en tu tarjeta del Club de Oficiales.<br>Las fases que puedes superar en el Rango 5<br>están marcadas con ★ rosas.
+unlock_popup_message_146	<flash>¡Has alcanzado la ★ de Rango 6!</flash><br>Tu nuevo rango se ha registrado en tu tarjeta del Club de Oficiales.<br>Las fases que puedes superar en el Rango 6<br>están marcadas con ★ rosas.
+unlock_popup_message_147	<flash>¡Has alcanzado la ★ de Rango 7!</flash><br>Tu nuevo rango se ha registrado en tu tarjeta del Club de Oficiales.<br>Las fases que puedes superar en el Rango 7<br>están marcadas con ★ rosas.
+unlock_popup_message_148	<flash>¡Has alcanzado la ★ de Rango 8!</flash><br>Tu nuevo rango se ha registrado en tu tarjeta del Club de Oficiales.<br>Las fases que puedes superar en el Rango 8<br>están marcadas con ★ rosas.
+unlock_popup_message_149	<flash>¡Has alcanzado la ★ de Rango 9!</flash><br>Tu nuevo rango se ha registrado en tu tarjeta del Club de Oficiales.<br>Las fases que puedes superar en el Rango 9<br>están marcadas con ★ rosas.
+unlock_popup_message_150	<flash>¡Has alcanzado la ★ de Rango 10!</flash><br>Tu nuevo rango se ha registrado en tu tarjeta del Club de Oficiales.<br>Las fases que puedes superar en el Rango 10<br>están marcadas con ★ rosas.
+unlock_popup_message_151	<flash>¡Has alcanzado la ★ de Rango 11!</flash><br>Tu nuevo rango se ha registrado en tu tarjeta del Club de Oficiales.<br>Las fases que puedes superar en el Rango 11<br>están marcadas con ★ rosas.
+unlock_popup_message_152	<flash>¡Has alcanzado la ★ de Rango 12!</flash><br>Tu nuevo rango se ha registrado en tu tarjeta del Club de Oficiales.<br>Las fases que puedes superar en el Rango 12<br>están marcadas con ★ rosas.

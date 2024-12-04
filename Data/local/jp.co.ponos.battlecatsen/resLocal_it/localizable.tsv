@@ -1407,8 +1407,8 @@ Itemshop_ad_popup2	Ottenuti +${xp} XP!
 stage_restriction_limit_6	${rarity}: ${value} o meno
 SpecialRuleName000	Fondo fiduciario
 SpecialRuleName001	Parità tempo ricar.
-SpecialRuleExplanation000	Fondo fiduciario<br>Inizi la battaglia con un sacco di soldi,<br>ma non ne guadagni col tempo<br>o sconfiggendo nemici.
-SpecialRuleExplanation001	Parità di tempo di ricarica<br>La velocità del tempo di ricarica<br>sarà la stessa per tutte le unità amiche.
+SpecialRuleExplanation000	【Fondo fiduciario】<br>Inizi la battaglia con un sacco di soldi,<br>ma non ne guadagni col tempo<br>o sconfiggendo nemici.
+SpecialRuleExplanation001	【Parità di tempo di ricarica】<br>La velocità del tempo di ricarica<br>sarà la stessa per tutte le unità amiche.
 treasure_get	Tocca due volte l'icona per raggiungere il livello in cui puoi ottenere quella ricompensa.
 treasure_geterror	Non puoi raggiungere un livello che non hai ancora superato.
 treasure_popup1	<color=255,255,0> ${treasureRank} ${treasureName}</color> ${text} ${stageName}
@@ -1428,7 +1428,7 @@ mission_receive_bulk_item_chara_evolve2	Unità: "${charaName}" Forma ultra
 mission_receive_bulk_item_xp	${itemName} + ${itemNum}
 mission_receive_bulk_not_all	<color=255,255,0>Possiedi troppi oggetti<br>per riscattare tutte le ricompense della missione.</color>
 mission_txt	Missioni completate: ${missionNum}
-SpecialRuleExplanation004	[Offerta super rare]  <br>Le unità super rare possono essere schierate<br>a metà costo e con metà del tempo di ricarica.
+SpecialRuleExplanation004	【Offerta super rare]  <br>Le unità super rare possono essere schierate<br>a metà costo e con metà del tempo di ricarica.
 SpecialRuleName004	Offerta super rare
 stage_restriction_limit_7	Unità schierabili per ogni rarità: <color=255,255,0>%@</color>
 stage_restriction_limit_8	${rarity} x${value}
@@ -1469,10 +1469,40 @@ matatabi_transition	Serve "${itemName}"<br>Selezionare una destinazione?
 medama_complete	Oggetto in evidenza COMPLETATO!
 medama_rennsuu	Ottieni un oggetto in evidenza dopo aver usato le capsule ${value} volte!
 SpecialRuleExplanation002	【Solo una rarità】<br>Puoi schierare contemporaneamente solo un'unità per ogni rarità.<br>La tua armata felina può essere impostata come preferisci.
-SpecialRuleExplanation003	【Lavoro a basso costo】<br>Tutte le unità alleate possono essere schierate<br>per 500￠.
+SpecialRuleExplanation003	【Lavoro economico】<br>Tutte le unità alleate possono essere schierate<br>per 500￠.
 SpecialRuleName002	Solo una rarità
-SpecialRuleName003	Lavoro a basso costo
+SpecialRuleName003	Lavoro economico
 stage_challenge_conditions	${mapName}<br>${stagelimitText1}<br>${stagelimitText2}<br>${stagelimitText3}
 stage_restriction_limit_9	Unità schierabili: <color=255,255,0> x${value}</color>
 unlock_popup_message_139	<flash>Una misteriosa forma di vita è apparsa<br> nel Labirinto antica foresta!</flash>
 unlock_popup_message_140	<flash>Ricompensa livello!</flash><br>Forma Reale per<br> Idi:N sbloccata. Raggiungi il lv. 30 e<br>XP e oggetti per evolvere!
+cert_tutorial1	<color=255,255,0>Livelli con formazione fissa</color><br>Scopri livelli con unità, impostazioni<br>cannone felino e tesori preimpostati. Premi il<br>pulsante sotto per controllare le tue unità!
+cert_tutorial2	Guarda un suggerimento prima dell'inizio della battaglia<br>nei livelli con formazioni fisse!<br>Tocca il pulsante del livello per vederlo!
+cert_tutorial3	Premi l'icona per vedere altre informazioni!<br>Puoi controllare i nemici, le ricompense uniche<br>e altre informazioni importanti!
+fixed_formation_popup	Questo livello ha una formazione fissa.<br>La formazione non può essere modificata.<br>※Puoi vedere i dettagli dal menu di pausa.
+fixed_formation_slot_name	Fissa
+hint_popup000	<color=0,0,0>Ci sono molti tipi di nemici, tra cui<br>nemici rossi, neri, e alieni.<br>Contro i nemici rossi, <color=0,0,255>Gatto ascia,<color=0,0,0> e<br><color=0,0,255>Pescegatto<color=0,0,0> sono efficaci.</color>
+hint_popup001	<color=0,0,0>Per l'attaccante a distanza <color=0,0,255>Professor Orso<color=0,0,0>,<br>usa unità a distanza come <color=0,0,255>Lucertogatto<color=0,0,0>.<br>Per attaccanti potenti come <color=0,0,255>Eleboin<color=0,0,0>,<br>unità forti come <color=0,0,255>Gatto Titano<color=0,0,0> sono la scelta giusta.<br>Sfrutta la forza di un'unità Gatto per vincere!</color>
+hint_popup002	<color=0,0,0>I nemici metallici simili a macchinari<br>subiscono pochissimi danni.<br>Per affrontarli, schiera unità con l'<br><color=0,0,255>abilità<color=0,0,0> Danni critici</color>.
+hint_popup003	<color=0,0,0>I nemici zombi viola possono<br>rianimarsi anche dopo essere stati sconfitti.<br>Le unità <color=0,0,255>Ammazza zombi<color=0,0,0> possono sconfiggere<br>gli zombi e impedire loro di rianimarsi.</color>
+hint_popup004	<color=0,0,0>I nemici veloci e implacabili<br>possono essere contenuti schierando <br>unità che hanno un costo basso<br>e una vitalità elevata.</color>
+hint_popup005	<color=0,0,0>Alcuni boss non compariranno finché<br>la base nemica non viene attaccata.<br>Assicurati di accumulare soldi prima di<br>penetrare le forze nemiche.</color>
+hint_popup006	<color=0,0,0>Debuff come <color=0,0,255>immobilità e rallentamento<color=0,0,0><br>sono una soluzione efficace<br>contro i nemici con tratti.<br>Usa unità con debuff che contrastano<br>i nemici con tratti per vincere!</color>
+hint_popup007	<color=0,0,0>Alcuni nemici hanno barriere annulla-danni.<br>Queste possono essere distrutte o con<br>un attacco potente o da un'unità<br> con l'abilità <color=0,0,255>Sfondamento<color=0,0,0>.</color>
+hint_popup008	<color=0,0,0>Gli zombi scavano cunicoli sottoterra<br>quando sono vicini a un'unità Gatto.<br>Contrasta questa manovra dilazionando<br>lo schieramento delle unità.</color>
+mission_receive_bulk_item_map	Permesso Sfida "${mapName}"
+mission_receive_item_map	<color=255,255,0>Ricompensa: Permesso Sfida "${mapName}"</color>
+SpecialRuleExplanation005	【Limite di schieramento】<br>Possono essere schierate<br>fino a 60 unità.
+SpecialRuleName005	Limite schieram.
+unlock_popup_message_141	<flash>Hai raggiunto il ★ Grado 1!</flash><br>Il tuo nuovo Grado è sulla tua tessera Club Ufficiali.<br>I livelli che possono essere superati al Grado 1<br>sono segnati con una o più ★ rosa.
+unlock_popup_message_142	<flash>Hai raggiunto il ★ Grado 2!</flash><br>Il tuo nuovo Grado è sulla tua tessera Club Ufficiali.<br>I livelli che possono essere superati al Grado 2<br>sono segnati con una o più ★ rosa.
+unlock_popup_message_143	<flash>Hai raggiunto il ★ Grado 3!</flash><br>Il tuo nuovo Grado è sulla tua tessera Club Ufficiali.<br>I livelli che possono essere superati al Grado 3<br>sono segnati con una o più ★ rosa.
+unlock_popup_message_144	<flash>Hai raggiunto il ★ Grado 4!</flash><br>Il tuo nuovo Grado è sulla tua tessera Club Ufficiali.<br>I livelli che possono essere superati al Grado 4<br>sono segnati con una o più ★ rosa.
+unlock_popup_message_145	<flash>Hai raggiunto il ★ Grado 5!</flash><br>Il tuo nuovo Grado è sulla tua tessera Club Ufficiali.<br>I livelli che possono essere superati al Grado 5<br>sono segnati con una o più ★ rosa.
+unlock_popup_message_146	<flash>Hai raggiunto il ★ Grado 6!</flash><br>Il tuo nuovo Grado è sulla tua tessera Club Ufficiali.<br>I livelli che possono essere superati al Grado 6<br>sono segnati con una o più ★ rosa.
+unlock_popup_message_147	<flash>Hai raggiunto il ★ Grado 7!</flash><br>Il tuo nuovo Grado è sulla tua tessera Club Ufficiali.<br>I livelli che possono essere superati al Grado 7<br>sono segnati con una o più ★ rosa.
+unlock_popup_message_148	<flash>Hai raggiunto il ★ Grado 8!</flash><br>Il tuo nuovo Grado è sulla tua tessera Club Ufficiali.<br>I livelli che possono essere superati al Grado 8<br>sono segnati con una o più ★ rosa.
+unlock_popup_message_149	<flash>Hai raggiunto il ★ Grado 9!</flash><br>Il tuo nuovo Grado è sulla tua tessera Club Ufficiali.<br>I livelli che possono essere superati al Grado 9<br>sono segnati con una o più ★ rosa.
+unlock_popup_message_150	<flash>Hai raggiunto il ★ Grado 10!</flash><br>Il tuo nuovo Grado è sulla tua tessera Club Ufficiali.<br>I livelli che possono essere superati al Grado 10<br>sono segnati con una o più ★ rosa.
+unlock_popup_message_151	<flash>Hai raggiunto il ★ Grado 11!</flash><br>Il tuo nuovo Grado è sulla tua tessera Club Ufficiali.<br>I livelli che possono essere superati al Grado 11<br>sono segnati con una o più ★ rosa.
+unlock_popup_message_152	<flash>Hai raggiunto il ★ Grado 12!</flash><br>Il tuo nuovo Grado è sulla tua tessera Club Ufficiali.<br>I livelli che possono essere superati al Grado 12<br>sono segnati con una o più ★ rosa.
