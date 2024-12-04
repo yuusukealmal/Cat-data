@@ -64,6 +64,8 @@ class SERVER:
         self.cc = cc
         self.lib = self.get_lib_file()
         self.versions = LIB(self.lib, self.cc).get_versions()
+        if self.cc == "en":
+            self.region = self.get_region()
         self.package = self.get_package_name()
         self.ua  = self.get_ua()
         self.download_link = "https://nyanko-assets.ponosgames.com/iphone/{package}/download/{version}.zip"
@@ -84,21 +86,49 @@ class SERVER:
         os.remove(_tmp)
         return _lib
     
+    def get_region(self):
+        _path = None
+        with zipfile.ZipFile(self.file, "r") as zip:
+            _path = zip.extract(f"InstallPack.apk")
+        counts = {prefix: 0 for prefix in ["", "fr", "it", "de", "es", "th"]}
+        with zipfile.ZipFile(_path, "r") as zip:
+            for name in zip.namelist():
+                if name.startswith("assets/download") and name.endswith(".tsv"):
+                    regoin = name.replace("assets/download", "").replace(".tsv", "").split("_")[0]
+                    counts[regoin] += 1
+        os.remove(_path)
+        return counts
+
     def get_package_name(self):
         return "jp.co.ponos.battlecats{}".format(self.cc)
     
     def get_ua(self):
         return str(ua_generator.generate(device="mobile", platform="android"))
 
+    def get_region_by_index(self, index):
+        cumulative_index = 0
+        for key, value in self.region.items():
+            if cumulative_index <= index < cumulative_index + value:
+                return key, index - cumulative_index
+            cumulative_index += value
+        return None
+
     def get_zip_link(self, index: int):
+        _index = index
         version = self.versions[index]
+        index = self.get_region_by_index(index)[1] if self.cc == "en" else index
+
         cc = self.package.split(".")[-1].replace("jp", "")
         if version < 1000000:
             version = "{}_{}_{}".format(cc, version, index)
         else:
             version = "{}_{:06d}_{:02d}_{:02d}".format(cc, version // 100, index, version % 100)
-
+        
+        
+        if self.cc == "en" and self.get_region_by_index(_index)[0] != "":
+            version += "_" + self.get_region_by_index(_index)[0]
         url = self.download_link.format(package = cc, version = version)
+        print(url)
         return url
     
     def download_zip(self, index: int):
