@@ -109,7 +109,7 @@ class ITEM(APK):
         last = pack_res[-1:]
         padding_count = padding_map.get(last, 0)
         return pack_res[:-padding_count] if padding_count > 0 else pack_res
-    
+
     def to_file(self, name: str, data: bytes):
         with open(os.path.join(self.folder, name), "wb") as f:
             f.write(data)
@@ -138,7 +138,8 @@ def get_latest_version(cc: str):
         j = json.load(f)
     r = requests.get(j[cc]["version_url"], headers={"User-Agent": str(ua)})
     soup = bs4(r.content, "lxml")
-    return soup.find("div", {"class": "version"}).text
+    title = soup.find('h3', class_='tabs-header').get_text(strip=True)
+    return title.split(" ")[-1]
 
 def parse_version(version: str):
     return int("".join([_.zfill(2) for _ in version.split(".")]))
