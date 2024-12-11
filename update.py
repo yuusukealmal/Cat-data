@@ -12,7 +12,7 @@ def git_push():
 
         if repo.is_dirty(untracked_files=True) or repo.index.diff(None):
             repo.git.add(update=True)
-            repo.index.commit("test commit")
+            repo.index.commit("Update Certain Game Data")
             origin = repo.remote(name='origin')
             origin.push()
             print("Changes were pushed to the repository.")
