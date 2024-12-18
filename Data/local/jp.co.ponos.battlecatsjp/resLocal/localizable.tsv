@@ -377,6 +377,7 @@ mission_receive_item_chara_evolve2	<color=255,255,0>報酬：キャラクター�
 mission_receive_item_map	<color=255,255,0>報酬：「${mapName}」挑戦権</color>
 mission_receive_bulk	以下のミッション報酬を受け取りました
 mission_receive_bulk_not_all	<color=255,255,0>所持上限を超えるため<br>ミッション報酬を受け取れませんでした</color>
+mission_receive_bulk_not_part	<color=255,255,0>アイテム所持数の上限を超えます</color><br>上限を超えた分は所持数に反映されませんが<br>報酬を受け取ってミッションを達成しますか？
 mission_receive_bulk_item	${itemName} ${itemNum}個
 mission_receive_bulk_item_xp	${itemName} +${itemNum}
 mission_receive_bulk_item_chara	キャラクター「${charaName}」
@@ -505,12 +506,13 @@ serial_txt2	※「受信ＢＯＸ」ボタンは「福岡県」クリア後に�
 serial_txt3	※プレゼントの受け取りにはGame Centerへのログインが必要です。
 serial_txt4	※受け取りしていないプレゼントのシリアルコードがキャンセルされました。\nコード入力ページのご注意をご確認ください。
 warningtxt1	ゲームが初期状態のため\n保存するデータがありません。
-autoSave_txt1	お問い合わせコード\n%@\nお問い合わせコードを紛失された場合はサポート対象外となります。\n上記コードはオプション画面からいつでも確認できます。
-autoSave_txt2	お問い合わせコード：%@
+autoSave_txt1	お問い合わせコード\n%@\nお問い合わせコードを紛失された場合はサポート対象外となります。\n上記コードはタイトル画面、またはオプション画面からいつでも確認できます。
+autoSave_txt2	お問い合わせコード：
 autoSave_txt3	お問い合わせコードは必ずメモをして、大切に保管してください。
 autoSave_txt4	お問い合わせコードを紛失された場合は、いかなるサポートもお受けすることはできません。
 autoSave_txt5	お問い合わせコード
 autoSave_txt6	お問い合わせコードは必ずメモをして大切に保管して下さい。
+autoSave_txt7	タップで表示
 collaboration_txt1	コラボ特典%dをゲット！
 collaboration_txt2	コラボ特典をゲット！
 nyancombo_txt1	タップでキャラクター名表示
@@ -1144,6 +1146,8 @@ item_pack_name_76	ニャンピュータパック 購入
 item_pack_name_77	限定キャラクター「ネコ校長」購入
 item_pack_name_82	伝説の罠パック 購入
 item_pack_name_83	ランク300達成セール 購入
+item_pack_name_85	おかわりプレミアムセール
+item_pack_name_86	限定復活プレミアムセール
 ScatCPU_info1	${itemName1}を<flash>${itemNum1}個</flash>使用して<br>戦闘スキップを開始しますか？<br>（本日のスキップ可能回数残り ${itemNum2}回）
 ScatCPU_info2	<flash>ニャンピュータ使い放題中はニャンピュータの消費なし！</flash><br>戦闘スキップを開始しますか？<br>（本日のスキップ可能回数残り ${itemNum}回）
 ScatCPU_XPdrop	<color=255,255,0>完全勝利!!</color><br>ステージクリア経験値<flash>ゲット！！</flash><br>「${itemName}+${itemNum}」
@@ -1167,12 +1171,14 @@ SpecialRuleName002	レア度代表戦
 SpecialRuleName003	ワンコイン
 SpecialRuleName004	特売セール　激レア
 SpecialRuleName005	生産キャラ数制限
+SpecialRuleName006	超特売セール　EX
 SpecialRuleExplanation000	【おこづかい制】<br>最初にお金をたくさんもらえます<br>ただし、時間経過や敵の撃破などで<br>所持金が増えることはありません
 SpecialRuleExplanation001	【生産スピード統一】<br>すべての味方キャラクターの<br>生産スピードが同じになり固定されます
 SpecialRuleExplanation002	【レア度代表戦】<br>各レア度ごとに1体ずつしか生産できません<br>編成は自由に行う事ができます
 SpecialRuleExplanation003	【ワンコイン】<br>すべての味方キャラクターの<br>生産コストが500円になります
 SpecialRuleExplanation004	【特売セール　激レア】 <br>レア度：激レアの味方キャラクターの生産コストが<br>半分になり生産スピードが倍になります
 SpecialRuleExplanation005	【生産キャラ数制限】<br>１回の戦闘で生産できるキャラ数が<br>60体までになります
+SpecialRuleExplanation006	【超特売セール　EX】<br>レア度：EXの味方キャラクターの生産コストと<br>生産スピードが70％OFFになります
 Account_iOS13_error	iOS 13未満の方はAppleでサインインがご利用頂けません
 treasure_get	ダブルタップでゲットできるステージへ移動します
 treasure_geterror	ステージが解放されていないため移動できません
