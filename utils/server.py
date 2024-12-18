@@ -77,6 +77,7 @@ class SERVER:
             for name in zip.namelist():
                 if any(arch in name for arch in architectures):
                     _tmp = zip.extract(name)
+                    break
 
         with zipfile.ZipFile(_tmp, "r") as zip:
             for name in zip.namelist():
@@ -149,6 +150,7 @@ class SERVER:
         item = ITEM(os.path.abspath(f"./assets{index}.zip"), self.cc)
         if not item.check():
             item.parse()
+        os.remove(f"./assets{index}.zip")
         del item
 
 class env(Enum):
@@ -248,7 +250,6 @@ class ITEM:
                     self.to_file(self.get_folder("Audio"), name, zip.read(name))
                 if name.endswith(".list"):
                     self.parse_pack(self.zip, name)
-        os.remove(self.zip)
         
     def delete(self, list: str, folder: str):
         files = [i.split(",")[0] for i in list.splitlines()[1:]]
