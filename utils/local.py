@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup as bs4
 import ua_generator
 from .funcs import check
 from .server import server
+from .bcu import parse
 
 class env(Enum):
     LIST = 'b484857901742afc'
@@ -33,6 +34,7 @@ class APK:
         else:
             self.PACK_KEY = self.get_pack()
         self.itmes = self.get_items()
+        self.bcu = []
 
     def get_package(self):
         return "jp.co.ponos.battlecats" + self.cc
@@ -128,8 +130,10 @@ class ITEM(APK):
 
             if "ImageDataLocal" not in self.item:
                 _data = self.delete_padding(self.get_aes().decrypt(_data))
-            
+
             if not os.path.exists(_path) or self.get_hash(_path) != self.get_hash(_data):
+                if any([i in name for i in ["imgcut", "mamodel", "maanim"]]) and self.item == "NumberLocal":
+                    self.bcu.append(name.split(".")[0])
                 self.to_file(name, _data)
         self.delete()
                 
@@ -220,3 +224,4 @@ def local(way: str, apk=None, xapk=None, remote=False):
         
 def process(pkg: APK):
     pkg.parse()
+    parse(set(pkg.bcu))
