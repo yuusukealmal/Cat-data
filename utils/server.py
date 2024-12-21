@@ -196,7 +196,7 @@ class ITEM:
 
     def get_folder(self, folder: str):
         base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-        target_dir = os.path.join(base_dir, "Data", "server", self.package, folder) #self.item.split("/")[-1]
+        target_dir = os.path.join(base_dir, "Data", "server", self.package, folder)
         os.makedirs(target_dir, exist_ok=True)
         return target_dir
 
