@@ -8,7 +8,7 @@ from git import Repo
 def git_push():
     load_dotenv()
     try:
-        repo = Repo("/root/Cat-data/.git")
+        repo = Repo(os.getenv("REPO"))
 
         if repo.is_dirty(untracked_files=True) or repo.index.diff(None):
             repo.git.add(update=True)
