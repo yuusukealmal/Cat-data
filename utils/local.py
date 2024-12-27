@@ -224,4 +224,4 @@ def local(way: str, apk=None, xapk=None, remote=False):
         
 def process(pkg: APK):
     pkg.parse()
-    parse(set(pkg.bcu))
+    # parse(set(pkg.bcu))
