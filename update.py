@@ -32,4 +32,3 @@ if __name__ == "__main__":
     git_push("Update Certain Game Event Data")
     local(way="latest", remote=True)
     git_push("Update Certain Game Data")
-    git_push()
