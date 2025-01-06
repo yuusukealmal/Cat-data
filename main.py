@@ -1,8 +1,8 @@
 import argparse
-from utils.bcuzip import bcuzip
-from utils.event import event
-from utils.local import local
-from utils.server import server
+from util.bcuzip import bcuzip
+from util.event import event
+from util.local import local
+from util.server import server
 
 def main():
     parser = argparse.ArgumentParser()
