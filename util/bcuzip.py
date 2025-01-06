@@ -29,10 +29,14 @@ class Bcuzip:
         for _ in self.info["files"]:
             file = os.path.join(target_dir, *_['path'].split('/')[1:])
             os.makedirs(os.path.dirname(file), exist_ok=True)
-            with open(file, "wb") as f:
-                size, offset = _["size"], _["offset"]
-                data = self.aes.decrypt(self.data[offset:offset + (size + (16 - size % 16))])[:size]
-                f.write(data)
+
+            size, offset = _["size"], _["offset"]
+            data = AES.new(self.key, AES.MODE_CBC, self.iv).decrypt(self.data[offset:offset + (size + (16 - size % 16))])[:size]
+
+            if "pack.json" in file:
+                with open(file, "w") as f:json.dump(json.loads(data), f, indent=4)
+            else:
+                with open(file, "wb") as f:f.write(data)
 
 def bcuzip(file: str=None, folder: str=None):
     if file is None and folder is None:
