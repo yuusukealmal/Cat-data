@@ -1,5 +1,5 @@
-from utils.event import event
-from utils.local import local
+from util.event import event
+from util.local import local
 
 import os
 from dotenv import load_dotenv
