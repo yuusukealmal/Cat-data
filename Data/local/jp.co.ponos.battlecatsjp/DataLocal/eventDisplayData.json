@@ -96,6 +96,8 @@
       "PercentBanner": 50
     },
     "2173": {
+      "eventWeight": 1,
+      "priority": 2,
       "FusumaSE": [
         -1
       ],
@@ -1506,6 +1508,20 @@
       "SelectStageImg": "S_385",
       "SelectStageImgReverse": 1,
       "SelectStageStartSE": 170
+    },
+    "2174": {
+      "eventWeight": 1,
+      "priority": 2,
+      "FusumaSE": [
+        -1
+      ],
+      "FusumaOpenOffsetX": 0,
+      "FusumaOpenOffsetY": 458,
+      "FusumaImgPNG": "img009_C_031.png",
+      "FusumaImgIMGCUT": "img009_Event00.imgcut",
+      "TitleImgBG": "_C_031",
+      "TitleImgLogo": "_C_031",
+      "PercentTitle": 50
     }
   }
 }
