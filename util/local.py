@@ -149,8 +149,10 @@ def get_latest_version(cc: str):
         j = json.load(f)
     r = requests.get(j[cc]["version_url"], headers={"User-Agent": str(ua)})
     soup = bs4(r.content, "lxml")
-    title = soup.find('h3', class_='tabs-header').get_text(strip=True)
-    return title.split(" ")[-1]
+    meta = soup.find('meta', attrs={'name': 'description'})
+    content = meta.get('content')
+    version = re.search(r'\b\d+\.\d+\.\d+\b', content).group()
+    return version
 
 def parse_version(version: str):
     return int("".join([_.zfill(2) for _ in version.split(".")]))
