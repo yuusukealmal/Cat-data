@@ -131,7 +131,7 @@ class ITEM(APK):
             if "ImageDataLocal" not in self.item:
                 _data = self.delete_padding(self.get_aes().decrypt(_data))
 
-            if not (os.path.exists(_path) or self.get_hash(_path) != self.get_hash(_data)):
+            if (not os.path.exists(_path)) or (self.get_hash(_path) != self.get_hash(_data)):
                 if any([i in name for i in ["imgcut", "mamodel", "maanim"]]) and self.item == "NumberLocal":
                     self.bcu.append(name.split(".")[0])
                 self.to_file(name, _data)
