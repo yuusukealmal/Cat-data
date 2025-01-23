@@ -45,6 +45,8 @@
       "NekoBageImg": "C_029"
     },
     "2173": {
+      "eventWeight": 1,
+      "priority": 2,
       "FusumaSE": [
         -1
       ],
@@ -232,6 +234,21 @@
       "BannerImgIMGCUT": "event_bnr00.imgcut",
       "PercentBanner": 50,
       "NekoBageBgm": 121
+    },
+    "1204": {
+      "eventWeight": 1,
+      "priority": 2,
+      "FusumaOpenOffsetX": 0,
+      "FusumaOpenOffsetY": 458,
+      "FusumaImgPNG": "img009_C_101.png",
+      "FusumaImgIMGCUT": "img009_Event00.imgcut",
+      "BannerImgPNG": "event_bnr_C_065.png",
+      "BannerImgIMGCUT": "event_bnr00.imgcut",
+      "PercentBanner": 50,
+      "NekoBageBgm": 88,
+      "TitleImgBG": "_C_208",
+      "TitleImgLogo": "_C_065",
+      "PercentTitle": 50
     },
     "2207": {
       "eventWeight": 1,
@@ -1144,15 +1161,6 @@
       "BannerImgIMGCUT": "event_bnr00.imgcut",
       "PercentBanner": 50
     },
-    "1204": {
-      "eventWeight": 1,
-      "priority": 1,
-      "FusumaOpenOffsetX": 0,
-      "FusumaOpenOffsetY": 458,
-      "FusumaImgPNG": "img009_S_127.png",
-      "FusumaImgIMGCUT": "img009_Event00.imgcut",
-      "NekoBageImg": "S_127"
-    },
     "2214": {
       "eventWeight": 1,
       "priority": 1,
@@ -1181,6 +1189,20 @@
       "BannerImgIMGCUT": "event_bnr00.imgcut",
       "PercentBanner": 50,
       "NekoBageImg": "C_216"
+    },
+    "2174": {
+      "eventWeight": 1,
+      "priority": 2,
+      "FusumaSE": [
+        -1
+      ],
+      "FusumaOpenOffsetX": 0,
+      "FusumaOpenOffsetY": 458,
+      "FusumaImgPNG": "img009_C_031.png",
+      "FusumaImgIMGCUT": "img009_Event00.imgcut",
+      "TitleImgBG": "_C_031",
+      "TitleImgLogo": "_C_031",
+      "PercentTitle": 50
     }
   }
 }

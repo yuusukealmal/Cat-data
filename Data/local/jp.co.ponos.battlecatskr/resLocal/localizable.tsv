@@ -493,8 +493,8 @@ serial_txt2	※「수신 BOX」버튼은 「일본」클리어 후에 표시됩�
 serial_txt3	※선물 수령시에는 Game Center에 로그인해 주세요.
 serial_txt4	※아직 받지 않은 선물의 시리얼코드가 취소 되었습니다.\n코드 입력 페이지의 주의사항을 확인해 주세요.
 warningtxt1	게임이 초기 상태이기 때문에\n세이브할 데이터가 없습니다.
-autoSave_txt1	문의 코드\n%@\n문의 코드를 분실하시면 서포트를 받으실 수 없습니다.\n위의 코드는 옵션 화면에서 언제든지 확인할 수 있습니다.
-autoSave_txt2	문의 코드:%@
+autoSave_txt1	문의 코드\n%@\n문의 코드를 분실하시면 서포트를 받으실 수 없습니다.\n위의 코드는 타이틀 화면 또는 옵션 화면에서 언제든지 확인할 수 있습니다.
+autoSave_txt2	문의 코드: 
 autoSave_txt3	문의 코드는 반드시 메모한 후, 소중히 보관해주세요.
 autoSave_txt4	문의 코드를 분실하시면 어떠한 서포트도 받으실 수 없습니다.
 autoSave_txt5	문의 코드
@@ -1542,3 +1542,39 @@ unlock_popup_message_149	<flash>냥코도 승단 시험 ★9단 인정!</flash><
 unlock_popup_message_150	<flash>냥코도 승단 시험 ★10단 인정!</flash><br>냥코 클럽의 회원 카드에 기록된다냥<br>10단의 실력으로 클리어할 수 있는 스테이지는<br>난이도의 ★이 핑크색으로 변한다냥
 unlock_popup_message_151	<flash>냥코도 승단 시험 ★11단 인정!</flash><br>냥코 클럽의 회원 카드에 기록된다냥<br>11단의 실력으로 클리어할 수 있는 스테이지는<br>난이도의 ★이 핑크색으로 변한다냥
 unlock_popup_message_152	<flash>냥코도 승단 시험 ★12단 인정!</flash><br>냥코 클럽의 회원 카드에 기록된다냥<br>12단의 실력으로 클리어할 수 있는 스테이지는<br>난이도의 ★이 핑크색으로 변한다냥
+autoSave_txt7	탭하여 표시
+item_pack_name_85	원 모어 프리미엄 세일
+item_pack_name_86	돌아온 프리미엄 세일
+mission_receive_bulk_not_part	<color=255,255,0>이 이상 아이템을 소지할 수 없습니다</color><br>상한을 초과한 아이템은 보유 개수에 반영되지 않습니다<br>정말 보수를 획득하여 미션을 달성하시겠습니까?
+scheme_popup_99	<flash>멍뭉이 통조림을 10배의 고양이 통조림으로 교환해주겠다멍!<br>%@ %@개 획득!</flash>
+scheme_popup_100	<flash>멍뭉이 통조림을 10배의 고양이 통조림으로 교환해주겠다멍!<br>%@ %@개 획득!</flash>
+scheme_popup_101	<flash>멍뭉이 통조림을 10배의 고양이 통조림으로 교환해주겠다멍!<br>%@ %@개 획득!</flash>
+scheme_popup_102	<flash>멍뭉이 통조림을 10배의 고양이 통조림으로 교환해주겠다멍!<br>%@ %@개 획득!</flash>
+scheme_popup_103	<flash>멍뭉이 통조림을 10배의 고양이 통조림으로 교환해주겠다멍!<br>%@ %@개 획득!</flash>
+scheme_popup_104	<flash>멍뭉이 통조림을 10배의 고양이 통조림으로 교환해주겠다멍!<br>%@ %@개 획득!</flash>
+scheme_popup_105	<flash>멍뭉이 통조림을 10배의 고양이 통조림으로 교환해주겠다멍!<br>%@ %@개 획득!</flash>
+scheme_popup_106	<flash>멍뭉이 통조림을 10배의 고양이 통조림으로 교환해주겠다멍!<br>%@ %@개 획득!</flash>
+scheme_popup_107	<flash>멍뭉이 통조림을 10배의 고양이 통조림으로 교환해주겠다멍!<br>%@ %@개 획득!</flash>
+scheme_popup_108	<flash>멍뭉이 통조림을 10배의 고양이 통조림으로 교환해주겠다멍!<br>%@ %@개 획득!</flash>
+scheme_popup_109	<flash>멍뭉이 통조림을 10배의 고양이 통조림으로 교환해주겠다멍!<br>%@ %@개 획득!</flash>
+scheme_popup_110	<flash>멍뭉이 통조림을 10배의 고양이 통조림으로 교환해주겠다멍!<br>%@ %@개 획득!</flash>
+scheme_popup_111	<flash>멍뭉이 통조림을 10배의 고양이 통조림으로 교환해주겠다멍!<br>%@ %@개 획득!</flash>
+scheme_popup_112	<flash>멍뭉이 통조림을 10배의 고양이 통조림으로 교환해주겠다멍!<br>%@ %@개 획득!</flash>
+scheme_popup_113	<flash>멍뭉이 통조림을 10배의 고양이 통조림으로 교환해주겠다멍!<br>%@ %@개 획득!</flash>
+SpecialRuleExplanation006	【EX 초특가 세일】<br>레어도: EX캐릭터의 생산 코스트 70% 할인<br>재생산 간격도 70% 단축됩니다
+SpecialRuleName006	EX 초특가 세일
+scheme_item_param_99	/2025inukan.html?v=lny01_pNxUJJ8D
+scheme_item_param_100	/2025inukan.html?v=lny02_Q4pKkdFB
+scheme_item_param_101	/2025inukan.html?v=lny03_nW4QsGSC
+scheme_item_param_102	/2025inukan.html?v=lny04_rf3DK0Fp
+scheme_item_param_103	/2025inukan.html?v=lny05_pWztXH79
+scheme_item_param_104	/2025inukan.html?v=lny06_pwwIsvU6
+scheme_item_param_105	/2025inukan.html?v=lny07_spvdgsh1
+scheme_item_param_106	/2025inukan.html?v=lny08_hNsYMNar
+scheme_item_param_107	/2025inukan.html?v=lny09_fpMCnKzb
+scheme_item_param_108	/2025inukan.html?v=lny10_OhkOyBvG
+scheme_item_param_109	/2025inukan.html?v=lny11_nqKqdw2N
+scheme_item_param_110	/2025inukan.html?v=lny12_7WGOSNiK
+scheme_item_param_111	/2025inukan.html?v=lny13_iH1JxuX7
+scheme_item_param_112	/2025inukan.html?v=lny14_mJMewgnZ
+scheme_item_param_113	/2025inukan.html?v=lny15_dpLMrAnZ
