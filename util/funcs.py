@@ -16,7 +16,7 @@ def check(apk=None, xapk=None):
             package = manifest["package_name"]
             return package if "jp.co.ponos.battlecats" in package else False
 
-def git_push(msg: str, method: str):
+def git_push(method: str, msg: str=None):
     t = datetime.utcnow() + timedelta(hours=8)
     t_str = t.strftime("%Y-%m-%d %H:%M:%S")
 
