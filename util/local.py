@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup as bs4
 import ua_generator
 from .funcs import check
 from .server import server
-from .bcu import parse
+from .funcs import git_push
 
 class env(Enum):
     LIST = 'b484857901742afc'
@@ -216,9 +216,11 @@ def local(way: str, apk=None, xapk=None, remote=False):
                 zip.extract("InstallPack.apk")
             xapk = os.path.join(os.getcwd(), "InstallPack.apk")
             process(APK("new", xapk, i.lower()))
+            git_push("add", f"Update Certain Game {i.upper()} Local Files")
             os.remove(xapk)
             if remote:
                 server(xapk=_path)
+                git_push("add", f"Update Certain Game {i.upper()} Server Files")
             try:
                 os.remove(_path)
             except:
