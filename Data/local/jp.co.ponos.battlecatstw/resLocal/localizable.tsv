@@ -226,7 +226,7 @@ scheme_item_param_57
 scheme_popup_57	<flash>填問卷好禮！<br>獲得%@%@個！</flash>
 scheme_item_param_65	odorobo_tw1
 scheme_popup_65	<flash>得到EX角色「%@」！</flash><br>可以在升級畫面中取得。
-scheme_popup_browser	獲得活動獎勵！<br>可以在貓咪基地中確認領取。
+scheme_popup_browser	獲得活動獎勵！<br>可以在貓咪基地中確認。
 scheme_popup_browser_get	您已經取得活動特典
 rarity_name_1	基本角色
 rarity_name_2	EX
@@ -496,8 +496,8 @@ serial_txt2	※「貓咪信箱」會在通過「日本」關卡後出現。
 serial_txt3	※登入Game Center後才可領取禮物。
 serial_txt4	※序號已遭取消。\n請確認輸入序號網頁的注意內容。
 warningtxt1	遊戲為初始狀態\n尚無遊戲紀錄。
-autoSave_txt1	詢問碼\n%@\n若您遺失此詢問碼將無法獲得技術支援。\n此詢問碼可隨時於主選單畫面中確認。
-autoSave_txt2	詢問碼%@
+autoSave_txt1	詢問碼\n%@\n若您遺失此詢問碼將無法獲得技術支援。\n此詢問碼可隨時於遊戲標題或選項畫面中確認。
+autoSave_txt2	詢問碼
 autoSave_txt3	請牢記此詢問碼，並妥善保管。
 autoSave_txt4	若您遺失此詢問碼將無法獲得技術支援。
 autoSave_txt5	詢問碼
@@ -1464,7 +1464,7 @@ mission_receive_bulk_item_xp	${itemName} +${itemNum}
 mission_receive_bulk_not_all	<color=255,255,0>持有數量已達上限<br>無法領取任務獎勵</color>
 mission_txt	達成任務${missionNum}個！
 scratch_SNS_004	在 #貓咪刮刮樂 中獲得%d個貓罐頭啦！<br>期間中每週都可挑戰！每週來玩刮刮樂帶走更多貓罐頭吧～！<br><br>#貓咪大戰爭 #貓咪刮刮樂 #貓咪暑假2024
-SpecialRuleExplanation004	【特賣活動　激稀有】<br>稀有度：我方的激稀有角色的生產成本減半<br>生產速度變成2倍
+SpecialRuleExplanation004	【特賣活動　激稀有】<br>我方的激稀有角色的生產成本減半<br>生產速度變成2倍
 SpecialRuleName004	特賣活動　激稀有
 stage_restriction_limit_7	各稀有度的同時生產數量：<color=255,255,0>%@</color>
 stage_restriction_limit_8	${rarity}${value}隻
@@ -1543,3 +1543,39 @@ unlock_popup_message_149	<flash>貓咪道檢定 ★9段過關！</flash><br>貓�
 unlock_popup_message_150	<flash>貓咪道檢定 ★10段過關！</flash><br>貓咪俱樂部的會員卡上將追加認證<br>用10段的實力足以通過的關卡<br>其難度★將會變成粉紅色
 unlock_popup_message_151	<flash>貓咪道檢定 ★11段過關！</flash><br>貓咪俱樂部的會員卡上將追加認證<br>用11段的實力足以通過的關卡<br>其難度★將會變成粉紅色
 unlock_popup_message_152	<flash>貓咪道檢定 ★12段過關！</flash><br>貓咪俱樂部的會員卡上將追加認證<br>用12段的實力足以通過的關卡<br>其難度★將會變成粉紅色
+autoSave_txt7	點擊後顯示
+item_pack_name_85	再來一份尊爵白金優惠
+item_pack_name_86	限定復活尊爵白金優惠
+mission_receive_bulk_not_part	<color=255,255,0>持有的道具數量將超過上限</color><br>超過的部分將無法取得<br>確定要領取獎勵並達成任務嗎？
+scheme_popup_99	<flash>狗罐頭已兌換成10倍的貓罐頭！<br>獲得%@%@個！</flash>
+scheme_popup_100	<flash>狗罐頭已兌換成10倍的貓罐頭！<br>獲得%@%@個！</flash>
+scheme_popup_101	<flash>狗罐頭已兌換成10倍的貓罐頭！<br>獲得%@%@個！</flash>
+scheme_popup_102	<flash>狗罐頭已兌換成10倍的貓罐頭！<br>獲得%@%@個！</flash>
+scheme_popup_103	<flash>狗罐頭已兌換成10倍的貓罐頭！<br>獲得%@%@個！</flash>
+scheme_popup_104	<flash>狗罐頭已兌換成10倍的貓罐頭！<br>獲得%@%@個！</flash>
+scheme_popup_105	<flash>狗罐頭已兌換成10倍的貓罐頭！<br>獲得%@%@個！</flash>
+scheme_popup_106	<flash>狗罐頭已兌換成10倍的貓罐頭！<br>獲得%@%@個！</flash>
+scheme_popup_107	<flash>狗罐頭已兌換成10倍的貓罐頭！<br>獲得%@%@個！</flash>
+scheme_popup_108	<flash>狗罐頭已兌換成10倍的貓罐頭！<br>獲得%@%@個！</flash>
+scheme_popup_109	<flash>狗罐頭已兌換成10倍的貓罐頭！<br>獲得%@%@個！</flash>
+scheme_popup_110	<flash>狗罐頭已兌換成10倍的貓罐頭！<br>獲得%@%@個！</flash>
+scheme_popup_111	<flash>狗罐頭已兌換成10倍的貓罐頭！<br>獲得%@%@個！</flash>
+scheme_popup_112	<flash>狗罐頭已兌換成10倍的貓罐頭！<br>獲得%@%@個！</flash>
+scheme_popup_113	<flash>狗罐頭已兌換成10倍的貓罐頭！<br>獲得%@%@個！</flash>
+SpecialRuleExplanation006	【超特賣活動　EX】<br>我方的EX角色的生產成本打3折<br>生產速度變成1.7倍
+SpecialRuleName006	超特賣活動　EX
+scheme_item_param_99	/2025inukan.html?v=lny01_pNxUJJ8D
+scheme_item_param_100	/2025inukan.html?v=lny02_Q4pKkdFB
+scheme_item_param_101	/2025inukan.html?v=lny03_nW4QsGSC
+scheme_item_param_102	/2025inukan.html?v=lny04_rf3DK0Fp
+scheme_item_param_103	/2025inukan.html?v=lny05_pWztXH79
+scheme_item_param_104	/2025inukan.html?v=lny06_pwwIsvU6
+scheme_item_param_105	/2025inukan.html?v=lny07_spvdgsh1
+scheme_item_param_106	/2025inukan.html?v=lny08_hNsYMNar
+scheme_item_param_107	/2025inukan.html?v=lny09_fpMCnKzb
+scheme_item_param_108	/2025inukan.html?v=lny10_OhkOyBvG
+scheme_item_param_109	/2025inukan.html?v=lny11_nqKqdw2N
+scheme_item_param_110	/2025inukan.html?v=lny12_7WGOSNiK
+scheme_item_param_111	/2025inukan.html?v=lny13_iH1JxuX7
+scheme_item_param_112	/2025inukan.html?v=lny14_mJMewgnZ
+scheme_item_param_113	/2025inukan.html?v=lny15_dpLMrAnZ
