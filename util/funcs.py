@@ -31,7 +31,7 @@ def git_push(method: str, msg: str=None):
                 repo.git.add(all=True)
                 commit = repo.index.commit(msg)
                 md5 = commit.hexsha[:7]
-                print(f"{t_str} {md5} Changes were committed.")
+                print(f"{t_str} {md5} {msg}")
 
         if method == "push":
             local = repo.head.commit
