@@ -304,4 +304,4 @@ def process(pkg: SERVER):
         if j[pkg.cc.upper()][f"assets{i}.zip"]!=pkg.tsvs[i]:
             print(f"different {i}")
             pkg.download_zip(i)
-        time.sleep(5)
+            time.sleep(5)
