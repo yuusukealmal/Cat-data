@@ -271,12 +271,12 @@
 %s|||||
 %s|Principessa in esilio, ora regna sulle strade|peggiori della grande città. La sua triste educazione|le ha dato un brutto carattere... Non avvicinarti|troppo o sarai vittima della sua terribile puntura.|
 %s|Super campione del Gran Premio Bambini Problematici,|terrore delle classi d'asilo di tutto il mondo.|Forse papà gli ha fatto leggere i classici russi|troppo presto? Parola preferita: AMORE.|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
+%s
+%s
+%s
+%s
+%s
+%s
 %s|||||
 %s|Dopo anni passati a vagare per terre desolate,|il suo pelo e la sua anima sono stati anneriti|dalla corruzione del mondo. Riceve|premi per la perfetta frequenza al lavoro.|
 %s|||||
@@ -427,7 +427,7 @@
 %s|||||
 %s|Fatto dalle parti più forti di diversi|Professor Orsi defunti. La testa non voleva|stare dritta, così è stata imbullonata.|La voglia di uccidere sembra in ascesa...|
 %s|Grazie a un tragico incidente con una|permanente, questo maialino adesso ha degli|stilosi rasta... ed è un ex-cinghiale.|Che improvviso cambio di immagine.|
-%s|仮1|仮2|仮3|仮4|
+%s
 %s|||||
 %s|Un'adorabile mangia-sogni che vaga|mezza-addormentata. Porta ancora il pannolino anche|se ha 14 anni. Non spaventare questa tenera|sonnambula, non importa quanto forte russi.|
 %s|仮1|仮2|仮3|仮4|
@@ -577,7 +577,7 @@
 %s|||||
 %s|||||
 %s|||||
-%s|仮1|仮2|仮3|仮4|
+%s
 %s|||||
 %s|||||
 %s|||||
@@ -707,5 +707,9 @@
 %s
 %s
 %s
+%s|仮1|仮2|仮3|仮4
+%s|仮1|仮2|仮3|仮4
 %s
 %s
+%s|Lo strambo cappello di questo accademico invade la mente|con conoscenze proibite dall'oltretomba.|Insegna la profonda e avvincente saggezza|dell'abisso, portando gli studenti alla rovina.
+%s|Insegnante esiliato nelle terre selvagge dopo uno scandalo|per punizioni corporali. Ogni creatura imparerà|cos'è l'amore severo grazie al suo pugno di ferro.|Temuto re delle bestie selvagge.

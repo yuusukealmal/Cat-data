@@ -271,12 +271,12 @@
 %s|||||
 %s|Una princesa exiliada que ahora pertenece a la realeza|de los tugurios de la ciudad. Su triste infancia le dio|un temperamento poco agradable, así que no te acerques|mucho o serás víctima de sus palabras más crueles.|
 %s|Ganó con una amplia ventaja el concurso de niños|problemáticos y es el terror de cualquier guardería.|¿Será porque papá le lee los clásicos rusos|antes de dormir? Su palabra favorita es «AMOR».|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
+%s
+%s
+%s
+%s
+%s
+%s
 %s|||||
 %s|Tras años vagando por páramos desiertos,|su pelaje y su alma se han ennegrecido por|culpa de la corrupción que asola el mundo.|En el trabajo le dan premios por no faltar nunca.|
 %s|||||
@@ -427,7 +427,7 @@
 %s|||||
 %s|Está hecho con las partes más fuertes de varios|Profeosos caducados. La cabeza no se quedaba bien|pegada, así que tuvieron que atornillarla.|Parece que su ansia de matar va creciendo...|
 %s|A causa de un trágico accidente con un secador|de permanentes, este cerdi acabó con un estrafalario|peinado... a base de rastas. ¡Ahora su nombre le viene al pelo!|Vaya cambio de imagen, ¿verdad?|
-%s|仮1|仮2|仮3|仮4|
+%s
 %s|||||
 %s|Una monada devorasueños que vaga por ahí|medio dormida. Lleva pañal a pesar de que ya|es adolescente. No molestes a esta dulce|sonámbula por mucho que ronque.|
 %s|仮1|仮2|仮3|仮4|
@@ -577,7 +577,7 @@
 %s|||||
 %s|||||
 %s|||||
-%s|仮1|仮2|仮3|仮4|
+%s
 %s|||||
 %s|||||
 %s|||||
@@ -707,5 +707,9 @@
 %s
 %s
 %s
+%s|仮1|仮2|仮3|仮4
+%s|仮1|仮2|仮3|仮4
 %s
 %s
+%s|El extraño sombrero de este erudito inunda su mente|con conocimientos prohibidos del inframundo.|Imparte clases sobre la profunda y apasionante sabiduría del|abismo, llevando a los ingenuos estudiantes a la perdición.
+%s|Profesor desterrado a tierras salvajes tras un escándalo|de castigos físicos. Toda criatura que visite sus|tierras descubrirá lo duro que puede ser el amor bajo|su puño de hierro. Temido rey de todas las bestias salvajes.

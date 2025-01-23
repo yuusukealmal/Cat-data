@@ -493,8 +493,8 @@ serial_txt2	* Du hast nach Abschluss des Japan-Levels darauf Zugriff.
 serial_txt3	* Du musst bei Game Center angemeldet sein, um dein Geschenk zu erhalten.
 serial_txt4	* Diese Seriennummer für ein neues Geschenk ist jetzt ungültig.\nBestätige die Infos im Eingabemenü.
 warningtxt1	Diese App wurde in den Ursprungszustand\nzurückgesetzt. Keine Speicherdaten gefunden.
-autoSave_txt1	Referenzcode\n%@\nDieser Code ist nötig, um deine Daten wiederherzustellen.\nBewahre ihn gut auf!
-autoSave_txt2	Referenzcode: %@
+autoSave_txt1	Referenzcode\n%@\nDu brauchst diesen Code, um deine Daten wiederherzustellen.\nWird im Startbildschirm oder Optionen-Menü bestätigt.
+autoSave_txt2	Referenzcode: 
 autoSave_txt3	Notiere und speichere deinen Referenzcode!
 autoSave_txt4	Ohne diese Information kann im Verlustfall dein Fortschritt nicht wiederhergestellt werden.
 autoSave_txt5	Referenzcode
@@ -1479,7 +1479,7 @@ unlock_popup_message_140	<flash>Levelabschluss-Bonus!</flash><br>Wahre Form für
 cert_tutorial1	<color=255,255,0>Level mit festen Aufstellungen</color><br>Dies sind Level mit voreingestellten Einheiten,<br>Katzenkanonen-Einstellungen und Schätzen. Tippe auf<br>die Schaltfläche unten, um deine Einheiten zu prüfen!
 cert_tutorial2	Sieh dir vor Kampfbeginn einen Tipp<br>für Level mit festen Aufstellungen an!<br>Tippe auf die Level-Schaltfläche, um ihn zu sehen!
 cert_tutorial3	Tippe auf das Symbol, um mehr Informationen anzuzeigen!<br>Du kannst Feinde, einmalige Belohnungen<br>und andere wichtige Informationen prüfen!
-fixed_formation_popup	Dieses Level hat eine feste Aufstellung.<br>Die Formation kann nicht geändert werden.<br>※Details können im Pausenmenü eingesehen werden.
+fixed_formation_popup	Dieses Level hat eine feste Aufstellung.<br>Die Formation ist nicht änderbar.<br>*Details können im Pausenmenü eingesehen werden.
 fixed_formation_slot_name	Festgelegt
 hint_popup000	<color=0,0,0>Es gibt viele Arten von Feinden, darunter<br>Rote, Schwarze und Aliens.<br>Gegen rote Feinde sind <color=0,0,255>Axtkatze<color=0,0,0> und<br><color=0,0,255>Fischkatze<color=0,0,0> effektiv.</color>
 hint_popup001	<color=0,0,0>Für Distanzangreifer wie <color=0,0,255>Lehrerbär<color=0,0,0> nutze<br>Einheiten wie <color=0,0,255>Echsenkatze<color=0,0,0> mit großer Reichweite.<br>Für starke Angreifer wie <color=0,0,255>Le'boin<color=0,0,0> sind harte<br>Einheiten wie <color=0,0,255>Titanenkatze<color=0,0,0> bestens geeignet.<br>Nutze die Stärken einer Katzeneinheit zum Sieg!</color>
@@ -1506,3 +1506,9 @@ unlock_popup_message_149	<flash>Du hast ★ Rang 9 erreicht!</flash><br>Dein neu
 unlock_popup_message_150	<flash>Du hast ★ Rang 10 erreicht!</flash><br>Dein neuer Rang steht auf deiner Offiziersklub-Karte.<br>Level, die mit Rang 10 abgeschlossen werden können,<br>sind mit rosa ★ gekennzeichnet.
 unlock_popup_message_151	<flash>Du hast ★ Rang 11 erreicht!</flash><br>Dein neuer Rang steht auf deiner Offiziersklub-Karte.<br>Level, die mit Rang 11 abgeschlossen werden können,<br>sind mit rosa ★ gekennzeichnet.
 unlock_popup_message_152	<flash>Du hast ★ Rang 12 erreicht!</flash><br>Dein neuer Rang steht auf deiner Offiziersklub-Karte.<br>Level, die mit Rang 12 abgeschlossen werden können,<br>sind mit rosa ★ gekennzeichnet.
+autoSave_txt7	Code anzeigen
+item_pack_name_85	Nachschlag-Angebot
+item_pack_name_86	Angebot für Champions
+mission_receive_bulk_not_part	<color=255,255,0>Maximale Gegenstandsanzahl erreicht.</color><br>Überzählige Gegenstände werden nicht eingesammelt.<br>Belohnungen einsammeln und Mission abschließen?
+SpecialRuleExplanation006	(Sonderausverkauf)<br>Einheiten der Seltenheit „Spezial“ können<br>für 30 % der Kosten mit 30 % der Abklingzeit eingesetzt werden.
+SpecialRuleName006	Sonderausverkauf

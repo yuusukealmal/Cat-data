@@ -286,8 +286,8 @@ La forme ultime améliore la vitesse|d’attaque. Et la défense est encore plus
 ＠|＠|＠|＠|＠|＠|＠|			//狂乱の小籠包にゃんこ
 La forme ultime améliore la vitesse d'att.|La défense contre les flottants|passe en résistance acharnée !|＠|La forme ultime améliore la vitesse d'att.|La défense contre les flottants|passe en résistance acharnée !|			//閃雷機兵レイ
 ＠|＠|＠|＠|＠|＠|＠|			//ネコ球児
-＠|＠|＠|＠|＠|＠|＠|			//鹿目まどか
-＠|＠|＠|＠|＠|＠|＠|			//暁美ほむら
+La forme ultime inflige de lourds dégâts|aux flottants, zombies et reliques.|Plus immunité contre les malédictions !|＠|La forme ultime inflige de lourds dégâts|aux flottants, zombies et reliques.|Plus immunité contre les malédictions !|//鹿目まどか
+La forme ultime assure vs rouges,|noirs et akus ! Donne aussi des attaques|de zone longue portée !|＠|La forme ultime assure vs rouges,|noirs et akus ! Donne aussi des attaques|de zone longue portée !|//暁美ほむら
 ＠|＠|＠|＠|＠|＠|＠|			//美樹さやか
 ＠|＠|＠|＠|＠|＠|＠|			//巴マミ
 ＠|＠|＠|＠|＠|＠|＠|			//佐倉杏子
@@ -357,7 +357,7 @@ La forme ultime améliore|la puissance d’attaque et Devant-derrière !|＠|＠
 ＠|＠|＠|＠|＠|＠|＠|			//ノラ
 La forme ultime améliore la vitesse d’att. !|＠|＠|＠|La forme ultime améliore la vitesse d’att. !|＠|＠|			//狼娘ディル
 La forme ultime améliore la défense !|La chance d’att. critique augmente aussi !|＠|＠|La forme ultime améliore la défense !|La chance d’att. critique augmente aussi !|＠|			//ゾンビ娘ヴェルヴェーヌ
-La forme ultime augmente|la puissance d’attaque et la défense !|＠|＠|La forme ultime augmente|la puissance d’attaque et la défense !|＠|			//火の精霊メララ
+La forme ultime augmente|la puissance d’attaque et la défense !|＠|＠|L’ultra forme améliore la vitesse de|déplacement, défense, attaque, portée,|et gagne Affaiblissement contre aliens !|//火の精霊メララ
 La forme ultime améliore|la puissance d’attaque et la défense !|＠|＠|La forme ultime améliore|puissance d’attaque et défense !|＠|			//水の精霊ミズリィ
 La forme ultime améliore|la puissance d’attaque et la défense !|＠|＠|L'ultra forme augmente la défense, a une|att. plus large et une plus longue portée !|Repousse en plus les aliens !|＠|//風の精霊エアル
 La forme ultime augmente l'attaque,|la défense et la portée !|＠|＠|La forme ultime augmente l'attaque,|la défense et la portée !|＠|			//セイバー
@@ -438,7 +438,7 @@ La forme ultime réd. de moitié les coûts de|déploie. et le tps de récup. ap
 D’ailleurs, je pense moi-même à évoluer.|Mais j'ai besoin d'un Chagrume doré.|Peut-être qu’il y en a au sanctuaire ?|＠|D’ailleurs, je pense moi-même à évoluer.|Mais j'ai besoin d'un Chagrume doré.|Peut-être qu’il y en a au sanctuaire ?|			//激・神さま
 ＠|＠|＠|＠|＠|＠|＠|			//灼熱のビーチクウ
 La forme ultime améliore la défense,|et la puissance d’attaque !|Immun. aux effets de téléportation ennemie.|＠|La forme ultime améliore la défense,|et la puissance d’attaque !|Immun. aux effets de téléportation ennemie.|			//時空神クロノス
-＠|＠|＠|＠|＠|＠|＠|			//百江なぎさ
+La forme ultime améliore la puissance|d’attaque ! Peut aussi esquiver|et gagne la capacité brise-barrière !|＠|La forme ultime améliore la puissance|d’attaque ! Peut aussi esquiver|et gagne la capacité brise-barrière !|//ベベ
 ＠|＠|＠|＠|＠|＠|＠|			//黒ダルターニャ
 ＠|＠|＠|＠|＠|＠|＠|			//子連れにゃんこ
 La forme ultime gagne une attaque plus|rapide et assure contre les ennemis|sans caractéristique !|＠|La forme ultime gagne une attaque plus|rapide et assure contre les ennemis|sans caractéristique !|			//戦隊ドリラ
@@ -658,7 +658,7 @@ La forme ultime révèle son aspect final|et gagne Fléau des Béhémoths !|＠
 ＠|＠|＠|＠|＠|＠|＠|			//黒イズ
 La forme ultime révèle son aspect final|et gagne Fléau des Béhémoths !|＠|＠|La forme ultime révèle son aspect final|et gagne Fléau des Béhémoths !|＠|			//古びたタマゴ:N101
 La forme ultime révèle son aspect final|et gagne Fléau des Béhémoths !|＠|＠|La forme ultime révèle son aspect final|et gagne Fléau des Béhémoths !|＠|			//古びたタマゴ:N102
-＠|＠|＠|＠|＠|＠|＠|			//エンペラーズ10体目
+La forme ultime améliore la puissance|la vitesse de déplacement et a plus|de chances d’infliger Frappe sauvage !|＠|La forme ultime améliore la puissance|la vitesse de déplacement et a plus|de chances d’infliger Frappe sauvage !|//海龍ダライアサン
 ＠|＠|＠|＠|＠|＠|＠|			//ブライダルクロノス
 ＠|＠|＠|＠|＠|＠|＠|			//洗脳されしウシネコ
 La forme ultime révèle son aspect final|et gagne Fléau des Béhémoths !|＠|＠|La forme ultime révèle son aspect final|et gagne Fléau des Béhémoths !|＠|			//古びたタマゴ:N103
@@ -776,3 +776,6 @@ La forme ultime révèle son aspect final.|Et gagne Fléau des Béhémoths !|�
 ＠|＠|＠|＠|＠|＠|＠|//ダークヒーローズ11体目召喚
 ＠|＠|＠|＠|＠|＠|＠|//武者ネコ（仮）
 ＠|＠|＠|＠|＠|＠|＠|//クリスマス成田甲斐（仮）
+＠|＠|＠|＠|＠|＠|＠|//779
+＠|＠|＠|＠|＠|＠|＠|//780
+＠|＠|＠|＠|＠|＠|＠|//781

@@ -271,12 +271,12 @@
 %s|||||
 %s|An exiled princess, now royalty of the mean|streets of the big city. Her sad upbringing makes|for a nasty temperament... don't get too close|or you'll be the victim of her tragic sting.|
 %s|Grand Champion of the Problem Child Grand|Prix, terror of kindergarten classrooms every-|where. Maybe Dad let him read the Russian|classics too early? Favorite word = LOVE.|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
+%s
+%s
+%s
+%s
+%s
+%s
 %s|||||
 %s|After years of wandering the wastelands,|his fur and his soul have been blackened|by the corruption of the world. Receives|awards for perfect attendance at work.|
 %s|||||
@@ -427,7 +427,7 @@
 %s|||||
 %s|Made up of the strongest parts from several|expired Teacher Bears. The head wouldn't|sit right, so it had to be bolted on.|Urge to kill seems to be growing...|
 %s|Thanks to a tragic accident with a perm|machine, this piggy both gained a stylish set|of dreadlocks... and became an ex-Bore.|Talk about a sudden image change.|
-%s|仮1|仮2|仮3|仮4|
+%s
 %s|||||
 %s|A dream-eating cutie who wanders around|half-awake. Still wears a diaper, even though |she's fourteen. Don't startle this gentle |sleepwalker, no matter how loud she snores.|
 %s|仮1|仮2|仮3|仮4|
@@ -577,7 +577,7 @@
 %s|||||
 %s|||||
 %s|||||
-%s|仮1|仮2|仮3|仮4|
+%s
 %s|||||
 %s|||||
 %s|||||
@@ -707,5 +707,9 @@
 %s
 %s
 %s
+%s|仮1|仮2|仮3|仮4
+%s|仮1|仮2|仮3|仮4
 %s
 %s
+%s|This scholar's strange hat floods their mind|with forbidden knowledge of the underworld.|Lectures on the deep and thrilling wisdom|of the abyss, leading naive students to doom.
+%s|Teacher banished to the wilds after a scandal|over corporal punishment. Any creature in his|lands will learn the meaning of tough love under |his iron fist. Feared as king of all wild beasts.

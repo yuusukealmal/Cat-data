@@ -491,8 +491,8 @@ serial_txt2	* You can access this after clearing the Japan stage.
 serial_txt3	* You must be logged into the Game Center to receive your gift.
 serial_txt4	* This serial code for an unaccepted gift is now invalid.\nPlease confirm details on the Code Input menu.
 warningtxt1	This app has been restored to original\nsettings - no save data found.
-autoSave_txt1	Inquiry Code\n%@\nThis code is required to recover your data.\nBe sure to keep it safely recorded!
-autoSave_txt2	Inquiry Code: %@
+autoSave_txt1	Inquiry Code\n%@\nThis code is required to recover your data.\nConfirmed at the Title menu or Options menu.
+autoSave_txt2	Inquiry Code: 
 autoSave_txt3	Please record and save your inquiry code!
 autoSave_txt4	Without this information, your progress cannot be recovered if lost.
 autoSave_txt5	Inquiry Code
@@ -1512,3 +1512,9 @@ unlock_popup_message_149	<flash>You've reached ★ Rank 9!</flash><br>Your new r
 unlock_popup_message_150	<flash>You've reached ★ Rank 10!</flash><br>Your new rank is on your Officer's Club Card.<br>Stages that should be clearable at ★ Rank 10<br>are indicated with pink ★s.
 unlock_popup_message_151	<flash>You've reached ★ Rank 11!</flash><br>Your new rank is on your Officer's Club Card.<br>Stages that should be clearable at ★ Rank 11<br>are indicated with pink ★s.
 unlock_popup_message_152	<flash>You've reached ★ Rank 12!</flash><br>Your new rank is on your Officer's Club Card.<br>Stages that should be clearable at ★ Rank 12<br>are indicated with pink ★s.
+autoSave_txt7	Show Code
+item_pack_name_85	Second Helping Sale
+item_pack_name_86	Champion's Sale
+mission_receive_bulk_not_part	<color=255,255,0>Item limit reached.</color><br>Items exceeding the item limit will not be collected.<br>Collect rewards and complete the Mission?
+SpecialRuleExplanation006	【Special Clearance】<br>Units of Special rarity can be deployed<br>at 30% cost with 30% cooldown speed.
+SpecialRuleName006	Special Clearance

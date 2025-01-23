@@ -676,11 +676,11 @@
 9266|Defeat %@ at River City Three-Leg Race<br>(Once at any River City Three-Leg Race stage)
 9267|Defeat %@ at River City Three-Leg Race<br>(Once at any River City Three-Leg Race stage)
 9268|Clear all %d River City Cat Clash Limited  Missions!<br>Stages Cleared: %d of %d
-9269|Defeat the Rose Garden Witch!<br>Find this Witch at the "Witch's Labyrinth: Rose Garden Witch" map!|Check the Special Missions to access<br>Puella Magi Madoka Magica collab challenges!
-9270|Defeat the Dessert Witch!<br>Find this Witch at the "Witch's Labyrinth: Dessert Witch" map!
-9271|Defeat the Box Witch!<br>Find this Witch at the "Witch's Labyrinth: Box Witch" map!
-9272|Defeat the Nutcracker Witch!<br>Find this Witch at the "Witch's Labyrinth: Nutcracker Witch" map!
-9273|Defeat all Witches! Complete all %d Witch missions!<br>Witches Defeated: %d of %d
+9269|Witch Culling Mission 1: Defeat Rose Garden Witch.<br>Appears in the stage Witch's Labyrinth: The Rose Garden Witch.|Madoka Magica Collab Missions<br>added to the Special Missions!
+9270|Witch Culling Mission 2: Defeat Dessert Witch.<br>Appears in the stage Witch's Labyrinth: Dessert Witch.
+9271|Witch Culling Mission 3: Defeat Box Witch.<br>Appears in the stage Witch's Labyrinth - Box Witch.
+9272|Witch Culling Mission 5: Defeat Nutcracker Witch.<br>Appears in the stage Nutcracker Witch.|Madoka Magica Collab Missions<br>added to the Special Missions!
+9273|Defeat all of the Witches.<br>Clear Witch Culling Missions 1-5.
 9274|Upgrade Li'l Madoka to Level 10!<br>(You must evolve the hero before the Puella Magi Madoka Magica collab ends!)
 9275|Upgrade Kyubey Cat to Level 10!<br>(You must evolve the hero before the Puella Magi Madoka Magica collab ends!)
 41|Empress' Research 3: Sorcery's Cost<br>Clear "Demon's Park" and "Wicked Axe"
@@ -984,3 +984,14 @@
 9547||
 9548||
 9549|
+73|Double-tap a Treasure in the Treasure List to jump to that stage.<br>Open the Treasure List from the Cat Base.
+74|Tap an enemy icon on the stage select screen to jump to the<br>Enemy Guide. Tap the name of a cleared stage to show enemies. 
+75|Use Catamin A to restore stage attempts.<br>Use Catamin A on a Legend Stage.
+76|Tap the Cat CPU 2 times and skip a stage.<br>Cleared stages on the stage select screen can be skipped.
+77|Long-tap the Equip button on the stage select screen.<br>Long-tap to re-equip the formation that cleared the stage.
+78|Jump to a stage from the evolution screen.<br>Tap an evolution material after accessing from the Upgrade menu.
+79|Check the Inquiry Code.<br>Tap upper-left of the title screen or lower-left of the Options menu.
+9550|Clear %d Madoka Magica collab stages.<br>All Madoka Magica collab stages count toward the total. (%d of %d)
+9551|Clear %d Madoka Magica collab stages.<br>All Madoka Magica collab stages count toward the total. (%d of %d)
+9552|Clear %d Madoka Magica collab stages.<br>All Madoka Magica collab stages count toward the total. (%d of %d)
+9553|Witch Culling Mission 4: Defeat Stagebuilder Witch.<br>Appears in the stage Walpurgisnacht.|Madoka Magica Collab Missions<br>added to the Special Missions!

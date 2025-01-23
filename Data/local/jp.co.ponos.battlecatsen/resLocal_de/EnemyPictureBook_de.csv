@@ -271,12 +271,12 @@
 %s|||||
 %s|Eine ausgestoßene Prinzessin wurde zur Elite auf den|Straßen der großen Stadt. Ihre schlechte Erziehung ist der|Grund für ihr schlechtes Temperament. Komm ihr nicht zu nahe,|sonst hört sie nicht auf zu sticheln.|
 %s|Großer Champion des Problemkindpokals, Schrecken eines|jeden Kindergartens.|Vielleicht hat Papa ihn die russischen Klassiker zu früh|lesen lassen? Lieblingswort = LIEBE.|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
+%s
+%s
+%s
+%s
+%s
+%s
 %s|||||
 %s|Nach jahrelanger Wanderung durch das Ödland|haben sich sein Pelz und seine Seele von der Korruption der|Welt schwarz gefärbt. Erhält Preise für lückenlose|Anwesenheit am Arbeitsplatz.|
 %s|||||
@@ -427,7 +427,7 @@
 %s|||||
 %s|Wurde aus den stärksten Teilen ausgedienter Lehrerbären|hergestellt. Der Kopf wollte nicht recht passen, also|wurde er festgenietet.|Sein Wunsch zu Töten scheint zu wachsen ...|
 %s|Dieses Schwein wurde durch einen tragischen Unfall mit|einer Haartrockenhaube mit einer schicken Dreadlock-Frisur|gesegnet ... und ist jetzt ein Ex-Ebär.|So schnell kann man sein Image ändern.|
-%s|仮1|仮2|仮3|仮4|
+%s
 %s|||||
 %s|Ein verträumter süßer Fratz, der im Halbschlaf umherwandert.|Sie trägt noch immer eine Windel, obwohl sie schon|vierzehn ist. Stör diese zarte Schlafwandlerin nicht,|egal, wie laut sie auch schnarchen mag.|
 %s|仮1|仮2|仮3|仮4|
@@ -577,7 +577,7 @@
 %s|||||
 %s|||||
 %s|||||
-%s|仮1|仮2|仮3|仮4|
+%s
 %s|||||
 %s|||||
 %s|||||
@@ -707,5 +707,9 @@
 %s
 %s
 %s
+%s|仮1|仮2|仮3|仮4
+%s|仮1|仮2|仮3|仮4
 %s
 %s
+%s|Der seltsame Hut dieses Gelehrten flutet seinen Geist|mit verbotenem Wissen über die Unterwelt.|Lehrt über die tiefe und aufregende Weisheit des Abgrunds|und führt naive Schüler in ihren Untergang.
+%s|Lehrer, der in die Wildnis verbannt wurde, nachdem es|einen Züchtigungsskandal gab. Jede Kreatur in seinen Landen|lernt durch seine Eisenfaust, was „hart aber herzlich“|heißt. Als König aller Wildtiere gefürchtet.

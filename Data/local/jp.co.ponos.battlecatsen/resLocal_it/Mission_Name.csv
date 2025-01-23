@@ -676,11 +676,11 @@
 9266|Defeat %@ at River City Three-Leg Race<br>(Once at any River City Three-Leg Race stage)
 9267|Defeat %@ at River City Three-Leg Race<br>(Once at any River City Three-Leg Race stage)
 9268|Clear all %d River City Cat Clash Limited  Missions!<br>Stages Cleared: %d of %d
-9269|Defeat the Rose Garden Witch!<br>Find this Witch at the "Witch's Labyrinth: Rose Garden Witch" map!|Check the Special Missions to access<br>Puella Magi Madoka Magica collab challenges!
-9270|Defeat the Dessert Witch!<br>Find this Witch at the "Witch's Labyrinth: Dessert Witch" map!
-9271|Defeat the Box Witch!<br>Find this Witch at the "Witch's Labyrinth: Box Witch" map!
-9272|Defeat the Nutcracker Witch!<br>Find this Witch at the "Witch's Labyrinth: Nutcracker Witch" map!
-9273|Defeat all Witches!<br> Complete all %d Witch missions!<br>Witches Defeated: %d of %d
+9269|Witch Culling Mission 1: Defeat Rose Garden Witch.<br>Appears in the stage Witch's Labyrinth: The Rose Garden Witch.|Madoka Magica Collab Missions<br>added to the Special Missions!
+9270|Witch Culling Mission 2: Defeat Dessert Witch.<br>Appears in the stage Witch's Labyrinth: Dessert Witch.
+9271|Witch Culling Mission 3: Defeat Box Witch.<br>Appears in the stage Witch's Labyrinth - Box Witch.
+9272|Witch Culling Mission 5: Defeat Nutcracker Witch.<br>Appears in the stage Nutcracker Witch.|Madoka Magica Collab Missions<br>added to the Special Missions!
+9273|Defeat all of the Witches.<br>Clear Witch Culling Missions 1-5.
 9274|Upgrade Li'l Madoka to Level 10!<br>(You must evolve the hero before the Puella Magi Madoka Magica collab ends!)
 9275|Upgrade Kyubey Cat to Level 10!<br>(You must evolve the hero before the Puella Magi Madoka Magica collab ends!)
 41|Ricerca dell'imperatrice 3: Il prezzo della stregoneria<br>Supera "Parco del demone" e "Ascia malvagia"
@@ -984,3 +984,14 @@
 9547||
 9548||
 9549|
+73|Tocca 2 volte un Tesoro nella Lista per saltare al livello.<br>Apri la Lista tesori dalla Base felina.
+74|Tocca l'icona nemico nella schermata di sel. liv. e apri la<br>Guida ai nemici. Tocca nome liv. sup. per mostrare i nemici.
+75|Usa Vitamiao A per ripristinare i tentativi di un livello.<br>Usa Vitamiao A in un livello leggendario.
+76|Tocca 2 volte Gatto CPU per saltare il livello.<br>I livelli superati nella schermata di selezione livello possono essere saltati.
+77|Tieni premuto il puls. Equipaggia nella schermata sel. liv.<br>Tieni premuto per equip. la form. con cui hai sup. liv.
+78|Salta a un livello dalla schermata di evoluzione.<br>Tocca un materiale evol. dalla schermata dal menu Potenzia.
+79|Controlla il Codice di richiesta.<br>Tocca in alto a sin. menu titolo o in basso a sin. menu Opzioni.
+9550|Clear %d Madoka Magica collab stages.<br>All Madoka Magica collab stages count toward the total. (%d of %d)
+9551|Clear %d Madoka Magica collab stages.<br>All Madoka Magica collab stages count toward the total. (%d of %d)
+9552|Clear %d Madoka Magica collab stages.<br>All Madoka Magica collab stages count toward the total. (%d of %d)
+9553|Witch Culling Mission 4: Defeat Stagebuilder Witch.<br>Appears in the stage Walpurgisnacht.|Madoka Magica Collab Missions<br>added to the Special Missions!

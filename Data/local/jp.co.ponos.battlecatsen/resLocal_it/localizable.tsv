@@ -493,8 +493,8 @@ serial_txt2	*Puoi accedere dopo aver superato il livello giapponese.
 serial_txt3	*Devi avere effettuato l'accesso al Game Center per ricevere il regalo.
 serial_txt4	*Questo codice seriale per un regalo non accettato non è più valido.\nConferma i dettagli nel menu Inserimento Codice.
 warningtxt1	Questa app è stata ripristinata alle impostazioni\noriginali. Nessun dato trovato.
-autoSave_txt1	Codice di richiesta\n%@\nQuesto codice serve a recuperare i tuoi dati.\nAssicurati di conservarlo al sicuro!
-autoSave_txt2	Codice di richiesta:%@
+autoSave_txt1	Codice di richiesta\n%@\nQuesto codice serve a recuperare i tuoi dati.\nConfermato nel menu del titolo o nel menu Opzioni.
+autoSave_txt2	Codice di richiesta:
 autoSave_txt3	Conserva il tuo Codice di richiesta!
 autoSave_txt4	Senza questa informazione, non potrai recuperare i tuoi progressi se li perdi.
 autoSave_txt5	Codice di richiesta
@@ -644,7 +644,7 @@ option_qrcode_title	Il mio codice QR
 option_qrcode_txt1	Questo codice QR può essere usato per eventi speciali.
 option_qrcode_txt2	Non usare questo codice al di fuori dei periodi di evento indicati.
 option_qrcode_txt3	Assicurati che la luminosità dello schermo sia sufficiente per leggere il codice.
-matatabi_growup_1	${itemName} x${Num} seront utilisées pour<br>faire pousser un Chagrume complet.<br>* Chance minime de Chagrume épique !
+matatabi_growup_1	Verranno usati ${Num} ${itemName}<br>per fare un miagrume intero. <br>*Rara prob. di miagrume epico!
 matatabi_growup_2	Verranno usati ${Num} ${itemName}<br>per fare un miagrume intero.
 drop_popup_item	${rewardName}<br><color=255,255,0>Oggetto</color> ${itemName} +${itemNum}<br>${itemPossession}
 drop_popup_xp	${rewardName}:<br>${itemName} +${itemNum}
@@ -1080,7 +1080,7 @@ Invasion_sns	La mia armata felina ha salvato la galassia da una minaccia potenti
 item_pack_name_23	Pack avvio
 item_pack_name_24	Pack avvio super
 item_pack_name_25	Pack avvio ultra
-item_pack_name_26	Offerta campione
+item_pack_name_26	Offerta Campione
 talk_002_push	Psst! Vieni nella Base felina, abbiamo delle novità!
 equipment_unworn	La sfera talento nella rimessa verrà equipaggiata.
 equipment_confirm	Equipaggiare "${characterName}"<br>con "${equipmentName}"?<br>${faultMessage}
@@ -1479,7 +1479,7 @@ unlock_popup_message_140	<flash>Ricompensa livello!</flash><br>Forma Reale per<b
 cert_tutorial1	<color=255,255,0>Livelli con formazione fissa</color><br>Scopri livelli con unità, impostazioni<br>cannone felino e tesori preimpostati. Premi il<br>pulsante sotto per controllare le tue unità!
 cert_tutorial2	Guarda un suggerimento prima dell'inizio della battaglia<br>nei livelli con formazioni fisse!<br>Tocca il pulsante del livello per vederlo!
 cert_tutorial3	Premi l'icona per vedere altre informazioni!<br>Puoi controllare i nemici, le ricompense uniche<br>e altre informazioni importanti!
-fixed_formation_popup	Questo livello ha una formazione fissa.<br>La formazione non può essere modificata.<br>※Puoi vedere i dettagli dal menu di pausa.
+fixed_formation_popup	Questo livello ha una formazione fissa.<br>La formazione non può essere modificata.<br>*Vedi i dettagli dal menu di pausa.
 fixed_formation_slot_name	Fissa
 hint_popup000	<color=0,0,0>Ci sono molti tipi di nemici, tra cui<br>nemici rossi, neri, e alieni.<br>Contro i nemici rossi, <color=0,0,255>Gatto ascia,<color=0,0,0> e<br><color=0,0,255>Pescegatto<color=0,0,0> sono efficaci.</color>
 hint_popup001	<color=0,0,0>Per l'attaccante a distanza <color=0,0,255>Professor Orso<color=0,0,0>,<br>usa unità a distanza come <color=0,0,255>Lucertogatto<color=0,0,0>.<br>Per attaccanti potenti come <color=0,0,255>Eleboin<color=0,0,0>,<br>unità forti come <color=0,0,255>Gatto Titano<color=0,0,0> sono la scelta giusta.<br>Sfrutta la forza di un'unità Gatto per vincere!</color>
@@ -1506,3 +1506,9 @@ unlock_popup_message_149	<flash>Hai raggiunto il ★ Grado 9!</flash><br>Il tuo 
 unlock_popup_message_150	<flash>Hai raggiunto il ★ Grado 10!</flash><br>Il tuo nuovo Grado è sulla tua tessera Club Ufficiali.<br>I livelli che possono essere superati al Grado 10<br>sono segnati con una o più ★ rosa.
 unlock_popup_message_151	<flash>Hai raggiunto il ★ Grado 11!</flash><br>Il tuo nuovo Grado è sulla tua tessera Club Ufficiali.<br>I livelli che possono essere superati al Grado 11<br>sono segnati con una o più ★ rosa.
 unlock_popup_message_152	<flash>Hai raggiunto il ★ Grado 12!</flash><br>Il tuo nuovo Grado è sulla tua tessera Club Ufficiali.<br>I livelli che possono essere superati al Grado 12<br>sono segnati con una o più ★ rosa.
+autoSave_txt7	Mostra codice
+item_pack_name_85	Offerta Bis da campioni
+item_pack_name_86	Offerta Campione
+mission_receive_bulk_not_part	<color=255,255,0>Limite oggetti raggiunto.</color><br>Gli oggetti che superano il limite non verranno raccolti.<br>Riscuotere le ricompense e completare la missione?
+SpecialRuleExplanation006	【Schieramento speciale】<br>Le unità di rarità speciale possono essere schierate<br>al 30% del costo con il 30% del tempo di ricarica.
+SpecialRuleName006	Schieramento speciale

@@ -493,8 +493,8 @@ serial_txt2	* Accessible après avoir terminé le Japon.
 serial_txt3	* Connexion à Game Center nécessaire pour recevoir le cadeau.
 serial_txt4	* Ce code de série pour un cadeau non récupéré n’est plus valide.\nConfirme les détails dans le menu de saisie du code.
 warningtxt1	Cette appli a été réinitialisée avec ses paramètres d’origine.\nDonnées sauvegardées introuvables.
-autoSave_txt1	Code de sauvegarde\n%@\nCe code est requis pour récupérer tes données.\nAssure-toi de le conserver quelque part !
-autoSave_txt2	Code de sauvegarde : %@
+autoSave_txt1	Code de sauvegarde\n%@\nCe code est nécessaire pour récupérer tes données.\nConfirmé à l’écran titre ou dans le menu Paramètres.
+autoSave_txt2	Code de sauvegarde : 
 autoSave_txt3	Note ton code de sauvegarde quelque part !
 autoSave_txt4	Sans ce code, ta progression sera définitivement perdue.
 autoSave_txt5	Code de sauvegarde
@@ -1479,7 +1479,7 @@ unlock_popup_message_140	<flash>Bonus de fin de niveau !</flash><br>Forme ultim
 cert_tutorial1	<color=255,255,0>Niveaux avec formations fixes</color><br>Comprend des niveaux avec des unités, des Chanons<br>et des trésors prédéfinis.<br>Touche le bouton ci-dessous pour consulter tes unités !
 cert_tutorial2	Affiche un conseil avant la bataille<br>pour les niveaux avec formations fixes !<br>Touche le bouton du niveau pour le voir !
 cert_tutorial3	Touche l'icône pour afficher plus d'infos !<br>Consulte les ennemis, les récompenses<br>uniques et autres infos importantes !
-fixed_formation_popup	Ce niveau a une formation fixe.<br>La formation ne peut pas être modifiée.<br>*Plus de détails depuis le menu Pause de la bataille.
+fixed_formation_popup	Ce niveau a une formation fixe.<br>La formation ne peut être modifiée.<br>* Détails dans le menu Pause de la bataille.
 fixed_formation_slot_name	Fixe
 hint_popup000	<color=0,0,0>Il existe plusieurs types d'ennemis,<br>notamment les rouges, noirs et aliens.<br>Concernant les rouges, <color=0,0,255>Chat borgne<color=0,0,0> et<br><color=0,0,255>Chat poisson<color=0,0,0> sont efficaces.</color>
 hint_popup001	<color=0,0,0>Pour les attaques à longue portée de <color=0,0,255>Professeur Ours<color=0,0,0>,<br>utilise des unités à longue portée comme <color=0,0,255>Chat lézard<color=0,0,0>.<br>Pour les puissants assaillants comme <color=0,0,255>Élèfe<color=0,0,0>,<br>des unités robustes comme <color=0,0,255>Chat titan<color=0,0,0> sont la solution.<br>Tire parti des atouts d'une unité féline pour gagner !</color>
@@ -1506,3 +1506,9 @@ unlock_popup_message_149	<flash>Tu as atteint le ★ rang 9 !</flash><br>Ton n
 unlock_popup_message_150	<flash>Tu as atteint le ★ rang 10 !</flash><br>Ton nouveau rang figure sur ta carte Club des officiers.<br>Les niveaux accessibles au rang 10<br>sont indiqués par des ★ roses.
 unlock_popup_message_151	<flash>Tu as atteint le ★ rang 11 !</flash><br>Ton nouveau rang figure sur ta carte Club des officiers.<br>Les niveaux accessibles au rang 11<br>sont indiqués par des ★ roses.
 unlock_popup_message_152	<flash>Tu as atteint le ★ rang 12 !</flash><br>Ton nouveau rang figure sur ta carte Club des officiers.<br>Les niveaux accessibles au rang 12<br>sont indiqués par des ★ roses.
+autoSave_txt7	Afficher le code
+item_pack_name_85	Rabe de soldes
+item_pack_name_86	Promo du vainqueur
+mission_receive_bulk_not_part	<color=255,255,0>Limite d’objets atteinte.</color><br>Les objets dépassant la limite ne seront pas récupérés.<br>Obtenir les récompenses et terminer la mission ?
+SpecialRuleExplanation006	【Promotion spéciale】<br>Les unités de rareté spéciale peuvent être déployées<br>à 30 % du coût avec 30 % de vitesse de récupération.
+SpecialRuleName006	Promotion spéciale

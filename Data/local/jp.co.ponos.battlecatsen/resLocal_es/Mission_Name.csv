@@ -676,11 +676,11 @@
 9266|Defeat %@ at River City Three-Leg Race<br>(Once at any River City Three-Leg Race stage)
 9267|Defeat %@ at River City Three-Leg Race<br>(Once at any River City Three-Leg Race stage)
 9268|Clear all %d River City Cat Clash Limited  Missions!<br>Stages Cleared: %d of %d
-9269|Defeat the Rose Garden Witch!<br>Find this Witch at the "Witch's Labyrinth: Rose Garden Witch" map!|Check the Special Missions to access<br>Puella Magi Madoka Magica collab challenges!
-9270|Defeat the Dessert Witch!<br>Find this Witch at the "Witch's Labyrinth: Dessert Witch" map!
-9271|Defeat the Box Witch!<br>Find this Witch at the "Witch's Labyrinth: Box Witch" map!
-9272|Defeat the Nutcracker Witch!<br>Find this Witch at the "Witch's Labyrinth: Nutcracker Witch" map!
-9273|Defeat all Witches!<br> Complete all %d Witch missions!<br>Witches Defeated: %d of %d
+9269|Witch Culling Mission 1: Defeat Rose Garden Witch.<br>Appears in the stage Witch's Labyrinth: The Rose Garden Witch.|Madoka Magica Collab Missions<br>added to the Special Missions!
+9270|Witch Culling Mission 2: Defeat Dessert Witch.<br>Appears in the stage Witch's Labyrinth: Dessert Witch.
+9271|Witch Culling Mission 3: Defeat Box Witch.<br>Appears in the stage Witch's Labyrinth - Box Witch.
+9272|Witch Culling Mission 5: Defeat Nutcracker Witch.<br>Appears in the stage Nutcracker Witch.|Madoka Magica Collab Missions<br>added to the Special Missions!
+9273|Defeat all of the Witches.<br>Clear Witch Culling Missions 1-5.
 9274|Upgrade Li'l Madoka to Level 10!<br>(You must evolve the hero before the Puella Magi Madoka Magica collab ends!)
 9275|Upgrade Kyubey Cat to Level 10!<br>(You must evolve the hero before the Puella Magi Madoka Magica collab ends!)
 41|Investigación de la Emperatriz 3: Coste de brujería.<br>Supera Parque Demoníaco y Liberación de los Gatos.
@@ -984,3 +984,14 @@
 9547||
 9548||
 9549|
+73|Toca dos veces un tesoro en la lista para ir a esa fase.<br>Abre la lista de tesoros desde la base gatuna.
+74|Toca el icono de un enemigo en la selección de fases para ir<br>al bestiario. Toca fase superada para ver los enemigos.
+75|Usa gatamina [A] para restaurar los intentos.<br>Usa gatamina [A] en una Etapa de Leyenda.
+76|Toca dos veces el gatomático y omite una fase.<br>Puedes omitir fases superadas en la pantalla de selección.
+77|Mantén pulsado «Equipo» en la pantalla de seleción.<br>Mantén pulsado para usar la formación de tu última victoria.
+78|Ve a una fase desde la pantalla de mutación.<br>Toca un material de mutación tras acceder desde «Mejorar».
+79|Mira el identificador. Toca la esquina superior izquierda en<br>pantalla de título o inferior izquierda en «Ajustes».
+9550|Clear %d Madoka Magica collab stages.<br>All Madoka Magica collab stages count toward the total. (%d of %d)
+9551|Clear %d Madoka Magica collab stages.<br>All Madoka Magica collab stages count toward the total. (%d of %d)
+9552|Clear %d Madoka Magica collab stages.<br>All Madoka Magica collab stages count toward the total. (%d of %d)
+9553|Witch Culling Mission 4: Defeat Stagebuilder Witch.<br>Appears in the stage Walpurgisnacht.|Madoka Magica Collab Missions<br>added to the Special Missions!

@@ -92,6 +92,45 @@
         }
       }
     },
+    "36006": {
+      "ContentsType": 0,
+      "RuleNameLabel": "SpecialRuleName001",
+      "RuleExplanationLabel": "SpecialRuleExplanation001",
+      "RuleType": {
+        "1": {
+          "Parameters": [
+            500
+          ]
+        }
+      }
+    },
+    "36007": {
+      "ContentsType": 0,
+      "RuleNameLabel": "SpecialRuleName006",
+      "RuleExplanationLabel": "SpecialRuleExplanation006",
+      "RuleType": {
+        "5": {
+          "Parameters": [
+            100,
+            30,
+            100,
+            100,
+            100,
+            100
+          ]
+        },
+        "6": {
+          "Parameters": [
+            100,
+            30,
+            100,
+            100,
+            100,
+            100
+          ]
+        }
+      }
+    },
     "1385": {
       "ContentsType": 1,
       "RuleType": {

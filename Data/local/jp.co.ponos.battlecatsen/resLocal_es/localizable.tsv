@@ -493,8 +493,8 @@ serial_txt2	* Podrás acceder tras superar la fase de Japón.
 serial_txt3	* Debes haber iniciado sesión en Game Center para recibir tu regalo.
 serial_txt4	* Este código de regalo ya no es válido.\nComprueba la información en el menú de introducción del código.
 warningtxt1	Se han restaurado los ajustes de la aplicación.\nNo se han encontrado datos de guardado.
-autoSave_txt1	Identificador:\n%@\nNecesitarás este código para recuperar tus datos.\n¡No lo pierdas!
-autoSave_txt2	Identificador: %@
+autoSave_txt1	Identificador\n%@\nSe requiere este identificador para recuperar tus datos.\nLo verás en la pantalla de título o en el menú de ajustes.
+autoSave_txt2	Identificador: 
 autoSave_txt3	¡Anota tu identificador y guárdalo!
 autoSave_txt4	Sin esta información, no podrás recuperar tu progreso en caso de que lo pierdas.
 autoSave_txt5	Identificador
@@ -1479,7 +1479,7 @@ unlock_popup_message_140	<flash>¡Bonus por superar la fase!</flash><br>Forma fi
 cert_tutorial1	<color=255,255,0>Las fases de formación fija</color><br>incluyen unidades preestablecidas, ajustes de la<br>gatorreta y tesoros. ¡Toca el<br>botón de abajo para ver tus unidades!
 cert_tutorial2	¡Consulta los consejos antes de comenzar una batalla<br>con fases de formaciones fijas!<br>¡Toca el botón de la fase para verlos!
 cert_tutorial3	¡Toca el icono para saber más!<br>¡Puedes ver los enemigos, los premios<br>y otros detalles importantes!
-fixed_formation_popup	Esta fase tiene una formación fija.<br>La formación no se puede cambiar.<br>※Puedes ver los detalles en el menú de pausa.
+fixed_formation_popup	Esta fase tiene una formación fija.<br>La formación no se puede cambiar.<br>*Ve los detalles en el menú de pausa.
 fixed_formation_slot_name	Fija
 hint_popup000	<color=0,0,0>Hay muchos tipos de enemigos, desde<br>los rojos y los negros hasta los álienes.<br>Si quieres combatir a los enemigos rojos, el <color=0,0,255>Gato Hachero<color=0,0,0> y el<br><color=0,0,255>Piscigato<color=0,0,0>les darán leña.</color>
 hint_popup001	<color=0,0,0>Para combatir al tirador de largo alcance <color=0,0,255>Profeoso,<color=0,0,0><br>usa unidades de largo alcance como el <color=0,0,255>Gato Lagarto<color=0,0,0>.<br>Para combatir enemigos muy fuertes como <color=0,0,255>L'Fante<color=0,0,0>,<br>usar unidades potentes como el <color=0,0,255>Gato Titán<color=0,0,0> da buen resultado.<br>¡Aprovecha los puntos fuertes de una unidad felina para ganar!</color>
@@ -1506,3 +1506,9 @@ unlock_popup_message_149	<flash>¡Has alcanzado la ★ de Rango 9!</flash><br>Tu
 unlock_popup_message_150	<flash>¡Has alcanzado la ★ de Rango 10!</flash><br>Tu nuevo rango se ha registrado en tu tarjeta del Club de Oficiales.<br>Las fases que puedes superar en el Rango 10<br>están marcadas con ★ rosas.
 unlock_popup_message_151	<flash>¡Has alcanzado la ★ de Rango 11!</flash><br>Tu nuevo rango se ha registrado en tu tarjeta del Club de Oficiales.<br>Las fases que puedes superar en el Rango 11<br>están marcadas con ★ rosas.
 unlock_popup_message_152	<flash>¡Has alcanzado la ★ de Rango 12!</flash><br>Tu nuevo rango se ha registrado en tu tarjeta del Club de Oficiales.<br>Las fases que puedes superar en el Rango 12<br>están marcadas con ★ rosas.
+autoSave_txt7	Mostrar código
+item_pack_name_85	Mercadillo de campeones
+item_pack_name_86	Oferta de campeones
+mission_receive_bulk_not_part	<color=255,255,0>Límite de objetos alcanzado.</color><br>No podrán recogerse los objetos que superen el límite de objetos.<br>¿Recoger los premios y completar la misión?
+SpecialRuleExplanation006	【Compensación】<br>Las unidades de rareza especial pueden desplegarse<br>al 30 % del coste con el 30 % de tiempo de espera.
+SpecialRuleName006	Compensación

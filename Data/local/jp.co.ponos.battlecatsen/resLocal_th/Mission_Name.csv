@@ -676,11 +676,11 @@
 9266|Defeat %@ at River City Three-Leg Race<br>(Once at any River City Three-Leg Race stage)
 9267|Defeat %@ at River City Three-Leg Race<br>(Once at any River City Three-Leg Race stage)
 9268|Clear all %d River City Cat Clash Limited  Missions!<br>Stages Cleared: %d of %d
-9269|Defeat the Rose Garden Witch!<br>Find this Witch at the "Witch's Labyrinth: Rose Garden Witch" map!|Check the Special Missions to access<br>Puella Magi Madoka Magica collab challenges!
-9270|Defeat the Dessert Witch!<br>Find this Witch at the "Witch's Labyrinth: Dessert Witch" map!
-9271|Defeat the Box Witch!<br>Find this Witch at the "Witch's Labyrinth: Box Witch" map!
-9272|Defeat the Nutcracker Witch!<br>Find this Witch at the "Witch's Labyrinth: Nutcracker Witch" map!
-9273|Defeat all Witches! Complete all %d Witch missions!<br>Witches Defeated: %d of %d
+9269|Witch Culling Mission 1: Defeat Rose Garden Witch.<br>Appears in the stage Witch's Labyrinth: The Rose Garden Witch.|Madoka Magica Collab Missions<br>added to the Special Missions!
+9270|Witch Culling Mission 2: Defeat Dessert Witch.<br>Appears in the stage Witch's Labyrinth: Dessert Witch.
+9271|Witch Culling Mission 3: Defeat Box Witch.<br>Appears in the stage Witch's Labyrinth - Box Witch.
+9272|Witch Culling Mission 5: Defeat Nutcracker Witch.<br>Appears in the stage Nutcracker Witch.|Madoka Magica Collab Missions<br>added to the Special Missions!
+9273|Defeat all of the Witches.<br>Clear Witch Culling Missions 1-5.
 9274|Upgrade Li'l Madoka to Level 10!<br>(You must evolve the hero before the Puella Magi Madoka Magica collab ends!)
 9275|Upgrade Kyubey Cat to Level 10!<br>(You must evolve the hero before the Puella Magi Madoka Magica collab ends!)
 41|การวิจัยของจักรพรรดินี 3: ราคาของแม่มด<br>เคลียร์ "สวนปีศาจ" และ "ความชั่วร้าย"
@@ -984,3 +984,14 @@
 9547||
 9548||
 9549|
+73|แตะสองครั้งที่สมบัติในรายการสมบัติเพื่อไปด่านนั้น<br>เปิดรายการสมบัติได้จากฐานทัพแมว
+74|แตะไอคอนศัตรูที่หน้าเลือกด่านเพื่อไปที่คู่มือศัตรู<br>แตะชื่อด่านที่เคลียร์แล้วเพื่อดูศัตรู
+75|ใช้วิตาเมี้ยว A เพื่อเติมจำนวนครั้งที่เข้าเล่นได้<br>ใช้วิตาเมี้ยว A กับด่านตำนาน
+76|แตะที่แมวซีพียู 2 ครั้งเพื่อข้ามด่าน<br>ข้ามด่านที่เคลียร์แล้วได้ที่หน้าเลือกด่าน
+77|แตะปุ่มติดตั้งที่หน้าเลือกด่านค้างไว้<br>แตะค้างเพื่อติดตั้งกระบวนทัพที่เคยเคลียร์ด่านได้อีกครั้ง
+78|ไปที่ด่านได้จากหน้าการวิวัฒน์<br>แตะที่วัสดุวิวัฒน์หลังจากเข้าเมนูอัปเกรด
+79|ไปที่รหัสสอบถาม<br>แตะที่มุมซ้ายบนของหน้าจอแรกหรือมุมซ้ายล่างของเมนูการตั้งค่า
+9550|Clear %d Madoka Magica collab stages.<br>All Madoka Magica collab stages count toward the total. (%d of %d)
+9551|Clear %d Madoka Magica collab stages.<br>All Madoka Magica collab stages count toward the total. (%d of %d)
+9552|Clear %d Madoka Magica collab stages.<br>All Madoka Magica collab stages count toward the total. (%d of %d)
+9553|Witch Culling Mission 4: Defeat Stagebuilder Witch.<br>Appears in the stage Walpurgisnacht.|Madoka Magica Collab Missions<br>added to the Special Missions!

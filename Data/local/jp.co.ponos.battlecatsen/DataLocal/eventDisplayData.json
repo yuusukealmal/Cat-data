@@ -36,6 +36,8 @@
       "NekoBageImg": "C_029"
     },
     "2173": {
+      "eventWeight": 1,
+      "priority": 2,
       "FusumaSE": [
         -1
       ],
@@ -1157,6 +1159,20 @@
       "BannerImgIMGCUT": "event_bnr00.imgcut",
       "PercentBanner": 50,
       "NekoBageImg": "C_216"
+    },
+    "2174": {
+      "eventWeight": 1,
+      "priority": 2,
+      "FusumaSE": [
+        -1
+      ],
+      "FusumaOpenOffsetX": 0,
+      "FusumaOpenOffsetY": 458,
+      "FusumaImgPNG": "img009_C_031.png",
+      "FusumaImgIMGCUT": "img009_Event00.imgcut",
+      "TitleImgBG": "_C_031",
+      "TitleImgLogo": "_C_031",
+      "PercentTitle": 50
     }
   }
 }

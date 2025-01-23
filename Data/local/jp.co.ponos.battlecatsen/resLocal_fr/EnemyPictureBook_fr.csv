@@ -271,12 +271,12 @@
 %s|||||
 %s|Une princesse en exil qui règne désormais sur les rues|malfamées de la ville. Son éducation tumultueuse a fait|d’elle une mauvaise tête. Ne t’approche pas trop près d’elle|ou tu seras victime de son dard fatal.|
 %s|Vainqueur du Grand Prix d’Enfant terrible, terreur de l’école|maternelle. Son père lui a peut-être fait lire|les classiques russes un peu trop jeune...|Son mot préféré : amour.|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
-%s|仮1|仮2|仮3|仮4|
+%s
+%s
+%s
+%s
+%s
+%s
 %s|||||
 %s|Après des années à errer dans le désert,|sa fourrure et son âme ont été assombries par|la corruption de ce monde. A été récompensé|pour sa ponctualité au travail.|
 %s|||||
@@ -427,7 +427,7 @@
 %s|||||
 %s|Se compose des parties les plus robustes d’anciens|Professeurs Ours disparus. La tête ne tenait pas bien,|alors elle a dû être fixée par un boulon.|Ses pulsions destructrices sont de plus en plus vives...|
 %s|À la suite d’un malheureux accident avec un fer à friser,|ce cochon a hérité de dreadlocks sophistiquées...|et n’est plus un Sangrillé.|Ça, c’est une métamorphose !|
-%s|仮1|仮2|仮3|仮4|
+%s
 %s|||||
 %s|Une créature qui se nourrit des rêves dans un état|de demi-sommeil. Elle porte encore une couche à 14 ans !|Ne jamais réveiller cette somnambule,|même si elle ronfle très fort !|
 %s|仮1|仮2|仮3|仮4|
@@ -577,7 +577,7 @@
 %s|||||
 %s|||||
 %s|||||
-%s|仮1|仮2|仮3|仮4|
+%s
 %s|||||
 %s|||||
 %s|||||
@@ -707,5 +707,9 @@
 %s
 %s
 %s
+%s|仮1|仮2|仮3|仮4
+%s|仮1|仮2|仮3|仮4
 %s
 %s
+%s|L’étrange chapeau de ce lettré envahit l’esprit|d’un savoir interdit issu de l’au-delà.|Ses sermons sur la sagesse profonde et palpitante|de l’abîme conduisent ses élèves naïfs à leur perte.
+%s|Enseignant banni dans la nature après un scandale|lié au châtiment corporel. Toute créature dans ses|terres apprendra ce que signifie l’amour vache sous|sa poigne de fer. Roi redouté des bêtes sauvages.
