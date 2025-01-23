@@ -171,8 +171,14 @@ class SERVER:
                 with open(f"./assets{index}.zip", "ab") as f:
                     f.write(chunk)
         item = ITEM(os.path.abspath(f"./assets{index}.zip"), self.cc)
-        if not item.check():
-            item.parse()
+        
+        fp = os.path.join(os.getcwd(), "server.json")
+        with open(fp, "r") as f:
+            j = json.load(f)
+            j[self.cc.upper()][f"assets{index}.zip"] = self.tsvs[index]
+            with open(fp, "w") as f:
+                json.dump(j, f, indent=4)
+        item.parse()
         os.remove(f"./assets{index}.zip")
         del item
 
@@ -188,23 +194,6 @@ class ITEM:
         self.LIST_KEY = env.LIST.value
         self.PACK_KEY = env.PACK.value
         self.PACK_AES = self.get_PACK_aes()
-        
-    def check(self):
-        hash = self.get_hash(self.zip)
-        fp = os.path.join(os.getcwd(), "server.json")
-        
-        with open(fp, "r") as f:
-            j = json.load(f)
-
-        file = os.path.basename(self.zip)
-
-        if file not in j[self.cc.upper()] or j[self.cc.upper()][file] != hash:
-            j[self.cc.upper()][file] = hash
-            with open(fp, "w") as f:
-                json.dump(j, f, indent=4)
-            return False
-
-        return True
 
     def get_package_name(self):
         return "jp.co.ponos.battlecats{}".format(self.cc)
