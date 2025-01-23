@@ -1,4 +1,4 @@
-import sys, os, zipfile, time, json
+import sys, os, zipfile, time, json, csv
 import struct, hashlib
 from enum import Enum
 from .funcs import check
@@ -64,6 +64,7 @@ class SERVER:
         self.cc = cc
         self.lib = self.get_lib_file()
         self.versions = LIB(self.lib, self.cc).get_versions()
+        self.tsvs = self.read_tsv()
         if self.cc == "en":
             self.region = self.get_region()
         self.package = self.get_package_name()
@@ -99,6 +100,28 @@ class SERVER:
                     counts[regoin] += 1
         os.remove(_path)
         return counts
+
+    def read_tsv(self):
+        _path = None
+        hashmap = []
+        with zipfile.ZipFile(self.file, "r") as zip:
+            _path = zip.extract(f"InstallPack.apk")
+        with zipfile.ZipFile(_path, "r") as zip:
+            tsvs = [name for name in zip.namelist() if name.startswith("assets/download") and name.endswith(".tsv")]
+            if self.cc == "en":
+                region = ["", "fr", "it", "de", "es", "th"]
+                sort = sorted(tsvs, key=lambda x: (region.index(x.split('_')[0].split("download")[1]), int(x.split('_')[-1].split('.')[0])))
+            else:
+                sort = sorted(tsvs, key=lambda x: int(x.split('_')[-1].split('.')[0]))
+            for name in sort:
+                with zip.open(name) as file:
+                    file = file.read().decode('utf-8-sig')
+                    f = csv.reader(file.splitlines(), delimiter="\t", quotechar="\"")
+                    for r in f:
+                        hashmap.append(r[2])
+                        break
+        os.remove(_path)
+        return hashmap
 
     def get_package_name(self):
         return "jp.co.ponos.battlecats{}".format(self.cc)
@@ -275,6 +298,10 @@ def server(apk: str=None, xapk: str=None):
         pass
 
 def process(pkg: SERVER):
+    with open(os.path.join(os.getcwd(), "server.json"), "r") as f:
+        j = json.load(f)
     for i in range(len(pkg.versions)):
-        pkg.download_zip(i)
+        if j[pkg.cc.upper()][f"assets{i}.zip"]!=pkg.tsvs[i]:
+            print(f"different {i}")
+            pkg.download_zip(i)
         time.sleep(5)
