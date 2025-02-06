@@ -200,6 +200,20 @@
           ]
         }
       }
+    },
+    "36008": {
+      "ContentsType": 0,
+      "RuleNameLabel": "SpecialRuleName007",
+      "RuleExplanationLabel": "SpecialRuleExplanation007",
+      "RuleType": {
+        "8": {
+          "Parameters": [
+            16,
+            1,
+            60
+          ]
+        }
+      }
     }
   }
 }

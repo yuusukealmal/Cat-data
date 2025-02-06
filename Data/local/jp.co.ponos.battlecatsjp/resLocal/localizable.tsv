@@ -390,6 +390,7 @@ stage_shortcut_not_found	<color=255,255,0>まだ解放されていないステ�
 stage_shortcut_out_of_term	<color=255,255,0>現在開催しているステージがないため<br>ステージへ移動できません</color>
 stage_shortcut_no_interval_times	<color=255,255,0>クリア可能回数が0回のため<br>ステージへ移動できません</color>
 gamatoto_shortcut	ガマトト探検隊画面に移動しますか？
+gamatoto_shortcut_error	<color=255,255,0>まだ解放されていないため移動できません<br>ガマトト探検隊を解放するには<br>日本編1章の滋賀県をクリアする必要があります</color>
 mission_txt	ミッション${missionNum}個達成！
 everyplay_mapname_E	EXステージ
 everyplay_mapname_N	レジェンドストーリー
@@ -799,6 +800,7 @@ potential_skill_name63	超生命体特効
 potential_skill_name64	超獣特効
 potential_skill_name65	小烈波
 potential_skill_name66	超賢者特効
+potential_skill_name67	爆波攻撃
 return_stageselect_error00	このイベント期間が終了しました！<br>ネコ基地に戻ります！
 return_stageselect_error01	このイベントはこれ以上挑戦できません！<br>ネコ基地に戻ります！
 return_stageselect_error02	未受取の報酬があります！<br>ネコ基地へ移動します！
@@ -847,6 +849,7 @@ slot_SNS_002	#にゃんこスロット でネコカン%d個ゲットしたにゃ
 slot_SNS_003	#にゃんこスロット でネコカン%d個ゲットしたにゃ！<br><br>#にゃんこ大戦争 #10と1_2周年
 slot_SNS_004	#にゃんこスロット でネコカン%d個ゲットしたにゃ！<br><br>#にゃんこ大戦争 #11と1_2周年 #わんわんアニバーサリー
 slot_SNS_005	#にゃんこスロットⅡ でネコカン%d個ゲットしたにゃ！<br><br>#にゃんこ大戦争 #12周年
+slot_SNS_006	#にゃんこスロットⅡ でネコカン%d個ゲットしたにゃ！<br><br>#にゃんこ大戦争
 medal_txt1	%s獲得！
 medal_txt2	メダル%d個獲得！
 medal_unknown	「？？？」<br>？？？
@@ -1080,6 +1083,8 @@ unlock_popup_message_149	<flash>にゃんこ道検定 ★9段認定！</flash><b
 unlock_popup_message_150	<flash>にゃんこ道検定 ★10段認定！</flash><br>にゃんこクラブの会員カードに記録されます<br>10段の実力でクリアできそうなステージは<br>難易度★がピンク色に変わります
 unlock_popup_message_151	<flash>にゃんこ道検定 ★11段認定！</flash><br>にゃんこクラブの会員カードに記録されます<br>11段の実力でクリアできそうなステージは<br>難易度★がピンク色に変わります
 unlock_popup_message_152	<flash>にゃんこ道検定 ★12段認定！</flash><br>にゃんこクラブの会員カードに記録されます<br>12段の実力でクリアできそうなステージは<br>難易度★がピンク色に変わります
+unlock_popup_message_153	<flash>「ネコヴァルキリー・聖」の本能が解放！</flash><br>試練を乗り越えて新たな力に目覚めました<br>第3形態に進化してLv30到達後、<br>パワーアップ画面から能力を解放/強化できます
+unlock_popup_message_154	<flash>「覚醒のネコムート」の本能が解放！</flash><br>試練を乗り越えて新たな力に目覚めました<br>第3形態に進化してLv30到達後、<br>パワーアップ画面から能力を解放/強化できます
 drop_info_single	<color=0,0,0>このステージで<br>1回だけドロップする報酬</color><br><color=255,0,0>${dropContents}</color><color=0,0,0>は<br>${statusWord}</color>
 drop_info_multi	<color=0,0,0>このステージで<br>1回だけドロップする報酬</color><br><color=255,0,0>${dropContents}</color><color=0,0,0>等は<br>${statusWord}</color>
 drop_contents1	${itemName}+${itemNum}
@@ -1148,6 +1153,8 @@ item_pack_name_82	伝説の罠パック 購入
 item_pack_name_83	ランク300達成セール 購入
 item_pack_name_85	おかわりプレミアムセール
 item_pack_name_86	限定復活プレミアムセール
+item_pack_name_87	1億DL記念チケットセット 購入
+item_pack_name_88	限定キャラクター「チョコサプネコC」購入
 ScatCPU_info1	${itemName1}を<flash>${itemNum1}個</flash>使用して<br>戦闘スキップを開始しますか？<br>（本日のスキップ可能回数残り ${itemNum2}回）
 ScatCPU_info2	<flash>ニャンピュータ使い放題中はニャンピュータの消費なし！</flash><br>戦闘スキップを開始しますか？<br>（本日のスキップ可能回数残り ${itemNum}回）
 ScatCPU_XPdrop	<color=255,255,0>完全勝利!!</color><br>ステージクリア経験値<flash>ゲット！！</flash><br>「${itemName}+${itemNum}」
@@ -1172,6 +1179,7 @@ SpecialRuleName003	ワンコイン
 SpecialRuleName004	特売セール　激レア
 SpecialRuleName005	生産キャラ数制限
 SpecialRuleName006	超特売セール　EX
+SpecialRuleName007	プラスワン 超激レア
 SpecialRuleExplanation000	【おこづかい制】<br>最初にお金をたくさんもらえます<br>ただし、時間経過や敵の撃破などで<br>所持金が増えることはありません
 SpecialRuleExplanation001	【生産スピード統一】<br>すべての味方キャラクターの<br>生産スピードが同じになり固定されます
 SpecialRuleExplanation002	【レア度代表戦】<br>各レア度ごとに1体ずつしか生産できません<br>編成は自由に行う事ができます
@@ -1179,6 +1187,7 @@ SpecialRuleExplanation003	【ワンコイン】<br>すべての味方キャラ�
 SpecialRuleExplanation004	【特売セール　激レア】 <br>レア度：激レアの味方キャラクターの生産コストが<br>半分になり生産スピードが倍になります
 SpecialRuleExplanation005	【生産キャラ数制限】<br>１回の戦闘で生産できるキャラ数が<br>60体までになります
 SpecialRuleExplanation006	【超特売セール　EX】<br>レア度：EXの味方キャラクターの生産コストと<br>生産スピードが70％OFFになります
+SpecialRuleExplanation007	【プラスワン 超激レア】 <br>レア度：超激レアのキャラクター生産時<br>出現数が2体になります
 Account_iOS13_error	iOS 13未満の方はAppleでサインインがご利用頂けません
 treasure_get	ダブルタップでゲットできるステージへ移動します
 treasure_geterror	ステージが解放されていないため移動できません
@@ -1227,3 +1236,5 @@ hint_popup005	<color=0,0,0>敵城を攻撃するまで<br>ボスが出てこな�
 hint_popup006	<color=0,0,0>特定の属性の敵に対して<br><color=0,0,255>動きを止める、遅くする<color=0,0,0>などの<br>妨害効果を持つキャラクターがいます<br>敵の属性に応じた妨害キャラクターを使って<br>優位に戦おう</color>
 hint_popup007	<color=0,0,0>ダメージを受け付けないバリアを<br>持つ敵がいます。強力な攻撃で<br>破壊するか、一定の確率でバリアを<br>破壊できる<color=0,0,255>バリアブレイカー<color=0,0,0>を持つ<br>キャラクターで対抗しよう</color>
 hint_popup008	<color=0,0,0>ゾンビは味方に近づくと<br>地面に潜ってすり抜けてきます<br>すり抜けてくるゾンビに備えて<br>キャラクターを生産し過ぎないようにしよう</color>
+equipment_attribute_common	ターゲット属性の敵
+equipment_filteringMiss	<color=255,255,0>絞り込みの結果、該当する本能玉は<br>見つかりませんでした。</color>
