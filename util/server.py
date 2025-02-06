@@ -290,7 +290,10 @@ def process(pkg: SERVER):
     with open(os.path.join(os.getcwd(), "server.json"), "r") as f:
         j = json.load(f)
     for i in range(len(pkg.versions)):
-        if j[pkg.cc.upper()][f"assets{i}.zip"]!=pkg.tsvs[i]:
-            print(f"different {i}")
+        key1 = pkg.cc.upper()
+        key2 = f"assets{i}.zip"
+        
+        if j.get(key1, {}).get(key2) != pkg.tsvs[i]:  
+            print(f"different or missing {i}")
             pkg.download_zip(i)
             time.sleep(5)
