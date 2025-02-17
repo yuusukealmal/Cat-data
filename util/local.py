@@ -1,4 +1,4 @@
-import sys, re, os, subprocess, zipfile, json
+import sys, re, os, zipfile, json
 from enum import Enum
 from Crypto.Util.Padding import unpad
 from Crypto.Cipher import AES
@@ -6,7 +6,7 @@ import hashlib
 import requests
 from bs4 import BeautifulSoup as bs4
 import ua_generator
-from .funcs import check
+from .funcs import check, version_notify
 from .server import server
 from .funcs import git_push
 
@@ -154,8 +154,12 @@ def get_latest_version(cc: str):
     version = re.search(r'\b\d+\.\d+\.\d+\b', content).group()
     return version
 
-def parse_version(version: str):
+def parse_version_int(version: str):
     return int("".join([_.zfill(2) for _ in version.split(".")]))
+
+def parse_version_str(version: int):
+    version_str = str(version)
+    return ".".join(version_str[i:i+2].lstrip("0") or "0" for i in range(0, len(version_str), 2))
 
 def check_version():
     ls = []
@@ -164,9 +168,10 @@ def check_version():
     for i in ["JP", "TW", "EN", "KR"]:
         _version = j[i]["version"]
         version = get_latest_version(i)
-        if _version < parse_version(version):
+        if _version < parse_version_int(version):
             ls.append(i)
-            j[i]["version"] = parse_version(version)
+            j[i]["version"] = parse_version_int(version)
+            version_notify(i.lower(), parse_version_str(_version), version)
     with open(os.path.join(os.getcwd(), "version.json"), "w") as f:
         json.dump(j, f, indent=4) 
     return ls

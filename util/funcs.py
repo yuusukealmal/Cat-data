@@ -1,4 +1,4 @@
-import os
+import os, requests
 import re, json, zipfile
 import subprocess
 from datetime import datetime, timedelta
@@ -15,6 +15,40 @@ def check(apk=None, xapk=None):
             manifest = json.loads(zip_file.read("manifest.json").decode("utf-8"))
             package = manifest["package_name"]
             return package if "jp.co.ponos.battlecats" in package else False
+
+def version_notify(cc: str, old: str, new: str):
+    webhook_url = os.getenv("WEBHOOK")
+
+    names = {"tw": "貓咪大戰爭", "jp": "にゃんこ大戦争", "en": "The Battle Cats", "kr": "냥코 대전쟁"}
+    packages = {"tw": "tw", "jp": "", "en": "en", "kr": "kr"}
+    
+    name = names.get(cc, "The Battle Cats")
+    package = packages.get(cc, "")
+    image = package if package else "jp"
+
+    data = {
+        "embeds": [
+            {
+                "title": "Battle Cats Update Notifier",
+                "description": (
+                    f"**{name}** ({cc.upper()})\n\n"
+                    f"PackageName: **jp.co.ponos.battlecats{package}**\n\n"
+                    f"Version: **{old} → {new}**"
+                ),
+                "color": 5814783,
+                "thumbnail": {
+                    "url": f"https://github.com/yuusukealmal/Cat-data/raw/refs/heads/main/assets/{image}.png"
+                }
+            }
+        ]
+    }
+
+    response = requests.post(webhook_url, json=data)
+
+    if response.status_code == 204:
+        print("Webhook sent successfully!")
+    else:
+        print(f"Error: {response.status_code} - {response.text}")
 
 def git_push(method: str, msg: str=None):
     t = datetime.utcnow() + timedelta(hours=8)
