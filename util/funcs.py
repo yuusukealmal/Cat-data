@@ -75,9 +75,11 @@ def git_push(method: str, msg: str=None):
                 origin.push(refspec=f"{branch}:{branch}")
                 print(f"{t_str} Changes were pushed to the {branch} branch.")
             else:
-                print(f"{t_str} No new commits to push for the {branch} branch.")
+                pass
+                # print(f"{t_str} No new commits to push for the {branch} branch.")
         else:
-            print(f"{t_str} No changes to commit or push.")
+            pass
+            # print(f"{t_str} No changes to commit or push.")
 
     except Exception as e:
         print(f"{t_str} Some error occurred while pushing the code:", e)
