@@ -1512,3 +1512,14 @@ item_pack_name_86	Promo du vainqueur
 mission_receive_bulk_not_part	<color=255,255,0>Limite d’objets atteinte.</color><br>Les objets dépassant la limite ne seront pas récupérés.<br>Obtenir les récompenses et terminer la mission ?
 SpecialRuleExplanation006	【Promotion spéciale】<br>Les unités de rareté spéciale peuvent être déployées<br>à 30 % du coût avec 30 % de vitesse de récupération.
 SpecialRuleName006	Promotion spéciale
+equipment_attribute_common	Ennemis à caractéristiques
+equipment_filteringMiss	<color=255,255,0>Aucun orbe de talent répondant<br>à ces conditions n’a pu être trouvé.</color>
+gamatoto_shortcut_error	<color=255,255,0>Pour débloquer les expéditions Gamatoto,<br>tu dois d’abord terminer <br>le niveau "Grèce" de L’empire des Chats ch. 1.</color>
+item_pack_name_87	Acheter un pack Ticket des 100M de téléchargements
+item_pack_name_88	
+potential_skill_name67	Explosion
+slot_SNS_006	J’ai gagné %d Miams aux Machines à sous Chat sauvageⅡ de #TheBattleCats !<br><br>#BattleCats
+SpecialRuleExplanation007	[Plus un ultra rare]<br>Déploie la même unité ultra rare<br>deux à la fois.
+SpecialRuleName007	Plus un ultra rare
+unlock_popup_message_153	<flash>Talents de Chalkyrie sacrée débloqués !</flash><br>Terminer l’épreuve a éveillé un nouveau pouvoir.<br>Évolue en forme ultime et atteins le niv. 30 pour<br>débloquer/renforcer les capacités dans le menu Améliorer.
+unlock_popup_message_154	<flash>Talents de Chat Bahamut éveillé débloqués !</flash><br>Terminer l’épreuve a éveillé un nouveau pouvoir.<br>Évolue en forme ultime et atteins le niv. 30 pour<br>débloquer/renforcer les capacités dans le menu Améliorer.

@@ -109,7 +109,7 @@ La Forma Reale aumenta|la difesa, il raggio e la potenza attacco.|Immobilità pi
 ＠|＠|＠|＠|＠|＠|＠|			//にゃんこ３兄弟
 ＠|＠|＠|＠|＠|＠|＠|			//マダム・ザ・花嫁
 ＠|＠|＠|＠|＠|＠|＠|			//セレス
-＠|＠|＠|＠|＠|＠|＠|			//ノノ
+True Form evolution increases movement|speed and lowers deploy cost!|Gains a small chance to Survive a fatal blow!|＠|True Form evolution increases movement|speed and lowers deploy cost!|Gains a small chance to Survive a fatal blow!|			//ノノ
 ＠|＠|＠|＠|＠|＠|＠|			//オルガ
 ＠|＠|＠|＠|＠|＠|＠|			//ノルン
 ＠|＠|＠|＠|＠|＠|＠|			//よいち
@@ -133,7 +133,7 @@ La Forma Reale ottiene maggiori|difesa, raggio e potenza d'attacco. In più|dive
 ＠|＠|＠|＠|＠|＠|＠|			//カンフーにゃんこG
 ＠|＠|＠|＠|＠|＠|＠|			//ヒカキン
 La Forma Reale aumenta la difesa,|la potenza d'attacco e il raggio! Poi|è immune dagli effetti di indebolimento!|＠|La Forma Reale aumenta la difesa,|la potenza d'attacco e il raggio! Poi|è immune dagli effetti di indebolimento!|			//うらしまタロウ
-La Forma Reale aumenta la velocità|d'attacco! E ottiene la possibilità del 100%|di immobilità su fluttuanti/angelici!|＠|La Forma Reale aumenta la velocità|d'attacco! E ottiene la possibilità del 100%|di immobilità su fluttuanti/angelici!|			//ツルの恩返し
+La Forma Reale aumenta la velocità|d'attacco! E ottiene la possibilità del 100%|di immobilità su fluttuanti/angelici!|＠|La Forma ultra ottiene Bilaterale e più|difesa! Costo diminuito, ottiene|att. a ondata e sterminatore di saggi!|			//ツルの恩返し
 La Forma Reale aumenta tutti|i tratti! Dà anche una possibilità più|alta di immobilità su rossi/angelici!|＠|La Forma Reale aumenta tutti|i tratti! Dà anche una possibilità più|alta di immobilità su rossi/angelici!|			//ももたろう
 La Forma Reale aumenta la difesa|e il raggio! Aumenta anche il ritmo d'attacco!|＠|＠|La Forma Reale aumenta la difesa|e il raggio! Aumenta anche il ritmo d'attacco!|＠|			//かさじぞう
 La Forma Reale aumenta tutti i tratti|e aggiunge l'abilità al 100% di rallentamento|su nemici angelici e metallici.|＠|La Forma ultra rivela|la loro forma più potente!|Ottiene anche Ammazza-metallici!|
@@ -690,7 +690,7 @@ La Forma Reale rivela la sua forma finale!|Garantisce anche la perforazione/rott
 ＠|＠|＠|＠|＠|＠|＠|			//石の上にも10年ネコ
 ＠|＠|＠|＠|＠|＠|＠|			//運命の子フォノ
 La Forma Reale rivela la sua forma finale!|Ottiene anche Ammazza Behemoth!|Più immunità da attacchi a valanga!|＠|La Forma Reale rivela la sua forma finale!|Ottiene anche Ammazza Behemoth!|Più immunità da attacchi a valanga!|//古びたタマゴ:N000
-＠|＠|＠|＠|＠|＠|＠|//いっすん法師
+La Forma Reale ottiene maggiore attacco!|Inoltre, velocità e immunità potenziati|agli attacchi di immobilità!||||//いっすん法師|//いっすん法師
 ＠|＠|＠|＠|＠|＠|＠|			//ホワイトデーヴィグラー
 ＠|＠|＠|＠|＠|＠|＠|			//洗脳されし巨神ネコ
 ＠|＠|＠|＠|＠|＠|＠|			//殺意のタンクネコ
@@ -767,15 +767,21 @@ La Forma Reale rivela la forma finale!|Ottiene anche Ammazza Behemoth!|＠|＠|L
 ＠|＠|＠|＠|＠|＠|＠|//イワシ
 ＠|＠|＠|＠|＠|＠|＠|//イカ
 ＠|＠|＠|＠|＠|＠|＠|//たいてんき
-＠|＠|＠|＠|＠|＠|＠|//ウルトラソウルズ11体目（仮）
+＠|＠|＠|＠|＠|＠|＠|//花咲かじいさん
 ＠|＠|＠|＠|＠|＠|＠|//ウルトラソウルズ11体目召喚
-＠|＠|＠|＠|＠|＠|＠|//真レジェ　古代賢者（仮）
-＠|＠|＠|＠|＠|＠|＠|//カボチャソドム
+＠|＠|＠|＠|＠|＠|＠|//生命の賢者Dr.ノーヴァ
+＠|＠|＠|＠|＠|＠|＠|//パンプキンソドム
 ＠|＠|＠|＠|＠|＠|＠|//スモウネコミイラ
-＠|＠|＠|＠|＠|＠|＠|//ダークヒーローズ11体目（仮）
+＠|＠|＠|＠|＠|＠|＠|//特命機動アクセル
 ＠|＠|＠|＠|＠|＠|＠|//ダークヒーローズ11体目召喚
-＠|＠|＠|＠|＠|＠|＠|//武者ネコ（仮）
-＠|＠|＠|＠|＠|＠|＠|//クリスマス成田甲斐（仮）
-＠|＠|＠|＠|＠|＠|＠|//779
-＠|＠|＠|＠|＠|＠|＠|//780
-＠|＠|＠|＠|＠|＠|＠|//781
+＠|＠|＠|＠|＠|＠|＠|//見習い武者ネコ
+＠|＠|＠|＠|＠|＠|＠|//冬将軍・成田甲斐
+＠|＠|＠|＠|＠|＠|＠|//ネコまどか＆ほむら
+＠|＠|＠|＠|＠|＠|＠|//幼天女ルーナ
+＠|＠|＠|＠|＠|＠|＠|//ネコボウラー
+＠|＠|＠|＠|＠|＠|＠|//782
+＠|＠|＠|＠|＠|＠|＠|//783
+＠|＠|＠|＠|＠|＠|＠|//784
+＠|＠|＠|＠|＠|＠|＠|//785
+＠|＠|＠|＠|＠|＠|＠|//786
+＠|＠|＠|＠|＠|＠|＠|//787

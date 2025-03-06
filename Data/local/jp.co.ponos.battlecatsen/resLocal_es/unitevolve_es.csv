@@ -109,7 +109,7 @@ La forma final tiene más|poder de ataque, defensa y alcance.|Además, paraliza 
 ＠|＠|＠|＠|＠|＠|＠|			//にゃんこ３兄弟
 ＠|＠|＠|＠|＠|＠|＠|			//マダム・ザ・花嫁
 ＠|＠|＠|＠|＠|＠|＠|			//セレス
-＠|＠|＠|＠|＠|＠|＠|			//ノノ
+True Form evolution increases movement|speed and lowers deploy cost!|Gains a small chance to Survive a fatal blow!|＠|True Form evolution increases movement|speed and lowers deploy cost!|Gains a small chance to Survive a fatal blow!|			//ノノ
 ＠|＠|＠|＠|＠|＠|＠|			//オルガ
 ＠|＠|＠|＠|＠|＠|＠|			//ノルン
 ＠|＠|＠|＠|＠|＠|＠|			//よいち
@@ -133,7 +133,7 @@ La forma final tiene más|poder de ataque, defensa y alcance.|Además, es inmune
 ＠|＠|＠|＠|＠|＠|＠|			//カンフーにゃんこG
 ＠|＠|＠|＠|＠|＠|＠|			//ヒカキン
 La forma final tiene más defensa,|poder de ataque y alcance.|Además, es inmune al desgaste.|＠|La forma final tiene más defensa,|poder de ataque y alcance.|Además, es inmune al desgaste.|			//うらしまタロウ
-La forma final tiene más poder de ataque.|Además, siempre paraliza a los|enemigos voladores y ángeles.|＠|La forma final tiene más poder de ataque.|Además, siempre paraliza a los|enemigos voladores y ángeles.|			//ツルの恩返し
+La forma final tiene más poder de ataque.|Además, siempre paraliza a los|enemigos voladores y ángeles.|＠|¡La ultraforma gana omniataque y|mejora de defensa! ¡Asesino sabio|de bajo coste que provoca oleadas!|			//ツルの恩返し
 La forma final tiene mejores rasgos.|Además, tiene más probabilidades de|paralizar a enemigos rojos y ángeles.|＠|La forma final tiene mejores rasgos.|Además, tiene más probabilidades de|paralizar a enemigos rojos y ángeles.|			//ももたろう
 La forma final tiene más defensa|y alcance. Además, ataca más rápido.|＠|＠|La forma final tiene más defensa|y alcance. Además, ataca más rápido.|＠|			//かさじぞう
 La forma final tiene mejores rasgos.|Además, siempre ralentiza a los|enemigos ángeles y metálicos.|＠|¡La evolución a la ultraforma|revela su forma más poderosa!|¡También gana matametálicos!|
@@ -690,7 +690,7 @@ La forma final revela su apariencia real.|Además, garantiza atravesar y romper|
 ＠|＠|＠|＠|＠|＠|＠|			//石の上にも10年ネコ
 ＠|＠|＠|＠|＠|＠|＠|			//運命の子フォノ
 ¡La forma final revela su apariencia real!|¡También es matamastodontes!|¡Y es inmune a las réplicas!|＠|¡La forma final revela su apariencia real!|¡También es matamastodontes!|¡Y es inmune a las réplicas!|//古びたタマゴ:N000
-＠|＠|＠|＠|＠|＠|＠|//いっすん法師
+¡La forma final es más poderosa!|¡Gana velocidad de movimiento|y es inmune a la paralización!||||//いっすん法師|//いっすん法師
 ＠|＠|＠|＠|＠|＠|＠|			//ホワイトデーヴィグラー
 ＠|＠|＠|＠|＠|＠|＠|			//洗脳されし巨神ネコ
 ＠|＠|＠|＠|＠|＠|＠|			//殺意のタンクネコ
@@ -767,15 +767,21 @@ La forma final revela su apariencia real|¡También gana matamastodontes!|＠|�
 ＠|＠|＠|＠|＠|＠|＠|//イワシ
 ＠|＠|＠|＠|＠|＠|＠|//イカ
 ＠|＠|＠|＠|＠|＠|＠|//たいてんき
-＠|＠|＠|＠|＠|＠|＠|//ウルトラソウルズ11体目（仮）
+＠|＠|＠|＠|＠|＠|＠|//花咲かじいさん
 ＠|＠|＠|＠|＠|＠|＠|//ウルトラソウルズ11体目召喚
-＠|＠|＠|＠|＠|＠|＠|//真レジェ　古代賢者（仮）
-＠|＠|＠|＠|＠|＠|＠|//カボチャソドム
+＠|＠|＠|＠|＠|＠|＠|//生命の賢者Dr.ノーヴァ
+＠|＠|＠|＠|＠|＠|＠|//パンプキンソドム
 ＠|＠|＠|＠|＠|＠|＠|//スモウネコミイラ
-＠|＠|＠|＠|＠|＠|＠|//ダークヒーローズ11体目（仮）
+＠|＠|＠|＠|＠|＠|＠|//特命機動アクセル
 ＠|＠|＠|＠|＠|＠|＠|//ダークヒーローズ11体目召喚
-＠|＠|＠|＠|＠|＠|＠|//武者ネコ（仮）
-＠|＠|＠|＠|＠|＠|＠|//クリスマス成田甲斐（仮）
-＠|＠|＠|＠|＠|＠|＠|//779
-＠|＠|＠|＠|＠|＠|＠|//780
-＠|＠|＠|＠|＠|＠|＠|//781
+＠|＠|＠|＠|＠|＠|＠|//見習い武者ネコ
+＠|＠|＠|＠|＠|＠|＠|//冬将軍・成田甲斐
+＠|＠|＠|＠|＠|＠|＠|//ネコまどか＆ほむら
+＠|＠|＠|＠|＠|＠|＠|//幼天女ルーナ
+＠|＠|＠|＠|＠|＠|＠|//ネコボウラー
+＠|＠|＠|＠|＠|＠|＠|//782
+＠|＠|＠|＠|＠|＠|＠|//783
+＠|＠|＠|＠|＠|＠|＠|//784
+＠|＠|＠|＠|＠|＠|＠|//785
+＠|＠|＠|＠|＠|＠|＠|//786
+＠|＠|＠|＠|＠|＠|＠|//787

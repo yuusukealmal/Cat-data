@@ -109,7 +109,7 @@ Wahre-Form-Entwicklung erhöht|Verteidigung, Reichweite und Angriffskraft.|Frier
 ＠|＠|＠|＠|＠|＠|＠|			//にゃんこ３兄弟
 ＠|＠|＠|＠|＠|＠|＠|			//マダム・ザ・花嫁
 ＠|＠|＠|＠|＠|＠|＠|			//セレス
-＠|＠|＠|＠|＠|＠|＠|			//ノノ
+True Form evolution increases movement|speed and lowers deploy cost!|Gains a small chance to Survive a fatal blow!|＠|True Form evolution increases movement|speed and lowers deploy cost!|Gains a small chance to Survive a fatal blow!|			//ノノ
 ＠|＠|＠|＠|＠|＠|＠|			//オルガ
 ＠|＠|＠|＠|＠|＠|＠|			//ノルン
 ＠|＠|＠|＠|＠|＠|＠|			//よいち
@@ -133,7 +133,7 @@ Wahre-Form-Entwicklung verbessert|Verteidigung, Reichweite und Angriffskraft.|Wi
 ＠|＠|＠|＠|＠|＠|＠|			//カンフーにゃんこG
 ＠|＠|＠|＠|＠|＠|＠|			//ヒカキン
 Wahre-Form-Entwicklung erhöht Vert.,|Angriffskraft und Angriffsreichweite! Wird|immun gg. feindliche Schwächen-Effekte!|＠|Wahre-Form-Entwicklung erhöht Vert.,|Angriffskraft und Angriffsreichweite! Wird|immun gg. feindliche Schwächen-Effekte!|			//うらしまタロウ
-Wahre-Form-Entwicklung erhöht Angriff!|Friert zudem fliegende und Engel-Feinde|garantiert in der Bewegung ein!|＠|Wahre-Form-Entwicklung erhöht Angriff!|Friert zudem fliegende und Engel-Feinde|garantiert in der Bewegung ein!|			//ツルの恩返し
+Wahre-Form-Entwicklung erhöht Angriff!|Friert zudem fliegende und Engel-Feinde|garantiert in der Bewegung ein!|＠|Ultra-Form gewährt Rundumschlag & mehr|Verteidigung! Verringerte Einsatzkosten,|Wellenangriff und Weisentöter!|			//ツルの恩返し
 Wahre-Form-Entwicklung erhöht alle Werte!|Gewährt zudem eine höhere Chance, rote|und Engel-Feinde einzufrieren!|＠|Wahre-Form-Entwicklung erhöht alle Werte!|Gewährt zudem eine höhere Chance, rote|und Engel-Feinde einzufrieren!|			//ももたろう
 Wahre-Form-Entwicklung erhöht Vert.,|Reichweite und zudem das Angriffstempo!|＠|＠|Wahre-Form-Entwicklung erhöht Vert.,|Reichweite und zudem das Angriffstempo!|＠|			//かさじぞう
 Wahre-Form-Entwicklung erhöht alle Werte|& gewährt die Fähigkeit, eiserne und Engel-|Feinde garantiert zu lähmen.|＠|Wahre-Form-Entwicklung enthüllt|ihre mächtigste Form!|Erhält zudem „Eisernentöter“!|
@@ -690,7 +690,7 @@ Wahre Form enthüllt letzte Form!|Durchbricht/durchdringt außerdem|garantiert S
 ＠|＠|＠|＠|＠|＠|＠|			//石の上にも10年ネコ
 ＠|＠|＠|＠|＠|＠|＠|			//運命の子フォノ
 Wahre-Form-Entwicklung enthüllt Endform!|Erhält zudem „Behemothtöter“!|Zudem Immunität gegen Zufallsangriffe!|＠|Wahre-Form-Entwicklung enthüllt Endform!|Erhält zudem „Behemothtöter“!|Zudem Immunität gegen Zufallsangriffe!|//古びたタマゴ:N000
-＠|＠|＠|＠|＠|＠|＠|//いっすん法師
+Wahre Form steigert Angriff!|Erhöht Tempo und wird immun|gegen feindliche Einfrieren-Angriffe!||||//いっすん法師|//いっすん法師
 ＠|＠|＠|＠|＠|＠|＠|			//ホワイトデーヴィグラー
 ＠|＠|＠|＠|＠|＠|＠|			//洗脳されし巨神ネコ
 ＠|＠|＠|＠|＠|＠|＠|			//殺意のタンクネコ
@@ -767,15 +767,21 @@ Wahre-Form-Entw. enth. letzte Form!|Erhält zudem "Behemothtöter"!|＠|＠|Wahr
 ＠|＠|＠|＠|＠|＠|＠|//イワシ
 ＠|＠|＠|＠|＠|＠|＠|//イカ
 ＠|＠|＠|＠|＠|＠|＠|//たいてんき
-＠|＠|＠|＠|＠|＠|＠|//ウルトラソウルズ11体目（仮）
+＠|＠|＠|＠|＠|＠|＠|//花咲かじいさん
 ＠|＠|＠|＠|＠|＠|＠|//ウルトラソウルズ11体目召喚
-＠|＠|＠|＠|＠|＠|＠|//真レジェ　古代賢者（仮）
-＠|＠|＠|＠|＠|＠|＠|//カボチャソドム
+＠|＠|＠|＠|＠|＠|＠|//生命の賢者Dr.ノーヴァ
+＠|＠|＠|＠|＠|＠|＠|//パンプキンソドム
 ＠|＠|＠|＠|＠|＠|＠|//スモウネコミイラ
-＠|＠|＠|＠|＠|＠|＠|//ダークヒーローズ11体目（仮）
+＠|＠|＠|＠|＠|＠|＠|//特命機動アクセル
 ＠|＠|＠|＠|＠|＠|＠|//ダークヒーローズ11体目召喚
-＠|＠|＠|＠|＠|＠|＠|//武者ネコ（仮）
-＠|＠|＠|＠|＠|＠|＠|//クリスマス成田甲斐（仮）
-＠|＠|＠|＠|＠|＠|＠|//779
-＠|＠|＠|＠|＠|＠|＠|//780
-＠|＠|＠|＠|＠|＠|＠|//781
+＠|＠|＠|＠|＠|＠|＠|//見習い武者ネコ
+＠|＠|＠|＠|＠|＠|＠|//冬将軍・成田甲斐
+＠|＠|＠|＠|＠|＠|＠|//ネコまどか＆ほむら
+＠|＠|＠|＠|＠|＠|＠|//幼天女ルーナ
+＠|＠|＠|＠|＠|＠|＠|//ネコボウラー
+＠|＠|＠|＠|＠|＠|＠|//782
+＠|＠|＠|＠|＠|＠|＠|//783
+＠|＠|＠|＠|＠|＠|＠|//784
+＠|＠|＠|＠|＠|＠|＠|//785
+＠|＠|＠|＠|＠|＠|＠|//786
+＠|＠|＠|＠|＠|＠|＠|//787

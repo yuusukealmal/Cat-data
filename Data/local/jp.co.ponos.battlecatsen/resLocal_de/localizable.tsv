@@ -787,7 +787,7 @@ restart_overwrite	Rückkehrpaket einsetzen?<br><color=255,0,0>* Beim Einsatz des
 restart_reflect	Gekaufte Inhalte jetzt verfügbar.<br>Katzenimperium wurde abgeschlossen!<br>Kapseltickets erhalten!
 slot_message	Du erhältst %s x <flash>%d</flash>!
 slot_lastmessage	Endergebnis!
-slot_SNS_000	Ich habe %s Katzenbatzen bei den Wildkatzen-Slots in #TheBattleGats gewonnen!<br>#BattleCats
+slot_SNS_000	Ich habe %s Katzenbatzen bei den Wildkatzen-Slots in #TheBattleCats gewonnen!<br>#BattleCats
 medal_txt1	%s
 medal_txt2	%d Medaillen erhalten!
 medal_unknown	???<br>???
@@ -1350,7 +1350,7 @@ potential_skill_name63	Kolosstöter
 potential_skill_name64	Behemothtöter
 stage_restriction_charagroup_9	Katze
 potential_skill_name65	Mini-Zufallsangriff
-slot_SNS_002	Ich habe %d Katzenbatzen bei den Wildkatzen-Slots in #TheBattleGats gewonnen!<br><br>#BattleCats #9Years
+slot_SNS_002	Ich habe %d Katzenbatzen bei den Wildkatzen-Slots in #TheBattleCats gewonnen!<br><br>#BattleCats #9Years
 stageskip_message_2	„Baron Robbe schlägt zu!“, „${stageName1}“, abgeschlossen!<br>Starte die nächste Herausforderung ab <flash>${stageName2}</flash>.
 stageskip_message_3	„Grummelfant schlägt zu!“, „${stageName1}“, abgeschlossen!<br>Starte die nächste Herausforderung ab <flash>${stageName2}</flash>.
 stageskip_message_4	„Megabedrohung!“, „${stageName1}“, abgeschlossen!<br>Starte die nächste Herausforderung ab <flash>${stageName2}</flash>.
@@ -1406,9 +1406,9 @@ lose_retry_ad	Geld MAX, Katzenkanone AUFGELADEN!
 Itemshop_ad_popup2	XP verdient: +${xp}!
 stage_restriction_limit_6	${rarity}: ${value} oder weniger
 SpecialRuleName000	Treuhandkonto
-SpecialRuleName001	Abklingzeitgleichheit
+SpecialRuleName001	Selbe Abklingzeit
 SpecialRuleExplanation000	(Treuhandkonto)<br>Beginne den Kampf mit einem Haufen Geld,<br>aber erhalte kein Geld über Zeit<br>oder bei Siegen über Feinde.
-SpecialRuleExplanation001	(Abklingzeitgleichheit)<br>Einsatzabklingzeiten werden für alle<br>verbündeten Einheiten auf die gleiche Rate gesetzt.
+SpecialRuleExplanation001	(Selbe Abklingzeit)<br>Einsatzabklingzeiten werden für alle<br>verbündeten Einheiten auf die gleiche Rate gesetzt.
 treasure_get	Doppeltippe auf ein Symbol, um zu einem Level zu reisen, in dem diese Belohnung erhältlich ist.
 treasure_geterror	Zu einem noch nicht freigeschalteten Level kannst du nicht reisen.
 treasure_popup1	<color=255,255,0> ${treasureRank} ${treasureName}</color> ${text} ${stageName}
@@ -1417,7 +1417,7 @@ treasure_popup3	 ${treasureName}
 item_pack_name_81	Herausfordererangebot: XP-&-Seltenes-Ticket-Paket!
 item_pack_name_82	
 scratch_SNS_004	
-slot_SNS_003	Ich habe %d Katzenbatzen bei den Wildkatzen-Slots in #TheBattleGats gewonnen!<br><br>#BattleCats #10Years
+slot_SNS_003	Ich habe %d Katzenbatzen bei den Wildkatzen-Slots in #TheBattleCats gewonnen!<br><br>#BattleCats #10Years
 Account_iOS13_error	Anmeldung mit Apple-ID nicht für Geräte mit iOS 12 oder niedriger verfügbar.
 gamatoto_shortcut	Gamatoto-Bildschirm aufrufen?
 mission_receive_bulk	Alle Missionsbelohnungen erhalten.
@@ -1512,3 +1512,14 @@ item_pack_name_86	Angebot für Champions
 mission_receive_bulk_not_part	<color=255,255,0>Maximale Gegenstandsanzahl erreicht.</color><br>Überzählige Gegenstände werden nicht eingesammelt.<br>Belohnungen einsammeln und Mission abschließen?
 SpecialRuleExplanation006	(Sonderausverkauf)<br>Einheiten der Seltenheit „Spezial“ können<br>für 30 % der Kosten mit 30 % der Abklingzeit eingesetzt werden.
 SpecialRuleName006	Sonderausverkauf
+equipment_attribute_common	Feinde mit Werten
+equipment_filteringMiss	<color=255,255,0>Es wurden keine Talentkugeln<br>gefunden, die zu diesen Filtern passen.</color>
+gamatoto_shortcut_error	<color=255,255,0>Du musst das Level Katzenimperium<br>Kap. 1 „Griechenland“ abschließen,<br>um Gamatoto-Expeditionen freizuschalten.</color>
+item_pack_name_87	100-Mio.-DL-Feier-Ticket-Paket kaufen
+item_pack_name_88	
+potential_skill_name67	Explosion
+slot_SNS_006	Ich habe %d Katzenbatzen bei den Wildkatzen-SlotsⅡ in #TheBattleCats gewonnen!<br><br>#BattleCats  
+SpecialRuleExplanation007	[Megaselten +1]<br>Entsende 2-mal die<br>gleiche megaseltene Einheit.
+SpecialRuleName007	Megaselten +1
+unlock_popup_message_153	<flash>Talente der Heiligen Walkürenkatze freigeschaltet!</flash><br>Der Abschluss der Prüfung hat neue Kräfte entfesselt.<br>Zur wahren Form entwickeln und Lv. 30 erreichen,<br>um Fähigkeiten im Verbesserungenmenü freizuschalten/zu verbessern.
+unlock_popup_message_154	<flash>Talente der Erwachten Bahamut-Katze freigeschaltet!</flash><br>Der Abschluss der Prüfung hat neue Kräfte entfesselt.<br>Zur wahren Form entwickeln und Lv. 30 erreichen,<br>um Fähigkeiten im Verbesserungenmenü freizuschalten/zu verbessern.

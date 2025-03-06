@@ -1518,3 +1518,14 @@ item_pack_name_86	Champion's Sale
 mission_receive_bulk_not_part	<color=255,255,0>Item limit reached.</color><br>Items exceeding the item limit will not be collected.<br>Collect rewards and complete the Mission?
 SpecialRuleExplanation006	【Special Clearance】<br>Units of Special rarity can be deployed<br>at 30% cost with 30% cooldown speed.
 SpecialRuleName006	Special Clearance
+equipment_attribute_common	Target Enemies
+equipment_filteringMiss	<color=255,255,0>Talent Orbs matching these filter<br>conditions could not be found.</color>
+gamatoto_shortcut_error	<color=255,255,0>To unlock Gamatoto Expeditions,<br>you must first clear the<br>Empire of Cats Ch. 1 "Greece" stage.</color>
+item_pack_name_87	100M DL Celebration Ticket Pack
+item_pack_name_88	
+potential_skill_name67	Explosion
+slot_SNS_006	I got %d Cat Food from the Wildcat Slots Ⅱ in #TheBattleCats!<br><br>#BattleCats
+SpecialRuleExplanation007	【Plus One: Uber】<br>Uber Rare units are automatically<br>deployed two at a time.
+SpecialRuleName007	Plus One: Uber
+unlock_popup_message_153	<flash>Holy Valkyrie Cat's Talents unlocked!</flash><br>Clearing the trial has awakened a new power.<br>Evolve to True Form and reach Lv. 30 to<br>unlock/strengthen abilities from the Upgrade Menu.
+unlock_popup_message_154	<flash>Awakened Bahamut Cat's Talents unlocked!</flash><br>Clearing the trial has awakened a new power.<br>Evolve to True Form and reach Lv. 30 to<br>unlock/strengthen abilities from the Upgrade Menu.

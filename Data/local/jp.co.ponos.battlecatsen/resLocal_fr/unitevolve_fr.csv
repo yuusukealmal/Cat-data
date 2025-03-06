@@ -109,7 +109,7 @@ La forme ultime augmente|la déf., la portée et la puissance d’att.|Facilite 
 ＠|＠|＠|＠|＠|＠|＠|			//にゃんこ３兄弟
 ＠|＠|＠|＠|＠|＠|＠|			//マダム・ザ・花嫁
 ＠|＠|＠|＠|＠|＠|＠|			//セレス
-＠|＠|＠|＠|＠|＠|＠|			//ノノ
+True Form evolution increases movement|speed and lowers deploy cost!|Gains a small chance to Survive a fatal blow!|＠|True Form evolution increases movement|speed and lowers deploy cost!|Gains a small chance to Survive a fatal blow!|			//ノノ
 ＠|＠|＠|＠|＠|＠|＠|			//オルガ
 ＠|＠|＠|＠|＠|＠|＠|			//ノルン
 ＠|＠|＠|＠|＠|＠|＠|			//よいち
@@ -133,7 +133,7 @@ La forme ultime améliore|la déf., la portée et la puissance d’att.|Devient 
 ＠|＠|＠|＠|＠|＠|＠|			//カンフーにゃんこG
 ＠|＠|＠|＠|＠|＠|＠|			//ヒカキン
 La forme ultime augmente la défense,|la puissance d’att., la portée et accorde|une immun. aux affaiblissements ennemis.|＠|La forme ultime augmente la défense,|la puissance d’att., la portée et accorde|une immun. aux affaiblissements ennemis.|			//うらしまタロウ
-La forme ultime augmente la puissance|d’attaque et donne 100 % de chances|d’immobiliser les ennemis flottants/anges !|＠|La forme ultime augmente la puissance|d’attaque et donne 100 % de chances|d’immobiliser les ennemis flottants/anges !|			//ツルの恩返し
+La forme ultime augmente la puissance|d’attaque et donne 100 % de chances|d’immobiliser les ennemis flottants/anges !|＠|L’ultra forme gagne devant-derrière et|défense améliorée ! Coût déploiement ↓|+ vague offensive et Fléau des Sages !|			//ツルの恩返し
 La forme ultime augmente toutes les caract.|et donne une chance accrue d’immobiliser|les ennemis rouges/anges !|＠|La forme ultime augmente toutes les caract.|et donne une chance accrue d’immobiliser|les ennemis rouges/anges !|			//ももたろう
 La forme ultime augmente la défense,|la portée et le taux d’attaque !|d’attaque !|＠|La forme ultime augmente la défense,|la portée et le taux d’attaque !|d’attaque !|			//かさじぞう
 La forme ultime augmente toutes les caract.|et a 100 % de chances de ralentir|les ennemis anges/métal.|＠|L'ultra forme révèle|sa forme la plus puissante !|Gagne aussi Métallicide !|
@@ -690,7 +690,7 @@ La forme ultime révèle son aspect final !|Garantie de percer/briser|boucliers
 ＠|＠|＠|＠|＠|＠|＠|			//石の上にも10年ネコ
 ＠|＠|＠|＠|＠|＠|＠|			//運命の子フォノ
 La forme ultime révèle son aspect final !|Gagne Fléau des Béhémoths !|Plus immun. séries offensives !|＠|La forme ultime révèle son aspect final !|Gagne Fléau des Béhémoths !|Plus immunité contre répliques offensives !|//古びたタマゴ:N000
-＠|＠|＠|＠|＠|＠|＠|//いっすん法師
+La forme ultime améliore l’attaque !|Vitesse de déplacement augmentée et|immunité aux effets d’immobilisation !||||//いっすん法師|//いっすん法師
 ＠|＠|＠|＠|＠|＠|＠|			//ホワイトデーヴィグラー
 ＠|＠|＠|＠|＠|＠|＠|			//洗脳されし巨神ネコ
 ＠|＠|＠|＠|＠|＠|＠|			//殺意のタンクネコ
@@ -767,15 +767,21 @@ La forme ultime révèle son aspect final.|Et gagne Fléau des Béhémoths !|�
 ＠|＠|＠|＠|＠|＠|＠|//イワシ
 ＠|＠|＠|＠|＠|＠|＠|//イカ
 ＠|＠|＠|＠|＠|＠|＠|//たいてんき
-＠|＠|＠|＠|＠|＠|＠|//ウルトラソウルズ11体目（仮）
+＠|＠|＠|＠|＠|＠|＠|//花咲かじいさん
 ＠|＠|＠|＠|＠|＠|＠|//ウルトラソウルズ11体目召喚
-＠|＠|＠|＠|＠|＠|＠|//真レジェ　古代賢者（仮）
-＠|＠|＠|＠|＠|＠|＠|//カボチャソドム
+＠|＠|＠|＠|＠|＠|＠|//生命の賢者Dr.ノーヴァ
+＠|＠|＠|＠|＠|＠|＠|//パンプキンソドム
 ＠|＠|＠|＠|＠|＠|＠|//スモウネコミイラ
-＠|＠|＠|＠|＠|＠|＠|//ダークヒーローズ11体目（仮）
+＠|＠|＠|＠|＠|＠|＠|//特命機動アクセル
 ＠|＠|＠|＠|＠|＠|＠|//ダークヒーローズ11体目召喚
-＠|＠|＠|＠|＠|＠|＠|//武者ネコ（仮）
-＠|＠|＠|＠|＠|＠|＠|//クリスマス成田甲斐（仮）
-＠|＠|＠|＠|＠|＠|＠|//779
-＠|＠|＠|＠|＠|＠|＠|//780
-＠|＠|＠|＠|＠|＠|＠|//781
+＠|＠|＠|＠|＠|＠|＠|//見習い武者ネコ
+＠|＠|＠|＠|＠|＠|＠|//冬将軍・成田甲斐
+＠|＠|＠|＠|＠|＠|＠|//ネコまどか＆ほむら
+＠|＠|＠|＠|＠|＠|＠|//幼天女ルーナ
+＠|＠|＠|＠|＠|＠|＠|//ネコボウラー
+＠|＠|＠|＠|＠|＠|＠|//782
+＠|＠|＠|＠|＠|＠|＠|//783
+＠|＠|＠|＠|＠|＠|＠|//784
+＠|＠|＠|＠|＠|＠|＠|//785
+＠|＠|＠|＠|＠|＠|＠|//786
+＠|＠|＠|＠|＠|＠|＠|//787

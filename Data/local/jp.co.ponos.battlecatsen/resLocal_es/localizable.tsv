@@ -1512,3 +1512,14 @@ item_pack_name_86	Oferta de campeones
 mission_receive_bulk_not_part	<color=255,255,0>Límite de objetos alcanzado.</color><br>No podrán recogerse los objetos que superen el límite de objetos.<br>¿Recoger los premios y completar la misión?
 SpecialRuleExplanation006	【Compensación】<br>Las unidades de rareza especial pueden desplegarse<br>al 30 % del coste con el 30 % de tiempo de espera.
 SpecialRuleName006	Compensación
+equipment_attribute_common	Enemigos con rasgos
+equipment_filteringMiss	<color=255,255,0>No tienes ningún orbe de talento<br>que se ajuste a este filtro.</color>
+gamatoto_shortcut_error	<color=255,255,0>Para desbloquear las excursiones de Gamatoto,<br>debes superar la fase «Grecia»<br>de Imperio de los Gatos (cap. 1).</color>
+item_pack_name_87	Compra el lote de tiques de celebración de los 100 M DCS
+item_pack_name_88	
+potential_skill_name67	Explosión
+slot_SNS_006	¡Conseguí %d de Friskas en las Tragagatos II de #TheBattleCats!<br><br>#BattleCats
+SpecialRuleExplanation007	[Megarraro +1]<br>Despliega dos unidades megarraras<br>iguales al mismo tiempo.
+SpecialRuleName007	[Megarraro +1]
+unlock_popup_message_153	<flash>¡Desbloquea nuevos talentos de la Gata Valquiria Sagrada!</flash><br>Tras superar la prueba, despertarás su nuevo poder.<br>Muta a la Gata Valquiria a su forma final y alcanza el nivel 30<br>para desbloquear/potenciar habilidades en el menú «Mejorar».
+unlock_popup_message_154	<flash>¡Desbloquea nuevos talentos del Gato Bégimo Alzado!</flash><br>Tras superar la prueba, despertarás su nuevo poder.<br>Muta al Gato Bégimo a su forma final y alcanza el nivel 30<br>para desbloquear/potenciar habilidades en el menú «Mejorar».

@@ -1510,5 +1510,16 @@ autoSave_txt7	Mostra codice
 item_pack_name_85	Offerta Bis da campioni
 item_pack_name_86	Offerta Campione
 mission_receive_bulk_not_part	<color=255,255,0>Limite oggetti raggiunto.</color><br>Gli oggetti che superano il limite non verranno raccolti.<br>Riscuotere le ricompense e completare la missione?
-SpecialRuleExplanation006	【Schieramento speciale】<br>Le unità di rarità speciale possono essere schierate<br>al 30% del costo con il 30% del tempo di ricarica.
-SpecialRuleName006	Schieramento speciale
+SpecialRuleExplanation006	【Schieramento sp.】<br>Le unità di rarità speciale possono essere schierate<br>al 30% del costo con il 30% del tempo di ricarica.
+SpecialRuleName006	Schieramento sp.
+equipment_attribute_common	Nemici con tratti
+equipment_filteringMiss	<color=255,255,0>Non è stato possibile trovare Sfere talento<br>che corrispondano a questo filtro.</color>
+gamatoto_shortcut_error	<color=255,255,0>Per sbloccare le Spedizioni di Gamatoto,<br>devi prima superare il livello<br>"Grecia" di Impero dei Gatti Cap. 1.</color>
+item_pack_name_87	Acquista il Pack Biglietto Festa 100M DL
+item_pack_name_88	
+potential_skill_name67	Esplosione
+slot_SNS_006	Ho ricevuto %d Friskat dalle Slot feline II su #TheBattleCats!<br><br>#BattleCats
+SpecialRuleExplanation007	[Un ultra raro in più]<br>Schiera lo stesso ultra raro<br>due volte contemporaneamente.
+SpecialRuleName007	Un ultra raro in più
+unlock_popup_message_153	<flash>Talenti della Gatta Valchiria Sacra sbloccati!</flash><br>Superare la prova ha risvegliato un nuovo potere.<br>Evolvi nella Forma Reale e raggiungi il liv. 30 per<br>sbloccare/rafforzare abilità dal menu Potenzia.
+unlock_popup_message_154	<flash>Talenti del Gatto Bahamut risvegliato sbloccati!</flash><br>Superare la prova ha risvegliato un nuovo potere.<br>Evolvi nella Forma Reale e raggiungi il liv. 30 per<br>sbloccare/rafforzare abilità dal menu Potenzia.
