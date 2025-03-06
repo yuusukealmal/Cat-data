@@ -62,3 +62,12 @@ battle_explosion_width3	400
 battle_explosion_damage1	100
 battle_explosion_damage2	70
 battle_explosion_damage3	40
+battle_af_death_volcano_distance	800
+battle_af_death_volcano_width	1200
+battle_af_condition_production_0	2
+battle_af_condition_production_1	2
+battle_af_condition_production_2	2
+battle_af_condition_production_3	2
+battle_af_condition_production_4	2
+battle_af_condition_production_5	2
+battle_af_condition_production_type	0
