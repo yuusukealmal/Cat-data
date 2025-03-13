@@ -145,7 +145,7 @@ class ITEM(APK):
 
 def get_latest_version(cc: str):
     ua = str(ua_generator.generate())
-    with open(os.path.join(os.getcwd(), "version.json"), "r") as f:
+    with open(os.path.join(os.getcwd(), "data.json"), "r") as f:
         j = json.load(f)
     r = requests.get(j[cc]["version_url"], headers={"User-Agent": str(ua)})
     soup = bs4(r.content, "lxml")
@@ -163,7 +163,7 @@ def parse_version_str(version: int):
 
 def check_version():
     ls = []
-    with open(os.path.join(os.getcwd(), "version.json"), "r") as f:
+    with open(os.path.join(os.getcwd(), "data.json"), "r") as f:
         j = json.load(f)
     for i in ["JP", "TW", "EN", "KR"]:
         _version = j[i]["version"]
@@ -172,13 +172,13 @@ def check_version():
             ls.append(i)
             j[i]["version"] = parse_version_int(version)
             version_notify(i.lower(), parse_version_str(_version), version)
-    with open(os.path.join(os.getcwd(), "version.json"), "w") as f:
+    with open(os.path.join(os.getcwd(), "data.json"), "w") as f:
         json.dump(j, f, indent=4) 
     return ls
 
 def download_apk(version: str):
     ua = str(ua_generator.generate())
-    with open(os.path.join(os.getcwd(), "version.json"), "r") as f:
+    with open(os.path.join(os.getcwd(), "data.json"), "r") as f:
         j = json.load(f)
     r = requests.get(
         url = j[version]["download_url"],

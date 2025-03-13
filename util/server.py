@@ -172,10 +172,10 @@ class SERVER:
                     f.write(chunk)
         item = ITEM(os.path.abspath(f"./assets{index}.zip"), self.cc)
         
-        fp = os.path.join(os.getcwd(), "server.json")
+        fp = os.path.join(os.getcwd(), "data.json")
         with open(fp, "r") as f:
             j = json.load(f)
-            j[self.cc.upper()][f"assets{index}.zip"] = self.tsvs[index]
+            j[self.cc.upper()][f"assets{index}"] = self.tsvs[index]
             with open(fp, "w") as f:
                 json.dump(j, f, indent=4)
         item.parse()
@@ -287,13 +287,15 @@ def server(apk: str=None, xapk: str=None):
         pass
 
 def process(pkg: SERVER):
-    with open(os.path.join(os.getcwd(), "server.json"), "r") as f:
+    with open(os.path.join(os.getcwd(), "data.json"), "r") as f:
         j = json.load(f)
+
+    pkg_data = j.get(pkg.cc.upper(), {})
+    server_data = pkg_data.get("server", {})
+
     for i in range(len(pkg.versions)):
-        key1 = pkg.cc.upper()
-        key2 = f"assets{i}.zip"
-        
-        if j.get(key1, {}).get(key2) != pkg.tsvs[i]:  
+        asset = f"assets{i}"
+        if server_data.get(asset) is None or server_data[asset] != pkg.tsvs[i]:
             print(f"different or missing {i}")
             pkg.download_zip(i)
             time.sleep(5)

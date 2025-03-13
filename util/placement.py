@@ -50,7 +50,7 @@ def convertUnix(time: str):
 
 def parse(cc: str, res: dict, notify: bool):
     dic = []
-    j = json.load(open("event.json", "r"))
+    j = json.load(open("data.json", "r"))
     for event in res["notice"]["data"]:
         if ((t:=convertUnix(event["start"])) > int(time.time())) and (event["id"] not in j[cc]["uuid"]):
             dic.append({
@@ -61,10 +61,10 @@ def parse(cc: str, res: dict, notify: bool):
                 "end": convertUnix(event.get("end", -1)),
             })
             print(f"{cc} new event: {event['id']}")
-            j[cc]["uuid"].append(event["id"])
+            j[cc.upper()]["uuid"].append(event["id"])
             with open(os.path.join(os.getcwd(), "Data", "placement", cc.upper(), f"{event['id']}.png"), "wb") as f:
                 f.write(requests.get(PIC.format("" if cc == "jp" else f"/{cc}", event["id"])).content)
-            open("placement.json", "w").write(json.dumps(j, indent=4))
+            open("data.json", "w").write(json.dumps(j, indent=4))
     if cc != "kr" and notify:
         webhook(cc, dic)
 
