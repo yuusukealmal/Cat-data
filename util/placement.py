@@ -52,7 +52,7 @@ def parse(cc: str, res: dict, notify: bool):
     dic = []
     j = json.load(open("data.json", "r"))
     for event in res["notice"]["data"]:
-        if ((t:=convertUnix(event["start"])) > int(time.time())) and (event["id"] not in j[cc]["uuid"]):
+        if ((t:=convertUnix(event["start"])) > int(time.time())) and (event["id"] not in j[cc.upper()]["uuid"]):
             dic.append({
                 "uuid": event["id"],
                 "url": event["url"],
