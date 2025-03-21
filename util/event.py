@@ -4,8 +4,7 @@ import requests, hashlib, hmac
 from .funcs import git_push
 
 class EventOld:
-    def __init__(self, cc: str, file: str):
-        cc = "" if cc == "jp" else cc
+    def __init__(self):
         self.aws_access_key_id = "AKIAJCUP3WWCHRJDTPPQ"
         self.aws_secret_access_key = "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"
         self.region = "ap-northeast-1"
@@ -13,7 +12,7 @@ class EventOld:
         self.request = "aws4_request"
         self.algorithm = "AWS4-HMAC-SHA256"
         self.domain = "nyanko-events-prd.s3.ap-northeast-1.amazonaws.com"
-        self.url = f"https://{self.domain}/battlecats{cc}_production/{file}.tsv"
+        self.url = "https://{}/battlecats{}_production/{}.tsv"
 
     def get_auth_header(self):
         output = self.algorithm + " "
@@ -75,8 +74,8 @@ class EventOld:
     def get_canonical_uri(self):
         return self.url.split(self.domain)[1]
 
-    def make_request(self):
-        url = self.url
+    def make_request(self, cc: str, file: str):
+        url = self.url.format(self.domain, cc, file)
         headers = {
             "accept-encoding": "gzip",
             "authorization": self.get_auth_header(),
@@ -89,19 +88,18 @@ class EventOld:
 
         return requests.get(url, headers=headers)
 
-    def to_file(self):
-        response = self.make_request()
+    def to_file(self, cc: str, file: str):
+        response = self.make_request(cc, file)
         return response.content
 
 class EventNew:
-    def __init__(self, file: str, cc: str):
-        cc = "" if cc == "jp" else cc
+    def __init__(self):
         self.accountCode = None
         self.password = None
         self.passwordRefreshToken = None
         self.jwtToken = None
         self.tokenCreatedAt = None
-        self.newEventLink = f"https://nyanko-events.ponosgames.com/battlecats{cc}_production/{file}.tsv?jwt="
+        self.newEventLink = "https://nyanko-events.ponosgames.com/battlecats{}_production/{}.tsv?jwt="
         self.userCreateLink = "https://nyanko-backups.ponosgames.com/?action=createAccount&referenceId="
         self.passwordLink = "https://nyanko-auth.ponosgames.com/v1/users"
         # self.passwordRefreshLink = "https://nyanko-auth.ponosgames.com/v1/user/password"
@@ -172,11 +170,14 @@ class EventNew:
         if tokenResponse.json()['statusCode'] == 1:
             return tokenResponse.json()['payload']['token']
         
-    def to_file(self):
+    def get_token(self):
         self.generateAccount()
         self.jwtToken = self.generateJWTToken()
         self.tokenCreatedAt = int(time.time() * 1000)
-        data = requests.get(self.newEventLink + self.jwtToken).content
+        
+    def to_file(self, cc: str, file: str):
+        cc = "" if cc == "jp" else cc
+        data = requests.get(self.newEventLink.format(cc, file) + self.jwtToken).content
         return data
 
 
@@ -185,19 +186,21 @@ def event(old=None, new=None):
     file_types = ["sale", "gatya", "item"]
 
     if old:
+        event = EventOld()
         for c in cc:
             for f in file_types:
-                process(EventOld, c, f)
+                process(event, c, f)
 
     if new:
+        event = EventNew()
+        event.get_token()
         for c in cc:
             for f in file_types:
-                process(EventNew, c, f)
+                process(event, c, f)
             git_push("add", f"Update Certain Game {c.upper()} Event Data")
-                    
+
 def process(cls, cc: str, file: str):
-    e = cls(file=file, cc=cc)
-    data = e.to_file()
+    data = cls.to_file(cc, file)
 
     base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     target_dir = os.path.join(base_dir, "Data", "event")
