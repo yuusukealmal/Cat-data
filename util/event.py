@@ -89,6 +89,7 @@ class EventOld:
         return requests.get(url, headers=headers)
 
     def to_file(self, cc: str, file: str):
+        cc = "" if cc == "jp" else cc
         response = self.make_request(cc, file)
         return response.content
 
