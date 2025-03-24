@@ -96,6 +96,7 @@ receive_item_popup_chara	キャラクター「%s」
 receive_item_popup_chara_evolve	キャラクター「%s」第3形態
 receive_item_popup_chara_evolve2	キャラクター「%s」第4形態
 receive_item_popup_last	受け取りました。
+receive_item_popup_annotation_1	※「ふしぎな宝箱」は本能玉貯蔵庫に送られます
 zombie_treasure	%@エリアをゾンビから守りました！<br>%@エリアのお宝発見率アップ！
 zombie_treasure01	このページの全ステージをゾンビから守りました！<br>このページの全ステージのお宝発見率アップ！
 receive_list_network_error	通信エラーのため<br>表示できませんでした。
@@ -483,6 +484,9 @@ gama_collabo_02_charatext	メルクストーリアから臨時加入した仲間
 gama_collabo_03_popup	<flash>初音ミクコラボ開催中！</flash><br>「ラビット・ユキネ」がガマトト探検隊に臨時加入！<br>コラボ期間中、獲得アイテム量がアップします<br>※ネコカンは対象外です
 gama_collabo_03_name	ラビット・ユキネ
 gama_collabo_03_charatext	ガマトト探検隊に臨時加入した雪ミクのペットうさぎ<br>コラボ期間中、獲得アイテム量をアップしてくれます<br>※ネコカンは対象外です
+gama_collabo_04_popup	<flash>にゃんこ大商店コラボ開催中！</flash><br>「ネコ店員」がガマトト探検隊に臨時加入！<br>コラボ期間中、獲得アイテム量がアップします<br>※ネコカンは対象外です
+gama_collabo_04_name	ネコ店員
+gama_collabo_04_charatext	ガマトト探検隊に臨時加入したネコ店員<br>コラボ期間中、獲得アイテム量をアップしてくれます<br>※ネコカンは対象外です
 beginnerPack1_Title	初心者応援パック 購入
 beginnerPack2_Title	初心者超応援パック 購入
 beginnerPack3_Title	初心者激応援パック 購入
@@ -848,7 +852,7 @@ slot_SNS_001	#にゃんこスロット でネコカン%d個ゲットしたにゃ
 slot_SNS_002	#にゃんこスロット でネコカン%d個ゲットしたにゃ！<br><br>#にゃんこ大戦争 #9と1_2周年
 slot_SNS_003	#にゃんこスロット でネコカン%d個ゲットしたにゃ！<br><br>#にゃんこ大戦争 #10と1_2周年
 slot_SNS_004	#にゃんこスロット でネコカン%d個ゲットしたにゃ！<br><br>#にゃんこ大戦争 #11と1_2周年 #わんわんアニバーサリー
-slot_SNS_005	#にゃんこスロットⅡ でネコカン%d個ゲットしたにゃ！<br><br>#にゃんこ大戦争 #12周年
+slot_SNS_005	#にゃんこスロットⅡ でネコカン%d個ゲットしたにゃ！<br><br>#にゃんこ大戦争 #12と1_2周年
 slot_SNS_006	#にゃんこスロットⅡ でネコカン%d個ゲットしたにゃ！<br><br>#にゃんこ大戦争
 medal_txt1	%s獲得！
 medal_txt2	メダル%d個獲得！
@@ -866,8 +870,11 @@ talk_007_push	「第3章 ネコの結婚」の続きをやるにゃ～
 talk_008_push	「ネコからの援軍要請」の続きをやるにゃ～
 DL_permission	最新のゲームデータをダウンロードします。<br>Wi-Fi環境など通信環境のよい場所でのダウンロードをおすすめします。<br>データサイズ：%s MB
 map_minutes	【やる気回復中にゃ…】<br>ネコビタンAを${itemNum}個使用しますか？<br>クリア可能回数が1回復します<br><color=255,255,0>クリア可能回数 0/${countNum}（あと${minutes1}分で1回復）</color>
+map_minutes_empty	【やる気がゼロでもう挑戦できないにゃ…】<br>ネコビタンAを${itemNum}個使用しますか？<br>クリア可能回数が1回復します<br><color=255,255,0>クリア可能回数 0/${countNum}（あと${minutes1}分で1回復）</color>
 assault_warning	%d回ステージをクリアすると<br>次の挑戦までにしばらく時間がかかります
-assault_skip	【やる気がちょっと回復したにゃ】<br><flash>クリア可能回数が1回復しました！</flash><br>すぐに挑戦することができます<br><color=255,255,0>クリア可能回数 1/${countNum}${assaultWord}</color>
+assault_skip	【やる気がちょっと回復したにゃ】<br><flash>クリア可能回数が1回復しました！</flash><br>ステージ選択画面に移動します<br><color=255,255,0>クリア可能回数 1/${countNum}${assaultWord}</color>
+assault_skip_battle_result	【やる気がちょっと回復したにゃ】<br><flash>クリア可能回数が1回復しました！</flash><br>ステージ選択画面に戻ります
+assault_skip_battle_skip	【やる気がちょっと回復したにゃ】<br><flash>クリア可能回数が1回復しました！</flash><br>すぐに挑戦することができます
 assault_word	（あと${minutes2}分で全回復）
 slot_clearteam_txt_0	前回クリア時の編成を利用しますか？
 slot_clearteam_txt_1	前回クリア時の編成を利用中です
@@ -1005,7 +1012,7 @@ item_pack_name_37	パワーアップセール！ネコカン&アイテムパッ�
 item_pack_name_38	パワーアップセール！ネコカン&アイテムパック松 購入
 item_conversion	プラチナのかけらを%d個消費して<br><flash>プラチナチケットを%d枚ゲットしました！</flash>
 fragment_message	プラチナのかけら<br>10個集めるとプラチナチケットを1枚ゲットできます<br>現在%d個持っています
-fragment_bonus	今なら11回連続ガチャを回すと<br>なんとプラチナのかけら1個をプレゼント！<br>10個集めると<flash>プラチナチケット</flash>を1枚ゲットできます
+fragment_bonus	今なら${gatyaNumber}回連続ガチャを回すと<br>なんとプラチナのかけら1個をプレゼント！<br>10個集めると<flash>プラチナチケット</flash>を1枚ゲットできます
 scratch_message	「%s」%d個獲得！
 item_pack_name_39	感謝パック 購入
 demon_error_popup	<color=255,255,0>このステージにはまだ挑戦できません</color>
@@ -1155,6 +1162,8 @@ item_pack_name_85	おかわりプレミアムセール
 item_pack_name_86	限定復活プレミアムセール
 item_pack_name_87	1億DL記念チケットセット 購入
 item_pack_name_88	限定キャラクター「チョコサプネコC」購入
+item_pack_name_89	プラチナチケット ダブル販売 1回目 購入
+item_pack_name_90	プラチナチケット ダブル販売 2回目 購入
 ScatCPU_info1	${itemName1}を<flash>${itemNum1}個</flash>使用して<br>戦闘スキップを開始しますか？<br>（本日のスキップ可能回数残り ${itemNum2}回）
 ScatCPU_info2	<flash>ニャンピュータ使い放題中はニャンピュータの消費なし！</flash><br>戦闘スキップを開始しますか？<br>（本日のスキップ可能回数残り ${itemNum}回）
 ScatCPU_XPdrop	<color=255,255,0>完全勝利!!</color><br>ステージクリア経験値<flash>ゲット！！</flash><br>「${itemName}+${itemNum}」
@@ -1180,6 +1189,7 @@ SpecialRuleName004	特売セール　激レア
 SpecialRuleName005	生産キャラ数制限
 SpecialRuleName006	超特売セール　EX
 SpecialRuleName007	プラスワン 超激レア
+SpecialRuleName008	にゃんこ砲超強化
 SpecialRuleExplanation000	【おこづかい制】<br>最初にお金をたくさんもらえます<br>ただし、時間経過や敵の撃破などで<br>所持金が増えることはありません
 SpecialRuleExplanation001	【生産スピード統一】<br>すべての味方キャラクターの<br>生産スピードが同じになり固定されます
 SpecialRuleExplanation002	【レア度代表戦】<br>各レア度ごとに1体ずつしか生産できません<br>編成は自由に行う事ができます
@@ -1188,6 +1198,9 @@ SpecialRuleExplanation004	【特売セール　激レア】 <br>レア度：激�
 SpecialRuleExplanation005	【生産キャラ数制限】<br>１回の戦闘で生産できるキャラ数が<br>60体までになります
 SpecialRuleExplanation006	【超特売セール　EX】<br>レア度：EXの味方キャラクターの生産コストと<br>生産スピードが70％OFFになります
 SpecialRuleExplanation007	【プラスワン 超激レア】 <br>レア度：超激レアのキャラクター生産時<br>出現数が2体になります
+SpecialRuleExplanation008	【にゃんこ砲超強化】 <br>にゃんこ砲の攻撃力が100倍になります<br>※かみなり砲などの特殊な主砲の攻撃力は変わりません
+BonusNameLabel000	攻撃力ダウン
+BonusExplanationLabel000	【スコアボーナス：攻撃力ダウン】<br> 敵に攻撃力ダウンを付与する<br>※キャラクターの持つ対象属性の数が少ないほどスコアアップ<br>　詳細は画面左下「極ランキングの間とは？」からご確認ください
 Account_iOS13_error	iOS 13未満の方はAppleでサインインがご利用頂けません
 treasure_get	ダブルタップでゲットできるステージへ移動します
 treasure_geterror	ステージが解放されていないため移動できません
@@ -1237,4 +1250,20 @@ hint_popup006	<color=0,0,0>特定の属性の敵に対して<br><color=0,0,255>�
 hint_popup007	<color=0,0,0>ダメージを受け付けないバリアを<br>持つ敵がいます。強力な攻撃で<br>破壊するか、一定の確率でバリアを<br>破壊できる<color=0,0,255>バリアブレイカー<color=0,0,0>を持つ<br>キャラクターで対抗しよう</color>
 hint_popup008	<color=0,0,0>ゾンビは味方に近づくと<br>地面に潜ってすり抜けてきます<br>すり抜けてくるゾンビに備えて<br>キャラクターを生産し過ぎないようにしよう</color>
 equipment_attribute_common	ターゲット属性の敵
+treasure_box_open	以下からランダムで入手できます
+treasure_box_probability	※各アイテムの排出率は同一です<br>※アイコンを押すと説明を確認できます
+treasure_box_item	<color=255,255,0>${itemName}</color>
+treasure_box_result	<color=255,255,0>「${itemName}」が当たった！</color><br>ネコカンを使用して引き直すことができます
+treasure_box_result_2	※引き直した後はこのアイテムが入手できなくなります
+treasure_box_result_last_one	<color=255,255,0>「${itemName}」が当たった！</color><br>これ以上、引き直すことはできません
+treasure_box_redraw	ネコカン${itemNum}個で引き直しますか？
+treasure_box_redrow_probability	※各アイテムの排出率は同一です<br>※既に当たったアイテムは排出されません
+treasure_box_last_one	ネコカン${itemNum}個を使用して<br>以下のアイテムを入手できます。
+treasure_box_get_confirm	「${itemName}」を<br>入手しますか？
+treasure_box_error_1	ネコカンが${itemNum}個不足しています。<br>ネコカンショップへ移動しますか？
+leadershipreturn_pop1	戦闘を中止しますか？<br><color=255,255,0>統率力のみ戻ります</color>
+leadershipreturn_pop2	このステージはコンテニュー出来ません<br>統率力のみ戻ります
+leadershipreturn_pop3	敗北と戦闘離脱時に<br>統率力が戻るステージです<br><color=255,255,0>EXステージに挑戦した場合は戻りません</color>
+leadershipreturn_pop4	敗北と戦闘離脱時に<br>統率力が戻るステージです
 equipment_filteringMiss	<color=255,255,0>絞り込みの結果、該当する本能玉は<br>見つかりませんでした。</color>
+SpecialRuleReset000	<color=255,255,0>軍資金リセット！</color><br>キャラクターの生産に使う軍資金の<br>所持金額をリセットしました
