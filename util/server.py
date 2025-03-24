@@ -175,7 +175,7 @@ class SERVER:
         fp = os.path.join(os.getcwd(), "data.json")
         with open(fp, "r") as f:
             j = json.load(f)
-            j[self.cc.upper()][f"assets{index}"] = self.tsvs[index]
+            j[self.cc.upper()]["server"][f"assets{index}"] = self.tsvs[index]
             with open(fp, "w") as f:
                 json.dump(j, f, indent=4)
         item.parse()

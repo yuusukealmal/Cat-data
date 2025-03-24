@@ -6,7 +6,7 @@ from git import Repo
 
 def check(apk=None, xapk=None):
     if apk:
-        output = subprocess.check_output([os.path.abspath("./utils/aapt2.exe"), "dump", "badging", apk], universal_newlines=True, encoding="utf-8")
+        output = subprocess.check_output([os.path.abspath("./util/aapt2.exe"), "dump", "badging", apk], universal_newlines=True, encoding="utf-8")
         package = re.search(r"name='([^']+)'", output).group(1)
         return package if "jp.co.ponos.battlecats" in package else False
 
