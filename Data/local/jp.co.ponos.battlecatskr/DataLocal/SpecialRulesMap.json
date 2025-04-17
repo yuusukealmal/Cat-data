@@ -133,6 +133,10 @@
     },
     "1385": {
       "ContentsType": 1,
+      "Reset": {
+        "ResetFlag": 1,
+        "PopupLabel": "SpecialRuleReset000"
+      },
       "RuleType": {
         "0": {
           "Parameters": [
@@ -211,6 +215,75 @@
             16,
             1,
             60
+          ]
+        }
+      }
+    },
+    "36009": {
+      "ContentsType": 0,
+      "RuleNameLabel": "SpecialRuleName002",
+      "RuleExplanationLabel": "SpecialRuleExplanation002",
+      "RuleType": {
+        "3": {
+          "Parameters": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    "36010": {
+      "ContentsType": 0,
+      "RuleNameLabel": "SpecialRuleName008",
+      "RuleExplanationLabel": "SpecialRuleExplanation008",
+      "RuleType": {
+        "9": {
+          "Parameters": [
+            10000
+          ]
+        }
+      }
+    },
+    "1398": {
+      "ContentsType": 1,
+      "RuleType": {
+        "0": {
+          "Parameters": [
+            4500
+          ]
+        }
+      }
+    },
+    "1399": {
+      "ContentsType": 1,
+      "RuleType": {
+        "0": {
+          "Parameters": [
+            4500
+          ]
+        }
+      }
+    },
+    "1400": {
+      "ContentsType": 1,
+      "RuleType": {
+        "0": {
+          "Parameters": [
+            4500
+          ]
+        }
+      }
+    },
+    "1401": {
+      "ContentsType": 1,
+      "RuleType": {
+        "0": {
+          "Parameters": [
+            4500
           ]
         }
       }

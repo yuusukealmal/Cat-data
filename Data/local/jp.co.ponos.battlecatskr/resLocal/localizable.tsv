@@ -1202,13 +1202,13 @@ item_pack_name_37	파워 업 세일! 고양이 통조림 & 아이템 팩 (B) 구
 item_pack_name_38	파워 업 세일! 고양이 통조림 & 아이템 팩 (C) 구입
 item_conversion	플래티넘 조각 %d개를 소비해서<br><flash>플래티넘 티켓 %d장을 획득했습니다.</flash>
 fragment_message	플래티넘 조각<br>10개를 모으면 플래티넘 티켓 1장을 획득할 수 있습니다.<br>현재 %d개를 가지고 있습니다.
-fragment_bonus	지금 11회 연속 뽑기를 돌리면<br>플래티넘 조각 1개를 선물!<br>10개를 모으면<flash>플래티넘 티켓</flash>을 1장 획득할 수 있습니다.
+fragment_bonus	지금 ${gatyaNumber}회 연속 뽑기를 돌리면<br>플래티넘 조각 1개를 선물!<br>10개를 모으면<flash>플래티넘 티켓</flash>을 1장 획득할 수 있습니다.
 equipment_error	이 본능 구슬은 「%@에 %@」의 효과를 가진<br>캐릭터에만 장착할 수 있습니다.
 scratch_message	「%s」 %d개 획득!
 scratch_SNS_000	#냥코스크래치복권 에서 고양이 통조림 %d개 획득했다냥!<br>기간 중, 매주 도전 가능! 매주 참가하여 더 많은 고양이 통조림을 획득하자냥~!<br><br>#냥코대전쟁 #냥코스크래치 #고양이의여름2024
 item_pack_name_39	감사 팩 구입
 potential_skill_name57	속성 악마
-assault_skip	【피로가 조금 회복되었다냥】<br><flash>클리어 가능 횟수가 1 회복되었습니다!</flash><br>바로 도전 가능합니다<br><color=255,255,0>클리어 가능 횟수 1/${countNum} ${assaultWord}</color>
+assault_skip	【피로가 조금 회복되었다냥】<br><flash>클리어 가능 횟수가 1 회복되었습니다!</flash><br>스테이지 선택 화면으로 이동합니다<br><color=255,255,0>클리어 가능 횟수 1/${countNum} ${assaultWord}</color>
 assault_word	(완전 회복까지 ${minutes2}분)
 potential_skill_name58	쉴드 브레이커
 potential_skill_name59	영혼 공격
@@ -1589,3 +1589,32 @@ SpecialRuleExplanation007	【울트라 슈퍼 레어 1+1】<br>레어도: 울트
 SpecialRuleName007	울트라 슈퍼 레어 1+1
 unlock_popup_message_153	<flash>「고양이 발키리・성」의 본능이 해방!</flash><br>시련을 극복하여 새로운 힘을 각성하였습니다<br>제3형태로 진화시키고 Lv30 도달 후<br>파워 업 화면에서 능력을 해방/강화시킬 수 있습니다
 unlock_popup_message_154	<flash>「각성의 고양이 무트」의 본능이 해방!</flash><br>시련을 극복하여 새로운 힘을 각성하였습니다<br>제3형태로 진화시키고 Lv30 도달 후<br>파워 업 화면에서 능력을 해방/강화시킬 수 있습니다
+assault_skip_battle_result	【피로가 조금 회복되었다냥】<br><flash>클리어 가능 횟수가 1 회복되었습니다!</flash><br>스테이지 선택 화면으로 돌아갑니다
+assault_skip_battle_skip	【피로가 조금 회복되었다냥】<br><flash>클리어 가능 횟수가 1 회복되었습니다!</flash><br>바로 도전 가능합니다
+BonusExplanationLabel000	【스코어 보너스: 공격력 다운】<br>적에게 공격력 다운을 부여한다<br>※캐릭터가 가지고 있는 대상 속성이 적을 수록 스코어 상승<br>　자세한 내용은 화면 왼쪽 아래 「하이퍼 랭킹의 방이란?」에서 확인하시기 바랍니다.
+BonusNameLabel000	공격력 다운
+gama_collabo_04_charatext	
+gama_collabo_04_name	
+gama_collabo_04_popup	
+item_pack_name_89	플래티넘 더블 판매 첫번째 구입
+item_pack_name_90	플래티넘 더블 판매 두번째 구입
+leadershipreturn_pop1	전투를 중지할까요?<br><color=255,255,0>통솔력만 돌아옵니다</color>
+leadershipreturn_pop2	이 스테이지는 컨티뉴 할 수 없습니다<br>통솔력만 돌아옵니다
+leadershipreturn_pop3	패배하거나 전투 이탈 시에<br>통솔력이 돌아오는 스테이지입니다<br><color=255,255,0>EX스테이지에 도전한 경우에는 돌아오지 않습니다.</color>
+leadershipreturn_pop4	패배하거나 전투 이탈 시에<br>통솔력이 돌아오는 스테이지입니다
+map_minutes_empty	【의욕이 떨어져서 도전할 수 없다냥...】<br>고양이 드링크 A를 ${itemNum}개 사용하시겠습니까?<br>클리어 가능 횟수가 1 회복됩니다<br><color=255,255,0>클리어 가능 횟수 0/${countNum} (${minutes1}분 후에 1 회복)</color>
+receive_item_popup_annotation_1	※「미스터리 보물상자」는 본능 구슬 저장고로 보내집니다
+SpecialRuleExplanation008	【울트라 냥코 대포】  <br>냥코 대포의 공격력이 100배가 됩니다<br>※천둥포 등의 특수한 주포의 공격력은 변하지 않습니다
+SpecialRuleName008	울트라 냥코 대포
+SpecialRuleReset000	<color=255,255,0>군자금 리셋!</color><br>캐릭터 생산에 필요한 군자금의<br>소지 금액이 리셋되었습니다
+treasure_box_error_1	고양이 통조림이 ${itemNum}개 부족합니다<br>고양이 통조림 샵으로 이동하시겠습니까?
+treasure_box_get_confirm	「${itemName}」를(을)<br>획득하시겠습니까?
+treasure_box_item	<color=255,255,0>${itemName}</color>
+treasure_box_last_one	고양이 통조림 ${itemNum}개를 사용하여<br>아래의 아이템을 획득할 수 있습니다.
+treasure_box_open	다음 중 랜덤으로 획득할 수 있습니다.
+treasure_box_probability	※각 아이템의 출현 확률은 동일합니다<br>※아이콘을 누르면 설명을 확인할 수 있습니다
+treasure_box_redraw	고양이 통조림 ${itemNum}개로 재추첨하시겠습니까?
+treasure_box_redrow_probability	※각 아이템의 출현 확률은 동일합니다<br>※이미 출현한 아이템은 재추첨 시 다시 출현하지 않습니다
+treasure_box_result	<color=255,255,0>「${itemName}」가(이) 출현!</color><br>고양이 통조림을 사용하여 재추첨할 수 있습니다
+treasure_box_result_2	※재추첨 후에는 현재의 아이템은 획득하실 수 없습니다
+treasure_box_result_last_one	<color=255,255,0>「${itemName}」가(이) 출현!</color><br>더 이상 재추첨할 수 없습니다
