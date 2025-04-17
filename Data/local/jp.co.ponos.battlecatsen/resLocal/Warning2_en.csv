@@ -53,7 +53,7 @@ Acquired|Level|Max|+||
 →|＠||
 Level limit will be reached, so | will only be used.|＠||
 You need | more Cat Food.|Do you want to move to the Cat Food Shop?|＠||
-After performing a 11-Capsule Draw,|try another within 30 minutes to get|a 1,000,000 XP bonus gift!|＠||
+After performing a ${gatyaNumber}-Capsule Draw,|try another ${gatyaNumber}-draw within 30 minutes to get|a 1,000,000 XP bonus gift!|＠|||
 #|received as a present.|＠||
 All capsules present in Storage|will be activated.|Do you wish to continue?|＠||
 Do you wish|to continue?|＠||
@@ -65,7 +65,7 @@ All Filter enabled!|You can see all capsules in your Storage.|Visit the Upgrade 
 ||||
 Battle Formations increased!|Up to three formations may now be|readied by visiting the Equip screen.|＠||
 A previous stage must be cleared|before this stage can be attempted.|＠||
-When making an 11-Capsule Draw|for this event, an Uber Rare Cat will|definitely appear! Don't miss out!|＠||
+When making a ${gatyaNumber}-Capsule Draw|for this event, an Uber Rare Cat will|definitely appear! Don't miss out!|＠|||||
 Trading in 5 Cat Capsules you can |no longer use gets you a Rare Ticket.|Trade in Capsules?|＠||
 Traded | Cat Capsules for|%d Rare Cat Ticket(s)!|＠||
 Traded | capsule toward a Rare Ticket!|Trade | more to get your Ticket!|＠||
@@ -106,11 +106,11 @@ CatCombo unlocked!|Arrange your units to unlock a power bonus!|Visit the Combo L
 Congrats, you cleared "Into the Future"!|More chapters will appear soon,|so please look forward to the next update!|Until then, try to collect all the treasures!|＠||
 |||＠||
 A new adventure has appeared!|Select "Into the Future" from the title screen|to take on this fresh challenge!|＠||
-Pay %d Cat Food to unlock Slot # %d.|※Unlock up to a 18 Slots※|＠|＠|||
+Pay %d Cat Food to unlock Slot # %d.|※Unlock up to a 19 Slots※|＠|＠|||
 All Clear Bonus!|A new CatCombo has been unlocked!|Visit the Combo List menu for more|information on your new skill.|＠||
 All Clear Bonus!|Special Character:|You unlocked Valkyrie Cat's True Form!|Evolve her at level 20 to use it!|＠||
 CatCombo:|||has been unlocked!|Visit the Combo List menu for more info!|＠||
-On Sale!! Cost reduced from %d to  |%d Cat Food to unlock Formation Slot #%d.|※Unlock up to 18 Slots※|＠|||
+On Sale!! Cost reduced from %d to  |%d Cat Food to unlock Formation Slot #%d.|※Unlock up to a 19 Slots※|＠|||
 A new chapter of the Future saga is here!|Select "Into the Future" from the title screen|to take on this fresh challenge!|＠||
 You got|100,000XP!|＠||
 You got|30 Monster Hunter Tickets!|＠||
@@ -133,11 +133,11 @@ Use 1 Leadership for full recovery?|＠| | |
 You don't have enough energy!|Recover all energy with 1 Leadership?|＠||
 Use ${itemName1} x ${itemNum1}|and ${itemName2} x ${itemNum2}|to raise level cap by one.|Are you sure?|＠|||
 ${itemName1} will be used up.|Are you sure you want to do this?|＠||||
-Pay %d Cat Food to unlock Slot #%d.|※You must first collect %d Meow Medals※|※Unlock up to 18 Slots※|＠|||
-On Sale!! Cost reduced from %d to  |%d Cat Food to unlock Formation Slot #%d.|※You must first collect %d Meow Medals※|※Unlock up to 18 Slots※|＠|||
+Pay %d Cat Food to unlock Slot #%d.|※You must first collect %d Meow Medals※|※Unlock up to a 19 Slots※|＠|||
+On Sale!! Cost reduced from %d to  |%d Cat Food to unlock Formation Slot #%d.|※You must first collect %d Meow Medals※|※Unlock up to a 19 Slots※|＠|||
 %s x %d| received!|＠||||
 Limited Cat|%@|was sent to Storage.|＠|||
 ${charaName} cannot go past +${level}|in the current game version.|＠||||
 ${itemName1} and|${itemName2} will be used up.|Are you sure you want to do this?|＠||||
-After performing a 11-Capsule Draw,|try another within 30 minutes to get|1,000,000 XP and ${itemName} x ${itemNum}!|＠|||
+After performing a ${gatyaNumber}-Capsule Draw,|try another ${gatyaNumber}-draw within 30 minutes to get|1,000,000 XP and ${itemName} x ${itemNum}!|＠|||
 Traded ${itemName1} x ${itemNum1} |to raise the level cap!|Can now upgrade to Level ${level}!|＠|||

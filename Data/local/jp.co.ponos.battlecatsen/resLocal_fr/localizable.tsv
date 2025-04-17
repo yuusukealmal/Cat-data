@@ -1189,14 +1189,14 @@ item_pack_name_37	Promo d'amélioration : Miam et pack d'objets argent !
 item_pack_name_38	Promo d'amélioration : Miam et pack d'objets or !
 item_conversion	%d éclats platine échangés<br>contre <flash>ticket platine x%d</flash>
 fragment_message	Échange 10 éclats platine<br>contre 1 ticket platine.<br>Éclats actuels : %d
-fragment_bonus	Obtiens un cadeau éclat platine<br>à chaque ouverture de 11 Chapsules !<br>Échange 10 éclats platine<br>contre un <flash>ticket platine </flash>!
+fragment_bonus	Obtiens un cadeau éclat platine<br>à chaque ouverture de ${gatyaNumber} Chapsules !<br>Échange 10 éclats platine<br>contre un <flash>ticket platine</flash> !
 applang	en
 equipment_error	Ce talent ne peut être utilisé que si l'unité<br>a déjà la capacité « %@ : %@ ».
 scratch_message	Tu as reçu %s x%d !
 scratch_SNS_000	J'ai gagné %d Miam dans #BattleCatsScratcher !<br>Essaie une fois par semaine pour tenter de remporter un super prix !<br><br>#TheBattleCats
 item_pack_name_39	Pack festif
 potential_skill_name57	Cible Aku
-assault_skip	【Tu te sens un peu mieux...】<br><flash>Une chance récupérée !</flash><br>Reviens vite tenter des niveaux !<br><color=255,255,0>Chances disponibles : 1/${countNum} ${assaultWord}</color>
+assault_skip	【Tu te sens un peu mieux...】<br><flash>Une chance récupérée !</flash><br>Retour à l’écran de choix du niveau.<br><color=255,255,0>Chances disponibles : 1/${countNum} ${assaultWord}</color>
 assault_word	(Récupération totale dans ${minutes2} min.)
 potential_skill_name58	Perforation de bouclier
 potential_skill_name59	Impact spirituel
@@ -1523,3 +1523,32 @@ SpecialRuleExplanation007	[Plus un ultra rare]<br>Déploie la même unité ultra
 SpecialRuleName007	Plus un ultra rare
 unlock_popup_message_153	<flash>Talents de Chalkyrie sacrée débloqués !</flash><br>Terminer l’épreuve a éveillé un nouveau pouvoir.<br>Évolue en forme ultime et atteins le niv. 30 pour<br>débloquer/renforcer les capacités dans le menu Améliorer.
 unlock_popup_message_154	<flash>Talents de Chat Bahamut éveillé débloqués !</flash><br>Terminer l’épreuve a éveillé un nouveau pouvoir.<br>Évolue en forme ultime et atteins le niv. 30 pour<br>débloquer/renforcer les capacités dans le menu Améliorer.
+assault_skip_battle_result	【Tu te sens un peu mieux...】<br><flash>Une chance récupérée !</flash><br>Retour à l’écran de choix du niveau.<br>
+assault_skip_battle_skip	【Tu te sens un peu mieux...】<br><flash>Une chance récupérée !</flash><br>Reviens tenter le niveau quand tu veux !<br>
+BonusExplanationLabel000	【Bonus de score : Affaiblissement】<br> Inflige Affaiblissement aux ennemis<br>* Améliore ton score grâce aux Chats avec moins de types de cible.<br> Consulte « Qu’est-ce que l’Arène du destin ? » en bas à gauche du menu pour en savoir plus.
+BonusNameLabel000	Affaiblissement
+gama_collabo_04_charatext	
+gama_collabo_04_name	
+gama_collabo_04_popup	
+item_pack_name_89	Achat : Promo double platine, 1re partie
+item_pack_name_90	Achat : Promo double platine, 2e partie
+leadershipreturn_pop1	Fuir la bataille ?<br><color=255,255,0>Le Charburant dépensé te sera remboursé.</color>
+leadershipreturn_pop2	L’option Continuer n’est pas disponible dans ce niveau.<br>Le Charburant dépensé te sera remboursé.
+leadershipreturn_pop3	Le Charburant dépensé dans ce niveau te sera<br>remboursé après une défaite ou une fuite.<color=255,255,0>Le Charburant dépensé dans les niveaux spéciaux ne sera pas remboursé.</color>
+leadershipreturn_pop4	Le Charburant dépensé dans ce niveau te sera<br>remboursé après une défaite ou une fuite.
+map_minutes_empty	【Charburant épuisé... Impossible de continuer...】<br>Utiliser ${itemNum} vichamine(s) [A] ?<br>Une chance sera récupérée.<br><color=255,255,0>Chances disponibles : 0/${countNum}(Nouvelle chance dans ${minutes1} min.)</color>
+receive_item_popup_annotation_1	* Les coffres au trésor sont envoyés dans la réserve d’orbes de talent.
+SpecialRuleExplanation008	【Méga Chanon】 <br>La puissance du Chanon est multipliée par 100 !<br>* N’affecte pas la puissance d’attaque des effets du Chanon spécial comme Éclair.
+SpecialRuleName008	Méga Chanon
+SpecialRuleReset000	<color=255,255,0>Réinitialisation des fonds de guerre !</color><br>L’argent réservé pour le déploiement<br>des Chats a été réinitialisé !
+treasure_box_error_1	Il te manque ${itemNum} Miam.<br>Visiter la boutique Miam ?
+treasure_box_get_confirm	Récupérer<br>« ${itemName} » ?
+treasure_box_item	<color=255,255,0>${itemName}</color>
+treasure_box_last_one	Utilise ${itemNum} Miam<br>pour tenter de gagner les objets ci-dessous.
+treasure_box_open	Tire un des objets ci-dessous au hasard.
+treasure_box_probability	* Tous les objets ont autant de chances d’être tirés.<br>* Touche une icône pour en savoir plus.
+treasure_box_redraw	* Tirer à nouveau pour ${itemNum} Miam ?
+treasure_box_redrow_probability	* Tous les objets ont autant de chances d’être tirés.<br>* Les objets déjà tirés ne réapparaîtront pas.
+treasure_box_result	<color=255,255,0>Tu as tiré : ${itemName} !</color><br>Tu peux utiliser des Miam pour tirer à nouveau.
+treasure_box_result_2	* L’objet actuel ne peut pas être reçu après un nouveau tirage.
+treasure_box_result_last_one	<color=255,255,0>Tu as tiré : ${itemName} !</color><br>Aucun autre tirage disponible.

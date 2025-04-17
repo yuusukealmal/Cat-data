@@ -53,7 +53,7 @@ Erhalten:|Stufe |Max| + ||
 →|＠||
 Stufengrenze wird erreicht, deshalb nur|notwendig.|＠||
 Du brauchst | mehr Katzenbatzen.|Futterladen aufrufen?|＠||
-Versuche es nach einer 11er-Kapselziehung|innerhalb von 30 Minuten erneut für|einen Bonus von 1.000.000 XP!|＠||
+Versuche nach einer ${gatyaNumber}er-Kapselziehung eine|weitere ${gatyaNumber}er-Ziehung innerhalb von 30 Min. für|einen Bonus von 1.000.000 XP!|＠|||
 #|als Geschenk erhalten.|＠||
 Alle Kapseln im Lager|werden aktiviert.|Möchtest du fortfahren?|＠||
 Möchtest du|fortfahren?|＠||
@@ -65,7 +65,7 @@ Alle Filter aktiviert!| Alle Kapseln befinden sich im Lager.| Rufe das Verbesser
 ||||
 Kampfformationen erhöht!|Es sind jetzt bis zu 3 Formationen in|der Teamauswahl verfügbar.|＠||
 Du musst ein vorheriges Level abschließen,|bevor du es mit diesem versuchen kannst.|＠||
-Bei einer 11er-Kapselziehung für|dieses Event wird eine megaseltene Katze|garantiert auftauchen! Nicht entgehen lassen!|＠||
+Bei einer ${gatyaNumber}er-Kapselziehung|dieses Events wird eine megaseltene Katze|garantiert auftauchen! Nicht entgehen lassen!|＠|||||
 Der Tausch jeder 5. Katzenkapsel, die du|nicht mehr brauchst, gewährt dir ein seltenes Ticket.|Kapsel(n) eintauschen?|＠||
 Eingetauscht: |Katzenkapsel(n) für|Seltenes Katzenticket x%d|＠||
 Eingetauscht: |Kapsel(n) für ein seltenes Ticket!|Tausche | mehr für dein Ticket!|＠||
@@ -106,11 +106,11 @@ Katzenkombo freigeschaltet!|Arrangiere deine Einheiten zum Freischalten des Kraf
 Glückwunsch für den Abschluss von Zukunftsreise!|Weitere Kapitel folgen bald!|Freu dich auf das nächste Update!|Sammle derweil fleißig Schätze!|＠||
 |||＠||
 Ein neues Abenteuer ist verfügbar!|Wähle Zukunftsreise im Startbildschirm|und nimm die Herausforderung an!|＠||
-Erhöhe mit %d Katzenbatzen um 1.|* Schalte bis zu 18 Plätze frei.|＠||||
+Erhöhe mit %d Katzenbatzen um 1.|* Schalte bis zu 19 Plätze frei.|＠||||
 Abschlussbonus!|Eine neue Katzenkombo wurde freigeschaltet!|In der Komboliste findest du mehr|Informationen zu deiner neuen Fertigkeit.|＠||
 Abschlussbonus!|Sondercharakter:|Du hast die wahre Form der Walkürenkatze freigeschaltet!|Entwickle sie auf Stufe 20 und setze sie ein!|＠||
 Katzenkombo:|||wurde freigeschaltet!|Weitere Informationen findest du in der Komboliste!|＠||
-Im Angebot!! Preissenkung von %d auf|%d Katzenbatzen für Formationsplatz %d.|* Schalte bis zu 18 Plätze frei.|＠|||
+Im Angebot!! Preissenkung von %d auf|%d Katzenbatzen für Formationsplatz %d.|* Schalte bis zu 19 Plätze frei.|＠|||
 Ein neues Kapitel der Zukunftssaga ist da!|Wähle Zukunftsreise im Startbildschirm|und nimm die Herausforderung an!|＠||
 Du erhältst|100.000 XP!|＠||
 You got|30 Monster Hunter Tickets!|＠||
@@ -133,11 +133,11 @@ Die Systemzeit wurde offenbar verändert.|Stelle die Zeit korrekt ein und nimm|k
 Du hast nicht genug Energie!|Energie mit 1 Führung auffüllen?|＠||
 Benutze ${itemNum1} x ${itemName1}|und ${itemNum2} x ${itemName2}|zum Erhöhen des Stufenlimits um 1.|Bist du sicher?|＠|||
 ${itemName1} wird verbraucht.|Sicher, dass du das tun willst?|＠||||
-Schalte mit %d Katzenbatzen Platz %d frei.|* Du musst erst %d Miaumedaillen sammeln.|* Schalte bis zu 18 Plätze frei.|＠|||
-Im Angebot!! Preissenkung von %d auf|%d Katzenbatzen für Formationsplatz %d.|* Du musst erst %d Miaumedaillen sammeln.|* Schalte bis zu 18 Plätze frei.|＠|||
+Schalte mit %d Katzenbatzen Platz %d frei.|* Du musst erst %d Miaumedaillen sammeln.|* Schalte bis zu 19 Plätze frei.|＠|||
+Im Angebot!! Preissenkung von %d auf|%d Katzenbatzen für Formationsplatz %d.|* Du musst erst %d Miaumedaillen sammeln.|* Schalte bis zu 19 Plätze frei.|＠|||
 %s x %d|erhalten!|＠||||
 Limitierte Katze|%@|ins Katzenlager geschickt.|＠|||
 ${charaName} kann ${level} nicht überschreiten|(in dieser Spielversion).|＠||||
 ${itemName1} und|${itemName2} wird verbraucht.|Sicher, dass du das tun willst?|＠||||
-Versuche es nach einer 11er-Kapselziehung|innerhalb von 30 Minuten erneut für|1.000.000 XP und ${itemName} x ${itemNum}!|＠|||
+Versuche nach einer ${gatyaNumber}er-Kapselziehung eine|weitere ${gatyaNumber}er-Ziehung innerhalb von 30 Min. für|1.000.000 XP und ${itemName} x ${itemNum}!|＠|||
 ${itemName1} x ${itemNum1} eingetauscht, |um das Stufenlimit zu erhöhen!|Verbesserung bis Stufe ${level} möglich!|＠|||

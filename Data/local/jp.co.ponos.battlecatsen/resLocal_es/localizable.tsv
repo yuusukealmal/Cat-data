@@ -1189,14 +1189,14 @@ item_pack_name_37	Oferta de potenciadores de plata: ¡Friskas y lote de objetos!
 item_pack_name_38	Oferta de potenciadores de oro: ¡Friskas y lote de objetos!
 item_conversion	Fragmentos de platino x%d intercambiados<br>por <flash>tique de platino x%d</flash>
 fragment_message	Cambia 10 fragmentos de platino<br>por 1 tique de platino.<br>Fragmentos que tienes: %d
-fragment_bonus	¡Obtén un fragmento de platino de regalo<br>al abrir 11 bolas de una vez!<br>¡Cambia 10 fragmentos de platino<br>por <flash>1 tique de platino</flash>!
+fragment_bonus	¡Obtén un fragmento de platino de regalo<br>al abrir ${gatyaNumber} bolas de una vez!<br>¡Cambia 10 fragmentos de platino<br>por 1 <flash>tique de platino</flash>!
 applang	en
 equipment_error	Este talento solo se puede usar si la unidad<br>ya tiene la habilidad «%@: %@».
 scratch_message	Has ganado esto: ¡%s x%d!
 scratch_SNS_000	¡He ganado %d Friskas en #BattleCatsScratcher!<br>Prueba suerte una vez a la semana y podrás llevarte un premio increíble.<br><br>#TheBattleCats
 item_pack_name_39	Lote de fiesta
 potential_skill_name57	Objetivo: aku
-assault_skip	(Recuperación casi terminada...)<br><flash>¡Ya has recuperado una oportunidad!</flash><br>¡Pronto podrás enfrentarte a más fases!<br><color=255,255,0>Oportunidades disponibles: 1/${countNum} ${assaultWord}</color>
+assault_skip	【Recuperación casi terminada...】<br><flash>¡Ya has recuperado una oportunidad!</flash><br>¡Pronto podrás enfrentarte a más fases!<br><color=255,255,0>Oportunidades disponibles: 1/${countNum} ${assaultWord}</color>
 assault_word	(Recuperación completa en ${minutes2} min)
 potential_skill_name58	Atravesar escudos
 potential_skill_name59	Directo al alma
@@ -1523,3 +1523,32 @@ SpecialRuleExplanation007	[Megarraro +1]<br>Despliega dos unidades megarraras<br
 SpecialRuleName007	[Megarraro +1]
 unlock_popup_message_153	<flash>¡Desbloquea nuevos talentos de la Gata Valquiria Sagrada!</flash><br>Tras superar la prueba, despertarás su nuevo poder.<br>Muta a la Gata Valquiria a su forma final y alcanza el nivel 30<br>para desbloquear/potenciar habilidades en el menú «Mejorar».
 unlock_popup_message_154	<flash>¡Desbloquea nuevos talentos del Gato Bégimo Alzado!</flash><br>Tras superar la prueba, despertarás su nuevo poder.<br>Muta al Gato Bégimo a su forma final y alcanza el nivel 30<br>para desbloquear/potenciar habilidades en el menú «Mejorar».
+assault_skip_battle_result	【Recuperación casi terminada...】<br><flash>¡Ya has recuperado una oportunidad!</flash><br>¡Pronto podrás enfrentarte a más fases!<br>
+assault_skip_battle_skip	【Recuperación casi terminada...】<br><flash>¡Ya has recuperado una oportunidad!</flash><br>¡Vuelve a superar la fase cuando quieras!<br>
+BonusExplanationLabel000	【Bonus de tiempo: desgaste】<br> Desgasta a un enemigo<br>※ Usa unidades que afecten a menos rasgos enemigos y consigue una mayor puntuación.<br> Echa un vistazo a «¿Qué es la Arena del Destino?» en la esquina inferior izquierda del menú para conocer todos los detalles.
+BonusNameLabel000	Desgastar
+gama_collabo_04_charatext	
+gama_collabo_04_name	
+gama_collabo_04_popup	
+item_pack_name_89	Compra: oferta doble de platino parte 1
+item_pack_name_90	Compra: oferta doble de platino parte 2
+leadershipreturn_pop1	¿Quieres huir de la batalla?<br><color=255,255,0>Recuperarás la energía gastada.</color>
+leadershipreturn_pop2	No se pueden utilizar continuaciones en esta fase.<br>Recuperarás la energía gastada.
+leadershipreturn_pop3	Recuperarás la energía gastada en esta fase<br>tras la derrota o la huida.<color=255,255,0>No recuperarás la energía gastada en fases especiales.</color>
+leadershipreturn_pop4	Recuperarás la energía gastada en esta fase<br>tras la derrota o la huida.
+map_minutes_empty	【No puedes continuar... No tienes energía...】<br>¿Quieres usar ${itemNum}  de gatamina [A]?<br>Recuperarás una nueva oportunidad.<br><color=255,255,0>Oportunidades disponibles: 0/${countNum} (Las oportunidades se restablecerán en ${minutes1} min.)</color>
+receive_item_popup_annotation_1	※ Los cofres del tesoro se enviararán al almacén de orbes de talento.
+SpecialRuleExplanation008	【Gatorreta megatrón】 <br>¡Multiplica por 100 el poder de ataque de la gatorreta!<br>* No se aplica al poder de ataque de efectos especiales como el efecto inmovilizador.
+SpecialRuleName008	Gatorreta megatrón
+SpecialRuleReset000	<color=255,255,0>¡Fondos de guerra restablecidos!</color><br>¡Has recuperado el dinero<br>del despliegue!
+treasure_box_error_1	Necesitas ${itemNum} de Friskas más.<br>¿Quieres ir a la tienda de Friskas?
+treasure_box_get_confirm	¿Quieres recoger<br>«${itemName}»?
+treasure_box_item	<color=255,255,0>${itemName}</color>
+treasure_box_last_one	Usa ${itemNum} de Friskas <br>para ganar uno de los objetos mostrados abajo.
+treasure_box_open	Consigue uno de los siguientes objetos al azar.
+treasure_box_probability	※ Todos los objetos aparecerán con la misma probabilidad.<br>※ Toca en un icono para saber más.
+treasure_box_redraw	※ ¿Quieres abrir otro por ${itemNum} de Friskas?
+treasure_box_redrow_probability	※ Todos los objetos aparecerán con la misma probabilidad.<br>※Los elementos ya conseguidos no aparecerán de nuevo.
+treasure_box_result	<color=255,255,0>¡Has ganado ${itemName}!</color><br>Usa Friskas para abrir más.
+treasure_box_result_2	※ No puedes recibir este objeto tras una nueva tirada.
+treasure_box_result_last_one	<color=255,255,0>¡Has ganado ${itemName}!</color><br>No quedan nuevas tiradas disponibles.

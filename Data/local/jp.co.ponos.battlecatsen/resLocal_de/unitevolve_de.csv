@@ -429,7 +429,7 @@ Wahre Form erhöht Vert. und gewährt|längere Schwächungseffekte. Schwächt|Re
 ＠|＠|＠|＠|＠|＠|＠|			//そうまにゃん
 ＠|＠|＠|＠|＠|＠|＠|			//オタネコギーク
 ＠|＠|＠|＠|＠|＠|＠|			//ぐでたまネコマシン
-Wahre-Form-Entwicklung steigert Angriffs-|tempo! Friert zudem Feinde garantiert ein.|Stark gegen Zombie-Feinde.||Wahre-Form-Entwicklung steigert Angriffs-|tempo! Friert zudem Feinde garantiert ein.|Stark gegen Zombie-Feinde.|//亡者探偵ヴィグラー
+Wahre-Form-Entwicklung steigert Angriffs-|tempo! Friert zudem Feinde garantiert ein.|Stark gegen Zombie-Feinde.||Ultra-Form-Entw. verbessert Fähigkeiten!|Wellenang. kommen weiter & erhält „Weiser|Töter“! Immunität gegen Wellenangriffe!|//亡者探偵ヴィグラー
 ＠|＠|＠|＠|＠|＠|＠|			//ベタックマ
 ＠|＠|＠|＠|＠|＠|＠|			//ネコックマ
 ＠|＠|＠|＠|＠|＠|＠|			//白にゃんこ剣士
@@ -680,7 +680,7 @@ Wahre-Form-Entwicklung enthüllt|letzte Form!|Erhält zudem „Behemothtöter“
 ＠|＠|＠|＠|＠|＠|＠|			//雨取千佳＆ネコ
 ＠|＠|＠|＠|＠|＠|＠|			//さくら
 ＠|＠|＠|＠|＠|＠|＠|			//ルーク
-＠|＠|＠|＠|＠|＠|＠|//女神ベガ
+Wahre-Form-Entwicklung erhöht|Gewährt zudem die Zombietöter-Fähigkeit!|＠|＠|Wahre-Form-Entwicklung erhöht|Gewährt zudem die Zombietöter-Fähigkeit!|＠|//女神ベガ
 Wahre-Form-Entw. steigert Angriffskraft!|Erhält zudem erhöhte Bewegungsgeschw.|und überlebt 1 tödl. Schlag garantiert!|＠|Wahre-Form-Entw. steigert Angriffskraft!|Erhält zudem erhöhte Bewegungsgeschw.|und überlebt 1 tödl. Schlag garantiert!|//伯爵・真田幸村
 ＠|＠|＠|＠|＠|＠|＠|			//洗脳されしネコフィッシュ
 Wahre Form enthüllt letzte Form!|Durchbricht/durchdringt außerdem|garantiert Schilde und Barrieren!|＠|Wahre Form enthüllt letzte Form!|Durchbricht/durchdringt außerdem|garantiert Schilde und Barrieren!|//古びたタマゴ:N004
@@ -779,9 +779,21 @@ Wahre-Form-Entw. enth. letzte Form!|Erhält zudem "Behemothtöter"!|＠|＠|Wahr
 ＠|＠|＠|＠|＠|＠|＠|//ネコまどか＆ほむら
 ＠|＠|＠|＠|＠|＠|＠|//幼天女ルーナ
 ＠|＠|＠|＠|＠|＠|＠|//ネコボウラー
-＠|＠|＠|＠|＠|＠|＠|//782
+＠|＠|＠|＠|＠|＠|＠|//マモルガ
 ＠|＠|＠|＠|＠|＠|＠|//783
-＠|＠|＠|＠|＠|＠|＠|//784
-＠|＠|＠|＠|＠|＠|＠|//785
-＠|＠|＠|＠|＠|＠|＠|//786
-＠|＠|＠|＠|＠|＠|＠|//787
+＠|＠|＠|＠|＠|＠|＠|//こねこ
+＠|＠|＠|＠|＠|＠|＠|//チョコサプネコC
+＠|＠|＠|＠|＠|＠|＠|//殺意のキモネコ
+＠|＠|＠|＠|＠|＠|＠|//マジシャンキャットマン
+＠|＠|＠|＠|＠|＠|＠|//黒ルーナ（仮）
+＠|＠|＠|＠|＠|＠|＠|//789
+＠|＠|＠|＠|＠|＠|＠|//範馬刃牙
+＠|＠|＠|＠|＠|＠|＠|//烈海王
+＠|＠|＠|＠|＠|＠|＠|//花山薫
+＠|＠|＠|＠|＠|＠|＠|//愚地克巳
+＠|＠|＠|＠|＠|＠|＠|//ジャック・ハンマー
+＠|＠|＠|＠|＠|＠|＠|//ネコオーガ
+＠|＠|＠|＠|＠|＠|＠|//ちび刃牙
+＠|＠|＠|＠|＠|＠|＠|//ネコ刃牙
+＠|＠|＠|＠|＠|＠|＠|//ネコ海王
+＠|＠|＠|＠|＠|＠|＠|//ネコ独歩

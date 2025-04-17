@@ -1189,14 +1189,14 @@ item_pack_name_37	Verstärker-Angebot: Silber! Katzenbatzen- & Gegenstandspaket
 item_pack_name_38	Verstärker-Angebot: Gold! Katzenbatzen- & Gegenstandspaket
 item_conversion	%d Platinsplitter eingetauscht gegen<br><flash>Platinticket x %d</flash>
 fragment_message	Tausche 10 Platinsplitter<br>gegen 1 Platinticket.<br>Aktuelle Splitteranzahl: %d
-fragment_bonus	Hol dir mit jeder 11er-Kapselziehung<br>ein Platinsplitter-Geschenk!<br>Tausche 10 Platinsplitter<br>gegen ein <flash>Platinticket</flash>!
+fragment_bonus	Hol dir mit jeder ${gatyaNumber}er-Kapselziehung<br>ein Platinsplitter-Geschenk!<br>Tausche 10 Platinsplitter<br>gegen ein <flash>Platinticket</flash>!
 applang	en
 equipment_error	Dieses Talent kann nur verwendet werden, wenn die Einheit<br>bereits die Fähigkeit "%@ gg. %@" hat.
 scratch_message	Du erhältst %s x %d
 scratch_SNS_000	Ich habe %d Katzenbatzen beim #BattleCatsScratcher gewonnen!<br>Jede Woche eine Chance auf einen großartigen Preis!<br><br>#TheBattleCats
 item_pack_name_39	Partypaket
 potential_skill_name57	Ziel: Aku
-assault_skip	(Es geht schon besser ...)<br><flash>1 Abschlusschance aufgefüllt!</flash><br>Versuche diese Level bald wieder!<br><color=255,255,0>Verfügbare Abschlusschancen: 1/${countNum} ${assaultWord}</color>
+assault_skip	(Es geht schon besser ...)<br><flash>1 Abschlusschance aufgefüllt!</flash><br>Du kehrst zur Levelauswahl zurück.<br><color=255,255,0>Verfügbare Abschlusschancen: 1/${countNum} ${assaultWord}</color>
 assault_word	(Volle Auffüllung in ${minutes2} Min.)
 potential_skill_name58	Durchdringend
 potential_skill_name59	Seelenstoß
@@ -1523,3 +1523,32 @@ SpecialRuleExplanation007	[Megaselten +1]<br>Entsende 2-mal die<br>gleiche megas
 SpecialRuleName007	Megaselten +1
 unlock_popup_message_153	<flash>Talente der Heiligen Walkürenkatze freigeschaltet!</flash><br>Der Abschluss der Prüfung hat neue Kräfte entfesselt.<br>Zur wahren Form entwickeln und Lv. 30 erreichen,<br>um Fähigkeiten im Verbesserungenmenü freizuschalten/zu verbessern.
 unlock_popup_message_154	<flash>Talente der Erwachten Bahamut-Katze freigeschaltet!</flash><br>Der Abschluss der Prüfung hat neue Kräfte entfesselt.<br>Zur wahren Form entwickeln und Lv. 30 erreichen,<br>um Fähigkeiten im Verbesserungenmenü freizuschalten/zu verbessern.
+assault_skip_battle_result	(Es geht schon besser ...)<br><flash>1 Abschlusschance aufgefüllt!</flash><br>Du kehrst zur Levelauswahl zurück.<br>
+assault_skip_battle_skip	(Es geht schon besser ...)<br><flash>1 Abschlusschance aufgefüllt!</flash><br>Versuche dieses Level jederzeit wieder!<br>
+BonusExplanationLabel000	(Punktebonus: Schwächen)<br> Belegt Feinde mit Schwächen<br>* Verdiene mehr Punkte mit Katzen, die weniger Zieltypen haben.<br>Weitere Details findest du unter „Was ist die Arena des Schicksals?“ unten links im Menü.
+BonusNameLabel000	Schwächen
+gama_collabo_04_charatext	
+gama_collabo_04_name	
+gama_collabo_04_popup	
+item_pack_name_89	Kaufe: Platin-Doppelangebot, Teil 1
+item_pack_name_90	Kaufe: Platin-Doppelangebot, Teil 2
+leadershipreturn_pop1	Aus dem Kampf fliehen?<br><color=255,255,0>Ausgegebene Energie wird wiederhergestellt.</color>
+leadershipreturn_pop2	In diesem Level können keine Fortsetzungen eingesetzt werden.<br>Ausgegebene Energie wird wiederhergestellt.
+leadershipreturn_pop3	In diesem Level ausgegebene Energie wird<br>bei Niederlage oder Flucht wiederhergestellt.<color=255,255,0>Für Sonderlevel ausgegebene Energie wird nicht wiederhergestellt.</color>
+leadershipreturn_pop4	In diesem Level ausgegebene Energie wird<br>bei Niederlage oder Flucht wiederhergestellt.
+map_minutes_empty	(Keine Energie ... Kann nicht weiter ...)<br>${itemNum} Katzamin [A] verwenden?<br>Eine Abschlusschance wird wiederhergestellt.<br><color=255,255,0>Verfügbare Abschlusschancen: 0/${countNum} (Abschlusschance wird in ${minutes1} Min. wiederhergestellt)</color>
+receive_item_popup_annotation_1	* Schatztruhen werden ins Talentkugellager geschickt.
+SpecialRuleExplanation008	(Megakatzenkanone) <br>Katzenkanonen-Kraft wird mit 100 multipliziert!<br>* Die Angriffskraft von Kanonen-Spezialeffekten wie Blitzschlag ist davon nicht betroffen.
+SpecialRuleName008	Megakatzenkanone
+SpecialRuleReset000	<color=255,255,0>Kriegskasse zurückgesetzt!</color><br>Das zum Entsenden von Katzen<br>verwendete Geld wurde zurückgesetzt!
+treasure_box_error_1	Du benötigst noch ${itemNum} Katzenbatzen.<br>Möchtest du den Futterladen aufrufen?
+treasure_box_get_confirm	„${itemName}“<br>einsammeln?
+treasure_box_item	<color=255,255,0>${itemName}</color>
+treasure_box_last_one	Nutze ${itemNum} Katzenbatzen<br>und erhalte eine Chance auf die Gegenstände unten.
+treasure_box_open	Ziehe zufällig einen der unteren Gegenstände.
+treasure_box_probability	* Alle Gegenstände haben die gleiche Chance, gezogen zu werden.<br>* Tippe auf ein Symbol, um mehr zu erfahren.
+treasure_box_redraw	* Für ${itemNum} Katzenbatzen erneut ziehen?
+treasure_box_redrow_probability	* Alle Gegenstände haben die gleiche Chance, gezogen zu werden.<br>* Bereits gezogene Gegenstände werden nicht erneut gezogen.
+treasure_box_result	<color=255,255,0>Du hast ${itemName} gezogen!</color><br>Mit Katzenbatzen kannst du erneut ziehen.
+treasure_box_result_2	* Nach einer erneuten Ziehung kann der aktuelle Gegenstand nicht mehr erhalten werden.
+treasure_box_result_last_one	<color=255,255,0>Du hast ${itemName} gezogen!</color><br>Keine weiteren erneuten Ziehungen verfügbar.

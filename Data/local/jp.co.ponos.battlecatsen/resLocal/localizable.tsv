@@ -1191,14 +1191,14 @@ item_pack_name_37	Power-Up Sale: Silver! Cat Food & Item Pack
 item_pack_name_38	Power-Up Sale: Gold! Cat Food & Item Pack
 item_conversion	%d Platinum Shards exchanged<br>for <flash>Platinum Ticket x %d</flash>
 fragment_message	Trade 10 Platinum Shards<br>for 1 Platinum Ticket.<br>Current Shards: %d
-fragment_bonus	Get a Platinum Shard gift<br>with each 11-Capsule Draw!<br>Trade 10 Platinum Shards<br>for one <flash>Platinum Ticket</flash>!
+fragment_bonus	Get a Platinum Shard gift<br>with each ${gatyaNumber}-Capsule Draw!<br>Trade 10 Platinum Shards<br>for one <flash>Platinum Ticket</flash>!
 applang	en
 equipment_error	This Talent can only be used if Unit<br>already has the "%@: %@" ability.
 scratch_message	You got %s x%d
 scratch_SNS_000	I won %d Cat Food from the #BattleCatsScratcher!<br>Try once each week for a chance at an awesome prize!<br><br>#TheBattleCats #BattleCats #CatScratcher #CatsOfSummer2024
 item_pack_name_39	Party Pack
 potential_skill_name57	Target Aku
-assault_skip	【Feeling a bit better...】<br><flash>One clear chance recovered!</flash><br>Challenge stages again soon!<br><color=255,255,0>Clear chances available: 1/${countNum} ${assaultWord}</color>
+assault_skip	【Feeling a bit better...】<br><flash>One clear chance recovered!</flash><br>Returning to the Stage Select screen.<br><color=255,255,0>Clear chances available: 1/${countNum} ${assaultWord}</color>
 assault_word	(Full recovery in ${minutes2} mins.)
 potential_skill_name58	Shield Piercing
 potential_skill_name59	Soulstrike
@@ -1529,3 +1529,32 @@ SpecialRuleExplanation007	【Plus One: Uber】<br>Uber Rare units are automatica
 SpecialRuleName007	Plus One: Uber
 unlock_popup_message_153	<flash>Holy Valkyrie Cat's Talents unlocked!</flash><br>Clearing the trial has awakened a new power.<br>Evolve to True Form and reach Lv. 30 to<br>unlock/strengthen abilities from the Upgrade Menu.
 unlock_popup_message_154	<flash>Awakened Bahamut Cat's Talents unlocked!</flash><br>Clearing the trial has awakened a new power.<br>Evolve to True Form and reach Lv. 30 to<br>unlock/strengthen abilities from the Upgrade Menu.
+assault_skip_battle_result	【Feeling a bit better...】<br><flash>One clear chance recovered!</flash><br>Returning to the Stage Select screen.<br>
+assault_skip_battle_skip	【Feeling a bit better...】<br><flash>One clear chance recovered!</flash><br>Challenge the stage again anytime!<br>
+BonusExplanationLabel000	【Score Bonus: Weaken】<br> Inflict Weaken on Enemies<br>※ Earn a higher score by Cats with fewer Target types.<br> Check "What is the Arena of Destiny?" at the bottom left of the menu for details.
+BonusNameLabel000	Weaken
+gama_collabo_04_charatext	
+gama_collabo_04_name	
+gama_collabo_04_popup	
+item_pack_name_89	Purchase: Platinum Double Sale, Pt. 1
+item_pack_name_90	Purchase: Platinum Double Sale, Pt. 2
+leadershipreturn_pop1	Escape from Battle?<br><color=255,255,0>Spent Energy will be restored.</color>
+leadershipreturn_pop2	Continues cannot be used on this Stage.<br>Spent Energy will be restored.
+leadershipreturn_pop3	Energy spent on this stage will be<br>restored after Defeat or Escape.<br><color=255,255,0>Energy spent on Special Stages will not be restored.</color>
+leadershipreturn_pop4	Energy spent on this stage will be<br>restored after Defeat or Escape.
+map_minutes_empty	【No Energy... Can't go on...】<br>Use ${itemNum} Catamin A?<br>One clear chance will be restored.<br><color=255,255,0>Available Clear Chances: 0/${countNum}（Clear Chance restore in ${minutes1} min.)</color>
+receive_item_popup_annotation_1	※ Treasure Chests will be sent to Talent Orb Storage.
+SpecialRuleExplanation008	【Mega Cat Cannon】 <br>Cat Cannon Power is multiplied by 100!<br>※ Does not affect attack power of Special Cannon effects like Thunderbolt.
+SpecialRuleName008	Mega Cat Cannon
+SpecialRuleReset000	<color=255,255,0>War Funds Reset!</color><br>Held Money used to deploy<br>Cats has been reset!
+treasure_box_error_1	Need ${itemNum} more Cat Food.<br>Visit the Cat Food Shop?
+treasure_box_get_confirm	Collect<br>"${itemName}"?
+treasure_box_item	<color=255,255,0>${itemName}</color>
+treasure_box_last_one	Use ${itemNum} Cat Food<br>for a chance at the items below.
+treasure_box_open	Draw an item below at random.
+treasure_box_probability	※ All items have an equal chance at being drawn.<br>※ Tap an icon for more info.
+treasure_box_redraw	※ Redraw for ${itemNum} Cat Food?
+treasure_box_redrow_probability	※ All items have an equal chance at being drawn.<br>※ Previously drawn items will not reappear.
+treasure_box_result	<color=255,255,0>You drew ${itemName}!</color><br>Cat Food can be used to redraw.
+treasure_box_result_2	※ The current item cannot be received after a redraw.
+treasure_box_result_last_one	<color=255,255,0>You drew ${itemName}!</color><br>No more Redraws available.

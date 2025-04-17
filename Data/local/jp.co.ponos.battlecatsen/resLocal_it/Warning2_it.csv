@@ -53,7 +53,7 @@ Ricevuto|Livello |Max| + ||
 →|＠||
 Verrà raggiunto il limite di livello, quindi | sarà solo usato.|＠||
 Hai bisogno di |Friskat.|Vuoi andare al negozio Friskat?|＠||
-Dopo aver effettuato un sorteggio a 11 capsule,|riprova entro 30 minuti per ottenere|un bonus di 1.000.000 XP!|＠||
+Dopo un sorteggio a ${gatyaNumber} capsule, prova un|altro sorteggio a ${gatyaNumber} entro 30 minuti per ottenere|un bonus di 1.000.000 XP!|＠|||
 #|ricevuto in regalo.|＠||
 Tutte le capsule nella Rimessa|verranno attivate.|Vuoi continuare?|＠||
 Vuoi|continuare?|＠||
@@ -65,7 +65,7 @@ Tutti i filtri attivati!|Puoi vedere tutte le capsule nella Rimessa.| Accedi al 
 ||||
 Formazioni da battaglia aumentate!|Ora puoi preparare fino a tre formazioni|accedendo alla schermata Equipaggia.|＠||
 Bisogna superare un livello precedente|prima di poter affrontare questo livello.|＠||
-Quando effettui un sorteggio a 11 capsule|per questo evento, avrai un gatto ultra raro|garantito! Non perderlo!|＠||
+Quando fai un sorteggio a ${gatyaNumber} capsule|per questo evento, avrai un gatto ultra raro|garantito! Non perderlo!|＠|||||
 Scambia 5 Miaocapsule che non puoi |più usare per ricevere un Biglietto raro.|Vuoi scambiare capsule?|＠||
 Hai scambiato | Miaocapsule per|%d miaobiglietto/i raro/i!|＠||
 Hai scambiato |capsula/e per un Biglietto raro!|Scambiane ancora|per ricevere il tuo Biglietto!|＠||
@@ -106,11 +106,11 @@ Combo felina sbloccata!|Organizza le tue unità per sbloccare un super bonus!|Co
 Complimenti, ha superato "Verso il futuro"!|Presto appariranno altri capitoli,|quindi non perderti il prossimo aggiornamento!|Fino ad allora, prova a trovare tutti i tesori!|＠||
 |||＠||
 È apparsa una nuova avventura!|Seleziona "Verso il futuro" dalla schermata del titolo|per affrontare questa nuova sfida!|＠||
-Usa %d Friskat per aggiungere 1 slot.|*Sblocca fino a 18 slot*|＠||||
+Usa %d Friskat per aggiungere 1 slot.|*Sblocca fino a 19 slot*|＠||||
 Bonus piazza pulita!|Hai sbloccato una nuova combo felina!|Consulta il menu Lista combo per maggiori|informazioni sulla tua nuova abilità.|＠||
 Bonus piazza pulita!|Personaggio speciale:|Hai sbloccato la Forma Reale di Gatto Valchiria!|Fallo evolvere al livello 20 per usarlo!|＠||
 La combo felina:|||è stata sbloccata!|Consulta il menu Lista combo per maggiori informazioni!|＠||
-In Offerta! Costo ridotto da %d|a %d Friskat per sbloccare slot formazione # %d.|*Sblocca fino a 18 slot*|＠|||
+In Offerta! Costo ridotto da %d|a %d Friskat per sbloccare slot formazione # %d.|*Sblocca fino a 19 slot*|＠|||
 È arrivato un nuovo capitolo della saga sul futuro!|Seleziona "Verso il futuro" dalla schermata del titolo|per affrontare questa nuova sfida!|＠||
 Hai ricevuto|100.000 XP!|＠||
 You got|30 Monster Hunter Tickets!|＠||
@@ -133,11 +133,11 @@ Usa 1 Leadership per un recupero completo?|＠|||
 Non hai sufficiente energia!|Vuoi recuperare tutta l'energia con 1 Leadership?|＠||
 Usa ${itemName1} x${itemNum1}|e ${itemName2} x${itemNum2}|per aumentare il livello max di uno.|Confermi?|＠|||
 Utilizzerai ${itemName1}.|Confermi di volerlo fare?|＠||||
-Usa %d Friskat per sbloccare lo slot # %d.|*Prima devi raccogliere %d Miaodaglie*|*Sblocca fino a 18 slot*|＠|||
-In Offerta! Costo ridotto da %d|a %d Friskat per sbloccare slot formazione # %d.|*Prima devi raccogliere %d Miaodaglie*|*Sblocca fino a 18 slot*|＠|||
+Usa %d Friskat per sbloccare lo slot # %d.|*Prima devi raccogliere %d Miaodaglie*|*Sblocca fino a 19 slot*|＠|||
+In Offerta! Costo ridotto da %d|a %d Friskat per sbloccare slot formazione # %d.|*Prima devi raccogliere %d Miaodaglie*|*Sblocca fino a 19 slot*|＠|||
 %s x %d|ricevuto/i!|＠||||
 Gatto limitato|%@|inviato nella Rimessa.|＠|||
 ${charaName} non può superare ${level}|in questa versione del gioco.|＠||||
 Utilizzerai ${itemName1} e|${itemName2}.|Confermi di volerlo fare?|＠||||
-Dopo avere fatto un sort. di 11 capsule,|riprova entro 30 minuti per ottenere|1.000.000 XP e ${itemName} x ${itemNum}!|＠|||
+Dopo un sorteggio a ${gatyaNumber} capsule, prova un|altro sorteggio a ${gatyaNumber} entro 30 minuti per ottenere|1.000.000 XP e ${itemName} x ${itemNum}!|＠|||
 Hai scambiato ${itemName1} x ${itemNum1} |per aumentare il livello max!|Ora puoi potenziare al livello ${level}!|＠|||

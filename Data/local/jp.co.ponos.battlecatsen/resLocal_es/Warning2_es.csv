@@ -53,7 +53,7 @@ Activado|Nivel |Máx.| + ||
 →|＠||
 Se alcanzará el nivel máx., así que solo se usará esto: |.|＠||
 Necesitas | más Friskas.|¿Quieres comprarlos en la tienda?|＠||
-Si has abierto 11 bolas a la vez,|prueba a abrir otras 11 antes de media hora|¡y ganarás un bonus de 1 000 000 de XP!|＠||
+Si has abierto ${gatyaNumber} bolas a la vez,|prueba a abrir otras ${gatyaNumber} antes de 30 minutos|¡y ganarás un bonus de 1 000 000 de XP!|＠|||
 #|¡De regalo!|＠||
 Se activarán todas las cápsulas|que tengas guardadas en el almacén.|¿Quieres continuar?|＠||
 ¿Quieres|continuar?|＠||
@@ -65,7 +65,7 @@ No se ha podido conectar con el servidor | debido a un fallo con la hora del dis
 ||||
 ¡Más formaciones de combate disponibles!|Ahora podrás preparar hasta tres|formaciones desde el menú «Equipo».|＠||
 Debes superar la fase anterior|para acceder a esta.|＠||
-Cuando abras 11 bolas durante este evento,|recibirás un gato megarraro garantizado.|¡No dejes pasar la oportunidad!|＠||
+Cuando abras ${gatyaNumber} bolas durante este evento,|recibirás un gato megarraro garantizado.|¡No dejes pasar la oportunidad!|＠|||||
 Al cambiar 5 gatobolas que ya |no puedas usar, recibirás un tique raro.|¿Cambiar gatobolas?|＠||
 Has cambiado | gatobolas por|%d tique(s) raro(s).|＠||
 Has cambiado | gatobola para recibir 1 tique raro.|Con | más, te llevarás tu tique.|＠||
@@ -106,11 +106,11 @@ Fase contrarreloj|Según el tiempo que tardes en superar la fase, obtendrás|una
 Has superado Hacia el Futuro, ¡enhorabuena!|Pronto aparecerán más capítulos,|así que no pierdas de vista la próxima actualización.|Hasta entonces, ¡intenta conseguir todos los tesoros!|＠||
 |||＠||
 ¡Ya hay disponible una nueva aventura!|Selecciona «Hacia el Futuro» en la pantalla de título|para aceptar este nuevo desafío.|＠||
-Paga %d Friskas para tener un set adicional.|* Desbloquea hasta 18 sets *|＠||||
+Paga %d Friskas para tener un set adicional.|* Desbloquea hasta 19 sets *|＠||||
 ¡Bonus por superar la fase!|¡Nuevo gatocombo desbloqueado!|Consulta la lista de gatocombos para saber más|sobre tu nueva habilidad.|＠||
 ¡Bonus por superar la fase!|Personaje especial:|¡Has desbloqueado la forma final de la Gata Valquiria!|Mútala en el nivel 20 para usarla.|＠||
 Gatocombo:|||¡Desbloqueado!|Consulta la lista de gatocombos para saber más.|＠||
-¡Oferta! Precio reducido de %d a|%d para desbloquear el set %d.|* Desbloquea hasta 18 sets *|＠|||
+¡Oferta! Precio reducido de %d a|%d para desbloquear el set %d.|* Desbloquea hasta 19 sets *|＠|||
 ¡Ya hay disponible un nuevo capítulo de la saga Hacia el Futuro!|Selecciona «Hacia el Futuro» en la pantalla de título|para aceptar este nuevo desafío.|＠||
 ¡Has ganado|100 000 XP!|＠||
 You got|30 Monster Hunter Tickets!|＠||
@@ -133,11 +133,11 @@ Parece que se ha modificado la hora del dispositivo.|Confirma que la hora es cor
 No tienes suficiente energía...|¿Usar 1 liderazgo para rellenar tu energía?|＠||
 Vas a usar ${itemName1} x${itemNum1}|y ${itemName2} x${itemNum2}|para aumentar el nivel máximo en 1.|¿Quieres continuar?|＠|||
 Gastarás ${itemName1}.|¿Seguro que quieres continuar?|＠||||
-Paga %d Friskas para desbloquear el set %d.|* Antes deberás conseguir %d miaudallas *|* Desbloquea hasta 18 sets *|＠|||
-¡Oferta! Precio reducido de %d a|%d para desbloquear el set %d.|* Antes deberás conseguir %d miaudallas *|* Desbloquea hasta 18 sets *|＠|||
+Paga %d Friskas para desbloquear el set %d.|* Antes deberás conseguir %d miaudallas *|* Desbloquea hasta 19 sets *|＠|||
+¡Oferta! Precio reducido de %d a|%d para desbloquear el set %d.|* Antes deberás conseguir %d miaudallas *|* Desbloquea hasta 19 sets *|＠|||
 %s x%d|¡Enhorabuena!|＠||||
 Gato exclusivo|%@|fue enviado al almacén felino.|＠|||
 ${charaName} no puede pasar del nivel ${level}|en la versión actual del juego.|＠||||
 Vas a usar ${itemName1} y|${itemName2}.|¿Seguro que quieres continuar?|＠||||
-¡Si has abierto 11 bolas a la vez,|abre 11 más antes de 30 minutos y|gana 1 000 000 XP y ${itemName} x${itemNum}!|＠|||
+¡Si has abierto ${gatyaNumber} bolas a la vez,|abre ${gatyaNumber} más antes de 30 minutos para obtener|gana 1 000 000 XP y ${itemName} x${itemNum}!|＠|||
 Has cambiado ${itemName1} x ${itemNum1}|para aumentar el nivel máximo.|¡Ahora puedes mejorar al nivel ${level}!|＠|||

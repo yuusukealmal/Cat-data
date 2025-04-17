@@ -53,7 +53,7 @@ Obtenu|Niveau |Max.| + ||
 →|＠||
 La limite de niveau sera atteinte, uniquement utilisé(s) :|.|＠||
 Il te faut |Miam de plus.|Veux-tu aller à la boutique Miam ?|＠||
-Après avoir ouvert 11 Chapsules d’un coup,|refais-le dans les 30 minutes pour obtenir|un bonus de 1 000 000 XP en cadeau !|＠||
+Après avoir tiré ${gatyaNumber} Chapsules, tire encore ${gatyaNumber}|Chapsules dans les 30 minutes pour obtenir|un bonus de 1 000 000 XP en cadeau !|＠|||
 #|en cadeau.|＠||
 Toutes les Chapsules de la réserve|seront activées.|Veux-tu continuer ?|＠||
 Veux-tu|continuer ?|＠||
@@ -65,7 +65,7 @@ Tous les filtres sont activés !|Tu peux voir toutes les Chapsules dans ta rése
 ||||
 Formations de bataille augmentées !|Tu peux maintenant préparer jusqu’à|trois formations via l’écran Organiser.|＠||
 Le niveau précédent doit être terminé|avant de pouvoir essayer celui-ci.|＠||
-En ouvrant 11 Chapsules à la fois pour|cet événement, tu obtiendras une unité ultra rare|à coup sûr. Ne rate pas l’occasion !|＠||
+Quand tu tires ${gatyaNumber} Chapsules pour|cet événement, tu obtiendras une unité ultra rare|à coup sûr. Ne rate pas l’occasion !|＠|||||
 Échanger 5 Chapsules que tu ne peux |plus utiliser te rapporte un ticket rare.|Échanger des Chapsules ?|＠||
 Tu as échangé | Chapsule(s) contre|%d ticket rare !|＠||
 Tu as échangé |Chapsule(s) pour un ticket rare !|Échange | de plus pour obtenir ton ticket !|＠||
@@ -106,11 +106,11 @@ Combos félins débloqués !|Organise tes unités pour activer une capacité bon
 Bravo, tu as terminé Vers le futur !|D’autres chapitres apparaîtront bientôt,|alors attends la prochaine mise à jour.|D’ici là, essaie de récupérer tous les trésors !|＠||
 |||＠||
 Une nouvelle aventure est apparue !|Sélectionne Vers le futur depuis l’écran titre|pour relever ce tout nouveau défi !|＠||
-Paie %d Miam pour pouvoir enregistrer|* Débloque jusqu'à 18 emplacements *|＠||||
+Paie %d Miam pour pouvoir enregistrer|* Débloque jusqu'à 19 emplacements *|＠||||
 Bonus de niveaux terminés !|Un nouveau combo félin a été débloqué !|Consulte la liste des combos pour en savoir|plus sur ta nouvelle capacité.|＠||
 Bonus de niveaux terminés !|Personnage spécial :|tu as débloqué la forme ultime de la Chalkyrie !|Fais-la évoluer au niveau 20 pour l’utiliser.|＠||
 Combo félin :|||débloqué !|Consulte la liste de combos pour en savoir plus.|＠||
-Promo ! Prix réduit de %d |à %d Miam pour débloquer l'emplacement de formation #%d.|* Débloque jusqu'à 18 emplacements *|＠|||
+Promo ! Prix réduit de %d |à %d Miam pour débloquer l'emplacement de formation #%d.|* Débloque jusqu'à 19 emplacements *|＠|||
 Un nouveau chapitre de la saga du futur est arrivé !|Sélectionne Vers le futur depuis l’écran titre|pour relever ce tout nouveau défi !|＠||
 Tu as reçu|100 000 XP !|＠||
 You got|30 Monster Hunter Tickets!|＠||
@@ -133,11 +133,11 @@ Utiliser 1 Autorité pour tout récupérer ?|＠|||
 Tu n’as pas assez de Charburant !|Récupérer tout le Charburant avec 1 Autorité ?|＠||
 Utiliser ${itemName1} x${itemNum1}|et ${itemName2} x${itemNum2}|pour augmenter le niveau max de 1.|Confirmer ?|＠|||
 ${itemName1} sera utilisé(e).|Veux-tu vraiment les utiliser?|＠||||
-Paie %d Miam pour débloquer l’emplacement %d.|* Tu dois d'abord récupérer %d médailles Miaou *|* Débloque jusqu'à 18 emplacements *|＠|||
-Promo ! Prix réduit de %d |à %d Miam pour débloquer l'emplacement de formation #%d.|* Tu dois d'abord récupérer %d médailles Miaou *|* Débloque jusqu'à 18 emplacements *|＠|||
+Paie %d Miam pour débloquer l’emplacement %d.|* Tu dois d'abord récupérer %d médailles Miaou *|* Débloque jusqu'à 19 emplacements *|＠|||
+Promo ! Prix réduit de %d |à %d Miam pour débloquer l'emplacement de formation #%d.|* Tu dois d'abord récupérer %d médailles Miaou *|* Débloque jusqu'à 19 emplacements *|＠|||
 %s x%d|reçu(e)(s) !|＠||||
 Chat limité|%@|envoyé dans la réserve.|＠|||
 ${charaName} ne peut pas dépasser ${level}|dans la version actuelle du jeu.|＠||||
 ${itemName1} et|${itemName2} seront utilisé(e)s.|Veux-tu vraiment l’utiliser ?|＠||||
-Ouvre 11 Chapsules d’un coup, puis|recommence dans les 30 minutes pour obtenir|1 000 000 d’XP et ${itemName} x${itemNum} !|＠|||
+Après avoir tiré ${gatyaNumber} Chapsules, tire encore ${gatyaNumber}|Chapsules dans les 30 minutes pour obtenir|1 000 000 d’XP et ${itemName} x${itemNum} !|＠|||
 Échange de ${itemName1} x ${itemNum1} |pour augmenter le niveau max.|Peut maintenant améliorer au niv. ${level} !|＠|||
