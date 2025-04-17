@@ -6,7 +6,7 @@ import hashlib
 import requests
 from bs4 import BeautifulSoup as bs4
 import ua_generator
-from .funcs import check, version_notify
+from .funcs import check
 from .server import server
 from .funcs import git_push
 
@@ -171,7 +171,6 @@ def check_version():
         if _version < parse_version_int(version):
             ls.append(i)
             j[i]["version"] = parse_version_int(version)
-            version_notify(i.lower(), parse_version_str(_version), version)
     with open(os.path.join(os.getcwd(), "data.json"), "w") as f:
         json.dump(j, f, indent=4) 
     return ls
