@@ -1224,13 +1224,13 @@ item_pack_name_37	購買  強化優惠組！貓罐頭&道具禮包(竹)
 item_pack_name_38	購買  強化優惠組！貓罐頭&道具禮包(松)
 item_conversion	消費白金券碎片%d片<br><flash>白金券%d張已入手！</flash>
 fragment_message	蒐集白金券碎片<br>10片即可兌換白金券1張<br>現在持有%d片
-fragment_bonus	只有現在使用11次連續轉蛋<br>就可獲得白金券碎片1片！<br>蒐集10片<flash>白金券</flash>1張即可入手喔
+fragment_bonus	只有現在使用${gatyaNumber}次連續轉蛋<br>就可獲得白金券碎片1片！<br>蒐集10片<flash>白金券</flash>1張即可入手喔
 equipment_error	這個本能珠珠只可裝著於有對<br>「%@ %@」效果的角色上
 scratch_message	「%s」%d個已入手！
 scratch_SNS_000	在 #貓咪刮刮樂 中獲得%d個貓罐頭啦！<br>期間中每週都可挑戰！每週來玩刮刮樂帶走更多貓罐頭吧～！<br><br>#貓咪大戰爭 #貓咪刮刮樂 #貓咪暑假2024
 item_pack_name_39	購買 感謝禮包
 potential_skill_name57	屬性　惡魔
-assault_skip	【貓咪稍微恢復精神了】<br><flash>可通關次數回復1次！</flash><br>可以立刻挑戰關卡！<br><color=255,255,0>可通關次數 1/${countNum}${assaultWord}</color>
+assault_skip	【貓咪稍微恢復精神了】<br><flash>可通關次數回復1次！</flash><br>將前往關卡選擇畫面<br><color=255,255,0>可通關次數 1/${countNum}${assaultWord}</color>
 assault_word	（離完全回復還需${minutes2}分鐘）
 potential_skill_name58	破壞惡魔盾
 potential_skill_name59	靈魂攻擊
@@ -1590,3 +1590,32 @@ SpecialRuleExplanation007	【好事成雙　超激稀有】 <br>生產超激稀�
 SpecialRuleName007	好事成雙　超激稀有
 unlock_popup_message_153	<flash>「瓦爾基麗貓・聖」的本能解放了！</flash><br>通過試煉後喚醒了新的力量<br>進化至第3型態且到達Lv30後<br>就可以在升級畫面解放、強化能力
 unlock_popup_message_154	<flash>「覺醒姆特貓」的本能解放了！</flash><br>通過試煉後喚醒了新的力量<br>進化至第3型態且到達Lv30後<br>就可以在升級畫面解放、強化能力
+assault_skip_battle_result	【貓咪稍微恢復精神了】<br><flash>可通關次數回復1次！</flash><br>將回到關卡選擇畫面
+assault_skip_battle_skip	【貓咪稍微恢復精神了】<br><flash>可通關次數回復1次！</flash><br>可以立刻挑戰關卡
+BonusExplanationLabel000	【加分項目：攻擊力下降】<br>使敵人攻擊力下降<br>※角色的攻擊對象屬性越少，可以獲得的分數越高<br>詳細請參考畫面左下方的「什麼是極排行賽會場？」
+BonusNameLabel000	攻擊力下降
+gama_collabo_04_charatext	
+gama_collabo_04_name	
+gama_collabo_04_popup	
+item_pack_name_89	購買 白金券續購優惠第1件
+item_pack_name_90	購買 白金券續購優惠第2件
+leadershipreturn_pop1	要中止戰鬥嗎？<br><color=255,255,0>系統將只退還統率力</color>
+leadershipreturn_pop2	這個關卡無法接關<br>系統將只退還統率力
+leadershipreturn_pop3	這是戰敗或脫離戰鬥後<br>系統會退還統率力的關卡<br><color=255,255,0>挑戰EX關卡後系統將不會退還統率力</color>
+leadershipreturn_pop4	這是戰敗或脫離戰鬥後<br>系統會退還統率力的關卡
+map_minutes_empty	【貓咪精疲力盡無法再繼續挑戰了…】<br>要使用${itemNum}個喵立達A嗎？<br>通關次數可回復1次<br><color=255,255,0>可通關次數0/${countNum}（離回復1次還需${minutes1}分鐘）</color>
+receive_item_popup_annotation_1	※「神秘寶箱」將送至本能珠珠儲藏庫
+SpecialRuleExplanation008	【貓咪砲超強化】 <br>貓咪砲的攻擊力會變成100倍<br>※閃電砲等有特別效果的主砲，其攻擊力將不會改變
+SpecialRuleName008	貓咪砲超強化
+SpecialRuleReset000	<color=255,255,0>軍事費用重置！</color><br>目前持有的生產角色時<br>所需要的軍事費用已經重置
+treasure_box_error_1	缺少${itemNum}個貓罐頭。<br>要前往貓罐頭商店嗎？
+treasure_box_get_confirm	要取得<br>「${itemName}」嗎？
+treasure_box_item	<color=255,255,0>${itemName}</color>
+treasure_box_last_one	可以使用${itemNum}個貓罐頭<br>來取得以下道具。
+treasure_box_open	將隨機獲得以下其中一種道具
+treasure_box_probability	※各道具的出現機率都相同<br>※長按圖示即可確認詳細說明
+treasure_box_redraw	要使用${itemNum}個貓罐頭重試一次嗎？
+treasure_box_redrow_probability	※各道具的出現機率都相同<br>※已出現過的道具將不再出現
+treasure_box_result	<color=255,255,0>取得「${itemName}」了！</color><br>可以使用貓罐頭重試一次
+treasure_box_result_2	※重試之後將無法獲得此道具
+treasure_box_result_last_one	<color=255,255,0>取得「${itemName}」了！</color><br>已無法繼續重試
