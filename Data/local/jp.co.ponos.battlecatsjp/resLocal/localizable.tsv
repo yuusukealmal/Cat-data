@@ -487,6 +487,9 @@ gama_collabo_03_charatext	ガマトト探検隊に臨時加入した雪ミクの
 gama_collabo_04_popup	<flash>にゃんこ大商店コラボ開催中！</flash><br>「ネコ店員」がガマトト探検隊に臨時加入！<br>コラボ期間中、獲得アイテム量がアップします<br>※ネコカンは対象外です
 gama_collabo_04_name	ネコ店員
 gama_collabo_04_charatext	ガマトト探検隊に臨時加入したネコ店員<br>コラボ期間中、獲得アイテム量をアップしてくれます<br>※ネコカンは対象外です
+gama_collabo_05_popup	<flash>ソニック・サ・ヘッジホッグコラボ開催中！</flash><br>「チャオ」がガマトト探検隊に臨時加入！<br>コラボ期間中、獲得アイテム量がアップします<br>※ネコカンは対象外です
+gama_collabo_05_name	チャオ
+gama_collabo_05_charatext	ガマトト探検隊に臨時加入したチャオ<br>コラボ期間中、獲得アイテム量をアップしてくれます<br>※ネコカンは対象外です
 beginnerPack1_Title	初心者応援パック 購入
 beginnerPack2_Title	初心者超応援パック 購入
 beginnerPack3_Title	初心者激応援パック 購入
@@ -672,6 +675,7 @@ GiftMessage_019	<flash>ステージクリアボーナス８</flash><br>「古代
 GiftMessage_020	<flash>ステージクリアボーナス９</flash><br>「千年獣の霊峰」最終ステージクリアで<br>超レアキャラ「古獣ナーラ」を<br>まれに手に入れることが出来るぞ
 GiftMessage_021	<flash>ステージクリアボーナス１０</flash><br>「枯れた思考の庭」最終ステージクリアで<br>超レアキャラ「論の賢者ソラクティス」を<br>まれに手に入れることが出来るぞ
 GiftMessage_022	<flash>「古代神樹」ステージレベル4に謎の敵が出現！</flash>
+GiftMessage_023	<flash>ステージクリアボーナス１１</flash><br>「万物誘う真理の大渦」最終ステージクリアで<br>超レアキャラ「理の賢者ニュトーン」を<br>まれに手に入れることが出来るぞ
 LvUpLimit_txt	パワーアップ可能なレベル上限に達しています
 LvUpLimitMax_txt	現バージョンでのレベル上限に達しています
 option_qrcode_title	「マイＱＲコード」
@@ -1190,6 +1194,8 @@ SpecialRuleName005	生産キャラ数制限
 SpecialRuleName006	超特売セール　EX
 SpecialRuleName007	プラスワン 超激レア
 SpecialRuleName008	にゃんこ砲超強化
+SpecialRuleName009	等速直線運動
+SpecialRuleName010	プラスワン EX
 SpecialRuleExplanation000	【おこづかい制】<br>最初にお金をたくさんもらえます<br>ただし、時間経過や敵の撃破などで<br>所持金が増えることはありません
 SpecialRuleExplanation001	【生産スピード統一】<br>すべての味方キャラクターの<br>生産スピードが同じになり固定されます
 SpecialRuleExplanation002	【レア度代表戦】<br>各レア度ごとに1体ずつしか生産できません<br>編成は自由に行う事ができます
@@ -1199,6 +1205,8 @@ SpecialRuleExplanation005	【生産キャラ数制限】<br>１回の戦闘で�
 SpecialRuleExplanation006	【超特売セール　EX】<br>レア度：EXの味方キャラクターの生産コストと<br>生産スピードが70％OFFになります
 SpecialRuleExplanation007	【プラスワン 超激レア】 <br>レア度：超激レアのキャラクター生産時<br>出現数が2体になります
 SpecialRuleExplanation008	【にゃんこ砲超強化】 <br>にゃんこ砲の攻撃力が100倍になります<br>※かみなり砲などの特殊な主砲の攻撃力は変わりません
+SpecialRuleExplanation009	【等速直線運動】<br>移動可能な敵味方すべてのキャラクターの<br>移動速度が同じになります
+SpecialRuleExplanation010	【プラスワン EX】 <br>レア度：EXの味方キャラクター生産時の<br>出現数が2体になります
 BonusNameLabel000	攻撃力ダウン
 BonusExplanationLabel000	【スコアボーナス：攻撃力ダウン】<br> 敵に攻撃力ダウンを付与する<br>※キャラクターの持つ対象属性の数が少ないほどスコアアップ<br>　詳細は画面左下「極ランキングの間とは？」からご確認ください
 Account_iOS13_error	iOS 13未満の方はAppleでサインインがご利用頂けません

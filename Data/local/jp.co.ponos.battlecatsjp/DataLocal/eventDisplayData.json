@@ -1610,6 +1610,23 @@
       "SelectStageImg": "S_385",
       "SelectStageImgReverse": 1,
       "SelectStageStartSE": 170
+    },
+    "2224": {
+      "eventWeight": 1,
+      "priority": 1,
+      "FusumaSE": [
+        -1
+      ],
+      "FusumaOpenOffsetX": 0,
+      "FusumaOpenOffsetY": 458,
+      "FusumaImgPNG": "img009_C_224.png",
+      "FusumaImgIMGCUT": "img009_Event00.imgcut",
+      "BannerImgPNG": "event_bnr_C_224.png",
+      "BannerImgIMGCUT": "event_bnr00.imgcut",
+      "PercentBanner": 50,
+      "NekoBageImg": "C_224",
+      "TitleImgBG": "_",
+      "TitleImgLogo": "_"
     }
   }
 }
