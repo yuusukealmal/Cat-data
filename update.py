@@ -12,5 +12,5 @@ if __name__ == "__main__":
     git_push("push")
     event(new=True)
     git_push("push")
-    local(way="latest", remote=True)
-    git_push("push")
+    # local(way="latest", remote=True)
+    # git_push("push")
