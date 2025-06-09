@@ -137,7 +137,7 @@ Schalte mit %d Katzenbatzen Platz %d frei.|* Du musst erst %d Miaumedaillen samm
 Im Angebot!! Preissenkung von %d auf|%d Katzenbatzen für Formationsplatz %d.|* Du musst erst %d Miaumedaillen sammeln.|* Schalte bis zu 19 Plätze frei.|＠|||
 %s x %d|erhalten!|＠||||
 Limitierte Katze|%@|ins Katzenlager geschickt.|＠|||
-${charaName} kann ${level} nicht überschreiten|(in dieser Spielversion).|＠||||
+${charaName} kann derzeit nicht|über +${level} hochgestuft werden.|＠||||
 ${itemName1} und|${itemName2} wird verbraucht.|Sicher, dass du das tun willst?|＠||||
 Versuche nach einer ${gatyaNumber}er-Kapselziehung eine|weitere ${gatyaNumber}er-Ziehung innerhalb von 30 Min. für|1.000.000 XP und ${itemName} x ${itemNum}!|＠|||
 ${itemName1} x ${itemNum1} eingetauscht, |um das Stufenlimit zu erhöhen!|Verbesserung bis Stufe ${level} möglich!|＠|||

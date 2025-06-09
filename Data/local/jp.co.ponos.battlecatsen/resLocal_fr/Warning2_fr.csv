@@ -137,7 +137,7 @@ Paie %d Miam pour débloquer l’emplacement %d.|* Tu dois d'abord récupérer %
 Promo ! Prix réduit de %d |à %d Miam pour débloquer l'emplacement de formation #%d.|* Tu dois d'abord récupérer %d médailles Miaou *|* Débloque jusqu'à 19 emplacements *|＠|||
 %s x%d|reçu(e)(s) !|＠||||
 Chat limité|%@|envoyé dans la réserve.|＠|||
-${charaName} ne peut pas dépasser ${level}|dans la version actuelle du jeu.|＠||||
+${charaName} ne peut pas dépasser ${level}|actuellement|＠||||
 ${itemName1} et|${itemName2} seront utilisé(e)s.|Veux-tu vraiment l’utiliser ?|＠||||
 Après avoir tiré ${gatyaNumber} Chapsules, tire encore ${gatyaNumber}|Chapsules dans les 30 minutes pour obtenir|1 000 000 d’XP et ${itemName} x${itemNum} !|＠|||
 Échange de ${itemName1} x ${itemNum1} |pour augmenter le niveau max.|Peut maintenant améliorer au niv. ${level} !|＠|||

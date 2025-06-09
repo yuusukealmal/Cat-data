@@ -1195,7 +1195,7 @@ fragment_bonus	Get a Platinum Shard gift<br>with each ${gatyaNumber}-Capsule Dra
 applang	en
 equipment_error	This Talent can only be used if Unit<br>already has the "%@: %@" ability.
 scratch_message	You got %s x%d
-scratch_SNS_000	I won %d Cat Food from the #BattleCatsScratcher!<br>Try once each week for a chance at an awesome prize!<br><br>#TheBattleCats #BattleCats #CatScratcher #CatsOfSummer2024
+scratch_SNS_000	I won %d Cat Food from the #BattleCatsScratcher!<br>Try once each week for a chance at an awesome prize!<br><br>#TheBattleCats #BattleCats #CatScratcher
 item_pack_name_39	Party Pack
 potential_skill_name57	Target Aku
 assault_skip	【Feeling a bit better...】<br><flash>One clear chance recovered!</flash><br>Returning to the Stage Select screen.<br><color=255,255,0>Clear chances available: 1/${countNum} ${assaultWord}</color>
@@ -1558,3 +1558,13 @@ treasure_box_redrow_probability	※ All items have an equal chance at being draw
 treasure_box_result	<color=255,255,0>You drew ${itemName}!</color><br>Cat Food can be used to redraw.
 treasure_box_result_2	※ The current item cannot be received after a redraw.
 treasure_box_result_last_one	<color=255,255,0>You drew ${itemName}!</color><br>No more Redraws available.
+gama_collabo_05_popup	
+gama_collabo_05_name	
+gama_collabo_05_charatext	
+GiftMessage_023	<flash>Stage Clear Bonus 11</flash><br>Clear the final stage of<br>"Truth's Devouring Maw" for a chance<br>to receive Master of Logic Newton.
+slot_SNS_005	I got %d Cat Food from the Wildcat Slots Ⅱ in #TheBattleCats!<br><br>#BattleCats
+SpecialRuleExplanation009	【Uniform Motion】<br>All ally and enemy units<br>move at the same speed.
+SpecialRuleExplanation010	【Plus One: Special】<br>Special units are automatically<br>deployed two at a time.
+SpecialRuleName009	Uniform Motion
+SpecialRuleName010	Plus One: Special
+talk_008_push	Let's talk about reinforcements!

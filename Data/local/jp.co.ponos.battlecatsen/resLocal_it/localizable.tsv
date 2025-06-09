@@ -1538,8 +1538,8 @@ leadershipreturn_pop3	L'energia spesa in questo livello verrà<br>ripristinata d
 leadershipreturn_pop4	L'energia spesa in questo livello verrà<br>ripristinata dopo la sconfitta o l'abbandono.
 map_minutes_empty	【Energia terminata... Impossibile continuare...】<br>Usare ${itemNum} Vitamiao A?<br>Un tentativo verrà ripristinato.<br><color=255,255,0>Tentativi disponibili: 0/${countNum}（I tentativi verranno ripristinati tra ${minutes1} min.)</color>
 receive_item_popup_annotation_1	*I forzieri saranno inviati alla rimessa Sfere talento.
-SpecialRuleExplanation008	【Mega cannone felino】 <br>La potenza cannone felino è moltiplicata per 100!<br>*Non influisce sulla potenza d'attacco degli effetti del cannone speciale, come fulmini e saette.
-SpecialRuleName008	Mega cannone felino
+SpecialRuleExplanation008	【Mega cannone gatto】 <br>Potenza del cannone gatto moltiplicata per 100!<br>*Non influisce sugli effetti del cannone speciale, come fulmini e saette.
+SpecialRuleName008	Mega cannone gatto
 SpecialRuleReset000	<color=255,255,0>Fondi di guerra azzerati!</color><br>I soldi spesi per schierare<br>i Gatti sono stati azzerati!
 treasure_box_error_1	Servono altri ${itemNum} Friskat.<br>Andare al negozio Friskat?
 treasure_box_get_confirm	Raccogliere<br>"${itemName}"?
@@ -1552,3 +1552,13 @@ treasure_box_redrow_probability	*Tutti gli oggetti hanno la stessa probabilità 
 treasure_box_result	<color=255,255,0>Hai sorteggiato ${itemName}!</color><br>Puoi usare i Friskat per sorteggiare di nuovo.
 treasure_box_result_2	*Non puoi ricevere quest'oggetto dopo un nuovo sorteggio.
 treasure_box_result_last_one	<color=255,255,0>Hai sorteggiato ${itemName}!</color><br>Nessun altro sorteggio disponibile.
+gama_collabo_05_popup	
+gama_collabo_05_name	
+gama_collabo_05_charatext	
+GiftMessage_023	<flash>Ricompensa livello 11</flash><br>Supera il livello finale di<br>"Le fauci spietate della verità" per una<br>possibilità di ricevere Maestro di logica Newton.
+slot_SNS_005	Ho ricevuto %d Friskat dalle Slot feline II su #TheBattleCats!<br><br>#BattleCats
+SpecialRuleExplanation009	【Velocità uniforme】<br>Tutte le unità alleate e nemiche<br>si muovono alla stessa velocità.
+SpecialRuleExplanation010	【Uno speciale in più】<br>Le unità speciali vengono<br>schierate automaticamente due alla volta.
+SpecialRuleName009	Velocità uniforme
+SpecialRuleName010	Uno speciale in più
+talk_008_push	Rivediamo la nostra chiacchierata sui rinforzi!

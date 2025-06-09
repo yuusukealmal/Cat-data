@@ -129,9 +129,9 @@
 9086|Clear "Sliming to Victory" %d times!<br>Clear any Sliming to Victory stage: %d of %d
 9087|Clear "Sliming to Victory" %d times!<br>Clear any Sliming to Victory stage: %d of %d
 9088|Evolve Slug Jockey Cat Level 10!<br>This mission can only be completed during the Slimy Stallions event!
-9089|Clear "The Forbidden Bride Pt II" %d times!<br>Clear any Forbidden Bride Pt II stage: %d of %d|Check the Special Missions to access<br>limited The Forbidden Bride challenges!
-9090|Clear "The Forbidden Bride Pt II" %d times!<br>Clear any Forbidden Bride Pt II stage: %d of %d
-9091|Clear "The Forbidden Bride Pt II" %d times!<br>Clear any Forbidden Bride Pt II stage: %d of %d
+9089|Clear "Forbidden Bride Pt II" %d times!<br>Clear any Forbidden Bride Pt II stage: %d of %d|Check the Special Missions to access<br>limited The Forbidden Bride challenges!
+9090|Clear "Forbidden Bride Pt II" %d times!<br>Clear any Forbidden Bride Pt II stage: %d of %d
+9091|Clear "Forbidden Bride Pt II" %d times!<br>Clear any Forbidden Bride Pt II stage: %d of %d
 9092|Evolve Madam Bride at Level 10!<br>This mission can only be completed during the June Monthly Event!|Check the Special Missions to access<br>limited June Monthly Event challenges!
 9093|Clear "The Battle Cats POP!" %d times!<br>Clear any The Battle Cats POP! stage: %d of %d|Check the Special Missions to access<br>limited The Battle Cats POP! challenges!
 9094|Clear "The Battle Cats POP!" %d times!<br>Clear any The Battle Cats POP! stage: %d of %d
@@ -969,21 +969,21 @@
 69|[Catclaw Championships] Get %d Legend Cats. Progress in Legend<br>Stages to collect them from special stages (%d of %d)|Catclaw Championships Missions<br>have been added to Main Missions!
 70|[Catclaw Championships] Get %d Legend Cats. Progress in Legend<br>Stages to collect them from special stages (%d of %d)|Catclaw Championships Missions<br>have been added to Main Missions!
 71|[Catclaw Championships] Get %d Legend Cats. Progress in Legend<br>Stages to collect them from special stages (%d of %d)|Catclaw Championships Missions<br>have been added to Main Missions!
-9536||
-9537|
-9538|
-9539|
-9540||
-9541||
-9542||
-9543||
-72|
-9544||
-9545||
-9546||
-9547||
-9548||
-9549|
+9536|Clear all Road to Unification Missions<br>and earn a Platinum Ticket!|Road to Unification Missions added<br>to the Special Missions!
+9537|Clear Road to Unification Missions ① - ④<br>and earn Lieutenant Cat!
+9538|Road to Unification ①:<br>Clear Road to Unification, Stage 5!
+9539|Road to Unification ②: Clear "Doge's Rebellion Pt. 1"<br>%d times! ※Appears shortly after clearing RtU Pt.1.
+9540|Road to Unification ③:<br>Clear "Engage! Commander Nyandam" stage 1!|Road to Unification ③ Missions added<br>to the Special Missions!
+9541|Road to Unification ④: Talk to Cat in the Cat Base<br>over 3 days and recruit new army members!|Road to Unification ④ Missions added<br>to the Special Missions!
+9542|Road to Unification ⑤：<br>Clear "Road to Unification Pt. 2", stage 1!|Road to Unification ⑤ Missions added<br>to the Special Missions!
+9543|Road to Unification ⑥：<br>Clear "Final Battle! The Rebellious King" stage 1!|Road to Unification ⑥ Missions added<br>to the Special Missions!
+72|Road to Unification Mission<br>Clear Empire of Cats Ch. 1 during the event to complete.
+9544|Road to Unification Mission: Clear Uncanny Legend stage<br>"Primitive Souls" with Cats that cost ¢1000 or more!|Road to Unification Missions added<br>to the Special Missions!
+9545|Road to Unification Mission: Clear Uncanny Legend stage<br>"Lifesaving Shovel" with 9 or more basic Cats!|Road to Unification Missions added<br>to the Special Missions!
+9546|Road to Unification Mission: Clear Uncanny Legend stage<br>"The Face of God" with 8 or more Super Rare Cats!|Road to Unification Missions added<br>to the Special Missions!
+9547|Road to Unification Mission: Clear Uncanny Legend stage<br>"Immortal Zenith" with Cats that cost ¢2000 or less!|Road to Unification Missions added<br>to the Special Missions!
+9548|Road to Unification Mission: Clear Uncanny Legend stage<br>"Revival of Origin" using 5 or fewer Cats!|Road to Unification Missions added<br>to the Special Missions!
+9549|Road to Unification Mission: Clear Zero Legend stage<br>"A Whole New World" with 9 or more Rare Cats!
 73|Double-tap a Treasure in the Treasure List to jump to that stage.<br>Open the Treasure List from the Cat Base.
 74|Tap an enemy icon on the stage select screen to jump to the<br>Enemy Guide. Tap the name of a cleared stage to show enemies. 
 75|Use Catamin A to restore stage attempts.<br>Use Catamin A on a Legend Stage.
@@ -1037,3 +1037,8 @@
 9591||
 9592|
 9593|
+9594||
+9595|
+9596|
+9597|
+9598|

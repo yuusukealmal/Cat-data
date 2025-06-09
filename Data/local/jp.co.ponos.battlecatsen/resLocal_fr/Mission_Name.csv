@@ -969,21 +969,21 @@
 69|[Championnats Griffélin] Obtiens %d Chats légendaires. Progresse dans les niveaux<br>légendaires pour les récupérer dans les niveaux spéciaux (%d sur %d)|Des missions Championnats Griffélin<br>ont été ajoutées aux Missions principales !
 70|[Championnats Griffélin] Obtiens %d Chats légendaires. Progresse dans les niveaux<br>légendaires pour les récupérer dans les niveaux spéciaux (%d sur %d)|Des missions Championnats Griffélin<br>ont été ajoutées aux Missions principales !
 71|[Championnats Griffélin] Obtiens %d Chats légendaires. Progresse dans les niveaux<br>légendaires pour les récupérer dans les niveaux spéciaux (%d sur %d)|Des missions Championnats Griffélin<br>ont été ajoutées aux Missions principales !
-9536||
-9537|
-9538|
-9539|
-9540||
-9541||
-9542||
-9543||
-72|
-9544||
-9545||
-9546||
-9547||
-9548||
-9549|
+9536|Termine toutes les missions de la Route<br>de l’Unification pour gagner un ticket platine !|Des missions de la Route de l’Unification<br>ont été ajoutées aux missions spéciales !
+9537|Termine les missions ① - ④ de la Route<br>de l’Unification et gagne le Lieutenant Chat !
+9538|Route de l’Unification ① :<br>Termine les 5 niveaux de la Route de l’Unification !
+9539|Route de l’Unification ② : termine Rébellion du Toutou 1<br>%d fois ! * Apparaît après avoir fini la RdU 1re partie.
+9540|Route de l’Unification ③ :<br>Termine le niveau 1 de À l’attaque! Commander Nyandam !|Des missions de la Route de l’Unification ③<br>ont été ajoutées aux missions spéciales !
+9541|Route de l’Unificat. ④ : parle aux Chats de la base féline<br>pendant 3 jours et recrute de nouveaux membres de l’armée !|Des missions de la Route de l’Unification ④<br>ont été ajoutées aux missions spéciales !
+9542|Route de l’Unification ⑤ :<br>Termine le niveau 1 de la Route de l’Unification 2e partie !|Des missions de la Route de l’Unification ⑤<br>ont été ajoutées aux missions spéciales !
+9543|Route de l’Unification ⑥ :<br>Termine le niveau 1 de Dernière bataille ! Le roi rebelle !|Des missions de la Route de l’Unification ⑥<br>ont été ajoutées aux missions spéciales !
+72|Mission de la Route de l’Unification<br>Termine L’EdC ch. 1 pendant l’événement pour la terminer.
+9544|Mission de la RdU : Termine Âmes primitives de la Légende<br>mystérieuse avec des Chats coûtant au moins ¢1000 !|Des missions de la Route de l’Unification<br>ont été ajoutées aux missions spéciales !
+9545|Mission de la RdU : Termine Pelle salvatrice de la Légende<br>mystérieuse avec au moins 9 Chats de base !|Des missions de la Route de l’Unification<br>ont été ajoutées aux missions spéciales !
+9546|Mission de la RdU : Termine Visage divin de la Légende<br>mystérieuse avec au moins 8 Chats super rares !|Des missions de la Route de l’Unification<br>ont été ajoutées aux missions spéciales !
+9547|Mission de la RdU : Termine Zénith immortel de la Légende<br>mystérieuse avec des Chats coûtant jusqu'à ¢2000 !|Des missions de la Route de l’Unification<br>ont été ajoutées aux missions spéciales !
+9548|Mission de la RdU : Termine Retour aux sources<br>de la Légende mystérieuse avec 5 Chats ou moins !|Des missions de la Route de l’Unification<br>ont été ajoutées aux missions spéciales !
+9549|Mission de la RdU : Termine Nouveau départ<br>de la Légende Zéro avec au moins 9 Chats rares !
 73|Touche 2x un trésor dans la liste pour accéder au niveau.<br>Ouvre la liste des trésors dans la base féline.
 74|Ouvre le Guide ennemis depuis l’écran de choix du niveau.<br>Touche un niveau terminé pour afficher les ennemis.
 75|Utilise de la vichamine A pour reprendre les essais de niv.<br>Utilise de la vichamine A dans un niveau légendaire.
@@ -1037,3 +1037,8 @@
 9591||
 9592|
 9593|
+9594||
+9595|
+9596|
+9597|
+9598|

@@ -137,7 +137,7 @@ Pay %d Cat Food to unlock Slot #%d.|※You must first collect %d Meow Medals※|
 On Sale!! Cost reduced from %d to  |%d Cat Food to unlock Formation Slot #%d.|※You must first collect %d Meow Medals※|※Unlock up to a 19 Slots※|＠|||
 %s x %d| received!|＠||||
 Limited Cat|%@|was sent to Storage.|＠|||
-${charaName} cannot go past +${level}|in the current game version.|＠||||
+${charaName} cannot currently|be powered up past +${level}.|＠||||
 ${itemName1} and|${itemName2} will be used up.|Are you sure you want to do this?|＠||||
 After performing a ${gatyaNumber}-Capsule Draw,|try another ${gatyaNumber}-draw within 30 minutes to get|1,000,000 XP and ${itemName} x ${itemNum}!|＠|||
 Traded ${itemName1} x ${itemNum1} |to raise the level cap!|Can now upgrade to Level ${level}!|＠|||

@@ -1552,3 +1552,13 @@ treasure_box_redrow_probability	* Tous les objets ont autant de chances d’êtr
 treasure_box_result	<color=255,255,0>Tu as tiré : ${itemName} !</color><br>Tu peux utiliser des Miam pour tirer à nouveau.
 treasure_box_result_2	* L’objet actuel ne peut pas être reçu après un nouveau tirage.
 treasure_box_result_last_one	<color=255,255,0>Tu as tiré : ${itemName} !</color><br>Aucun autre tirage disponible.
+gama_collabo_05_popup	
+gama_collabo_05_name	
+gama_collabo_05_charatext	
+GiftMessage_023	<flash>Bonus de fin de niveau 11</flash><br>Termine le dernier niveau de<br>Dévoreuse de vérité pour<br>une chance de recevoir Maître de la Logique Newton.
+slot_SNS_005	J’ai gagné %d Miams aux Machines à sous Chat sauvageⅡ de #TheBattleCats !<br><br>#BattleCats
+SpecialRuleExplanation009	【Déplacement uniforme】<br>Toutes les unités alliées et ennemies<br>se déplacent à la même vitesse.
+SpecialRuleExplanation010	【Plus un : Spécial】<br>Les unités spéciales sont automatiquement<br>déployées deux par deux.
+SpecialRuleName009	Déplacement uniforme
+SpecialRuleName010	Plus un : Spécial
+talk_008_push	Reprenons notre discussion sur les renforts.

@@ -137,7 +137,7 @@ Usa %d Friskat per sbloccare lo slot # %d.|*Prima devi raccogliere %d Miaodaglie
 In Offerta! Costo ridotto da %d|a %d Friskat per sbloccare slot formazione # %d.|*Prima devi raccogliere %d Miaodaglie*|*Sblocca fino a 19 slot*|＠|||
 %s x %d|ricevuto/i!|＠||||
 Gatto limitato|%@|inviato nella Rimessa.|＠|||
-${charaName} non può superare ${level}|in questa versione del gioco.|＠||||
+${charaName} non può essere potenziato oltre ${level}|in questo momento.|＠||||
 Utilizzerai ${itemName1} e|${itemName2}.|Confermi di volerlo fare?|＠||||
 Dopo un sorteggio a ${gatyaNumber} capsule, prova un|altro sorteggio a ${gatyaNumber} entro 30 minuti per ottenere|1.000.000 XP e ${itemName} x ${itemNum}!|＠|||
 Hai scambiato ${itemName1} x ${itemNum1} |per aumentare il livello max!|Ora puoi potenziare al livello ${level}!|＠|||

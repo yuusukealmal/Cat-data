@@ -22,3 +22,4 @@ MapID	openMapStageSterID	priority	UnlockPopupID	getCharaID	CharFileName	00AnimeL
 0	48000	10	-1	6530	018	0	0	GiftMessage_020
 0	13048000	12	-1	7280	019	0	0	GiftMessage_021
 0	13048003	11	-1	7710	020	0	0	GiftMessage_022
+0	13048000	13	-1	8010	021	0	0	GiftMessage_023

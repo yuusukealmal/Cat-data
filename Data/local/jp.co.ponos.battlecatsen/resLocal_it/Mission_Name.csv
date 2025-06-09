@@ -969,21 +969,21 @@
 69|[Campionati miciodiali] Ottieni %d Gatti leggendari. Vai avanti nei livelli<br>leggendari per raccoglierli nei livelli speciali (%d di %d)|Le missioni Campionati miciodiali<br>sono state aggiunte alle missioni principali!
 70|[Campionati miciodiali] Ottieni %d Gatti leggendari. Vai avanti nei livelli<br>leggendari per raccoglierli nei livelli speciali (%d di %d)|Le missioni Campionati miciodiali<br>sono state aggiunte alle missioni principali!
 71|[Campionati miciodiali] Ottieni %d Gatti leggendari. Vai avanti nei livelli<br>leggendari per raccoglierli nei livelli speciali (%d di %d)|Le missioni Campionati miciodiali<br>sono state aggiunte alle missioni principali!
-9536||
-9537|
-9538|
-9539|
-9540||
-9541||
-9542||
-9543||
-72|
-9544||
-9545||
-9546||
-9547||
-9548||
-9549|
+9536|Supera tutte le missioni La via dell'unificazione<br>e ottieni un biglietto platino!|Missioni La via dell'unificazione aggiunte<br>alle Missioni speciali!
+9537|Supera le missioni La via dell'unificazione ① - ④<br>e ottieni Gatto tenente!
+9538|La via dell'unificazione ①:<br>Supera tutti e 5 i livelli La via dell'unificazione!
+9539|La via dell'unificazione ②: supera "Cane ribelle p.1"<br>%d volte! *Appare dopo aver superato LvU p.1.
+9540|La via dell'unificazione ③:<br>Supera il livello 1 di "All'attacco! Comandante Nyandam"!|Missioni La via dell'unificazione ③ aggiunte<br>alle Missioni speciali!
+9541|La via dell'unificazione ④: parla con il Gatto<br>nella Base felina per 3 giorni e recluta nuovi combattenti!|Missioni La via dell'unificazione ④ aggiunte<br>alle Missioni speciali!
+9542|La via dell'unificazione ⑤: <br>supera "La via dell'unificazione p.2", livello 1!|Missioni La via dell'unificazione ⑤ aggiunte<br>alle Missioni speciali!
+9543|La via dell'unificazione ⑥：<br>Supera il livello 1 di "Battaglia finale! Il re ribelle"!|Missioni La via dell'unificazione ⑥ aggiunte<br>alle Missioni speciali!
+72|Missione La via dell'unificazione: supera<br>Impero dei Gatti Cap. 1 durante l'evento per completare.
+9544|Missione La via dell'unificazione: supera "Anime primitive"<br>da Leggende misteriose con Gatti che costano ¢1000 o più!|Missioni La via dell'unificazione aggiunte<br>alle Missioni speciali!
+9545|Missione La via dell'unificazione: supera "Pala di<br>salvataggio" da Leggende misteriose con 9 o più Gatti base!|Missioni La via dell'unificazione aggiunte<br>alle Missioni speciali!
+9546|Missione La via dell'unificazione: supera "Il volto divino"<br>da Leggende misteriose con 8 o più Gatti super rari!|Missioni La via dell'unificazione aggiunte<br>alle Missioni speciali!
+9547|Missione La via dell'unificazione: supera "Zenit Immortale"<br>da Leggende misteriose con Gatti che costano ¢2000 o meno!|Missioni La via dell'unificazione aggiunte<br>alle Missioni speciali!
+9548|Missione La via dell'unificazione: supera "Il ritorno<br>dell'origine" da Leggende misteriose con 5 Gatti o meno!|Missioni La via dell'unificazione aggiunte<br>alle Missioni speciali!
+9549|Missione La via dell'unificazione: supera "Un mondo nuovo"<br>da Leggende zero con 9 o più Gatti rari!
 73|Tocca 2 volte un Tesoro nella Lista per saltare al livello.<br>Apri la Lista tesori dalla Base felina.
 74|Tocca l'icona nemico nella schermata di sel. liv. e apri la<br>Guida ai nemici. Tocca nome liv. sup. per mostrare i nemici.
 75|Usa Vitamiao A per ripristinare i tentativi di un livello.<br>Usa Vitamiao A in un livello leggendario.
@@ -1037,3 +1037,8 @@
 9591||
 9592|
 9593|
+9594||
+9595|
+9596|
+9597|
+9598|

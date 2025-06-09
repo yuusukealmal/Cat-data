@@ -1552,3 +1552,13 @@ treasure_box_redrow_probability	※ Todos los objetos aparecerán con la misma p
 treasure_box_result	<color=255,255,0>¡Has ganado ${itemName}!</color><br>Usa Friskas para abrir más.
 treasure_box_result_2	※ No puedes recibir este objeto tras una nueva tirada.
 treasure_box_result_last_one	<color=255,255,0>¡Has ganado ${itemName}!</color><br>No quedan nuevas tiradas disponibles.
+gama_collabo_05_popup	
+gama_collabo_05_name	
+gama_collabo_05_charatext	
+GiftMessage_023	<flash>Bonus 11 por superar la fase</flash><br>Supera la última fase<br>de «Devorador de Verdades»<br>y tendrás la posibilidad de recibir al Sabio de la lógica Newton.
+slot_SNS_005	¡Conseguí %d de Friskas en las Tragagatos II de #TheBattleCats!<br><br>#BattleCats
+SpecialRuleExplanation009	【Velocidad constante】<br>Todas las unidades aliadas y enemigas<br>se mueven a la misma velocidad.
+SpecialRuleExplanation010	【Especial +1】<br>Las unidades especiales se despliegan<br>automáticamente de dos en dos.
+SpecialRuleName009	Velocidad constante
+SpecialRuleName010	Especial +1
+talk_008_push	¡Volvamos al tema de los refuerzos!

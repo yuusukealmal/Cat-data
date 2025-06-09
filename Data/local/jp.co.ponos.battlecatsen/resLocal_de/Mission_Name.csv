@@ -129,9 +129,9 @@
 9086|Schließe Schleimiges Rennen %d Mal ab!<br>Schließe beliebige Schleimiges-Rennen-Level ab: %d von %d
 9087|Schließe Schleimiges Rennen %d Mal ab!<br>Schließe beliebige Schleimiges-Rennen-Level ab: %d von %d
 9088|Entwickle Schneckenreiter-Katze auf Stufe 10!<br>Kann nur während des Schleimhengste-Events abgeschlossen werden!
-9089|Schließe Die verbotene Braut II %d Mal ab!<br>Schließe beliebige Verbotene-Braut-II-Level ab: %d von %d|Finde die limitierten Verbotene-Braut-Herausforderungen<br>in den Spezialmissionen!
-9090|Schließe Die verbotene Braut II %d Mal ab!<br>Schließe beliebige Verbotene-Braut-II-Level ab: %d von %d
-9091|Schließe Die verbotene Braut II %d Mal ab!<br>Schließe beliebige Verbotene-Braut-II-Level ab: %d von %d
+9089|Schließe Verbotene Braut II %d Mal ab!<br>Schließe beliebige Verbotene-Braut-II-Level ab: %d von %d|Finde die limitierten Verbotene-Braut-Herausforderungen<br>in den Spezialmissionen!
+9090|Schließe Verbotene Braut II %d Mal ab!<br>Schließe beliebige Verbotene-Braut-II-Level ab: %d von %d
+9091|Schließe Verbotene Braut II %d Mal ab!<br>Schließe beliebige Verbotene-Braut-II-Level ab: %d von %d
 9092|Entwickle Die Braut auf Stufe 10!<br>Kann nur während des Juni-Monatsevents abgeschlossen werden!|Finde die limitierten Juni-Monatsevent-Herausforderungen<br>in den Spezialmissionen!
 9093|Schließe The Battle Cats lassen es knallen! %d Mal ab!<br>Lv. v. The Battle Cats lassen es knallen beendet: %d von %d|Finde die limitierten "The Battle Cats lassen es knallen!"-Herausforderungen!<br>in den Spezialmissionen!
 9094|Schließe The Battle Cats lassen es knallen! %d Mal ab!<br>Lv. v. The Battle Cats lassen es knallen beendet: %d von %d
@@ -969,21 +969,21 @@
 69|[Katzenkrall-Meisterschaften] Erhalte %d legendäre Katzen. Mach Fortschritte<br>in den legendären Leveln, um sie in den Sonderleveln zu sammeln (%d von %d).|Die Katzenkrall-Meisterschaftsmissionen<br>wurden zu den Hauptmissionen hinzugefügt!
 70|[Katzenkrall-Meisterschaften] Erhalte %d legendäre Katzen. Mach Fortschritte<br>in den legendären Leveln, um sie in den Sonderleveln zu sammeln (%d von %d).|Die Katzenkrall-Meisterschaftsmissionen<br>wurden zu den Hauptmissionen hinzugefügt!
 71|[Katzenkrall-Meisterschaften] Erhalte %d legendäre Katzen. Mach Fortschritte<br>in den legendären Leveln, um sie in den Sonderleveln zu sammeln (%d von %d).|Die Katzenkrall-Meisterschaftsmissionen<br>wurden zu den Hauptmissionen hinzugefügt!
-9536||
-9537|
-9538|
-9539|
-9540||
-9541||
-9542||
-9543||
-72|
-9544||
-9545||
-9546||
-9547||
-9548||
-9549|
+9536|Schließe alle Straße-zur-Einigkeit-Missionen ab<br>und verdiene ein Platinticket!|Straße-zur-Einigkeit-Missionen wurden<br>den Spezialmissionen hinzugefügt!
+9537|Schließe die Straße-zur-Einigkeit-Missionen ① - ④ ab<br>und verdiene die Leutnantkatze!
+9538|Straße zur Einigkeit ①:<br>Schließe alle 5 Straße-zur-Einigkeit-Level ab!
+9539|Straße zur Einigkeit ②: Schließe „Hundeaufstand Teil 1“<br>%d-mal ab! ※Erscheint nach dem Abschließen von SzE 1.
+9540|Straße zur Einigkeit ③:<br>Schließe „Zum Angriff! Kommandant Nyandam“ Level 1 ab!|Straße-zur-Einigkeit-③-Missionen wurden<br>den Spezialmissionen hinzugefügt!
+9541|Straße zur Einigkeit ④: Sprich 3 Tage lang mit der Katze<br>in der Katzenbasis und rekrutiere neue Armeemitglieder!|Straße-zur-Einigkeit-④-Missionen wurden<br>den Spezialmissionen hinzugefügt!
+9542|Straße zur Einigkeit ⑤:<br>Schließe „Straße zur Einigkeit 2“, Level 1 ab!|Straße-zur-Einigkeit-⑤-Missionen wurden<br>den Spezialmissionen hinzugefügt!
+9543|Straße zur Einigkeit ⑥:<br>Schließe „Letzte Schlacht! Der rebellische König“ Level 1 ab!|Straße zur Einigkeit-⑥-Missionen wurden<br>den Spezialmissionen hinzugefügt!
+72|Straße-zur-Einigkeit-Mission<br>Schließe während des Events Katzenimperium Kapitel 1 ab.
+9544|SzE: Schließe das „Unheimliche Legenden“-„Primitive Seelen“<br>mit Katzen im Wert von ¢1.000 oder mehr ab!|Straße-zur-Einigkeit-Missionen wurden<br>den Spezialmissionen hinzugefügt!
+9545|SzE-Mission: Schließe das „Unheimliche Legenden“-Level<br>„Rettungsschaufel“ mit 9 oder mehr Standardkatzen ab!|Straße-zur-Einigkeit-Missionen wurden<br>den Spezialmissionen hinzugefügt!
+9546|SzE-Mission: Schließe das „Unheimliche Legenden“-Level „Das<br>Antlitz Gottes“ mit 8 oder mehr superseltenen Katzen ab!|Straße-zur-Einigkeit-Missionen wurden<br>den Spezialmissionen hinzugefügt!
+9547|SzE-Mission: Schließe das „Unheimliche Legenden“-Level<br>„Unsterblicher Zenit“ mit Katzen für ¢2.000 oder weniger ab!|Straße-zur-Einigkeit-Missionen wurden<br>den Spezialmissionen hinzugefügt!
+9548|SzE-Mission: Schließe das „Unheimliche Legenden“-Level<br>„Wiederbelebung des Ursprungs“ mit 5 oder weniger Katzen ab!|Straße-zur-Einigkeit-Missionen wurden<br>den Spezialmissionen hinzugefügt!
+9549|SzE-Mission: Schließe das Null-Legendäre Level<br>„Eine ganz neue Welt“ mit 9 oder mehr seltenen Katzen ab!
 73|Doppeltippe auf einen Schatz, um zum Level zu springen.<br>Öffne die Schatzliste in der Katzenbasis.
 74|Tippe auf ein Feindsymbol, um zur Feindefibel zu springen.<br>Tippe auf ein abgeschl. Level, um Feinde anzuzeigen.
 75|Nutze Katzamin A, um Level-Versuche wiederherzustellen.<br>Setze Katzamin A in einem Legendenlevel ein.
@@ -1037,3 +1037,8 @@
 9591||
 9592|
 9593|
+9594||
+9595|
+9596|
+9597|
+9598|

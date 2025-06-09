@@ -1552,3 +1552,13 @@ treasure_box_redrow_probability	* Alle Gegenstände haben die gleiche Chance, ge
 treasure_box_result	<color=255,255,0>Du hast ${itemName} gezogen!</color><br>Mit Katzenbatzen kannst du erneut ziehen.
 treasure_box_result_2	* Nach einer erneuten Ziehung kann der aktuelle Gegenstand nicht mehr erhalten werden.
 treasure_box_result_last_one	<color=255,255,0>Du hast ${itemName} gezogen!</color><br>Keine weiteren erneuten Ziehungen verfügbar.
+gama_collabo_05_popup	
+gama_collabo_05_name	
+gama_collabo_05_charatext	
+GiftMessage_023	<flash>Levelabschluss-Belohnung 11</flash><br>Schließe das letzte Level aus<br>„Schlingender Schlund der Wahrheit“ ab<br>für eine Chance, Weiser des logischen Newton zu erhalten.
+slot_SNS_005	Ich habe %d Katzenbatzen bei den Wildkatzen-SlotsⅡ in #TheBattleCats gewonnen!<br><br>#BattleCats  
+SpecialRuleExplanation009	【Im Gleichschritt】<br>Alle feindlichen Einheiten<br>bewegen sich im gleichen Tempo.
+SpecialRuleExplanation010	【Besondere +1】<br>Sondereinheiten werden automatisch<br>doppelt eingesetzt.
+SpecialRuleName009	Im Gleichschritt
+SpecialRuleName010	Besondere +1
+talk_008_push	Wir sollten unser Gespräch über Verstärkung fortsetzen!
