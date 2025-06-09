@@ -1123,6 +1123,37 @@
       "BannerImgIMGCUT": "event_bnr00.imgcut",
       "PercentBanner": 40
     },
+    "1324": {
+      "eventWeight": 1,
+      "priority": 2,
+      "FusumaOpenOffsetX": 0,
+      "FusumaOpenOffsetY": 458,
+      "FusumaImgPNG": "img009_S_324.png",
+      "FusumaImgIMGCUT": "img009_Event00.imgcut",
+      "NekoBageImg": "S_324",
+      "TitleImgLogo": "_S_324",
+      "PercentTitle": 100,
+      "SelectStageImg": "S_324",
+      "SelectStageImgReverse": 1
+    },
+    "24057": {
+      "FusumaOpenOffsetX": 0,
+      "FusumaOpenOffsetY": 458,
+      "SelectStageImg": "S_324",
+      "SelectStageImgReverse": 1
+    },
+    "1322": {
+      "FusumaOpenOffsetX": 0,
+      "FusumaOpenOffsetY": 458,
+      "SelectStageImg": "S_324",
+      "SelectStageImgReverse": 1
+    },
+    "1323": {
+      "FusumaOpenOffsetX": 0,
+      "FusumaOpenOffsetY": 458,
+      "SelectStageImg": "S_324",
+      "SelectStageImgReverse": 1
+    },
     "1303": {
       "eventWeight": 1,
       "priority": 1,

@@ -800,7 +800,7 @@ line_Confirmation	尚未安裝LINE。<br>要移動至商城嗎？
 talk_Reward	獲得「%s」<flash>%d個！</flash>
 talk_000_push	拜託請繼續聽我說心願呀～！
 DL_permission	下載最新遊戲檔案。<br>建議在Wi-Fi連線良好環境下載。<br>檔案容量：%s MB
-map_minutes	【貓咪休息中】<br>要使用${itemNum}個喵立達A嗎？<br>通關次數可回復1次<br><color=255,255,0>可通關次數0/${countNum}（離回復1次還需${minutes1}分鐘）</color>
+map_minutes	【貓咪休息中】<br>要使用${itemNum}個喵力達A嗎？<br>通關次數可回復1次<br><color=255,255,0>可通關次數0/${countNum}（離回復1次還需${minutes1}分鐘）</color>
 assault_warning	通過關卡%d次後<br>距離下次可挑戰還需等待一段時間
 talk_001_push	都超過1天惹～快回來貓咪基地吧～
 slot_clearteam_txt_0	要使用前次通關時的編成嗎？
@@ -1433,7 +1433,7 @@ gamatotoReward_4	${itemName} + ${itemNum}
 item_pack_name_78	購買限定角色「點點貓」
 item_pack_name_80	購買了 期間限定！稀有券
 slot_SNS_002	在 #貓咪拉霸 中獲得%s個貓罐頭啦！ #貓咪大戰爭 #9週年
-slot_SNS_003	
+slot_SNS_003	在 #貓咪拉霸 中獲得%s個貓罐頭啦！ #貓咪大戰爭 #10週年
 stageskip_message_9	已通過大型陶器埴輪巨犬強襲 ${stageName1}！<br>下次挑戰將可從<flash>${stageName2}</flash>開始
 talk_004_push	繼續來玩貓咪基地○×對決喔～
 clear_adreward_1	讓經驗值倍增的好機會！<br>要觀看影片來獲得<flash>「經驗值${xp}」×2</flash>嗎？
@@ -1603,7 +1603,7 @@ leadershipreturn_pop1	要中止戰鬥嗎？<br><color=255,255,0>系統將只退�
 leadershipreturn_pop2	這個關卡無法接關<br>系統將只退還統率力
 leadershipreturn_pop3	這是戰敗或脫離戰鬥後<br>系統會退還統率力的關卡<br><color=255,255,0>挑戰EX關卡後系統將不會退還統率力</color>
 leadershipreturn_pop4	這是戰敗或脫離戰鬥後<br>系統會退還統率力的關卡
-map_minutes_empty	【貓咪精疲力盡無法再繼續挑戰了…】<br>要使用${itemNum}個喵立達A嗎？<br>通關次數可回復1次<br><color=255,255,0>可通關次數0/${countNum}（離回復1次還需${minutes1}分鐘）</color>
+map_minutes_empty	【貓咪精疲力盡無法再繼續挑戰了…】<br>要使用${itemNum}個喵力達A嗎？<br>通關次數可回復1次<br><color=255,255,0>可通關次數0/${countNum}（離回復1次還需${minutes1}分鐘）</color>
 receive_item_popup_annotation_1	※「神秘寶箱」將送至本能珠珠儲藏庫
 SpecialRuleExplanation008	【貓咪砲超強化】 <br>貓咪砲的攻擊力會變成100倍<br>※閃電砲等有特別效果的主砲，其攻擊力將不會改變
 SpecialRuleName008	貓咪砲超強化
@@ -1619,3 +1619,12 @@ treasure_box_redrow_probability	※各道具的出現機率都相同<br>※已�
 treasure_box_result	<color=255,255,0>取得「${itemName}」了！</color><br>可以使用貓罐頭重試一次
 treasure_box_result_2	※重試之後將無法獲得此道具
 treasure_box_result_last_one	<color=255,255,0>取得「${itemName}」了！</color><br>已無法繼續重試
+gama_collabo_05_popup	
+gama_collabo_05_name	
+gama_collabo_05_charatext	
+GiftMessage_023	<flash>通關獎勵第十一彈</flash><br>只要通過「引誘萬物真理的大渦」的最後關卡<br>就有機會獲得超稀有的角色「理之賢者扭頓」喔
+SpecialRuleExplanation009	【等速直線運動】<br>可移動的敵我方所有角色<br>都會變成相同的移動速度
+SpecialRuleExplanation010	【好事成雙　EX】 <br>生產EX角色時<br>出現的數量會變2隻
+SpecialRuleName009	等速直線運動
+SpecialRuleName010	好事成雙　EX
+talk_005_push	繼續來參加貓咪對談喔～
