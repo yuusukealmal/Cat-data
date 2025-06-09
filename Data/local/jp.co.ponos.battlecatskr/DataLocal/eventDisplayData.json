@@ -1166,6 +1166,81 @@
       "BannerImgIMGCUT": "event_bnr00.imgcut",
       "PercentBanner": 50
     },
+    "24062": {
+      "eventWeight": 1,
+      "priority": 1,
+      "FusumaSE": [
+        -1
+      ],
+      "FusumaOpenOffsetX": 0,
+      "FusumaOpenOffsetY": 458,
+      "FusumaImgPNG": "img009_A_062.png",
+      "FusumaImgIMGCUT": "img009_Event00.imgcut",
+      "NekoBageImg": "A_062",
+      "TitleImgLogo": "_A_062",
+      "PercentTitle": 100,
+      "SelectStageImg": "A_062",
+      "SelectStageImgReverse": 1
+    },
+    "1360": {
+      "FusumaOpenOffsetX": 0,
+      "FusumaOpenOffsetY": 458,
+      "SelectStageImg": "A_062",
+      "SelectStageImgReverse": 1
+    },
+    "1361": {
+      "FusumaOpenOffsetX": 0,
+      "FusumaOpenOffsetY": 458,
+      "SelectStageImg": "A_062",
+      "SelectStageImgReverse": 1
+    },
+    "1362": {
+      "FusumaOpenOffsetX": 0,
+      "FusumaOpenOffsetY": 458,
+      "SelectStageImg": "A_062",
+      "SelectStageImgReverse": 1
+    },
+    "1363": {
+      "FusumaOpenOffsetX": 0,
+      "FusumaOpenOffsetY": 458,
+      "SelectStageImg": "A_062",
+      "SelectStageImgReverse": 1
+    },
+    "24066": {
+      "FusumaSE": [
+        -1
+      ],
+      "FusumaOpenOffsetX": 0,
+      "FusumaOpenOffsetY": 458,
+      "FusumaImgPNG": "img009_A_062.png",
+      "FusumaImgIMGCUT": "img009_Event00.imgcut",
+      "BannerImgPNG": "event_bnr_A_066.png",
+      "BannerImgIMGCUT": "event_bnr00.imgcut",
+      "PercentBanner": 50,
+      "NekoBageImg": "A_062",
+      "TitleImgLogo": "_A_062",
+      "PercentTitle": 100,
+      "SelectStageImg": "A_062",
+      "SelectStageImgReverse": 1
+    },
+    "1369": {
+      "priority": 1,
+      "FusumaSE": [
+        -1
+      ],
+      "FusumaOpenOffsetX": 0,
+      "FusumaOpenOffsetY": 458,
+      "FusumaImgPNG": "img009_A_062.png",
+      "FusumaImgIMGCUT": "img009_Event00.imgcut",
+      "BannerImgPNG": "event_bnr_S_369.png",
+      "BannerImgIMGCUT": "event_bnr00.imgcut",
+      "PercentBanner": 50,
+      "NekoBageImg": "A_062",
+      "TitleImgLogo": "_A_062",
+      "PercentTitle": 100,
+      "SelectStageImg": "A_062",
+      "SelectStageImgReverse": 1
+    },
     "2214": {
       "eventWeight": 1,
       "priority": 1,
