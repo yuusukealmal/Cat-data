@@ -5,7 +5,6 @@ from Crypto.Cipher import AES
 import hashlib
 import requests
 from bs4 import BeautifulSoup as bs4
-import ua_generator
 from .funcs import check
 from .server import server
 from .funcs import git_push
@@ -144,10 +143,15 @@ class ITEM(APK):
                 os.remove(os.path.join(self.folder, f))
 
 def get_latest_version(cc: str):
-    ua = str(ua_generator.generate())
     with open(os.path.join(os.getcwd(), "data.json"), "r") as f:
         j = json.load(f)
-    r = requests.get(j[cc]["version_url"], headers={"User-Agent": str(ua)})
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+        "Referer": "https://www.google.com/"
+    }
+
+    r = requests.get(j[cc]["version_url"], headers=headers)
     soup = bs4(r.content, "lxml")
     meta = soup.find('meta', attrs={'name': 'description'})
     content = meta.get('content')
@@ -176,12 +180,16 @@ def check_version():
     return ls
 
 def download_apk(version: str):
-    ua = str(ua_generator.generate())
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+        "Referer": "https://www.google.com/"
+    }
     with open(os.path.join(os.getcwd(), "data.json"), "r") as f:
         j = json.load(f)
     r = requests.get(
         url = j[version]["download_url"],
-        headers={"User-Agent": str(ua)},
+        headers=headers,
         stream=True,
         timeout=10,
     )
