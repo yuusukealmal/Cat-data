@@ -2,6 +2,5 @@ pycryptodome
 requests
 beautifulsoup4 
 lxml
-ua-generator
 cryptography
 gitpython
