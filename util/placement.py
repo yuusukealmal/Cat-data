@@ -51,6 +51,9 @@ def parse(cc: str, res: dict, notify: bool):
     dic = []
     j = json.load(open("data.json", "r"))
     for event in res["notice"]["data"]:
+        r = requests.get(PIC.format("" if cc == "jp" else f"/{cc}", event["id"]))
+        if r.status_code != 200:
+            continue
         if ((t:=convertUnix(event["start"])) > int(time.time())) and (event["id"] not in j[cc.upper()]["uuid"]):
             dic.append({
                 "uuid": event["id"],
@@ -62,7 +65,7 @@ def parse(cc: str, res: dict, notify: bool):
             print(f"{cc} new event: {event['id']}")
             j[cc.upper()]["uuid"].append(event["id"])
             with open(os.path.join(os.getcwd(), "Data", "placement", cc.upper(), f"{event['id']}.png"), "wb") as f:
-                f.write(requests.get(PIC.format("" if cc == "jp" else f"/{cc}", event["id"])).content)
+                f.write(r.content)
             open("data.json", "w").write(json.dumps(j, indent=4))
     if cc != "kr" and notify:
         webhook(cc, dic)
