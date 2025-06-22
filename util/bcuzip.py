@@ -1,20 +1,21 @@
 import sys, os, hashlib, json
 from Crypto.Cipher import AES
 
+
 class Bcuzip:
     def __init__(self, file: str):
         self.title = None
         self.bytes = open(file, "rb").read()
         self.length = int.from_bytes(self.bytes[0x20:0x24], "little")
         self.pad = 16 * (self.length // 16 + 1)
-        self.data = self.bytes[0x24 + self.pad:]
+        self.data = self.bytes[0x24 + self.pad :]
         self.key = self.bytes[0x10:0x20]
         self.iv = hashlib.md5("battlecatsultimate".encode("utf-8")).digest()[0:16]
         self.aes = AES.new(self.key, AES.MODE_CBC, self.iv)
         self.info = self.get_info()
 
     def get_info(self):
-        _info = self.aes.decrypt(self.bytes[0x24 : 0x24 + self.pad])[0:self.length]
+        _info = self.aes.decrypt(self.bytes[0x24 : 0x24 + self.pad])[0 : self.length]
         info = json.loads(_info)
         self.title = info["desc"]["id"] or info["desc"]["names"]["dat"][0]["val"]
         return info
@@ -23,22 +24,27 @@ class Bcuzip:
         base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
         target_dir = os.path.join(base_dir, "Data", "bcuzip", self.title)
         os.makedirs(target_dir, exist_ok=True)
-        
+
         with open(os.path.join(target_dir, "info.json"), "w") as f:
             json.dump(self.info, f, indent=4)
         for _ in self.info["files"]:
-            file = os.path.join(target_dir, *_['path'].split('/')[1:])
+            file = os.path.join(target_dir, *_["path"].split("/")[1:])
             os.makedirs(os.path.dirname(file), exist_ok=True)
 
             size, offset = _["size"], _["offset"]
-            data = AES.new(self.key, AES.MODE_CBC, self.iv).decrypt(self.data[offset:offset + (size + (16 - size % 16))])[:size]
+            data = AES.new(self.key, AES.MODE_CBC, self.iv).decrypt(
+                self.data[offset : offset + (size + (16 - size % 16))]
+            )[:size]
 
             if "pack.json" in file:
-                with open(file, "w") as f:json.dump(json.loads(data), f, indent=4)
+                with open(file, "w") as f:
+                    json.dump(json.loads(data), f, indent=4)
             else:
-                with open(file, "wb") as f:f.write(data)
+                with open(file, "wb") as f:
+                    f.write(data)
 
-def bcuzip(file: str=None, folder: str=None):
+
+def bcuzip(file: str = None, folder: str = None):
     if file is None and folder is None:
         print("Please select a file or folder")
         sys.exit(1)
@@ -54,6 +60,7 @@ def bcuzip(file: str=None, folder: str=None):
             if file.endswith(".bcuzip"):
                 if file.endswith(".bcuzip"):
                     process(os.path.join(folder, file))
+
 
 def process(file: str):
     if not file.endswith(".bcuzip"):

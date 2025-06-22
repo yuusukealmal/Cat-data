@@ -4,9 +4,14 @@ import subprocess
 from datetime import datetime, timedelta
 from git import Repo
 
+
 def check(apk=None, xapk=None):
     if apk:
-        output = subprocess.check_output([os.path.abspath("./util/aapt2.exe"), "dump", "badging", apk], universal_newlines=True, encoding="utf-8")
+        output = subprocess.check_output(
+            [os.path.abspath("./util/aapt2.exe"), "dump", "badging", apk],
+            universal_newlines=True,
+            encoding="utf-8",
+        )
         package = re.search(r"name='([^']+)'", output).group(1)
         return package if "jp.co.ponos.battlecats" in package else False
 
@@ -16,13 +21,14 @@ def check(apk=None, xapk=None):
             package = manifest["package_name"]
             return package if "jp.co.ponos.battlecats" in package else False
 
-def git_push(method: str, msg: str=None):
+
+def git_push(method: str, msg: str = None):
     t = datetime.utcnow() + timedelta(hours=8)
     t_str = t.strftime("%Y-%m-%d %H:%M:%S")
 
     try:
         repo = Repo(os.getenv("REPO"))
-        origin = repo.remote(name='origin')
+        origin = repo.remote(name="origin")
 
         branch = repo.head.ref.name
 
