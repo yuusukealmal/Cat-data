@@ -45,8 +45,7 @@ def convertUnix(time: str):
     if time == -1:
         return -1
     t = datetime.strptime(time, "%Y-%m-%d %H:%M:%S")
-    t_gmt8 = t + timedelta(hours=8)
-    return int(t_gmt8.timestamp())
+    return int(t.timestamp())
 
 def parse(cc: str, res: dict, notify: bool):
     dic = []
