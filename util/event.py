@@ -210,7 +210,7 @@ def event(old=None, new=None):
         for c in cc:
             for f in file_types:
                 process(event, c, f)
-            git_push("add", f"Update Certain Game {c.upper()} Event Data")
+            git_push("add", f"[ci] Update Certain Game {c.upper()} Event Data")
 
 
 def process(cls, cc: str, file: str):

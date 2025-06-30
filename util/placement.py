@@ -89,4 +89,4 @@ def process(notify: bool):
 
 def placement(notify: bool):
     process(notify)
-    git_push("add", "Update Certain Game Announcement")
+    git_push("add", "[ci] Update Certain Game Announcement")
