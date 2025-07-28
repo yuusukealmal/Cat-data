@@ -1899,6 +1899,226 @@
         160,
         70
       ]
+    },
+    {
+      "gradeID": 0,
+      "content": 11,
+      "value": [
+        3
+      ]
+    },
+    {
+      "gradeID": 1,
+      "content": 11,
+      "value": [
+        5
+      ]
+    },
+    {
+      "gradeID": 2,
+      "content": 11,
+      "value": [
+        7
+      ]
+    },
+    {
+      "gradeID": 3,
+      "content": 11,
+      "value": [
+        10
+      ]
+    },
+    {
+      "gradeID": 4,
+      "content": 11,
+      "value": [
+        15
+      ]
+    },
+    {
+      "gradeID": 0,
+      "content": 12,
+      "value": [
+        5
+      ]
+    },
+    {
+      "gradeID": 1,
+      "content": 12,
+      "value": [
+        10
+      ]
+    },
+    {
+      "gradeID": 2,
+      "content": 12,
+      "value": [
+        20
+      ]
+    },
+    {
+      "gradeID": 3,
+      "content": 12,
+      "value": [
+        30
+      ]
+    },
+    {
+      "gradeID": 4,
+      "content": 12,
+      "value": [
+        50
+      ]
+    },
+    {
+      "gradeID": 0,
+      "content": 13,
+      "value": [
+        1,
+        30
+      ]
+    },
+    {
+      "gradeID": 1,
+      "content": 13,
+      "value": [
+        3,
+        30
+      ]
+    },
+    {
+      "gradeID": 2,
+      "content": 13,
+      "value": [
+        5,
+        30
+      ]
+    },
+    {
+      "gradeID": 3,
+      "content": 13,
+      "value": [
+        7,
+        30
+      ]
+    },
+    {
+      "gradeID": 4,
+      "content": 13,
+      "value": [
+        10,
+        30
+      ]
+    },
+    {
+      "gradeID": 0,
+      "content": 14,
+      "value": [
+        5
+      ]
+    },
+    {
+      "gradeID": 1,
+      "content": 14,
+      "value": [
+        10
+      ]
+    },
+    {
+      "gradeID": 2,
+      "content": 14,
+      "value": [
+        20
+      ]
+    },
+    {
+      "gradeID": 3,
+      "content": 14,
+      "value": [
+        30
+      ]
+    },
+    {
+      "gradeID": 4,
+      "content": 14,
+      "value": [
+        50
+      ]
+    },
+    {
+      "gradeID": 0,
+      "content": 15,
+      "value": [
+        5
+      ]
+    },
+    {
+      "gradeID": 1,
+      "content": 15,
+      "value": [
+        10
+      ]
+    },
+    {
+      "gradeID": 2,
+      "content": 15,
+      "value": [
+        20
+      ]
+    },
+    {
+      "gradeID": 3,
+      "content": 15,
+      "value": [
+        30
+      ]
+    },
+    {
+      "gradeID": 4,
+      "content": 15,
+      "value": [
+        50
+      ]
+    },
+    {
+      "gradeID": 0,
+      "content": 16,
+      "value": [
+        5,
+        5
+      ]
+    },
+    {
+      "gradeID": 1,
+      "content": 16,
+      "value": [
+        10,
+        10
+      ]
+    },
+    {
+      "gradeID": 2,
+      "content": 16,
+      "value": [
+        20,
+        20
+      ]
+    },
+    {
+      "gradeID": 3,
+      "content": 16,
+      "value": [
+        30,
+        30
+      ]
+    },
+    {
+      "gradeID": 4,
+      "content": 16,
+      "value": [
+        50,
+        50
+      ]
     }
   ]
 }
