@@ -316,6 +316,43 @@
           ]
         }
       }
+    },
+    "36013": {
+      "ContentsType": 0,
+      "RuleNameLabel": "SpecialRuleName011",
+      "RuleExplanationLabel": "SpecialRuleExplanation011",
+      "RuleType": {
+        "3": {
+          "Parameters": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        "5": {
+          "Parameters": [
+            100,
+            100,
+            100,
+            100,
+            5,
+            100
+          ]
+        },
+        "6": {
+          "Parameters": [
+            100,
+            100,
+            100,
+            100,
+            50,
+            100
+          ]
+        }
+      }
     }
   }
 }

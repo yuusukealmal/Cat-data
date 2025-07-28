@@ -76,8 +76,8 @@ id	enable	display	server	server set	limitid	productName	HTMLName	priority	limiti
 78	1	0	839	-1	-1	chara_745	intro_chara745	76	0	0	0	1	745	1	0	22	50	0	6	300000
 79	1	0	840	-1	-1	rare_ticket_cp	rare_ticket_cp	30	0	0	0	0	21	1	0	22	10
 80	0	0	841	-1	-1	rare_ticket_cp	rare_ticket_cp	30	0	0	0	0	21	1
-81	1	0	842	-1	-1	rare_ticket_xp	rare_ticket_xp	100	0	0	0	0	21	1	0	6	500000
-82	1	0	843	-1	-1	event_ticket_set1	intro_event_ticket_set1	26	0	0	0	0	22	130	0	204	30
+81	1	0	842	-1	-1	rare_ticket_xp	rare_ticket_xp	45	0	0	0	0	21	1	0	6	500000
+82	1	0	843	-1	-1	event_ticket_set1	intro_event_ticket_set1	26	0	0	0	0	22	130	0	216	30
 83	1	3	844	-1	-1	rank300_sale1	intro_rank300_sale1	86	0	300	14	0	22	1000	0	21	5
 84	1	0	845	-1	-1	rare_ticket_3	rare_ticket_3	101	0	0	0	0	21	3
 85	1	3	846	1	-1	premium_sale_add	intro_premium_sale_add	60	10811	0	3	0	29	1	0	6	2000000
