@@ -1416,7 +1416,7 @@ treasure_popup2	 ${treasureRank} ${text} ${stageName}
 treasure_popup3	 ${treasureName}
 item_pack_name_81	Oferta del Oponente: XP y tique raro!
 item_pack_name_82	
-scratch_SNS_004	
+scratch_SNS_004	¡He ganado %d Friskas en #BattleCatsScratcher!<br>Prueba suerte una vez a la semana y podrás llevarte un premio increíble.<br><br>#TheBattleCats #CatsOfSummer2025
 slot_SNS_003	¡Conseguí %d de Friskas en las Tragagatos de #TheBattleCats!<br><br>#BattleCats #10Años
 Account_iOS13_error	No se puede usar el inicio de sesión de Apple en dispositivos que usen iOS 12 o anteriores.
 gamatoto_shortcut	¿Quieres ir a la pantalla de Gamatoto?
@@ -1552,9 +1552,9 @@ treasure_box_redrow_probability	※ Todos los objetos aparecerán con la misma p
 treasure_box_result	<color=255,255,0>¡Has ganado ${itemName}!</color><br>Usa Friskas para abrir más.
 treasure_box_result_2	※ No puedes recibir este objeto tras una nueva tirada.
 treasure_box_result_last_one	<color=255,255,0>¡Has ganado ${itemName}!</color><br>No quedan nuevas tiradas disponibles.
-gama_collabo_05_popup	
-gama_collabo_05_name	
-gama_collabo_05_charatext	
+gama_collabo_05_popup	<flash>Sonic the Hedgehog Collab!</flash><br>Chao joins the Gamatoto Expeditions!<br>Earn more items during the collab!<br>※Does not apply to Cat Food.
+gama_collabo_05_name	Chao
+gama_collabo_05_charatext	Chao has joined Gamatoto Expeditions!<br>Earn more item rewards during the collab!<br>※Does not apply to Cat Food.
 GiftMessage_023	<flash>Bonus 11 por superar la fase</flash><br>Supera la última fase<br>de «Devorador de Verdades»<br>y tendrás la posibilidad de recibir al Sabio de la lógica Newton.
 slot_SNS_005	¡Conseguí %d de Friskas en las Tragagatos II de #TheBattleCats!<br><br>#BattleCats
 SpecialRuleExplanation009	【Velocidad constante】<br>Todas las unidades aliadas y enemigas<br>se mueven a la misma velocidad.
@@ -1562,3 +1562,15 @@ SpecialRuleExplanation010	【Especial +1】<br>Las unidades especiales se despli
 SpecialRuleName009	Velocidad constante
 SpecialRuleName010	Especial +1
 talk_008_push	¡Volvamos al tema de los refuerzos!
+BonusExplanationLabel001	【Bonus de puntuación: repulsión】<br>Repele a un enemigo.<br>※ Usa unidades que afecten a menos rasgos enemigos y consigue una mayor puntuación.<br>Echa un vistazo a «¿Qué es la Arena del Destino?» en la esquina inferior izquierda del menú para conocer todos los detalles.
+BonusNameLabel001	Repulsión
+hidden_rarity_3	Mapa fantasma
+item_pack_name_84	Oferta especial: ¡Compra 3 tiques raros!
+nyancombo_error1	<color=255,255,0>No puedes añadir las unidades<br>de este gatocombo porque estás usando<br>una formación fija.</color>
+SpecialRuleExplanation011	【Compensación de megarraros】<br>Solo se permite desplegar un megarraro<br>a la vez, pero con un coste de despliegue del 5 %<br>y un tiempo de recuperación del 50 %.
+SpecialRuleName011	Compensación de megarraros
+slot_autoset_error_1	<color=255,255,0>Los enemigos de esta fase son un misterio...</color>
+slot_autoset_error_2	<color=255,255,0>No hay unidades disponibles para acceder a esta fase.</color>
+slot_autoset_error_3	<color=255,255,0>Las unidades no se pueden cambiar.</color>
+slot_tutorial_txt1	<color=255,255,0>Equipamiento automático</color><br>¡Toca en el botón y selecciona una formación recomendada<br>para la fase! ¡Disponible en las fases<br>que muestran a los enemigos que aparecerán!
+slot_tutorial_txt2	<color=255,255,0>Fijar unidades</color><br>¡Toca en una unidad para mantenerla en el batallón aunque uses<br>el equipamiento automático! ¡Toca otra vez para quitarla o volver a fijarla!

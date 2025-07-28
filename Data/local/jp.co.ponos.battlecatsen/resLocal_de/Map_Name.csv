@@ -253,7 +253,7 @@
 1203|Die 3. Dimension
 1204|Mysteriöses Paket
 1205|Tod durch Zugabe
-1206|The Battle Cats Together!
+1206|The Battle Cats Unite!
 1207|König Wahwahs Rückkehr
 1208|Clan der Irren
 1209|Miau-Miau-Tag
@@ -452,6 +452,7 @@
 1402|Kundenbelohnung
 1403|
 1404|Rhapsodie der Versuchung
+1405|Unerwartete Vorhersagen
 2000|ふるさと自衛隊
 2001|Alluring Princess
 2002|Princess Punt
@@ -676,9 +677,12 @@
 2221|Witch's Labyrinth: Dessert Witch
 2222|Witch's Labyrinth: Box Witch
 2223|Strongest Things Alive
-2224|
-2225|
-2226|
+2224|Green Hill Zone
+2225|Chemical Plant Zone
+2226|Sky Sanctuary
+2227|
+2228|
+2229|
 3000|Katzenimperium Kapitel 1
 3001|Katzenimperium Kapitel 2
 3002|Katzenimperium Kapitel 3
@@ -763,6 +767,9 @@
 4072|Erinnerungen an 2024, Kampf 2
 4073|Erinnerungen an 2024, Kampf 3
 4074|
+4074|
+4075|
+4076|
 6000|Halle der Initianden
 6001|ニコニコの間
 7000|Himmlischer Turm
@@ -808,7 +815,9 @@
 11029|
 11030|Arena des Schicksals
 11031|Arena of Honor
-11032|
+11032|Arena of Honor
+11033|Arena des Schicksals
+11034|Machtarena
 12000|Herausforderungskampf
 13000|Eine neue Legende
 13001|Hier sind Drachen
@@ -992,6 +1001,8 @@
 24068|#01 Geisterpanik
 24069|Ein kolossales Neujahr!
 24070|Schnäppchen-Schlachtfeld
+24071|Sommerferienkatzen-Schiffbrüchige
+24072|Inselverteidiger!
 25000|Atium-Felder
 25001|Vitamintal
 25002|Ticketjäger
@@ -1062,6 +1073,9 @@
 25067|Relikthort
 25068|Reliktgipfel
 25069|Reliktgrenze
+25070|Karte des Wiedersehens
+25071|Karte des Wiedersehens
+25072|Karte des Wiedersehens
 27000|Messier's Assault
 27001|U.F.O.軍団 強襲！
 27002|The Devils Strike!
@@ -1085,7 +1099,8 @@
 27020|Vs Retsu Kaioh
 27021|Vs Jack Hammer
 27022|Vs Baki Hanma
-27023|
+27023|Radical Highway
+27024|
 30000|Das Reich der Aku
 31000|Versteckter Gapra-Wald
 31001|Ashvini-Wüste
@@ -1111,6 +1126,8 @@
 34017|Waldspielplatz
 34018|Neustädter Graben
 34019|Schlingender Schlund der Wahrheit
+34020|Eine Reise der Momente
+34021|Patisserie-Park
 36000|Anderwelt-Kolosseum
 36001|Anderwelt-Kolosseum
 36002|Anderwelt-Kolosseum
@@ -1124,6 +1141,7 @@
 36010|Anderwelt-Kolosseum
 36011|Anderwelt-Kolosseum
 36012|Anderwelt-Kolosseum
+36013|Anderwelt-Kolosseum
 37000|Katzenkrall-Meisterschaften Rang 1
 37001|Katzenkrall-Meisterschaften Rang 2
 37002|Katzenkrall-Meisterschaften Rang 3

@@ -91,14 +91,14 @@
 9048|Erreiche mehr als 6000 Punkte im<br>Karieskriecher-Sonderlevel!
 9049|Verbessere Eierkatze auf Stufe 10!<br>(Du musst die Katze vor Eventende entwickeln!)|Finde die limitierten Frühling-Herausforderungen<br>in den Spezialmissionen!
 9050|Upgrade Shinji & Cat to Level 10!<br>(You must evolve the Cat before the event ends!)|Check the Special Missions to access<br>limited Evangelion collab challenges!
-9051|Clear "Decisive Battle!" %d times!<br>Clear any Decisive Battle! stage: %d of %d
-9052|Clear "Decisive Battle!" %d times!<br>Clear any Decisive Battle! stage: %d of %d
-9053|Clear "Decisive Battle!" %d times!<br>Clear any Decisive Battle! stage: %d of %d
-9054|Clear a stage using a catcombo with "Eva Angel Killer" effect!<br>Use Shinji and ??? together (after Empire Ch. 1)|Check the Special Missions to access<br>Evangelion Collab missions!
+9051||
+9052|
+9053|
+9054||Check the Special Missions to access<br>Evangelion Collab missions!
 9055|Destroy the 4th Angel<br>Encounter this enemy at "State of Emergency"
 9056|Destroy the 6th Angel<br>Encounter this enemy at "Futagoyama Fortress"
 9057|Destroy the 9th Angel<br>Encounter this enemy at "Asuka On Board (Easy)"
-9058|Destroy the 10th Angel<br>Encounter this enemy at "Refusal Type (Hard)"
+9058|Destroy the 10th Angel<br>Encounter this enemy at "Refusal Type (Hard)"|Check the Special Missions to access<br>Evangelion Collab missions!
 9059|Destroy all Angels<br>Complete %d Destroy Angel missions: %d of %d complete.
 9060|Evolve Pokota at Level 10!<br>This mission can only be completed during the LINE Pokopang! collab event!|Check the Special Missions to access<br>limited LINE Pokopang! challenges!
 9061|Evolve Ovis at Level 10!<br>This mission can only be completed during the LINE Pokopang! collab event!
@@ -958,11 +958,11 @@
 9528|Schließe Level aus „Halloween-Event“<br>%d-mal ab! (Beliebiges Eventlevel) (%d von %d)
 9529|Verdiene einen Sondergegenstand aus<br>den Halloween-Party-Eventkapseln!
 9530|Schließe alle Halloween-Eventmissionen ab<br>und verdiene 1 seltenes Ticket!
-9531|[Anfängerkampagne] Schließe %d Katzenimperium-Level ab.<br>(Beliebiges Katzenimperium-Level) (%d von %d)|Finde die limitierten „Anfängerkampagne“-Herausforderungen<br>in den Spezialmissionen!
-9532|[Anfängerkampagne] Schließe %d Katzenimperium-Level ab.<br>(Beliebiges Katzenimperium-Level) (%d von %d)
-9533|[Anfängerkampagne] Schließe %d Katzenimperium-Level ab.<br>(Beliebiges Katzenimperium-Level) (%d von %d)
-9534|[Anfängerkampagne] Schließe das Japan-Level in Katzenimperium ab<br>und verdiene ein seltenes Ticket für die seltenen Kapseln!
-9535|[Anfängerkampagne] Schließe das Japan-Level in Katzenimperium ab<br>und verdiene Führung, um Katzenenergie wiederherzustellen!
+9531|[Schnellstart-Kampagne] Schließe ein beliebiges<br>Katzenimperium-Level %d-mal ab! (%d von %d)|Die limitierten Schnellstart-Kampagnen-Herausforderungen<br>findest du in den Spezialmissionen!
+9532|[Schnellstart-Kampagne] Schließe ein beliebiges<br>Katzenimperium-Level %d-mal ab! (%d von %d)
+9533|[Schnellstart-Kampagne] Schließe ein beliebiges<br>Katzenimperium-Level %d-mal ab! (%d von %d)
+9534|[Schnellstart-Kampagne] Schließe das Japan-Level<br>in Katzenimperium ab und verdiene ein seltenes Ticket!
+9535|[Schnellstart-Kampagne] Schließe das Japan-Level<br>in Katzenimperium ab und verdiene eine Führung!
 66|Besiege die Lebensform im Uralten Waldlabyrinth<br>St.1 Level 6.
 67|[Katzenkrall-Meisterschaften] Schließe %d Level der Katzenkrall-Meisterschaften Rang 1 ab.<br>Betritt das Katzenkrallendojo, um dieses Level aufzusuchen (%d von %d).|Die Katzenkrall-Meisterschaftsmissionen<br>wurden zu den Hauptmissionen hinzugefügt!
 68|[Katzenkrall-Meisterschaften] Erhalte %d legendäre Katzen. Mach Fortschritte<br>in den legendären Leveln, um sie in den Sonderleveln zu sammeln (%d von %d).|Die Katzenkrall-Meisterschaftsmissionen<br>wurden zu den Hauptmissionen hinzugefügt!
@@ -1037,8 +1037,29 @@
 9591||
 9592|
 9593|
-9594||
-9595|
-9596|
-9597|
-9598|
+9594|Clear any "Sonic the Hedgehog" collab<br>stage %d times! (%d of %d)|Sonic the Hedgehog Collab Missions<br>added to the Special Missions!
+9595|Clear any "Sonic the Hedgehog" collab<br>stage %d times! (%d of %d)
+9596|Clear any "Sonic the Hedgehog" collab<br>stage %d times! (%d of %d)
+9597|Clear any "Sonic the Hedgehog" collab<br>stage %d times! (%d of %d)
+9598|Complete %d Gamatoto Expeditions during <br>the collab: %d of %d times!
+9599|Willkommen-zurück-Mission ①:<br>Schließe ein beliebiges Level %d-mal ab. (%d von %d)|Hey, komm zurück!<br>Willkommen-zurück-Missionen wurden<br>den Spezialmissionen hinzugefügt!
+9600|Willkommen-zurück-Mission ②:<br>Schließe ein beliebiges Level %d-mal ab. (%d von %d)
+9601|Willkommen-zurück-Mission ③:<br>Schließe ein beliebiges Level %d-mal ab. (%d von %d)
+9602|Willkommen-zurück-Mission ④:<br>Schließe ein beliebiges Level %d-mal ab. (%d von %d)
+9603|Willkommen-zurück-Mission ⑤:<br>Schließe ein beliebiges Level %d-mal ab. (%d von %d)
+9604|Willkommen-zurück-Mission ⑥:<br>Schließe ein beliebiges Level %d-mal ab. (%d von %d)
+9605|Willkommen-zurück-Mission ⑦:<br>Schließe ein beliebiges Level %d-mal ab. (%d von %d)
+9606|Willkommen-zurück-Mission ⑧:<br>Schließe ein beliebiges Level %d-mal ab. (%d von %d)
+9607|[Schiffbruch-Flucht Teil 1] ④: Wildnisüberleben<br>Schließe %d Schiffbruch-Level ab! (%d von %d)
+9608|[Schiffbruch-Flucht Teil 1] ①: Nahrungssuche<br>Schließe %d „Survive! Mola Mola“-Kollaborationslv. ab! (%d von %d)
+9609|[Schiffbruch-Flucht Teil 1] ②: Nahrungssuche<br>Schließe %d „Survive! Mola Mola“-Kollaborationslv. ab! (%d von %d)
+9610|[Schiffbruch-Flucht Teil 1] ③: Nahrungssuche<br>Schließe %d „Survive! Mola Mola“-Kollaborationslv. ab! (%d von %d)
+9611|[Schiffbruch-Flucht Teil 1] ④: Nahrungssuche<br>Sammle 3 Sardinen aus den Eventkapseln!
+9612|[Schiffbruch-Flucht Teil 1] ⑤: Nahrungssuche<br>Sammle 3 Tintenfische aus den Eventkapseln!
+9613|[Schiffbruch-Flucht Teil 1] ⑥: Nahrungssuche<br>Sammle 3 Tasmanische Riesenkrabben aus den Eventkapseln!
+9614|[Schiffbruch-Flucht Teil 1] ⑦: Nahrungssuche<br>Sammle 3 Uralte Eier: N206 aus den Eventkapseln!
+9615|[Schiffbruch-Flucht Teil 1] ①: Sturmwinde<br>Schließe das Level „Unerwartete Vorhersagen“ %d-mal ab (%d von %d)
+9616|[Schiffbruch-Flucht Teil 1] ②: Sturmwinde<br>Schließe das Level „Unerwartete Vorhersagen“ %d-mal ab (%d von %d)
+9617|[Schiffbruch-Flucht Teil 1] ③: Sturmwinde<br>Schließe das Level „Unerwartete Vorhersagen“ %d-mal ab (%d von %d)
+9618|[Schiffbruch-Flucht Teil 1] ④: Sturmwinde<br>Schließe das Level „Unerwartete Vorhersagen“ %d-mal ab (%d von %d)
+9619|[Schiffbruch-Flucht Teil 3]: Schatteninsel<br>Schließe Level 1 von „Inselverteidiger!“ ab.|Schiffbruch-Flucht-Teil-3-Missionen wurden<br>den Spezialmissionen hinzugefügt!

@@ -31,7 +31,7 @@ True Form evolution gains improved|Defense, better chance of Critical,|and also 
 True Form evolution increases Range!|Also gains a chance to decrease the|attack power of Floating enemies!|＠|True Form evolution increases Range!|Also gains a chance to decrease the|attack power of Floating enemies!|			//ネコぼさつ
 True Form evolution increases all stats!|Plus, gains the power to freeze Relic enemies|and becomes immune to enemy Curses.|＠|True Form evolution increases all stats!|Plus, gains the power to freeze Relic enemies|and becomes immune to enemy Curses.|			//ネコ番長
 True Form evolution increases defense|and attack! Blocks Warp, and slows |Red enemy movement even further!|＠|True Form evolution increases defense|and attack! Blocks Warp, and slows |Red enemy movement even further!|			//ネコザイル
-True Form evolution increases attack|speed and power! Plus, now negates|Wave attack effects and damage!|＠|True Form evolution increases attack|speed and power! Plus, now negates|Wave attack effects and damage!|			//ねこタツ
+True Form evolution increases attack|speed and power! Plus, gains|Wave Shield and Immunity to Waves!|＠|True Form evolution increases attack|speed and power! Plus, gains|Wave Shield and Immunity to Waves!|			//ねこタツ
 True Form evolution increases Attack!|Also gains a 100% chance to freeze the|movement of non-Metal enemies!|＠|True Form evolution increases Attack!|Also gains a 100% chance to freeze the|movement of non-Metal enemies!|			//ネコルガ
 True Form evolution increases Attack!|Also gains the ability to Slow down|non-Metal enemies for a short time.|＠|True Form evolution increases Attack!|Also gains the ability to Slow down|non-Metal enemies for a short time.|			//オタネコ
 True Form evolution increases Attack,|Defense, Movement Speed and Range!|＠|＠|True Form evolution increases Attack,|Defense, Movement Speed and Range!|＠|			//ネコスイマー
@@ -41,7 +41,7 @@ True Form evolution gains Area|Attack! Also gains a 100% chance to|freeze Red en
 True Form evolution increases Defense!|Attack speed is also increased!|＠|＠|True Form evolution increases Defense!|Attack speed is also increased!|＠|			//ネコバスたぶ
 True Form evolution increases|attack power! Plus, negates|enemy attacks' Weaken effects.|＠|True Form evolution increases|attack power! Plus, negates|enemy attacks' Weaken effects.|			//ネコエステ
 True Form evolution increases Range|and Attack! Also gains a 100% chance to|freeze Red enemy movement!|＠|True Form evolution increases Range|and Attack! Also gains a 100% chance to|freeze Red enemy movement!|			//ネコアイス
-True Form evolution increases all traits.|Also grants resistance to wave attacks|while protecting units behind as well!|＠|True Form evolution increases all traits.|Also grants resistance to wave attacks|while protecting units behind as well!|			//ネコマシン
+True Form evolution increases all traits.|Plus, gains Wave Shield|and Immunity to Waves!|＠|True Form evolution increases all traits.|Plus, gains Wave Shield|and Immunity to Waves!|			//ネコマシン
 True Form evolution increases Defense|and grants a hugely powerful single attack.|＠|＠|True Form evolution increases Defense|and grants a hugely powerful single attack.|＠|			//鬼にゃんま
 ＠|＠|＠|＠|＠|＠|＠|			//芸者ねこ
 True Form evolution increases Defense|and Attack power. Also gains increased|critical chance and range!|＠|True Form evolution increases Defense|and Attack power. Also gains increased|critical chance and range!|			//ねこジュラ
@@ -127,7 +127,7 @@ True Form evolution increases|attack power and range and defense!|＠|＠|True F
 ＠|＠|＠|＠|＠|＠|＠|			//カラクリにゃんこ
 ＠|＠|＠|＠|＠|＠|＠|			//ネコフラワー
 ＠|＠|＠|＠|＠|＠|＠|			//うらめしにゃん
-True Form evolution gains increased defense,|plus Immunity to Wave attacks.|＠|＠|True Form evolution gains increased defense,|plus Immunity to Wave attacks.|＠|			//金ネコ
+True Form evolution gains improved|defense, plus Immunity to Waves.|＠|＠|True Form evolution gains improved|defense, plus Immunity to Waves.|＠|			//金ネコ
 True Form evolution gains improved|defense, range and attack power. Plus,|becomes immune to enemy Curses.|＠|True Form evolution gains improved|defense, range and attack power. Plus,|becomes immune to enemy Curses.|			//ウルフとウルルン
 ＠|＠|＠|＠|＠|＠|＠|			//ねねこ
 ＠|＠|＠|＠|＠|＠|＠|			//カンフーにゃんこG
@@ -226,7 +226,7 @@ True Form evolution gains Resistance|vs. Traitless, and may sometimes|Knockback 
 True Form evolution gains improved attack|and defense! Also lower deployment cost!|＠|＠|True Form evolution gains improved attack|and defense! Also lower deployment cost!|＠|//ハイドゥ
 True Form evolution can attack only Aliens,|but defense & attack power is massively |increased! Also resists repeated debuffs.|＠|True Form evolution can attack only Aliens,|but defense & attack power is massively |increased! Also resists repeated debuffs.|			//呪術師デスピエロ
 True Form evolution is stronger against|Black enemies! Also gains Behemoth|Slayer!|＠|True Form evolution is stronger against|Black enemies! Also gains Behemoth|Slayer!|			//にゃんぷきん
-True Form blocks Wave Attacks.|Plus Immunity to Wave attacks.|＠|＠|True Form blocks Wave Attacks.|Plus Immunity to Wave attacks.|＠|			//ハロウィンねねこ
+True Form gains Wave Shield|and Immunity to Waves.|＠|＠|True Form gains Wave Shield|and Immunity to Waves.|＠|			//ハロウィンねねこ
 ＠|＠|＠|＠|＠|＠|＠|			//ウィンディスイート
 ＠|＠|＠|＠|＠|＠|＠|			//デビルサンディア
 ＠|＠|＠|＠|＠|＠|＠|			//おでん
@@ -273,7 +273,7 @@ True Form gains improved attack power!|＠|＠|＠|True Form gains improved atta
 True Form evolution gains improved|defense! Plus, attack power gained|after taking damage is increased!|＠|True Form evolution gains improved|defense! Plus, attack power gained|after taking damage is increased!|			//繁栄神ガネーシャ
 ＠|＠|＠|＠|＠|＠|＠|			//チアにゃんこ
 ＠|＠|＠|＠|＠|＠|＠|			//トロピカルカリファ
-＠|＠|＠|＠|＠|＠|＠|			//真夏のホワイトラビット
+True form evolution adds 100% chance|of Knockback and Slow vs Angels/Black!|Also immune to Waves!|＠|True form evolution adds 100% chance|of Knockback and Slow vs Angels/Black!|Also immune to Waves!|			//真夏のホワイトラビット
 True Form gains improved|attack power!|＠|＠|True Form gains improved|attack power!|＠|			//夏色ねねこ
 ＠|＠|＠|＠|＠|＠|＠|			//なめこ
 ＠|＠|＠|＠|＠|＠|＠|			//なめこタンク
@@ -304,7 +304,7 @@ True Form evolution improves|attack power and range! Plus,|gains the ability to 
 ＠|＠|＠|＠|＠|＠|＠|			//ネコ屋台
 True Form evolution improves attack|distance and attack area range!|＠|＠|Ultra Form gains improved attack power!|Resists Zombies and Relics, and gains|the ability to 100% Weaken enemies.|//帝国陸軍カタパルズ
 True Form evolution improves|attack speed!|＠|＠|Ultra Form gains reduced deploy cooldown!|Improved Defense, atk. speed/range!|Also gains immunity to Knockback!|			//古代軍船ガレーズ
-True Form evolution improves|defense and knockback rate!|＠|＠|True Form evolution improves|defense and knockback rate!|＠|			//飛空襲撃ボンバーズ
+True Form evolution improves|defense and knockback rate!|＠|＠|Gains improved defense and Omnistrike,|Explosive attacks and Sage Slayer!|Also gains Immunity to Explosions!|			//飛空襲撃ボンバーズ
 True form greatly increases defense and|movement speed! Plus, Slow effects against|Zombies will last for longer!|＠|True form greatly increases defense and|movement speed! Plus, Slow effects against|Zombies will last for longer!|			//ネコジャンパー
 True form greatly increases defense!|Attack range also improves, and|freeze time versus zombies increases!|＠|True form greatly increases defense!|Attack range also improves, and|freeze time versus zombies increases!|			//ネコバサミ
 ＠|＠|＠|＠|＠|＠|＠|			//ネコ博士
@@ -393,7 +393,7 @@ True Form evolution gains greatly|increased attack speed and area!|＠|＠|True 
 True Form evolution increases|defense and attack range!|Plus, gains area attack!|＠|True Form evolution increases|defense and attack range!|Plus, gains area attack!|			//六道聖
 True Form evolution greatly increases  |attack power/speed and defense!|Plus, becomes immune to slow effects!|＠|True Form evolution greatly increases  |attack power/speed and defense!|Plus, becomes immune to slow effects!|			//新島早紀
 True Form evolution has a slower attack|rate but gains increased defense, attack|power and attack range!|＠|True Form evolution has a slower attack|rate but gains increased defense, attack|power and attack range!|			//星井スバル
-True Form evolution greatly increases|attack power and defense!|Plus, becomes immune to wave effects!|＠|True Form evolution greatly increases|attack power and defense!|Plus, becomes immune to wave effects!|			//小山雅
+True Form evolution greatly increases|attack power and defense!|Plus, becomes Immune to Waves!|＠|True Form evolution greatly increases|attack power and defense!|Plus, becomes Immune to Waves!|			//小山雅
 True Form evolution gains improved|defense and pushbacks against enemies!|＠|＠|True Form evolution gains improved|defense and pushbacks against enemies!|＠|			//古龍ガングリオン
 True Form Evolution gains|Insanely Tough defense|against Metal enemies!|＠|Ultra Form evolution gains Omnistrike,|improved Defense, Attack and Critical chance!|Also increased debuff time vs. Metal enemies.|			//風隼さくら
 ＠|＠|＠|＠|＠|＠|＠|			//ハニトンくん
@@ -429,7 +429,7 @@ True form improves defense and even|longer debuff effects. Weakens Relics,|and g
 ＠|＠|＠|＠|＠|＠|＠|			//そうまにゃん
 ＠|＠|＠|＠|＠|＠|＠|			//オタネコギーク
 ＠|＠|＠|＠|＠|＠|＠|			//ぐでたまネコマシン
-True form gains improved attack speed!|Plus, gains 100% chance of Freeze|and Strong vs Zombie enemies.||Ultra Form evolution gains improved abilities!|Gains Sage Slayer and Immunity to Wave|attacks, while its Wave attacks reach farther.|//亡者探偵ヴィグラー
+True form gains improved attack speed!|Plus, gains 100% chance of Freeze|and Strong vs Zombie enemies.||Ultra Form evolution gains improved abilities!|Gains Sage Slayer and Immunity to Waves,|while its Wave attacks reach farther.|//亡者探偵ヴィグラー
 ＠|＠|＠|＠|＠|＠|＠|			//ベタックマ
 ＠|＠|＠|＠|＠|＠|＠|			//ネコックマ
 ＠|＠|＠|＠|＠|＠|＠|			//白にゃんこ剣士
@@ -443,7 +443,7 @@ True Form evolution gains improved|attack power! Also can Dodge attacks|and gain
 ＠|＠|＠|＠|＠|＠|＠|			//子連れにゃんこ
 True form evolution gains faster|attack speed, and the Strong|ability vs Traitless enemies!|＠|True form evolution gains faster|attack speed, and the Strong|ability vs Traitless enemies!|			//戦隊ドリラ
 True form evolution gains increased|Attack power, and also shortened|cooldown time between deployments!|＠|True form evolution gains increased|Attack power, and also shortened|cooldown time between deployments!|			//戦隊ウチコンガ
-True form evolution gains|increased Attack power, and|Immunity to Wave Attacks!|＠|True form evolution gains|increased Attack power, and|Immunity to Wave Attacks!|			//戦隊チョキンドス
+True form evolution gains|increased Attack power, and|Immunity to Waves!|＠|True form evolution gains|increased Attack power, and|Immunity to Waves!|			//戦隊チョキンドス
 True form evolution gains|Surge Attack abilities!|＠|＠|True form evolution gains|Surge Attack abilities!|＠|			//戦隊ショベリン
 True form evolution increases|Defense & Attack power, and|gains Barrier Breaker abilities!|＠|True form evolution increases|Defense & Attack power, and|gains Barrier Breaker abilities!|			//戦隊チャッソ
 True Form evolution gains increased|Vitality and attack power! Gains Colossus|Slayer, Slows, and immunity to Weaken!|＠|True Form evolution gains increased|Vitality and attack power! Gains Colossus|Slayer, Slows, and immunity to Weaken!|			//宮本武蔵
@@ -629,7 +629,7 @@ True Form gains improved defense, attack|speed, and 100% chance to unleash|Mini-
 ＠|＠|＠|＠|＠|＠|＠|			//ネコノドラゴーン
 ＠|＠|＠|＠|＠|＠|＠|			//洗脳されしネコ
 ＠|＠|＠|＠|＠|＠|＠|			//ネコ書道
-True Form gains significantly increased|Attack! Blocks Wave Attacks and|gains immunity to Wave Attacks!|＠|True Form gains significantly increased|Attack! Blocks Wave Attacks and|gains immunity to Wave Attacks!|			//闇の精霊ヤミィ
+True Form gains significantly increased|Attack! Gains Wave Shield and|Immunity to Waves!|＠|True Form gains significantly increased|Attack! Gains Wave Shield and|Immunity to Waves!|			//闇の精霊ヤミィ
 True Form gains increased attack!|Also gains immunity to enemy Freeze effect!|＠|＠|True Form gains increased attack!|Also gains immunity to enemy Freeze effect!|＠|			//超竜戦機デス・トロイ
 True Form evolution gains improved Defense and|100% chance of Mini-Wave.|＠|＠|True Form evolution gains improved Defense and|100% chance of Mini-Wave.|＠|			//舌切りすずめ
 True Form gains massive Area damage |to Aku, Immunity to Freeze effects, and|has a chance to Pierce Aku Shields!|＠|True Form gains massive Area damage |to Aku, Immunity to Freeze effects, and|has a chance to Pierce Aku Shields!|			//白騎士キュクロプス
@@ -696,9 +696,9 @@ True Form gains improved attack!|Plus, increased movement speed and|immunity to 
 ＠|＠|＠|＠|＠|＠|＠|			//殺意のタンクネコ
 ＠|＠|＠|＠|＠|＠|＠|//ネコ委員長
 True Form evolution reveals its final form!|Also gains Behemoth Slayer!|＠|＠|True Form evolution reveals its final form!|Also gains Behemoth Slayer!|＠|//古びたタマゴ:N107
-＠|＠|＠|＠|＠|＠|＠|//サンダージャック
+True form evolution gains|Knockback vs Aku and Aliens.|Also gains Immunity to Surges!|＠|True form evolution gains|Knockback vs Aku and Aliens.|Also gains Immunity to Surges!|//サンダージャック
 ＠|＠|＠|＠|＠|＠|＠|//決闘少年ラビットサトル
-True Form evolution reveals its final form!|Also gains Long-range attacks and|immunity to Wave attacks!|＠|True Form evolution reveals its final form!|Also gains Long-range attacks and|immunity to Wave attacks!|//古びたタマゴ:N005
+True Form evolution reveals its final form!|Also gains Long-range attacks and|Immunity to Waves!|＠|True Form evolution reveals its final form!|Also gains Long-range attacks and|Immunity to Waves!|//古びたタマゴ:N005
 ＠|＠|＠|＠|＠|＠|＠|			//ちび仮面ライダー
 ＠|＠|＠|＠|＠|＠|＠|			//ちびゴジラ
 ＠|＠|＠|＠|＠|＠|＠|			//ちびエヴァンゲリオン
@@ -809,3 +809,6 @@ True Form evolution reveals its final form!|Also gains Behemoth Slayer!|＠|＠|
 ＠|＠|＠|＠|＠|＠|＠|//ネコテイルス
 ＠|＠|＠|＠|＠|＠|＠|//ネコナックルズ
 ＠|＠|＠|＠|＠|＠|＠|//811
+＠|＠|＠|＠|＠|＠|＠|//ギガントゼウス11体目
+＠|＠|＠|＠|＠|＠|＠|//ギガントゼウス11体目召喚キャラクター
+＠|＠|＠|＠|＠|＠|＠|//タスマニアオオガニ

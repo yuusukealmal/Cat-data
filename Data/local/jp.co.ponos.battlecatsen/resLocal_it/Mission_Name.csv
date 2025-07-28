@@ -91,14 +91,14 @@
 9048|Ottieni più di 6000 punti nel<br>livello speciale "Carie in agguato"!
 9049|Potenzia Gattuovo a livello 10!<br>(Deve evolvere prima che finisca l'evento!)|Controlla le missioni speciali per accedere<br>alle sfide limitate Primavera!
 9050|Upgrade Shinji & Cat to Level 10!<br>(You must evolve the Cat before the event ends!)|Check the Special Missions to access<br>limited Evangelion collab challenges!
-9051|Clear "Decisive Battle!" %d times!<br>Clear any Decisive Battle! stage: %d of %d
-9052|Clear "Decisive Battle!" %d times!<br>Clear any Decisive Battle! stage: %d of %d
-9053|Clear "Decisive Battle!" %d times!<br>Clear any Decisive Battle! stage: %d of %d
-9054|Clear a stage using a catcombo with "Eva Angel Killer" effect!<br>Use Shinji and ??? together (after Empire Ch. 1)|Check the Special Missions to access<br>Evangelion Collab missions!
+9051||
+9052|
+9053|
+9054||Check the Special Missions to access<br>Evangelion Collab missions!
 9055|Destroy the 4th Angel<br>Encounter this enemy at "State of Emergency"
 9056|Destroy the 6th Angel<br>Encounter this enemy at "Futagoyama Fortress"
 9057|Destroy the 9th Angel<br>Encounter this enemy at "Asuka On Board (Easy)"
-9058|Destroy the 10th Angel<br>Encounter this enemy at "Refusal Type (Hard)"
+9058|Destroy the 10th Angel<br>Encounter this enemy at "Refusal Type (Hard)"|Check the Special Missions to access<br>Evangelion Collab missions!
 9059|Destroy all Angels<br>Complete %d Destroy Angel missions: %d of %d complete.
 9060|Evolve Pokota at Level 10!<br>This mission can only be completed during the LINE Pokopang! collab event!|Check the Special Missions to access<br>limited LINE Pokopang! challenges!
 9061|Evolve Ovis at Level 10!<br>This mission can only be completed during the LINE Pokopang! collab event!
@@ -944,7 +944,7 @@
 9515|
 9516|
 9517|
-9518|[Fuga del naufrago Parte 1] ①:  Sopravvivenza selvaggia<br>Supera %d livelli Naufrago! (%d di %d)|Controlla le missioni speciali per accedere<br>alle sfide di Fuga del naufrago Parte 1!
+9518|[Fuga del naufrago Parte 1] ①: Sopravvivenza selvaggia<br>Supera %d livelli Naufrago! (%d di %d)|Controlla le missioni speciali per accedere<br>alle sfide di Fuga del naufrago Parte 1!
 9519|[Fuga del naufrago Parte 1] ②: Sopravvivenza selvaggia<br>Supera %d livelli Naufrago! (%d di %d)
 9520|[Fuga del naufrago Parte 1] ③: Sopravvivenza selvaggia<br>Supera %d livelli Naufrago! (%d di %d)
 9521|
@@ -958,11 +958,11 @@
 9528|Supera i livelli dell'evento Halloween<br>%d volte! (Qualsiasi livello evento) (%d di %d)
 9529|Acquista un oggetto in evidenza dalle<br>capsule dell'evento Festa di Halloween!
 9530|Supera tutte le missioni dell'evento Halloween<br>e ottieni 1 biglietto raro!
-9531|[Campagna principianti] Supera %d livelli di Impero dei Gatti.<br>(Qualsiasi livello di Impero dei Gatti) (%d di %d)|Controlla le missioni speciali per accedere<br>alle sfide della Campagna principianti!
-9532|[Campagna principianti] Supera %d livelli di Impero dei Gatti.<br>(Qualsiasi livello di Impero dei Gatti) (%d di %d)
-9533|[Campagna principianti] Supera %d livelli di Impero dei Gatti.<br>(Qualsiasi livello di Impero dei Gatti) (%d di %d)
-9534|[Campagna principianti] Supera Giappone di Impero<br>dei Gatti e ottieni 1 biglietto raro per capsule rare!
-9535|[Campagna principianti] Supera Giappone di Impero dei<br>Gatti e ottieni leadership per recuperare energia felina!
+9531|[Campagna Vantaggio iniziale] Supera qualsiasi livello<br>di Impero dei Gatti %d volte! (%d di %d)|Controlla le missioni speciali per accedere<br>alle sfide limitate "Vantaggio iniziale"!
+9532|[Campagna Vantaggio iniziale] Supera qualsiasi livello<br>di Impero dei Gatti %d volte! (%d di %d)
+9533|[Campagna Vantaggio iniziale] Supera qualsiasi livello<br>di Impero dei Gatti %d volte! (%d di %d)
+9534|[Campagna Vantaggio iniziale] Supera il livello Giappone<br>di Impero dei Gatti e ottieni un biglietto raro!
+9535|[Campagna Vantaggio iniziale] Supera il livello Giappone<br>di Impero dei Gatti e ottieni una Leadership!
 66|Sconfiggi la forma di vita nel Labirinto antica foresta<br>Liv.1 fase 6.
 67|[Campionati miciodiali] Supera %d livelli di Campionati miciodiali Grado 1.<br>Accedi al Dojo miciodiale per affrontare questo livello (%d di %d)|Le missioni Campionati miciodiali<br>sono state aggiunte alle missioni principali!
 68|[Campionati miciodiali] Ottieni %d Gatti leggendari. Vai avanti nei livelli<br>leggendari per raccoglierli nei livelli speciali (%d di %d)|Le missioni Campionati miciodiali<br>sono state aggiunte alle missioni principali!
@@ -1037,8 +1037,29 @@
 9591||
 9592|
 9593|
-9594||
-9595|
-9596|
-9597|
-9598|
+9594|Clear any "Sonic the Hedgehog" collab<br>stage %d times! (%d of %d)|Sonic the Hedgehog Collab Missions<br>added to the Special Missions!
+9595|Clear any "Sonic the Hedgehog" collab<br>stage %d times! (%d of %d)
+9596|Clear any "Sonic the Hedgehog" collab<br>stage %d times! (%d of %d)
+9597|Clear any "Sonic the Hedgehog" collab<br>stage %d times! (%d of %d)
+9598|Complete %d Gamatoto Expeditions during <br>the collab: %d of %d times!
+9599|Missione di bentornato①:<br>Supera qualsiasi livello %d volte (%d di %d)|Che bello rivederti!<br>Missioni di bentornato aggiunte<br>alle missioni speciali!
+9600|Missione di bentornato②:<br>Supera qualsiasi livello %d volte (%d di %d)
+9601|Missione di bentornato③:<br>Supera qualsiasi livello %d volte (%d di %d)
+9602|Missione di bentornato④:<br>Supera qualsiasi livello %d volte (%d di %d)
+9603|Missione di bentornato⑤:<br>Supera qualsiasi livello %d volte (%d di %d)
+9604|Missione di bentornato⑥:<br>Supera qualsiasi livello %d volte (%d di %d)
+9605|Missione di bentornato⑦:<br>Supera qualsiasi livello %d volte (%d di %d)
+9606|Missione di bentornato⑧:<br>Supera qualsiasi livello %d volte (%d di %d)
+9607|[Fuga del naufrago Parte 1] ④: Sopravvivenza selvaggia<br>Supera %d livelli Naufrago! (%d di %d)
+9608|[Fuga del naufrago Parte 1] ①: Alla ricerca di cibo<br>Supera %d livelli collaborazione di Survive! Mola Mola! (%d di %d)
+9609|[Fuga del naufrago Parte 1] ②: Alla ricerca di cibo<br>Supera %d livelli collaborazione di Survive! Mola Mola! (%d di %d)
+9610|[Fuga del naufrago Parte 1] ③: Alla ricerca di cibo<br>Supera %d livelli collaborazione di Survive! Mola Mola! (%d di %d)
+9611|[Fuga del naufrago Parte 1] ④: Alla ricerca di cibo<br>Raccogli 3 Sardine dalle capsule evento!
+9612|[Fuga del naufrago Parte 1] ⑤: Alla ricerca di cibo<br>Raccogli 3 Calamari dalle capsule evento!
+9613|[Fuga del naufrago Parte 1] ⑥: Alla ricerca di cibo<br>Raccogli 3 Granchi giganti della Tasmania dalle capsule ev.!
+9614|[Fuga del naufrago Parte 1] ⑦: Alla ricerca di cibo<br>Ottieni 3 Uovo antico N206 dalle capsule evento!
+9615|[Fuga del naufrago Parte 1]⑤: Bufera<br>Supera il livello Previsioni senza precedenti %d volte (%d di %d)
+9616|[Fuga del naufrago Parte 1]②: Bufera<br>Supera il livello Previsioni senza precedenti %d volte (%d di %d)
+9617|[Fuga del naufrago Parte 1]③: Bufera<br>Supera il livello Previsioni senza precedenti %d volte (%d di %d)
+9618|[Fuga del naufrago Parte 1]④: Bufera<br>Supera il livello Previsioni senza precedenti %d volte (%d di %d)
+9619|[Fuga del naufrago Parte 3]: Isola delle ombre<br>Supera il livello 1 Difensori dell'isola!|Missioni Fuga del naufrago Parte 3 aggiunte<br>alle missioni speciali!

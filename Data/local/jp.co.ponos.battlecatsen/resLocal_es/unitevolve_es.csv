@@ -31,7 +31,7 @@ La forma final tiene una mayor|defensa y mayor probabilidad de infligir|daño cr
 La forma final tiene un mayor alcance.|Tiene la probabilidad de mermar el poder|de ataque de los enemigos voladores.|＠|La forma final tiene un mayor alcance.|Tiene la probabilidad de mermar el poder|de ataque de los enemigos voladores.|			//ネコぼさつ
 La forma final tiene mejores estadísticas.|Además, paraliza a los enemigos reliquias|y es inmune a las maldiciones.|＠|La forma final tiene mejores estadísticas.|Además, paraliza a los enemigos reliquias|y es inmune a las maldiciones.|			//ネコ番長
 La forma final tiene mayor defensa|y poder de ataque. Bloquea las abducciones|y ralentiza más tiempo a los enemigos rojos.|＠|La forma final tiene mayor defensa|y poder de ataque. Bloquea las abducciones|y ralentiza más tiempo a los enemigos rojos.|			//ネコザイル
-La forma final tiene más poder|y velocidad de ataque. Además, anula|el efecto y el daño de las oleadas.|＠|La forma final tiene más poder|y velocidad de ataque. Además, anula|el efecto y el daño de las oleadas.|			//ねこタツ
+La forma final tiene más poder|y velocidad de ataque. Además, anula|escudo de oleada e inmunidad a oleadas.|＠|La forma final tiene más poder|y velocidad de ataque. Además, anula|escudo de oleada e inmunidad a oleadas.|			//ねこタツ
 La forma final tiene más poder de ataque.|Además, siempre paraliza a los|enemigos no metálicos.|＠|La forma final tiene más poder de ataque.|Además, siempre paraliza a los|enemigos no metálicos.|			//ネコルガ
 La forma final tiene más poder de ataque.|Además, ralentiza durante un tiempo|a los enemigos no metálicos.|＠|La forma final tiene más poder de ataque.|Además, ralentiza durante un tiempo|a los enemigos no metálicos.|			//オタネコ
 La forma final tiene más poder de ataque,|defensa, velocidad de movimiento y alcance.|＠|＠|La forma final tiene más poder de ataque,|defensa, velocidad de movimiento y alcance.|＠|			//ネコスイマー
@@ -41,7 +41,7 @@ La forma final tiene más poder de ataque|de área. Además, siempre paraliza|a 
 La forma final tiene una mayor defensa.|Además, aumenta su velocidad de ataque.|＠|＠|La forma final tiene una mayor defensa.|Además, aumenta su velocidad de ataque.|＠|			//ネコバスたぶ
 La forma final tiene más|poder de ataque y anula el|desgaste de los ataques enemigos.|＠|La forma final tiene más|poder de ataque y anula el|desgaste de los ataques enemigos.|			//ネコエステ
 La forma final tiene un mayor alcance.|Además, tiene más poder de ataque|y siempre paraliza a los enemigos rojos.|＠|La forma final tiene un mayor alcance.|Además, tiene más poder de ataque|y siempre paraliza a los enemigos rojos.|			//ネコアイス
-La forma final tiene mejores rasgos.|Además, resiste mejor los ataques de oleada|y actúa de parapeto para las demás unidades.|＠|La forma final tiene mejores rasgos.|Además, resiste mejor los ataques de oleada|y actúa de parapeto para las demás unidades.|			//ネコマシン
+La forma final tiene mejores rasgos.|Además, obtiene escudo contra oleada|e inmunidad a oleadas.|＠|La forma final tiene mejores rasgos.|Además, obtiene escudo contra oleada|e inmunidad a oleadas.|			//ネコマシン
 La forma final tiene una mayor defensa.|Además, su ataque individual se refuerza.|＠|＠|La forma final tiene una mayor defensa.|Además, su ataque individual se refuerza.|＠|			//鬼にゃんま
 ＠|＠|＠|＠|＠|＠|＠|			//芸者ねこ
 La forma final tiene una mayor defensa.|Su poder de ataque crece, su alcance y|su probabilidad de infligir daño crítico.|＠|La forma final tiene una mayor defensa.|Su poder de ataque crece, su alcance y|su probabilidad de infligir daño crítico.|			//ねこジュラ
@@ -127,7 +127,7 @@ La forma final tiene más|poder de ataque, defensa y alcance.|＠|＠|La forma f
 ＠|＠|＠|＠|＠|＠|＠|			//カラクリにゃんこ
 ＠|＠|＠|＠|＠|＠|＠|			//ネコフラワー
 ＠|＠|＠|＠|＠|＠|＠|			//うらめしにゃん
-La forma final tiene más defensa|y es inmune a las oleadas.|＠|＠|La forma final tiene más defensa|y es inmune a las oleadas.|＠|			//金ネコ
+La forma final tiene más|defensa y es inmune a las oleadas.|＠|＠|La forma final tiene más|defensa y es inmune a las oleadas.|＠|			//金ネコ
 La forma final tiene más|poder de ataque, defensa y alcance.|Además, es inmune a las maldiciones.|＠|La forma final tiene más|poder de ataque, defensa y alcance.|Además, es inmune a las maldiciones.|			//ウルフとウルルン
 ＠|＠|＠|＠|＠|＠|＠|			//ねねこ
 ＠|＠|＠|＠|＠|＠|＠|			//カンフーにゃんこG
@@ -226,7 +226,7 @@ True Form evolution gains Resistance|vs. Traitless, and may sometimes|Knockback 
 True Form evolution gains improved attack|and defense! Also lower deployment cost!|＠|＠|True Form evolution gains improved attack|and defense! Also lower deployment cost!|＠|//ハイドゥ
 La forma final solo ataca a álienes,|pero tiene una defensa y un poder de ataque|mucho mayores y resiste a penalizaciones.|＠|La forma final solo ataca a álienes,|pero tiene una defensa y un poder de ataque|mucho mayores y resiste a penalizaciones.|			//呪術師デスピエロ
 La forma final es más fuerte contra|enemigos negros. ¡También gana|Matamastodondes!|＠|La forma final es más fuerte contra|enemigos negros. ¡También gana|Matamastodondes!|			//にゃんぷきん
-La forma final bloquea oleadas.|Y es inmune a las oleadas.|＠|＠|La forma final bloquea oleadas.|Y es inmune a las oleadas.|＠|			//ハロウィンねねこ
+La forma final obtiene escudo de oleadas|y es inmune a las oleadas.|＠|＠|La forma final obtiene escudo de oleadas|y es inmune a las oleadas.|＠|			//ハロウィンねねこ
 ＠|＠|＠|＠|＠|＠|＠|			//ウィンディスイート
 ＠|＠|＠|＠|＠|＠|＠|			//デビルサンディア
 ＠|＠|＠|＠|＠|＠|＠|			//おでん
@@ -273,7 +273,7 @@ La forma final tiene mejor poder de ataque.|＠|＠|＠|La forma final tiene mej
 La forma final tiene una mayor defensa|y su poder de ataque aumenta|tras sufrir daño.|＠|La forma final tiene una mayor defensa|y su poder de ataque aumenta|tras sufrir daño.|			//繁栄神ガネーシャ
 ＠|＠|＠|＠|＠|＠|＠|			//チアにゃんこ
 ＠|＠|＠|＠|＠|＠|＠|			//トロピカルカリファ
-＠|＠|＠|＠|＠|＠|＠|			//真夏のホワイトラビット
+¡La forma final siempre repele|y ralentiza a ángeles y negros!|¡Y es inmune a oleadas!|＠|¡La forma final siempre repele|y ralentiza a ángeles y negros!|¡Y es inmune a oleadas!|			//真夏のホワイトラビット
 La forma final tiene más|poder de ataque.|＠|＠|La forma final tiene más|poder de ataque.|＠|			//夏色ねねこ
 ＠|＠|＠|＠|＠|＠|＠|			//なめこ
 ＠|＠|＠|＠|＠|＠|＠|			//なめこタンク
@@ -304,7 +304,7 @@ La forma final tiene más|poder de ataque y alcance.|Obtiene la habilidad de par
 ＠|＠|＠|＠|＠|＠|＠|			//ネコ屋台
 La forma final tiene mejor distancia|de ataque y alcance de área.|＠|＠|¡La ultraforma gana poder de ataque!|Resiste zombis y reliquias y gana|la habilidad de desgastar 100 %.|//帝国陸軍カタパルズ
 La forma final tiene más|velocidad de ataque.|＠|＠|Ultraforma: menor t. de esp. de despliegue.|¡Mejor defensa, vel. de ataque y alcance!|¡Y se hace inmune contra la repulsión!|			//古代軍船ガレーズ
-La forma final tiene una mayor|defensa y más probabilidades de repeler.|＠|＠|La forma final tiene una mayor|defensa y más probabilidades de repeler.|＠|			//飛空襲撃ボンバーズ
+La forma final tiene una mayor|defensa y más probabilidades de repeler.|＠|＠|¡Gana una mayor defensa, omniataque,|ataques explosivos y Asesino Sabio!|¡Y se hace inmune contra explosiones!|			//飛空襲撃ボンバーズ
 La forma final tiene una mayor defensa|y más velocidad de movimiento. Ralentiza|a los zombis durante más tiempo.|＠|La forma final tiene una mayor defensa|y más velocidad de movimiento. Ralentiza|a los zombis durante más tiempo.|			//ネコジャンパー
 La forma final tiene una mayor defensa|y más alcance. Además, paraliza|a los zombis durante más tiempo.|＠|La forma final tiene una mayor defensa|y más alcance. Además, paraliza|a los zombis durante más tiempo.|			//ネコバサミ
 ＠|＠|＠|＠|＠|＠|＠|			//ネコ博士
@@ -393,7 +393,7 @@ La forma final tiene más velocidad de ataque|y mejor ataque de área.|＠|＠|L
 La forma final tiene más|defensa y rango de ataque.|Además, puede realizar ataques de área.|＠|La forma final tiene más|defensa y rango de ataque.|Además, puede realizar ataques de área.|			//六道聖
 La forma final tiene mucha más velocidad|de ataque y poder. Además, mejora su|defensa y se hace inmune a ralentización.|＠|La forma final tiene mucha más velocidad|de ataque y poder. Además, mejora su|defensa y se hace inmune a ralentización.|			//新島早紀
 La forma final ataca más lento, pero a cambio|mejora su defensa, su poder de ataque|y su alcance.|＠|La forma final ataca más lento, pero a cambio|mejora su defensa, su poder de ataque|y su alcance.|			//星井スバル
-La forma final tiene mucho más|poder de ataque y defensa.|Además, se hace inmune a oleadas.|＠|La forma final tiene mucho más|poder de ataque y defensa.|Además, se hace inmune a oleadas.|			//小山雅
+La forma final tiene mucho más|poder de ataque y defensa.|Además, se hace inmune a las oleadas.|＠|La forma final tiene mucho más|poder de ataque y defensa.|Además, se hace inmune a las oleadas.|			//小山雅
 La forma final tiene mejor defensa.|Además, mejora su habilidad de repulsión.|＠|＠|La forma final tiene mejor defensa.|Además, mejora su habilidad de repulsión.|＠|			//古龍ガングリオン
 La forma final tiene|una defensa superdura|contra enemigos metálicos.|＠|¡La ultraforma da un omniataque,|y más defensa, ataque y daño crítico!|Más penalización contra metálicos.|			//風隼さくら
 ＠|＠|＠|＠|＠|＠|＠|			//ハニトンくん
@@ -443,7 +443,7 @@ La forma final tiene una mayor defensa|y más poder de ataque. También es inmun
 ＠|＠|＠|＠|＠|＠|＠|			//子連れにゃんこ
 La forma final tiene mayor velocidad|de ataque y se vuelve eficaz|contra enemigos sin rasgos.|＠|La forma final tiene mayor velocidad|de ataque y se vuelve eficaz|contra enemigos sin rasgos.|			//戦隊ドリラ
 La forma final tiene más|poder de ataque y se recarga|más rápido.|＠|La forma final tiene más|poder de ataque y se recarga|más rápido.|			//戦隊ウチコンガ
-La forma final tiene más|poder de ataque y se vuelve|inmune a las oleadas.|＠|La forma final tiene más|poder de ataque y se vuelve|inmune a las oleadas.|			//戦隊チョキンドス
+La forma final tiene más|poder de ataque y se vuelve|¡Inmune a oleadas!|＠|La forma final tiene más|poder de ataque y se vuelve|¡Inmune a oleadas!|			//戦隊チョキンドス
 La forma final|puede atacar con réplicas.|＠|＠|La forma final|puede atacar con réplicas.|＠|			//戦隊ショベリン
 La forma final tiene más defensa|y poder de ataque. Además, obtiene|la habilidad de rompebarreras.|＠|La forma final tiene más defensa|y poder de ataque. Además, obtiene|la habilidad de rompebarreras.|			//戦隊チャッソ
 La forma final tiene más Vitalidad y|ataque. ¡Se convierte en Matacolosos|e inmune al desgaste y ralentiza!|＠|La forma final tiene más Vitalidad y|ataque. ¡Se convierte en Matacolosos|e inmune al desgaste y ralentiza!|			//宮本武蔵
@@ -493,7 +493,7 @@ True Form evolution increases|Defense, move speed, and attack speed!|Plus, becom
 ＠|＠|＠|＠|＠|＠|＠|			//492
 ＠|＠|＠|＠|＠|＠|＠|			//創造神ガイア
 ＠|＠|＠|＠|＠|＠|＠|			//潮風のセーラーカッパー
-True Form evolution gains tougher|Plus, faster movement speed!|＠|＠|True Form evolution gains tougher|Plus, faster movement speed!|＠|			//ネコ闘牛士
+¡La forma final tiene una defensa más dura|y una mayor velocidad!|＠|＠|¡La forma final tiene una defensa más dura|y una mayor velocidad!|＠|			//ネコ闘牛士
 La forma final tiene aún más|defensa y también aumentan sus|probabilidades de asestar golpetazos.|＠|La forma final tiene aún más|defensa y también aumentan sus|probabilidades de asestar golpetazos.|			//甲斐姫
 ＠|＠|＠|＠|＠|＠|＠|			//497
 ＠|＠|＠|＠|＠|＠|＠|			//498
@@ -629,7 +629,7 @@ Forma final: más def. y vel. de ataque.|Es inmune a las réplicas.|100% prob. d
 ＠|＠|＠|＠|＠|＠|＠|			//ネコノドラゴーン
 ＠|＠|＠|＠|＠|＠|＠|			//洗脳されしネコ
 ＠|＠|＠|＠|＠|＠|＠|			//ネコ書道
-La forma final gana mucho más Ataque.|Bloquea oleadas y|es inmune a las oleadas.|＠|La forma final gana mucho más Ataque.|Bloquea oleadas y|es inmune a las oleadas.|                        //闇の精霊ヤミィ
+La forma final gana mucho más Ataque.|¡Ataque! Obtiene escudo contra oleada y|¡Inmune a oleadas!|＠|La forma final gana mucho más Ataque.|¡Ataque! Obtiene escudo contra oleada y|¡Inmune a oleadas!|//闇の精霊ヤミィ
 La forma final tiene más ataque.|También es inmune a la paralización.|＠|＠|La forma final tiene más ataque.|También es inmune a la paralización.|＠|			//超竜戦機デス・トロイ
 La forma final tiene una mayor defensa|Siempre lanza minioleadas.|＠|＠|La forma final tiene una mayor defensa|Siempre lanza minioleadas.|＠|
 ¡La forma final tiene gran daño de área|contra akus, inmunidad a paralización, y|posibilidad de atravesar escudos akus!|＠|¡La forma final tiene gran daño de área|contra akus, inmunidad a paralización, y|posibilidad de atravesar escudos akus!|			//白騎士キュクロプス
@@ -696,9 +696,9 @@ La forma final revela su apariencia real.|Además, garantiza atravesar y romper|
 ＠|＠|＠|＠|＠|＠|＠|			//殺意のタンクネコ
 ＠|＠|＠|＠|＠|＠|＠|//ネコ委員長
 La forma final revela su apariencia real|¡También gana matamastodontes!|＠|＠|La forma final revela su apariencia real|¡También gana matamastodontes!|＠|//古びたタマゴ:N107
-＠|＠|＠|＠|＠|＠|＠|//サンダージャック
+La forma final gana|repulsión contra akus y álienes.|¡Y se hace inmune a réplicas!|＠|La forma final gana|repulsión contra akus y álienes.|¡Y se hace inmune a réplicas!|//サンダージャック
 ＠|＠|＠|＠|＠|＠|＠|//決闘少年ラビットサトル
-¡La forma final revela su aspecto real!|¡También gana ataques a distancia|e inmunidad a las oleadas!|＠|¡La forma final revela su aspecto real!|¡También gana ataques a distancia|e inmunidad a las oleadas!|//古びたタマゴ:N005
+¡La forma final revela su aspecto real!|¡También gana ataques a distancia|¡Inmune a oleadas!|＠|¡La forma final revela su aspecto real!|¡También gana ataques a distancia|¡Inmune a oleadas!|//古びたタマゴ:N005
 ＠|＠|＠|＠|＠|＠|＠|			//ちび仮面ライダー
 ＠|＠|＠|＠|＠|＠|＠|			//ちびゴジラ
 ＠|＠|＠|＠|＠|＠|＠|			//ちびエヴァンゲリオン
@@ -809,3 +809,6 @@ La forma final revela su apariencia real|¡También gana matamastodontes!|＠|�
 ＠|＠|＠|＠|＠|＠|＠|//ネコテイルス
 ＠|＠|＠|＠|＠|＠|＠|//ネコナックルズ
 ＠|＠|＠|＠|＠|＠|＠|//811
+＠|＠|＠|＠|＠|＠|＠|//ギガントゼウス11体目
+＠|＠|＠|＠|＠|＠|＠|//ギガントゼウス11体目召喚キャラクター
+＠|＠|＠|＠|＠|＠|＠|//タスマニアオオガニ

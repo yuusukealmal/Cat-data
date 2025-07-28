@@ -1416,7 +1416,7 @@ treasure_popup2	 ${treasureRank} ${text} ${stageName}
 treasure_popup3	 ${treasureName}
 item_pack_name_81	Herausfordererangebot: XP-&-Seltenes-Ticket-Paket!
 item_pack_name_82	
-scratch_SNS_004	
+scratch_SNS_004	Ich habe %d Katzenbatzen beim #BattleCatsScratcher gewonnen!<br>Jede Woche eine Chance auf einen großartigen Preis!<br><br>#TheBattleCats #CatsOfSummer2025
 slot_SNS_003	Ich habe %d Katzenbatzen bei den Wildkatzen-Slots in #TheBattleCats gewonnen!<br><br>#BattleCats #10Years
 Account_iOS13_error	Anmeldung mit Apple-ID nicht für Geräte mit iOS 12 oder niedriger verfügbar.
 gamatoto_shortcut	Gamatoto-Bildschirm aufrufen?
@@ -1552,9 +1552,9 @@ treasure_box_redrow_probability	* Alle Gegenstände haben die gleiche Chance, ge
 treasure_box_result	<color=255,255,0>Du hast ${itemName} gezogen!</color><br>Mit Katzenbatzen kannst du erneut ziehen.
 treasure_box_result_2	* Nach einer erneuten Ziehung kann der aktuelle Gegenstand nicht mehr erhalten werden.
 treasure_box_result_last_one	<color=255,255,0>Du hast ${itemName} gezogen!</color><br>Keine weiteren erneuten Ziehungen verfügbar.
-gama_collabo_05_popup	
-gama_collabo_05_name	
-gama_collabo_05_charatext	
+gama_collabo_05_popup	<flash>Sonic the Hedgehog Collab!</flash><br>Chao joins the Gamatoto Expeditions!<br>Earn more items during the collab!<br>※Does not apply to Cat Food.
+gama_collabo_05_name	Chao
+gama_collabo_05_charatext	Chao has joined Gamatoto Expeditions!<br>Earn more item rewards during the collab!<br>※Does not apply to Cat Food.
 GiftMessage_023	<flash>Levelabschluss-Belohnung 11</flash><br>Schließe das letzte Level aus<br>„Schlingender Schlund der Wahrheit“ ab<br>für eine Chance, Weiser des logischen Newton zu erhalten.
 slot_SNS_005	Ich habe %d Katzenbatzen bei den Wildkatzen-SlotsⅡ in #TheBattleCats gewonnen!<br><br>#BattleCats  
 SpecialRuleExplanation009	【Im Gleichschritt】<br>Alle feindlichen Einheiten<br>bewegen sich im gleichen Tempo.
@@ -1562,3 +1562,15 @@ SpecialRuleExplanation010	【Besondere +1】<br>Sondereinheiten werden automatis
 SpecialRuleName009	Im Gleichschritt
 SpecialRuleName010	Besondere +1
 talk_008_push	Wir sollten unser Gespräch über Verstärkung fortsetzen!
+BonusExplanationLabel001	(Punktebonus: Rückstoß)<br>Stoße Feinde zurück.<br>* Verdiene mehr Punkte mit Katzen, die weniger Zieltypen haben.<br>Weitere Details findest du unter „Was ist die Arena des Schicksals?“ unten links im Menü.
+BonusNameLabel001	Rückstoß
+hidden_rarity_3	Illusionskarte
+item_pack_name_84	Sonderangebot: 3 seltene Tickets!
+nyancombo_error1	<color=255,255,0>Die für diese Katzenkombo benötigten Einheiten können<br>nicht hinzugefügt werden, da deine Aufstellung<br>angeheftete Katzen enthält.</color>
+SpecialRuleExplanation011	(Mega-Abschluss)<br>Es kann immer nur 1 megaseltene Einheit<br>eingesetzt werden, die Kosten betragen aber<br>nur 5 % und die Abklingzeit ist um 50 % reduziert.
+SpecialRuleName011	Mega-Abschluss
+slot_autoset_error_1	<color=255,255,0>Man weiß nicht, welche Feinde in diesem Level erscheinen ...</color>
+slot_autoset_error_2	<color=255,255,0>Keine verfügbaren Einheiten können in diesem Level antreten.</color>
+slot_autoset_error_3	<color=255,255,0>Einheiten können nicht gewechselt werden.</color>
+slot_tutorial_txt1	<color=255,255,0>Auto-Auswahl</color><br>Tippe auf die Schaltfläche und lege eine empfohlene<br>Aufstellung für das Level fest! Verfügbar für Level<br>mit sichtbaren erscheinenden Feinden!
+slot_tutorial_txt2	<color=255,255,0>Einheiten anheften</color><br>Tippe auf eine Einheit und behalte sie auch nach der<br>Auto-Auswahl in der Aufstellung! Erneut antippen, um das Anheften umzuschalten!

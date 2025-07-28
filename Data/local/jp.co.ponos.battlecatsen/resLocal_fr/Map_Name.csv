@@ -253,7 +253,7 @@
 1203|3e dimension
 1204|Pack mystère
 1205|Mort par rappel
-1206|The Battle Cats Together!
+1206|The Battle Cats Unite!
 1207|Retour du Roi Wahwah
 1208|Clan des déments
 1209|Journée Miaou
@@ -452,6 +452,7 @@
 1402|Récompense client
 1403|
 1404|Rhapsodie de la tentation
+1405|Prévisions sans précédent
 2000|ふるさと自衛隊
 2001|Alluring Princess
 2002|Princess Punt
@@ -676,9 +677,12 @@
 2221|Witch's Labyrinth: Dessert Witch
 2222|Witch's Labyrinth: Box Witch
 2223|Strongest Things Alive
-2224|
-2225|
-2226|
+2224|Green Hill Zone
+2225|Chemical Plant Zone
+2226|Sky Sanctuary
+2227|
+2228|
+2229|
 3000|L’empire des Chats ch. 1.
 3001|L’empire des Chats ch. 2.
 3002|L’empire des Chats ch. 3.
@@ -763,6 +767,9 @@
 4072|Souvenirs de 2024, bataille 2
 4073|Souvenirs de 2024, bataille 3
 4074|
+4074|
+4075|
+4076|
 6000|Salle des Initiés
 6001|ニコニコの間
 7000|Tour céleste
@@ -808,7 +815,9 @@
 11029|
 11030|Arène du destin
 11031|Arena of Honor
-11032|
+11032|Arena of Honor
+11033|Arène du destin
+11034|Arène de puissance
 12000|Mode défi
 13000|Une nouvelle légende
 13001|Traversée de dragons
@@ -992,6 +1001,8 @@
 24068|#01 Panique fantôme
 24069|Nouvelle année colossale !
 24070|Bataille des bonnes affaires
+24071|Chats de vacances d’été naufragés
+24072|Défenseurs de l’île !
 25000|Champs Aitum
 25001|Vallée des vitamines
 25002|Chasseur de tickets
@@ -1062,6 +1073,9 @@
 25067|Berceau des Reliques
 25068|Sommet des Reliques
 25069|Frontière des Reliques
+25070|Carte du rassemblement
+25071|Carte du rassemblement
+25072|Carte du rassemblement
 27000|Messier's Assault
 27001|U.F.O.軍団 強襲！
 27002|The Devils Strike!
@@ -1085,7 +1099,8 @@
 27020|Vs Retsu Kaioh
 27021|Vs Jack Hammer
 27022|Vs Baki Hanma
-27023|
+27023|Radical Highway
+27024|
 30000|Royaume Aku
 31000|Forêt cachée de Gapra
 31001|Désert d'Ashvini
@@ -1111,6 +1126,8 @@
 34017|Aire de jeu forestière
 34018|Tranchée de la nouvelle ville
 34019|Dévoreuse de vérité
+34020|Un voyage d’instants
+34021|Parc aux pâtisseries
 36000|Colisée d'outre-monde
 36001|Colisée d'outre-monde
 36002|Colisée d'outre-monde
@@ -1124,6 +1141,7 @@
 36010|Colisée d'outre-monde
 36011|Colisée d'outre-monde
 36012|Colisée d'outre-monde
+36013|Colisée d'outre-monde
 37000|Rang 1 des championnats Griffélin
 37001|Rang 2 des championnats Griffélin
 37002|Rang 3 des championnats Griffélin

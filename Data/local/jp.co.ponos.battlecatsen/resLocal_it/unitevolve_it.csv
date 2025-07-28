@@ -31,7 +31,7 @@ La Forma Reale ottiene maggiore|Difesa, più possibilità di danni critici|e in 
 L'evoluzione Forma Reale aumenta il raggio!|Dà anche una possibilità di ridurre|il potenziale d'attacco di nemici fluttuanti!|＠|L'evoluzione Forma Reale aumenta il raggio!|Dà anche una possibilità di ridurre|il potenziale d'attacco di nemici fluttuanti!|			//ネコぼさつ
 La Forma Reale aumenta le statistiche!|In più immobilizza gli antichi|e diventa immune dalle maledizioni.|＠|La Forma Reale aumenta le statistiche!|In più immobilizza gli antichi|e diventa immune dalle maledizioni.|			//ネコ番長
 La Forma Reale aumenta la difesa|e l'attacco! Blocca teletrasporto e|rallenta ancora di più i nemici rossi!|＠|La Forma Reale aumenta la difesa|e l'attacco! Blocca teletrasporto e|rallenta ancora di più i nemici rossi!|			//ネコザイル
-La Forma Reale aumenta la velocità|e la potenza d'attacco! In più, ora blocca|i danni e gli effetti degli attacchi a ondata!|＠|La Forma Reale aumenta la velocità|e la potenza d'attacco! In più, ora blocca|i danni e gli effetti degli attacchi a ondata!|			//ねこタツ
+La Forma Reale aumenta la velocità|e la potenza d'attacco! In più, ora blocca|Scudo ondate e immunità alle ondate!|＠|La Forma Reale aumenta la velocità|e la potenza d'attacco! In più, ora blocca|Scudo ondate e immunità alle ondate!|			//ねこタツ
 La Forma Reale aumenta l'attacco!|Dà anche possibilità del 100% di immobilità|sui nemici non metallici!|＠|La Forma Reale aumenta l'attacco!|Dà anche possibilità del 100% di immobilità|sui nemici non metallici!|			//ネコルガ
 La Forma Reale aumenta l'attacco!|Dà anche l'abilità di rallentamento|su nemici non metallici per breve tempo.|＠|La Forma Reale aumenta l'attacco!|Dà anche l'abilità di rallentamento|su nemici non metallici per breve tempo.|			//オタネコ
 La Forma Reale aumenta attacco,|difesa, velocità di movimento e raggio!|＠|＠|La Forma Reale aumenta attacco,|difesa, velocità di movimento e raggio!|＠|			//ネコスイマー
@@ -41,7 +41,7 @@ La Forma Reale ottiene attacco|ad area! Dà anche possibilità del 100%|di immob
 La Forma Reale aumenta la difesa!|Aumenta anche la velocità di attacco!|＠|＠|La Forma Reale aumenta la difesa!|Aumenta anche la velocità di attacco!|＠|			//ネコバスたぶ
 La Forma Reale aumenta|la potenza attacco e annulla|gli effetti di indebolimento dei nemici.|＠|La Forma Reale aumenta|la potenza attacco e annulla|gli effetti di indebolimento dei nemici.|			//ネコエステ
 La Forma Reale aumenta il raggio|e l'attacco! Dà anche possibilità del 100%|di immobilità su nemici rossi!|＠|La Forma Reale aumenta il raggio|e l'attacco! Dà anche possibilità del 100%|di immobilità su nemici rossi!|			//ネコアイス
-La Forma Reale aumenta tutti i tratti.|Garantisce resistenza ad attacchi a ondata|mentre protegge le unità nelle retrovie!|＠|La Forma Reale aumenta tutti i tratti.|Garantisce resistenza ad attacchi a ondata|mentre protegge le unità nelle retrovie!|			//ネコマシン
+La Forma Reale aumenta tutti i tratti.|In più, ottiene Scudo ondate|e immunità alle ondate!|＠|La Forma Reale aumenta tutti i tratti.|In più, ottiene Scudo ondate|e immunità alle ondate!|			//ネコマシン
 La Forma Reale aumenta la difesa|e garantisce un attacco singolo potentissimo.|＠|＠|La Forma Reale aumenta la difesa|e garantisce un attacco singolo potentissimo.|＠|			//鬼にゃんま
 ＠|＠|＠|＠|＠|＠|＠|			//芸者ねこ
 La Forma Reale aumenta la difesa|e la potenza attacco. Dà anche maggiori|possibilità di danni critici e raggio!|＠|La Forma Reale aumenta la difesa|e la potenza attacco. Dà anche maggiori|possibilità di danni critici e raggio!|			//ねこジュラ
@@ -127,7 +127,7 @@ La Forma Reale aumenta|la potenza d'attacco, il raggio e la difesa!|＠|＠|La F
 ＠|＠|＠|＠|＠|＠|＠|			//カラクリにゃんこ
 ＠|＠|＠|＠|＠|＠|＠|			//ネコフラワー
 ＠|＠|＠|＠|＠|＠|＠|			//うらめしにゃん
-La Forma Reale ottiene maggiore difesa,|più immunità da attacchi a ondata.|＠|＠|La Forma Reale ottiene maggiore difesa,|più immunità da attacchi a ondata.|＠|			//金ネコ
+La Forma Reale ottiene maggiore|difesa, più immunità alle ondate.|＠|＠|La Forma Reale ottiene maggiore|difesa, più immunità alle ondate.|＠|			//金ネコ
 La Forma Reale ottiene maggiori|difesa, raggio e potenza d'attacco. In più|diventa immune dalle maledizioni.|＠|La Forma Reale ottiene maggiori|difesa, raggio e potenza d'attacco. In più|diventa immune dalle maledizioni.|			//ウルフとウルルン
 ＠|＠|＠|＠|＠|＠|＠|			//ねねこ
 ＠|＠|＠|＠|＠|＠|＠|			//カンフーにゃんこG
@@ -226,7 +226,7 @@ True Form evolution gains Resistance|vs. Traitless, and may sometimes|Knockback 
 True Form evolution gains improved attack|and defense! Also lower deployment cost!|＠|＠|True Form evolution gains improved attack|and defense! Also lower deployment cost!|＠|//ハイドゥ
 La Forma Reale può attaccare solo alieni,|ma potenza d'attacco e difesa aumentano|moltissimo! Resiste a ripetuti debuff.|＠|La Forma Reale può attaccare solo alieni,|ma potenza d'attacco e difesa aumentano|moltissimo! Resiste a ripetuti debuff.|			//呪術師デスピエロ
 La Forma Reale è efficace contro|nemici neri! Ottiene anche Ammazza|Behemoth!|＠|La Forma Reale è efficace contro|nemici neri! Ottiene anche Ammazza|Behemoth!|			//にゃんぷきん
-Forma Reale blocca attacchi a ondata.|Più immunità da attacchi a ondata.|＠|＠|Forma Reale blocca attacchi a ondata.|Più immunità da attacchi a ondata.|＠|			//ハロウィンねねこ
+La Forma Reale ottiene lo Scudo ondate|e immunità alle ondate.|＠|＠|La Forma Reale ottiene lo Scudo ondate|e immunità alle ondate.|＠|			//ハロウィンねねこ
 ＠|＠|＠|＠|＠|＠|＠|			//ウィンディスイート
 ＠|＠|＠|＠|＠|＠|＠|			//デビルサンディア
 ＠|＠|＠|＠|＠|＠|＠|			//おでん
@@ -273,7 +273,7 @@ La Forma Reale ha più potenza d'attacco!|＠|＠|＠|La Forma Reale ha più pot
 La Forma Reale ottiene maggiore|difesa! La potenza d'attacco ottenuta|aumenta dopo aver subito danni!|＠|La Forma Reale ottiene maggiore|difesa! La potenza d'attacco ottenuta|aumenta dopo aver subito danni!|			//繁栄神ガネーシャ
 ＠|＠|＠|＠|＠|＠|＠|			//チアにゃんこ
 ＠|＠|＠|＠|＠|＠|＠|			//トロピカルカリファ
-＠|＠|＠|＠|＠|＠|＠|			//真夏のホワイトラビット
+La Forma Reale aggiunge 100% possibilità|di respinta e rallentamento vs angelici/neri!|Ed è immune da ondate!|＠|La Forma Reale aggiunge 100% possibilità|di respinta e rallentamento vs angelici/neri!|Ed è immune da ondate!|			//真夏のホワイトラビット
 La Forma Reale ha maggiore|potenza d'attacco!|＠|＠|La Forma Reale ha maggiore|potenza d'attacco!|＠|			//夏色ねねこ
 ＠|＠|＠|＠|＠|＠|＠|			//なめこ
 ＠|＠|＠|＠|＠|＠|＠|			//なめこタンク
@@ -304,7 +304,7 @@ La Forma Reale migliora la|d'attacco e raggio migliorati!|dà l'abilità di immo
 ＠|＠|＠|＠|＠|＠|＠|			//ネコ屋台
 La Forma Reale migliora la distanza|d'attacco e il raggio degli attacchi ad area!|＠|＠|La Forma ultra ha più potenza d'attacco!|Resiste a zombi e antichi, ottiene|il 100% di abilità di indebolire nemici.|//帝国陸軍カタパルズ
 La Forma Reale migliora la|velocità d'attacco!|＠|＠|La Forma ultra ha tempo di ricarica ridotto!|Difesa, velocità/raggio att. migliorati!|E ottiene immunità da respinta!|			//古代軍船ガレーズ
-La Forma Reale migliora la|difesa e il ritmo respinta!|＠|＠|La Forma Reale migliora la|difesa e il ritmo respinta!|＠|			//飛空襲撃ボンバーズ
+La Forma Reale migliora la|difesa e il ritmo respinta!|＠|＠|Ottiene difesa e bilaterale migliori,|attacchi esplosivi e sterminatore di saggi!|E ottiene immunità da esplosioni!|			//飛空襲撃ボンバーズ
 La Forma Reale aumenta molto la difesa|e la velocità di movimento! Il rallentamento|sugli zombi dura più a lungo!|＠|La Forma Reale aumenta molto la difesa|e la velocità di movimento! Il rallentamento|sugli zombi dura più a lungo!|			//ネコジャンパー
 La Forma Reale aumenta molto la difesa!|Aumenta anche il raggio d'attacco,|e l'immobilità sugli zombi dura di più!|＠|La Forma Reale aumenta molto la difesa!|Aumenta anche il raggio d'attacco,|e l'immobilità sugli zombi dura di più!|			//ネコバサミ
 ＠|＠|＠|＠|＠|＠|＠|			//ネコ博士
@@ -393,7 +393,7 @@ La Forma Reale ottiene velocità|e area d'attacco molto maggiori!|＠|＠|La For
 La Forma Reale aumenta|la difesa e il raggio!|In più, ottiene danni ad area!|＠|La Forma Reale aumenta|la difesa e il raggio!|In più, ottiene danni ad area!|			//六道聖
 La Forma Reale aumenta molto|velocità/potenza d'attacco e difesa!|In più diventa immune da rallentamento!|＠|La Forma Reale aumenta molto|velocità/potenza d'attacco e difesa!|In più diventa immune da rallentamento!|			//新島早紀
 La Forma Reale ha un ritmo d'attacco più lento|ma ottiene maggiori difesa, potenza|d'attacco e raggio!|＠|La Forma Reale ha un ritmo d'attacco più lento|ma ottiene maggiori difesa, potenza|d'attacco e raggio!|			//星井スバル
-La Forma Reale aumenta molto|la potenza d'attacco e la difesa!|In più diventa immune dalle ondate!|＠|La Forma Reale aumenta molto|la potenza d'attacco e la difesa!|In più diventa immune dalle ondate!|			//小山雅
+La Forma Reale aumenta molto|la potenza d'attacco e la difesa!|Inoltre, diventa immune da ondate!|＠|La Forma Reale aumenta molto|la potenza d'attacco e la difesa!|Inoltre, diventa immune da ondate!|			//小山雅
 La Forma Reale ottiene maggiore|difesa e respinta contro i nemici!|＠|＠|La Forma Reale ottiene maggiore|difesa e respinta contro i nemici!|＠|			//古龍ガングリオン
 La Forma Reale ottiene|difesa incredibilmente forte|contro i nemici metallici!|＠|La Forma ultra ottiene Bilaterale.|Più difesa, attacco e danni critici!|Maggiore durata di debuff vs metallici.|			//風隼さくら
 ＠|＠|＠|＠|＠|＠|＠|			//ハニトンくん
@@ -429,7 +429,7 @@ La Forma Reale migliora la difesa e ha|debuff ancora più lunghi. Indebolisce an
 ＠|＠|＠|＠|＠|＠|＠|			//そうまにゃん
 ＠|＠|＠|＠|＠|＠|＠|			//オタネコギーク
 ＠|＠|＠|＠|＠|＠|＠|			//ぐでたまネコマシン
-La Forma Reale ha maggiore velocità|d'attacco! In più, ottiene 100% possibilità di|immobilità ed è efficace contro zombi.||La Forma ultra ottiene maggiori abilità!|Att. a ondata e Sterminatore di saggi!|Ottiene immunità da attacchi a ondata!|//亡者探偵ヴィグラー
+La Forma Reale ha maggiore velocità|d'attacco! In più, ottiene 100% possibilità di|immobilità ed è efficace contro zombi.||La Forma ultra ottiene maggiori abilità!|Sterminatore di saggi e immun. ondate,|e i suoi att. a ondata arrivano lontano.|//亡者探偵ヴィグラー
 ＠|＠|＠|＠|＠|＠|＠|			//ベタックマ
 ＠|＠|＠|＠|＠|＠|＠|			//ネコックマ
 ＠|＠|＠|＠|＠|＠|＠|			//白にゃんこ剣士
@@ -443,7 +443,7 @@ La Forma Reale ottiene maggiore|potenza d'attacco! Può schivare attacchi|e otti
 ＠|＠|＠|＠|＠|＠|＠|			//子連れにゃんこ
 La Forma Reale ottiene maggiore|velocità d'attacco ed è efficace|contro i nemici senza tratti!|＠|La Forma Reale ottiene maggiore|velocità d'attacco ed è efficace|contro i nemici senza tratti!|			//戦隊ドリラ
 La Forma Reale ottiene maggiore|potenza d'attacco e tempo di ricarica|ridotto tra uno schieramento e l'altro!|＠|La Forma Reale ottiene maggiore|potenza d'attacco e tempo di ricarica|ridotto tra uno schieramento e l'altro!|			//戦隊ウチコンガ
-La Forma Reale ottiene|maggiore potenza d'attacco e|immunità da attacchi a ondata!|＠|La Forma Reale ottiene|maggiore potenza d'attacco e|immunità da attacchi a ondata!|			//戦隊チョキンドス
+La Forma Reale ottiene|maggiore potenza d'attacco e|Immunità alle ondate!|＠|La Forma Reale ottiene|maggiore potenza d'attacco e|Immunità alle ondate!|			//戦隊チョキンドス
 La Forma Reale ottiene|abilità di attacco a valanga!|＠|＠|La Forma Reale ottiene|abilità di attacco a valanga!|＠|			//戦隊ショベリン
 La Forma Reale aumenta|potenza d'attacco e difesa, e|ottiene abilità di sfondamento!|＠|La Forma Reale aumenta|potenza d'attacco e difesa, e|ottiene abilità di sfondamento!|			//戦隊チャッソ
 La Forma Reale ottiene maggiore vitalità|e potenza d'attacco! Poi ammazzagiganti,|rallenta, immunità a indebolimento!|＠|La Forma Reale ottiene maggiore vitalità|e potenza d'attacco! Poi ammazzagiganti,|rallenta, immunità a indebolimento!|			//宮本武蔵
@@ -493,7 +493,7 @@ True Form evolution increases|Defense, move speed, and attack speed!|Plus, becom
 ＠|＠|＠|＠|＠|＠|＠|			//492
 ＠|＠|＠|＠|＠|＠|＠|			//創造神ガイア
 ＠|＠|＠|＠|＠|＠|＠|			//潮風のセーラーカッパー
-True Form evolution gains tougher|Plus, faster movement speed!|＠|＠|True Form evolution gains tougher|Plus, faster movement speed!|＠|			//ネコ闘牛士
+Forma Reale ottiene difesa rinforzata|e maggiore velocità di movimento!|＠|＠|Forma Reale ottiene difesa rinforzata|e maggiore velocità di movimento!|＠|                        //ネコ闘牛士
 La Forma Reale aumenta molto|la difesa. Inoltre, anche la possibilità|di colpi letali aumenterà.|＠|La Forma Reale aumenta molto|la difesa. Inoltre, anche la possibilità|di colpi letali aumenterà.|			//甲斐姫
 ＠|＠|＠|＠|＠|＠|＠|			//497
 ＠|＠|＠|＠|＠|＠|＠|			//498
@@ -629,7 +629,7 @@ Forma Reale ha più velocità att. e dif.!|Immune da attacchi a valanga.|Scatena
 ＠|＠|＠|＠|＠|＠|＠|			//ネコノドラゴーン
 ＠|＠|＠|＠|＠|＠|＠|			//洗脳されしネコ
 ＠|＠|＠|＠|＠|＠|＠|			//ネコ書道
-Forma Reale ottiene maggiore attacco!|Blocca attacchi a ondata e|ottiene immunità da attacchi a ondata!|＠|Forma Reale ottiene maggiore attacco!|Blocca attacchi a ondata e|ottiene immunità da attacchi a ondata!|			//闇の精霊ヤミィ
+Forma Reale ottiene maggiore attacco!|Ottiene lo Scudo ondate e|Immunità alle ondate!|＠|Forma Reale ottiene maggiore attacco!|Ottiene lo Scudo ondate e|Immunità alle ondate!|			//闇の精霊ヤミィ
 Forma Reale ha maggiore potenza d'attacco!|Immune all'effetto Immobilità dei nemici!|＠|＠|Forma Reale ha maggiore potenza d'attacco!|Immune all'effetto Immobilità dei nemici!|＠|			//超竜戦機デス・トロイ
 La Forma Reale ottiene maggiori potenza|Probabilità del 100% di mini-ondata.|＠|＠|La Forma Reale ottiene maggiori potenza|Probabilità del 100% di mini-ondata.|＠|
 La Forma Reale ottiene danni ad area|enormi vs Aku, immunità da immobilità e|può perforare gli scudi Aku!|＠|La Forma Reale ottiene danni ad area|enormi vs Aku, immunità da immobilità e|può perforare gli scudi Aku!|			//白騎士キュクロプス
@@ -696,9 +696,9 @@ La Forma Reale ottiene maggiore attacco!|Inoltre, velocità e immunità potenzia
 ＠|＠|＠|＠|＠|＠|＠|			//殺意のタンクネコ
 ＠|＠|＠|＠|＠|＠|＠|//ネコ委員長
 La Forma Reale rivela la sua forma finale!|Ottiene anche Ammazza Behemoth!|＠|＠|La Forma Reale rivela la sua forma finale!|Ottiene anche Ammazza Behemoth!|＠|//古びたタマゴ:N107
-＠|＠|＠|＠|＠|＠|＠|//サンダージャック
+La Forma Reale ottiene|respinta vs Aku e alieni.|E ottiene immunità da valanga!|＠|La Forma Reale ottiene|respinta vs Aku e alieni.|E ottiene immunità da valanga!|//サンダージャック
 ＠|＠|＠|＠|＠|＠|＠|//決闘少年ラビットサトル
-La Forma Reale rivela la forma finale!|E ottiene attacchi a distanza e|immunità da attacchi a ondata!|＠|La Forma Reale rivela la forma finale!|E ottiene attacchi a distanza e|immunità da attacchi a ondata!|//古びたタマゴ:N005
+La Forma Reale rivela la forma finale!|E ottiene attacchi a distanza e|Immunità alle ondate!|＠|La Forma Reale rivela la forma finale!|E ottiene attacchi a distanza e|Immunità alle ondate!|//古びたタマゴ:N005
 ＠|＠|＠|＠|＠|＠|＠|			//ちび仮面ライダー
 ＠|＠|＠|＠|＠|＠|＠|			//ちびゴジラ
 ＠|＠|＠|＠|＠|＠|＠|			//ちびエヴァンゲリオン
@@ -809,3 +809,6 @@ La Forma Reale rivela la forma finale!|Ottiene anche Ammazza Behemoth!|＠|＠|L
 ＠|＠|＠|＠|＠|＠|＠|//ネコテイルス
 ＠|＠|＠|＠|＠|＠|＠|//ネコナックルズ
 ＠|＠|＠|＠|＠|＠|＠|//811
+＠|＠|＠|＠|＠|＠|＠|//ギガントゼウス11体目
+＠|＠|＠|＠|＠|＠|＠|//ギガントゼウス11体目召喚キャラクター
+＠|＠|＠|＠|＠|＠|＠|//タスマニアオオガニ

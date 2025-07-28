@@ -91,14 +91,14 @@
 9048|ทำคะแนนมากกว่า 6000 แต้มใน<br>ด่านพิเศษ "ความว่างเปล่าคืบคลานมา"!
 9049|อัปเกรดแมวไข่ไปที่เลเวล 10!<br>(คุณต้องวิวัฒน์แมวก่อนอีเวนต์สิ้นสุด!)|ดูที่ภารกิจพิเศษเพื่อเข้าไปเล่น<br>ภารกิจท้าทายเวลาฤดูใบไม้ผลิแบบจำกัด!
 9050|Upgrade Shinji & Cat to Level 10!<br>(You must evolve the Cat before the event ends!)|Check the Special Missions to access<br>limited Evangelion collab challenges!
-9051|Clear "Decisive Battle!" %d times!<br>Clear any Decisive Battle! stage: %d of %d
-9052|Clear "Decisive Battle!" %d times!<br>Clear any Decisive Battle! stage: %d of %d
-9053|Clear "Decisive Battle!" %d times!<br>Clear any Decisive Battle! stage: %d of %d
-9054|Clear a stage using a catcombo with "Eva Angel Killer" effect!<br>Use Shinji and ??? together (after Empire Ch. 1)|Check the Special Missions to access<br>Evangelion Collab missions!
+9051||
+9052|
+9053|
+9054||Check the Special Missions to access<br>Evangelion Collab missions!
 9055|Destroy the 4th Angel<br>Encounter this enemy at "State of Emergency"
 9056|Destroy the 6th Angel<br>Encounter this enemy at "Futagoyama Fortress"
 9057|Destroy the 9th Angel<br>Encounter this enemy at "Asuka On Board (Easy)"
-9058|Destroy the 10th Angel<br>Encounter this enemy at "Refusal Type (Hard)"
+9058|Destroy the 10th Angel<br>Encounter this enemy at "Refusal Type (Hard)"|Check the Special Missions to access<br>Evangelion Collab missions!
 9059|Destroy all Angels<br>Complete %d Destroy Angel missions: %d of %d complete.
 9060|Evolve Pokota at Level 10!<br>This mission can only be completed during the LINE Pokopang! collab event!|Check the Special Missions to access<br>limited LINE Pokopang! challenges!
 9061|Evolve Ovis at Level 10!<br>This mission can only be completed during the LINE Pokopang! collab event!
@@ -958,11 +958,11 @@
 9528|เคลียร์ด่านจาก "อีเวนต์ฮาโลวีน"<br>%d ครั้ง! (ด่านอีเวนต์ใดก็ได้) (%d ใน %d)
 9529|รับไอเทมฟีเจอร์จาก<br>กาชาอีเวนต์ปาร์ตี้ฮาโลวีน!
 9530|เคลียร์ภารกิจอีเวนต์ฮาโลวีนทั้งหมด<br>เพื่อรับตั๋วแรร์ 1 ใบ!
-9531|[แคมเปญผู้เล่นหน้าใหม่] เคลียร์ด่านในจักรวรรดิแมว %d ด่าน<br>(จักรวรรดิแมวด่านใดก็ได้) (%d ใน %d)|ไปที่ภารกิจพิเศษเพื่อเล่น<br>ด่านท้าทายจำกัด "แคมเปญผู้เล่นหน้าใหม่"!
-9532|[แคมเปญผู้เล่นหน้าใหม่] เคลียร์ด่านในจักรวรรดิแมว %d ด่าน<br>(จักรวรรดิแมวด่านใดก็ได้) (%d ใน %d)
-9533|[แคมเปญผู้เล่นหน้าใหม่] เคลียร์ด่านในจักรวรรดิแมว %d ด่าน<br>(จักรวรรดิแมวด่านใดก็ได้) (%d ใน %d)
-9534|[แคมเปญผู้เล่นหน้าใหม่] เคลียร์ด่านญี่ปุ่นในจักรวรรดิแมว<br>แล้วรับตั๋วแรร์จากกาชาแรร์!
-9535|[แคมเปญผู้เล่นหน้าใหม่] เคลียร์ด่านญี่ปุ่นในจักรวรรดิแมว<br>แล้วรับความเป็นผู้นำเพื่อเติมพลังงานแมว!
+9531|[แคมเปญออกตัวแรง] เคลียร์ด่านใดก็ได้ในจักรวรรดิแมว<br>จำนวน %d ด่าน (%d ใน %d)|ไปที่ภารกิจพิเศษเพื่อเล่น<br>ด่านท้าทายจำกัด "ออกตัวแรง"!
+9532|[แคมเปญออกตัวแรง] เคลียร์ด่านใดก็ได้ในจักรวรรดิแมว<br>จำนวน %d ด่าน (%d ใน %d)
+9533|[แคมเปญออกตัวแรง] เคลียร์ด่านใดก็ได้ในจักรวรรดิแมว<br>จำนวน %d ด่าน (%d ใน %d)
+9534|[แคมเปญออกตัวแรง] เคลียร์จักรวรรดิแมวด่าน<br>ญี่ปุ่นในจักรวรรดิแมวแล้วรับตั๋วแรร์!
+9535|[แคมเปญออกตัวแรง] เคลียร์จักรวรรดิแมวด่าน<br>ญี่ปุ่นในจักรวรรดิแมวแล้วรับความเป็นผู้นำ!
 66|ปราบสิ่งมีชีวิตในเขาวงกตป่าโบราณ<br>เลเวล 1 ด่าน 6
 67|[กรงเล็บแมวแชมเปี้ยนชิป] เคลียร์ %d ด่านของกรงเล็บแมวแชมเปี้ยนชิปขั้นที่ 1<br>ไปที่โรงฝึกเล็บแมวเพื่อเล่นด่านนี้ (%d ใน %d)|เพิ่มภารกิจกรงเล็บแมวแชมเปี้ยนชิป<br>ในส่วนภารกิจหลักแล้ว!
 68|[กรงเล็บแมวแชมเปี้ยนชิป] รับแมวในตำนาน %d ตัว<br>เล่นด่านเรื่องราวแห่งตำนาน เพื่อเก็บสะสมแมวเหล่านี้จากด่านพิเศษ (%d ใน %d)|เพิ่มภารกิจกรงเล็บแมวแชมเปี้ยนชิป<br>ในส่วนภารกิจหลักแล้ว!
@@ -1037,8 +1037,29 @@
 9591||
 9592|
 9593|
-9594||
-9595|
-9596|
-9597|
-9598|
+9594|Clear any "Sonic the Hedgehog" collab<br>stage %d times! (%d of %d)|Sonic the Hedgehog Collab Missions<br>added to the Special Missions!
+9595|Clear any "Sonic the Hedgehog" collab<br>stage %d times! (%d of %d)
+9596|Clear any "Sonic the Hedgehog" collab<br>stage %d times! (%d of %d)
+9597|Clear any "Sonic the Hedgehog" collab<br>stage %d times! (%d of %d)
+9598|Complete %d Gamatoto Expeditions during <br>the collab: %d of %d times!
+9599|ภารกิจต้อนรับกลับ①:<br>เคลียร์ด่านใดก็ได้ %d ครั้ง (%d ใน %d)|เฮ้ กลับมาเถอะ!<br>เพิ่มภารกิจต้อนรับกลับ<br>ในภารกิจพิเศษแล้ว!
+9600|ภารกิจต้อนรับกลับ②:<br>เคลียร์ด่านใดก็ได้ %d ครั้ง (%d ใน %d)
+9601|ภารกิจต้อนรับกลับ③:<br>เคลียร์ด่านใดก็ได้ %d ครั้ง (%d ใน %d)
+9602|ภารกิจต้อนรับกลับ④:<br>เคลียร์ด่านใดก็ได้ %d ครั้ง (%d ใน %d)
+9603|ภารกิจต้อนรับกลับ⑤:<br>เคลียร์ด่านใดก็ได้ %d ครั้ง (%d ใน %d)
+9604|ภารกิจต้อนรับกลับ⑥:<br>เคลียร์ด่านใดก็ได้ %d ครั้ง (%d ใน %d)
+9605|ภารกิจต้อนรับกลับ⑦:<br>เคลียร์ด่านใดก็ได้ %d ครั้ง (%d ใน %d)
+9606|ภารกิจต้อนรับกลับ⑧:<br>เคลียร์ด่านใดก็ได้ %d ครั้ง (%d ใน %d)
+9607|[หนีจากเกาะร้างตอนที่ 1] ④: เอาชีวิตรอดในป่า<br>เคลียร์ด่านติดเกาะ %d ด่าน! (%d ใน %d)
+9608|[หนีจากเกาะร้างตอนที่ 1] ①: ค้นหาอาหาร<br>เคลียร์ด่านคอลแลบ Survive! Mola Mola %d ด่าน! (%d ใน %d)
+9609|[หนีจากเกาะร้างตอนที่ 1] ②: ค้นหาอาหาร<br>เคลียร์ด่านคอลแลบ Survive! Mola Mola %d ด่าน! (%d ใน %d)
+9610|[หนีจากเกาะร้างตอนที่ 1] ③: ค้นหาอาหาร<br>เคลียร์ด่านคอลแลบ Survive! Mola Mola %d ด่าน! (%d ใน %d)
+9611|[หนีจากเกาะร้างตอนที่ 1] ④: ค้นหาอาหาร<br>เก็บสะสมปลาซาร์ดีน 3 ตัวจากกาชาอีเวนต์!
+9612|[หนีจากเกาะร้างตอนที่ 1] ⑤: ค้นหาอาหาร<br>เก็บสะสมปลาหมึก 3 ตัวจากกาชาอีเวนต์!
+9613|[หนีจากเกาะร้างตอนที่ 1] ⑥: ค้นหาอาหาร<br>เก็บสะสมปูยักษ์แทสมาเนียน 3 ตัวจากกาชาอีเวนต์!
+9614|[หนีจากเกาะร้างตอนที่ 1] ⑦: ค้นหาอาหาร<br>เก็บสะสมไข่โบราณ: N206 จำนวน 3 ฟองจากกาชาอีเวนต์!
+9615|[หนีจากเกาะร้างตอนที่ 1]①: ลมพายุ<br>เคลียร์ด่านคำพยากรณ์เหนือคาด %d ครั้ง (%d ใน %d)
+9616|[หนีจากเกาะร้างตอนที่ 1]①: ลมพายุ<br>เคลียร์ด่านคำพยากรณ์เหนือคาด %d ครั้ง (%d ใน %d)
+9617|[หนีจากเกาะร้างตอนที่ 1]①: ลมพายุ<br>เคลียร์ด่านคำพยากรณ์เหนือคาด %d ครั้ง (%d ใน %d)
+9618|[หนีจากเกาะร้างตอนที่ 1]①: ลมพายุ<br>เคลียร์ด่านคำพยากรณ์เหนือคาด %d ครั้ง (%d ใน %d)
+9619|[หนีจากเกาะร้างตอนที่ 3]: เกาะในเงามืด<br>เคลียร์ผู้พิทักษ์เกาะ! ด่านที่ 1|หนีจากเกาะร้างตอนที่ 3 ได้เพิ่มภารกิจ<br>ในภารกิจพิเศษแล้ว!

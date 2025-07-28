@@ -31,7 +31,7 @@ La forme ultime gagne une défense|Défense, meilleures chances d’att. critiqu
 La forme ultime augmente la portée !|Elle donne aussi une chance de réduire|la puiss. d'attaque des ennemis flottants !|＠|La forme ultime augmente la portée !|Elle donne aussi une chance de réduire|la puiss. d'attaque des ennemis flottants !|			//ネコぼさつ
 La forme ultime augmente les stat. !|Octroie l'immob. des ennemis reliques et|devient immun. contre les maléd. ennemies.|＠|La forme ultime augmente les stat. !|Octroie l'immob. des ennemis reliques et|devient immun. contre les maléd. ennemies.|			//ネコ番長
 La forme ultime augmente la défense|et l'att. Bloque les téléport. et ralentit|les déplac. des ennemis rouges !|＠|La forme ultime augmente la défense|et l'att. Bloque les téléport. et ralentit|les déplac. des ennemis rouges !|			//ネコザイル
-La forme ultime augmente la vitesse|et la puissance d’attaque ! Avec annulation|des effets et dégâts de vague offensive !|＠|La forme ultime augmente la vitesse|et la puissance d’attaque ! Avec annulation|des effets et dégâts de vague offensive !|			//ねこタツ
+La forme ultime augmente la vitesse|et la puissance d’attaque ! Avec annulation|bloque-vagues et immun. Vagues !|＠|La forme ultime augmente la vitesse|et la puissance d’attaque ! Avec annulation|bloque-vagues et immun. Vagues !|			//ねこタツ
 La forme ultime augmente l’attaque !|Avec 100 % de chances d’immobiliser|les ennemis non-métal !|＠|La forme ultime augmente l’attaque !|Avec 100 % de chances d’immobiliser|les ennemis non-métal !|			//ネコルガ
 La forme ultime augmente l’attaque !|Avec capacité de ralentir|brièvement les ennemis non-métal.|＠|La forme ultime augmente l’attaque !|Avec capacité de ralentir|brièvement les ennemis non-métal.|			//オタネコ
 La forme ultime augmente l'attaque,|la déf., la vitesse de déplac. et la portée.|＠|＠|La forme ultime augmente l'attaque,|la déf., la vitesse de déplac. et la portée.|＠|			//ネコスイマー
@@ -41,7 +41,7 @@ La forme ultime gagne une attaque|de zone ! Avec 100 % de chances|d’immobilise
 La forme ultime augmente la défense !|La vitesse d’attaque augmente aussi !|＠|＠|La forme ultime augmente la défense !|La vitesse d’attaque augmente aussi !|＠|			//ネコバスたぶ
 La forme ultime augmente la puissance|d’attaque et annule l’affaiblissement|causé par les attaques ennemies.|＠|La forme ultime augmente la puissance|d’attaque et annule l’affaiblissement|causé par les attaques ennemies.|			//ネコエステ
 La forme ultime augmente la portée,|l'attaque et a 100 % de chances|d’immobiliser les ennemis rouges !|＠|La forme ultime augmente la portée,|l'attaque et a 100 % de chances|d’immobiliser les ennemis rouges !|			//ネコアイス
-La forme ultime augmente toutes les caract.|et une résistance aux vagues offensives|tout en protégeant les unités à l’arrière !|＠|La forme ultime augmente toutes les caract.|et une résistance aux vagues offensives|tout en protégeant les unités à l’arrière !|			//ネコマシン
+La forme ultime augmente toutes les caract.|et confère bloque-vagues|et immun. Vagues !|＠|La forme ultime augmente toutes les caract.|et confère bloque-vagues|et immun. Vagues !|			//ネコマシン
 La forme ultime augmente la défense,|Octroie une att. unique hyper puissante.|cible unique.|＠|La forme ultime augmente la défense,|Octroie une att. unique hyper puissante.|cible unique.|			//鬼にゃんま
 ＠|＠|＠|＠|＠|＠|＠|			//芸者ねこ
 La forme ultime augmente la défense|et la puissance d’att. Augmente les chances|de coup critique et la portée !|＠|La forme ultime augmente la défense|et la puissance d’att. Augmente les chances|de coup critique et la portée !|			//ねこジュラ
@@ -127,7 +127,7 @@ La forme ultime augmente|la puissance d’att., la portée et la déf. !|＠|＠
 ＠|＠|＠|＠|＠|＠|＠|			//カラクリにゃんこ
 ＠|＠|＠|＠|＠|＠|＠|			//ネコフラワー
 ＠|＠|＠|＠|＠|＠|＠|			//うらめしにゃん
-La forme ultime a une meilleure défense|et l'immunité aux vagues offensives.|＠|＠|La forme ultime a une meilleure défense|et l'immunité aux vagues offensives.|＠|			//金ネコ
+La forme ultime améliore la défense|et confère l’immunité aux vagues..|＠|＠|La forme ultime améliore la défense|et confère l’immunité aux vagues..|＠|			//金ネコ
 La forme ultime améliore|la déf., la portée et la puissance d’att.|Devient immun. aux malédictions ennemies.|＠|La forme ultime améliore|la déf., la portée et la puissance d’att.|Devient immun. aux malédictions ennemies.|			//ウルフとウルルン
 ＠|＠|＠|＠|＠|＠|＠|			//ねねこ
 ＠|＠|＠|＠|＠|＠|＠|			//カンフーにゃんこG
@@ -226,7 +226,7 @@ True Form evolution gains Resistance|vs. Traitless, and may sometimes|Knockback 
 True Form evolution gains improved attack|and defense! Also lower deployment cost!|＠|＠|True Form evolution gains improved attack|and defense! Also lower deployment cost!|＠|//ハイドゥ
 La forme ultime n'att. que les aliens, mais|la déf. et la puiss. d'att. sont fortement|améliorées. Résist. aux malus répétés.|＠|La forme ultime n'att. que les aliens, mais|la déf. et la puiss. d'att. sont fortement|améliorées. Résist. aux malus répétés.|			//呪術師デスピエロ
 La forme ultime est plus efficace contre les|ennemis noirs ! Gagne en plus Fléau des|Béhémoths !|＠|La forme ultime est plus efficace contre les|ennemis noirs ! Gagne en plus Fléau des|Béhémoths !|			//にゃんぷきん
-La forme ultime bloque les vagues off.|et gagne immunité aux vagues offensives.|＠|＠|La forme ultime bloque les vagues off.|et gagne immunité aux vagues offensives.|＠|			//ハロウィンねねこ
+La forme ultime confère bloque-vagues|et immun. Vagues.|＠|＠|La forme ultime confère bloque-vagues|et immun. Vagues.|＠|			//ハロウィンねねこ
 ＠|＠|＠|＠|＠|＠|＠|			//ウィンディスイート
 ＠|＠|＠|＠|＠|＠|＠|			//デビルサンディア
 ＠|＠|＠|＠|＠|＠|＠|			//おでん
@@ -273,7 +273,7 @@ La forme ultime améliore la puiss. d’att. !|＠|＠|＠|La forme ultime amél
 La forme ultime améliore|la défense ! Puissance d’attaque augmentée|après avoir subi des dégâts.|＠|La forme ultime améliore|la défense ! Puissance d’attaque augmentée|après avoir subi des dégâts.|			//繁栄神ガネーシャ
 ＠|＠|＠|＠|＠|＠|＠|			//チアにゃんこ
 ＠|＠|＠|＠|＠|＠|＠|			//トロピカルカリファ
-＠|＠|＠|＠|＠|＠|＠|			//真夏のホワイトラビット
+La forme ultime ajoute 100 % de chances|de repousser/ralentir les anges/noirs !|Aussi Immun. Vagues. !|＠|La forme ultime ajoute 100 % de chances|de repousser/ralentir les anges/noirs !|Aussi Immun. Vagues. !|			//真夏のホワイトラビット
 La forme ultime améliore|la puissance d’attaque.|＠|＠|La forme ultime améliore|la puissance d’attaque.|＠|			//夏色ねねこ
 ＠|＠|＠|＠|＠|＠|＠|			//なめこ
 ＠|＠|＠|＠|＠|＠|＠|			//なめこタンク
@@ -304,7 +304,7 @@ La forme ultime améliore|la puissance d’attaque et la portée !|Obtient la ca
 ＠|＠|＠|＠|＠|＠|＠|			//ネコ屋台
 La forme ultime améliore la distance|d’attaque et la portée d’attaque de zone !|＠|＠|Attaque augmentée en ultra forme !|Résiste aux zombies/reliques, gagne|100 % de chances d'affaiblir.|//帝国陸軍カタパルズ
 La forme ultime améliore|la vitesse d’attaque !|＠|＠|Ultra forme : déploiement plus rapide !|Déf., vit. attaque/portée améliorées!|Immunité contre Recul !|			//古代軍船ガレーズ
-La forme ultime améliore|la défense et le taux de recul !|＠|＠|La forme ultime améliore|la défense et le taux de recul !|＠|			//飛空襲撃ボンバーズ
+La forme ultime améliore|la défense et le taux de recul !|＠|＠|Gagne déf. améliorée et devant-derrière,|attaques explosives et Fléau des Sages !|Gagne aussi Immunité contre explosions !|			//飛空襲撃ボンバーズ
 La forme ultime augmente fortement la déf.|et la vit. de déplac. ! Le ralentissement|des zombies dure plus longtemps !|＠|La forme ultime augmente fortement la déf.|et la vit. de déplac. ! Le ralentissement|des zombies dure plus longtemps !|			//ネコジャンパー
 La forme ultime augmente fortement la déf.,|la portée d’attaque et la durée|d’immobilisation des zombies  !|＠|La forme ultime augmente fortement la déf.,|la portée d’attaque et la durée|d’immobilisation des zombies  !|			//ネコバサミ
 ＠|＠|＠|＠|＠|＠|＠|			//ネコ博士
@@ -393,7 +393,7 @@ La forme ultime gagne fortement|en vitesse et zone d’attaque !|＠|＠|La form
 La forme ultime augmente|la défense et la portée !|Octroie une attaque de zone accrue !|＠|La forme ultime augmente|la défense et la portée !|Octroie une attaque de zone accrue !|			//六道聖
 La forme ultime augmente fortement|la puissance/vitesse d’attaque et la défense !|Elle octroie une immunité au ralentissement.|＠|La forme ultime augmente fortement|la puissance/vitesse d’attaque et la défense !|Elle octroie une immunité au ralentissement.|			//新島早紀
 La forme ultime a un taux d’attaque|plus lent, mais une défense, une puissance|d’attaque et une portée d’attaque accrues !|＠|La forme ultime a un taux d’attaque|plus lent, mais une défense, une puissance|d’attaque et une portée d’attaque accrues !|			//星井スバル
-La forme ultime augmente fortement|la puissance d’attaque et la défense !|Octroie une immun. aux vagues offensives !|＠|La forme ultime augmente fortement|la puissance d’attaque et la défense !|Octroie une immun. aux vagues offensives !|			//小山雅
+La forme ultime augmente fortement|la puissance d’attaque et la défense !|Confère également immun. Vagues !|＠|La forme ultime augmente fortement|la puissance d’attaque et la défense !|Confère également immun. Vagues !|			//小山雅
 La forme ultime améliore la défense|et repousse mieux les ennemis !|＠|＠|La forme ultime améliore la défense|et repousse mieux les ennemis !|＠|			//古龍ガングリオン
 La forme ultime gagne|une résistance acharnée|contre les ennemis métal !|＠|L'ultra forme gagne devant-derrière,|déf., att. et ch. de crit. améliorées !|Temps debuff contre ennemis métal amél.|			//風隼さくら
 ＠|＠|＠|＠|＠|＠|＠|			//ハニトンくん
@@ -429,7 +429,7 @@ La forme ultime améliore la défense|et prolonge les malus. Affaiblissement des
 ＠|＠|＠|＠|＠|＠|＠|			//そうまにゃん
 ＠|＠|＠|＠|＠|＠|＠|			//オタネコギーク
 ＠|＠|＠|＠|＠|＠|＠|			//ぐでたまネコマシン
-La forme ultime améliore la vitesse d’att.|et accorde 100 % de chances d’immob.|Également efficace contre les enn. zombies.||L’ultra forme améliore les capacités ! Les|vagues off. vont plus loin et gagnent Fléau|des Sages ! Gagne immunité vagues off. !|//亡者探偵ヴィグラー
+La forme ultime améliore la vitesse d’att.|et accorde 100 % de chances d’immob.|Également efficace contre les enn. zombies.||L’ultra forme améliore les capacités ! Les|vagues offensives vont plus loin,|donne Fléau des Sages et immun. Vagues.|//亡者探偵ヴィグラー
 ＠|＠|＠|＠|＠|＠|＠|			//ベタックマ
 ＠|＠|＠|＠|＠|＠|＠|			//ネコックマ
 ＠|＠|＠|＠|＠|＠|＠|			//白にゃんこ剣士
@@ -443,7 +443,7 @@ La forme ultime améliore la puissance|d’attaque ! Peut aussi esquiver|et gag
 ＠|＠|＠|＠|＠|＠|＠|			//子連れにゃんこ
 La forme ultime gagne une attaque plus|rapide et assure contre les ennemis|sans caractéristique !|＠|La forme ultime gagne une attaque plus|rapide et assure contre les ennemis|sans caractéristique !|			//戦隊ドリラ
 La forme ultime gagne une meilleure|puissance d’attaque et un temps de|recharge réduit entre les déploiements !|＠|La forme ultime gagne une meilleure|puissance d’attaque et un temps de|recharge réduit entre les déploiements !|			//戦隊ウチコンガ
-La forme ultime gagne une puissance|d’attaque augmentée et l'immunité|aux vagues offensives.|＠|La forme ultime gagne une puissance|d’attaque augmentée et l'immunité|aux vagues offensives.|			//戦隊チョキンドス
+La forme ultime gagne une puissance|d’attaque augmentée et l'immunité|aux vagues !|＠|La forme ultime gagne une puissance|d’attaque augmentée et l'immunité|aux vagues !|			//戦隊チョキンドス
 La forme ultime gagne des capacités|de réplique offensive !|＠|＠|La forme ultime gagne des capacités|de réplique offensive !|＠|			//戦隊ショベリン
 La forme ultime augmente la|puissance d’attaque et de défense|et donne la capacité brise-barrière !|＠|La forme ultime augmente la|puissance d’attaque et de défense|et donne la capacité brise-barrière !|			//戦隊チャッソ
 La forme ultime améliore vitalité et|attaque + Fléau des colosses, ralentit,|immunise contre Affaiblissement !|＠|La forme ultime améliore vitalité et|attaque + Fléau des colosses, ralentit,|immunise contre Affaiblissement !|			//宮本武蔵
@@ -493,7 +493,7 @@ True Form evolution increases|Defense, move speed, and attack speed!|Plus, becom
 ＠|＠|＠|＠|＠|＠|＠|			//492
 ＠|＠|＠|＠|＠|＠|＠|			//創造神ガイア
 ＠|＠|＠|＠|＠|＠|＠|			//潮風のセーラーカッパー
-True Form evolution gains tougher|Plus, faster movement speed!|＠|＠|True Form evolution gains tougher|Plus, faster movement speed!|＠|			//ネコ闘牛士
+La forme ultime renforce la défense|et la vit. de déplac. est plus rapide!|＠|＠|La forme ultime renforce la défense|et la vit. de déplac. est plus rapide!|＠|			//ネコ闘牛士
 La forme ultime augmente grandement|la déf. et la chance de frappe sauvage !|＠|＠|La forme ultime augmente grandement|la déf. et la chance de frappe sauvage !|＠|			//甲斐姫
 ＠|＠|＠|＠|＠|＠|＠|			//497
 ＠|＠|＠|＠|＠|＠|＠|			//498
@@ -629,7 +629,7 @@ Forme ultime = déf. et vit. attaque +.|Immunité aux répliques offensives.|Min
 ＠|＠|＠|＠|＠|＠|＠|			//ネコノテイオウ（仮）
 ＠|＠|＠|＠|＠|＠|＠|			//洗脳ネコ（仮）
 ＠|＠|＠|＠|＠|＠|＠|			//ネコハーメルン
-La forme ultime améliore fortement|l’attaque ! Bloque les vagues off. et|gagne immunité aux vagues offensives.|＠|La forme ultime améliore fortement|l’attaque ! Bloque les vagues off. et|gagne immunité aux vagues offensives.|			//ピクシーズ（仮）
+La forme ultime améliore fortement|l’attaque ! Donne bloque-vagues et imm.|aux vagues !|＠|La forme ultime améliore fortement|l’attaque ! Donne bloque-vagues et imm.|aux vagues !|			//ピクシーズ（仮）
 La forme ultime améliore son attaque et|l'immunise vs les effets d'immobilisation !|＠|＠|La forme ultime améliore son attaque et|l'immunise vs les effets d'immobilisation !|＠|			//超竜戦機デス・トロイ
 La forme ultime améliore la déf., la puiss.|100 % de chances de mini-vague.|＠|＠|La forme ultime améliore la déf., la puiss.|100 % de chances de mini-vague.|＠|
 Forme ultime : dégâts de zone massifs|contre Akus, immunité contre immobilisation|et peut percer les boucliers Akus !|＠|Forme ultime : dégâts de zone massifs|contre Akus, immunité contre immobilisation|et peut percer les boucliers Akus !|			//白騎士キュクロプス
@@ -696,9 +696,9 @@ La forme ultime améliore l’attaque !|Vitesse de déplacement augmentée et|i
 ＠|＠|＠|＠|＠|＠|＠|			//殺意のタンクネコ
 ＠|＠|＠|＠|＠|＠|＠|//ネコ委員長
 La forme ultime révèle son aspect final|Et gagne Fléau des Béhémoths !|＠|＠|La forme ultime révèle son aspect final|Et gagne Fléau des Béhémoths !|＠|//古びたタマゴ:N107
-＠|＠|＠|＠|＠|＠|＠|//サンダージャック
+La forme ultime gagne|Recul contre akus et aliens.|et immun. contre répliques offensives !|＠|La forme ultime gagne|Recul contre akus et aliens.|et immun. contre répliques offensives !|//サンダージャック
 ＠|＠|＠|＠|＠|＠|＠|//決闘少年ラビットサトル
-La forme ultime révèle son aspect final.|Gagne également att. longue portée|et immun. vagues offensives.|＠|La forme ultime révèle son aspect final.|Gagne également att. longue portée|et immun. vagues offensives.|//古びたタマゴ:N005
+La forme ultime révèle son aspect final.|Gagne également att. longue portée|aux vagues !|＠|La forme ultime révèle son aspect final.|Gagne également att. longue portée|aux vagues !|//古びたタマゴ:N005
 ＠|＠|＠|＠|＠|＠|＠|			//ちび仮面ライダー
 ＠|＠|＠|＠|＠|＠|＠|			//ちびゴジラ
 ＠|＠|＠|＠|＠|＠|＠|			//ちびエヴァンゲリオン
@@ -809,3 +809,6 @@ La forme ultime révèle son aspect final.|Et gagne Fléau des Béhémoths !|�
 ＠|＠|＠|＠|＠|＠|＠|//ネコテイルス
 ＠|＠|＠|＠|＠|＠|＠|//ネコナックルズ
 ＠|＠|＠|＠|＠|＠|＠|//811
+＠|＠|＠|＠|＠|＠|＠|//ギガントゼウス11体目
+＠|＠|＠|＠|＠|＠|＠|//ギガントゼウス11体目召喚キャラクター
+＠|＠|＠|＠|＠|＠|＠|//タスマニアオオガニ

@@ -71,3 +71,7 @@ battle_af_condition_production_3	2
 battle_af_condition_production_4	2
 battle_af_condition_production_5	2
 battle_af_condition_production_type	0
+autoset_level_param	5
+autoset_chara_score	50
+autoset_must_param	5
+autoset_cut_score	0

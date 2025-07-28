@@ -1432,7 +1432,7 @@ mission_receive_bulk_item_chara_evolve2	Unit: "${charaName}" Ultra Form
 mission_receive_bulk_item_xp	${itemName} + ${itemNum}
 mission_receive_bulk_not_all	<color=255,255,0>You are holding too many items<br>to collect all Mission rewards.</color>
 mission_txt	${missionNum} Mission(s) completed!
-scratch_SNS_004	I won %d Cat Food from the #BattleCatsScratcher!<br>Try once each week for a chance at an awesome prize!<br><br>#TheBattleCats #BattleCats #CatScratcher #CatsOfSummer2024
+scratch_SNS_004	I won %d Cat Food from the #BattleCatsScratcher!<br>Try once each week for a chance at an awesome prize!<br><br>#TheBattleCats #BattleCats #CatScratcher #CatsOfSummer2025
 slot_SNS_003	I got %d Cat Food from the Wildcat Slots in #TheBattleCats!<br><br>#BattleCats #10thYears
 SpecialRuleExplanation004	【Super Rare Sale】<br>Super Rare units can be deployed<br>at half-cost with half the cooldown speed.
 SpecialRuleName004	Super Rare Sale
@@ -1558,9 +1558,9 @@ treasure_box_redrow_probability	※ All items have an equal chance at being draw
 treasure_box_result	<color=255,255,0>You drew ${itemName}!</color><br>Cat Food can be used to redraw.
 treasure_box_result_2	※ The current item cannot be received after a redraw.
 treasure_box_result_last_one	<color=255,255,0>You drew ${itemName}!</color><br>No more Redraws available.
-gama_collabo_05_popup	
-gama_collabo_05_name	
-gama_collabo_05_charatext	
+gama_collabo_05_popup	<flash>Sonic the Hedgehog Collab!</flash><br>Chao joins the Gamatoto Expeditions!<br>Earn more items during the collab!<br>※Does not apply to Cat Food.
+gama_collabo_05_name	Chao
+gama_collabo_05_charatext	Chao has joined Gamatoto Expeditions!<br>Earn more item rewards during the collab!<br>※Does not apply to Cat Food.
 GiftMessage_023	<flash>Stage Clear Bonus 11</flash><br>Clear the final stage of<br>"Truth's Devouring Maw" for a chance<br>to receive Master of Logic Newton.
 slot_SNS_005	I got %d Cat Food from the Wildcat Slots Ⅱ in #TheBattleCats!<br><br>#BattleCats
 SpecialRuleExplanation009	【Uniform Motion】<br>All ally and enemy units<br>move at the same speed.
@@ -1568,3 +1568,15 @@ SpecialRuleExplanation010	【Plus One: Special】<br>Special units are automatic
 SpecialRuleName009	Uniform Motion
 SpecialRuleName010	Plus One: Special
 talk_008_push	Let's talk about reinforcements!
+BonusExplanationLabel001	【Score Bonus: Knockback】<br>Knockback an enemy.<br>※ Earn a higher score by Cats with fewer Target types.<br> Check "What is the Arena of Destiny?" at the bottom left of the menu for details.
+BonusNameLabel001	Knockback
+hidden_rarity_3	Illusory Map
+nyancombo_error1	<color=255,255,0>Units needed for this CatCombo cannot<br>be added because there are<br>pinned Cats in your lineup.</color>
+SpecialRuleExplanation011	【Uber Clearance】<br>Only 1 Uber Rare unit at a<br> time can be deployed, but at<br>5% cost and 50% recovery time.
+SpecialRuleName011	Uber Clearance
+slot_autoset_error_1	<color=255,255,0>Enemies appearing in this stage are not known...</color>
+slot_autoset_error_2	<color=255,255,0>No available units can attempt this stage.</color>
+slot_autoset_error_3	<color=255,255,0>No units can be changed.</color>
+slot_tutorial_txt1	<color=255,255,0>Auto-Equip</color><br>Tap the button to set a recommended<br>lineup for a stage! Usable on stages<br>where enemies appearing are visible!
+slot_tutorial_txt2	<color=255,255,0>Pinning Units</color><br>Tap a unit to keep them Equipped even after<br>Auto-Equip! Tap again to unpin or re-pin!
+item_pack_name_84	Special Offer: Buy 3 Rare Tickets

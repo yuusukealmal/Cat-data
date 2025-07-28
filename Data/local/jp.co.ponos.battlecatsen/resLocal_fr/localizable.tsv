@@ -1426,7 +1426,7 @@ mission_receive_bulk_item_chara_evolve2	Unité : "${charaName}" ultra forme
 mission_receive_bulk_item_xp	${itemName} + ${itemNum}
 mission_receive_bulk_not_all	<color=255,255,0>Tu possèdes trop d'objets<br>pour récupérer toutes les récompenses de mission.</color>
 mission_txt	${missionNum} mission(s) accomplie(s) !
-scratch_SNS_004	
+scratch_SNS_004	J'ai gagné %d Miam dans #BattleCatsScratcher !<br>Essaie une fois par semaine pour tenter de remporter un super prix !<br><br>#TheBattleCats #CatsOfSummer2025
 slot_SNS_003	J’ai gagné %d Miams aux Machines à sous Chat sauvage de #TheBattleCats !<br><br>#BattleCats #10Ans
 SpecialRuleExplanation004	【Vente super rare]  <br>Les unités super rares peuvent être déployées<br>pour la moitié du coût et avec un délai de récupération divisé par deux.
 SpecialRuleName004	Vente super rare
@@ -1552,9 +1552,9 @@ treasure_box_redrow_probability	* Tous les objets ont autant de chances d’êtr
 treasure_box_result	<color=255,255,0>Tu as tiré : ${itemName} !</color><br>Tu peux utiliser des Miam pour tirer à nouveau.
 treasure_box_result_2	* L’objet actuel ne peut pas être reçu après un nouveau tirage.
 treasure_box_result_last_one	<color=255,255,0>Tu as tiré : ${itemName} !</color><br>Aucun autre tirage disponible.
-gama_collabo_05_popup	
-gama_collabo_05_name	
-gama_collabo_05_charatext	
+gama_collabo_05_popup	<flash>Sonic the Hedgehog Collab!</flash><br>Chao joins the Gamatoto Expeditions!<br>Earn more items during the collab!<br>※Does not apply to Cat Food.
+gama_collabo_05_name	Chao
+gama_collabo_05_charatext	Chao has joined Gamatoto Expeditions!<br>Earn more item rewards during the collab!<br>※Does not apply to Cat Food.
 GiftMessage_023	<flash>Bonus de fin de niveau 11</flash><br>Termine le dernier niveau de<br>Dévoreuse de vérité pour<br>une chance de recevoir Maître de la Logique Newton.
 slot_SNS_005	J’ai gagné %d Miams aux Machines à sous Chat sauvageⅡ de #TheBattleCats !<br><br>#BattleCats
 SpecialRuleExplanation009	【Déplacement uniforme】<br>Toutes les unités alliées et ennemies<br>se déplacent à la même vitesse.
@@ -1562,3 +1562,15 @@ SpecialRuleExplanation010	【Plus un : Spécial】<br>Les unités spéciales so
 SpecialRuleName009	Déplacement uniforme
 SpecialRuleName010	Plus un : Spécial
 talk_008_push	Reprenons notre discussion sur les renforts.
+BonusExplanationLabel001	【Bonus de score : Recul】<br> Repousse un ennemi.<br>* Améliore ton score grâce aux Chats avec moins de types de cible.<br> Consulte « Qu’est-ce que l’Arène du destin ? » en bas à gauche du menu pour en savoir plus.
+BonusNameLabel001	Recul
+hidden_rarity_3	Carte illusoire
+item_pack_name_84	Offre spéciale : 3 tickets rares !
+nyancombo_error1	<color=255,255,0>Les unités requises pour ce combo félin ne<br>peuvent pas être ajoutées car tu as des Chats<br>épinglés dans ta formation.</color>
+SpecialRuleExplanation011	【Ultra déstockage】<br>Un seul ultra rare peut être déployé à la fois,<br>mais à 5 % du coût et avec 50 %<br>de temps de récupération.
+SpecialRuleName011	Ultra déstockage
+slot_autoset_error_1	<color=255,255,0>Les ennemis apparaissant dans ce niveau sont inconnus...</color>
+slot_autoset_error_2	<color=255,255,0>Aucune unité disponible ne peut tenter ce niveau.</color>
+slot_autoset_error_3	<color=255,255,0>Aucune unité ne peut être modifiée.</color>
+slot_tutorial_txt1	<color=255,255,0>Équipement auto</color><br>Touche le bouton pour définir une formation<br>recommandée pour le niveau ! Utilisable sur<br>les niveaux dont les ennemis sont visibles !
+slot_tutorial_txt2	<color=255,255,0>Épinglage d’unités</color><br>Touche une unité pour la garder équipée<br>même après l’équipement auto ! Touche-la<br>à nouveau pour la désépingler ou la réépingler !

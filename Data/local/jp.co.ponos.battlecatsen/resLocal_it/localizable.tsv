@@ -1416,7 +1416,7 @@ treasure_popup2	 ${treasureRank} ${text} ${stageName}
 treasure_popup3	 ${treasureName}
 item_pack_name_81	Offerta dello sfidante: Pack XP e Biglietto raro!
 item_pack_name_82	
-scratch_SNS_004	
+scratch_SNS_004	Ho vinto %d Friskat con la #BattleCatsScratcher!<br>Prova una volta alla settimana per vincere un premio fantastico!<br><br>#TheBattleCats #CatsOfSummer2025
 slot_SNS_003	Ho ricevuto %d Friskat dalle Slot Feline su #TheBattleCats!<br><br>#BattleCats #10anni
 Account_iOS13_error	L'accesso Apple non può essere utilizzato con dispositivi iOS 12 o precedenti.
 gamatoto_shortcut	Vuoi andare alla schermata di Gamatoto?
@@ -1552,9 +1552,9 @@ treasure_box_redrow_probability	*Tutti gli oggetti hanno la stessa probabilità 
 treasure_box_result	<color=255,255,0>Hai sorteggiato ${itemName}!</color><br>Puoi usare i Friskat per sorteggiare di nuovo.
 treasure_box_result_2	*Non puoi ricevere quest'oggetto dopo un nuovo sorteggio.
 treasure_box_result_last_one	<color=255,255,0>Hai sorteggiato ${itemName}!</color><br>Nessun altro sorteggio disponibile.
-gama_collabo_05_popup	
-gama_collabo_05_name	
-gama_collabo_05_charatext	
+gama_collabo_05_popup	<flash>Sonic the Hedgehog Collab!</flash><br>Chao joins the Gamatoto Expeditions!<br>Earn more items during the collab!<br>※Does not apply to Cat Food.
+gama_collabo_05_name	Chao
+gama_collabo_05_charatext	Chao has joined Gamatoto Expeditions!<br>Earn more item rewards during the collab!<br>※Does not apply to Cat Food.
 GiftMessage_023	<flash>Ricompensa livello 11</flash><br>Supera il livello finale di<br>"Le fauci spietate della verità" per una<br>possibilità di ricevere Maestro di logica Newton.
 slot_SNS_005	Ho ricevuto %d Friskat dalle Slot feline II su #TheBattleCats!<br><br>#BattleCats
 SpecialRuleExplanation009	【Velocità uniforme】<br>Tutte le unità alleate e nemiche<br>si muovono alla stessa velocità.
@@ -1562,3 +1562,15 @@ SpecialRuleExplanation010	【Uno speciale in più】<br>Le unità speciali vengo
 SpecialRuleName009	Velocità uniforme
 SpecialRuleName010	Uno speciale in più
 talk_008_push	Rivediamo la nostra chiacchierata sui rinforzi!
+BonusExplanationLabel001	【Punteggio bonus: respinta】<br> Respingi un nemico<br>*Ottieni un punteggio più alto con Gatti con meno tipi di obiettivi.<br> Per maggiori dettagli vedi "Che cos'è l'Arena del destino?" in basso a sinistra nel menu.
+BonusNameLabel001	Respinta
+hidden_rarity_3	Mappa illusoria
+item_pack_name_84	Offerta speciale: compra 3 bigl. raro!
+nyancombo_error1	<color=255,255,0>Le unità necessarie per questa combo felina non possono<br>essere aggiunte perché ci sono<br>Gatti bloccati nella tua formazione.</color>
+SpecialRuleExplanation011	【Rilascio ultra rare】<br>Può essere schierata solo 1 unità<br>ultra rara alla volta, ma al<br>5% del costo e con il 50% del tempo di recupero.
+SpecialRuleName011	Rilascio ultra rare
+slot_autoset_error_1	<color=255,255,0>I nemici che appariranno in questo livello non sono visibili...</color>
+slot_autoset_error_2	<color=255,255,0>Nessuna unità disponibile può affrontare questo livello.</color>
+slot_autoset_error_3	<color=255,255,0>Non è possibile cambiare nessuna unità.</color>
+slot_tutorial_txt1	<color=255,255,0>Equipaggia automaticamente</color><br>Tocca il pulsante per impostare<br>uno schieramento consigliato! Utilizzabile<br>sui livelli in cui i nemici che appariranno sono visibili!
+slot_tutorial_txt2	<color=255,255,0>Bloccare le unità</color><br>Tocca un'unità per tenerla equipaggiata anche dopo<br>Equipaggia automaticamente! Tocca di nuovo per sbloccare o bloccare di nuovo!

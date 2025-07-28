@@ -91,14 +91,14 @@
 9048|Marque plus de 6 000 points<br>dans le lieu spécial Cavité grouillante !
 9049|Améliore le Chat œuf jusqu’au niveau 10 !<br>※ Le Chat doit évoluer avant la fin de l’événement.|Consulte les missions spéciales pour accéder<br>à des défis ponctuels du printemps !
 9050|Upgrade Shinji & Cat to Level 10!<br>(You must evolve the Cat before the event ends!)|Check the Special Missions to access<br>limited Evangelion collab challenges!
-9051|Clear "Decisive Battle!" %d times!<br>Clear any Decisive Battle! stage: %d of %d
-9052|Clear "Decisive Battle!" %d times!<br>Clear any Decisive Battle! stage: %d of %d
-9053|Clear "Decisive Battle!" %d times!<br>Clear any Decisive Battle! stage: %d of %d
-9054|Clear a stage using a catcombo with "Eva Angel Killer" effect!<br>Use Shinji and ??? together (after Empire Ch. 1)|Check the Special Missions to access<br>Evangelion Collab missions!
+9051||
+9052|
+9053|
+9054||Check the Special Missions to access<br>Evangelion Collab missions!
 9055|Destroy the 4th Angel<br>Encounter this enemy at "State of Emergency"
 9056|Destroy the 6th Angel<br>Encounter this enemy at "Futagoyama Fortress"
 9057|Destroy the 9th Angel<br>Encounter this enemy at "Asuka On Board (Easy)"
-9058|Destroy the 10th Angel<br>Encounter this enemy at "Refusal Type (Hard)"
+9058|Destroy the 10th Angel<br>Encounter this enemy at "Refusal Type (Hard)"|Check the Special Missions to access<br>Evangelion Collab missions!
 9059|Destroy all Angels<br>Complete %d Destroy Angel missions: %d of %d complete.
 9060|Evolve Pokota at Level 10!<br>This mission can only be completed during the LINE Pokopang! collab event!|Check the Special Missions to access<br>limited LINE Pokopang! challenges!
 9061|Evolve Ovis at Level 10!<br>This mission can only be completed during the LINE Pokopang! collab event!
@@ -958,11 +958,11 @@
 9528|Termine des niveaux de l'événement d'Halloween<br>%d fois ! (N'importe quel niveau) (%d sur %d)
 9529|Gagne un objet vedette dans les Chapsules<br>de l'événement Fête d'Halloween !
 9530|Termine toutes les missions de l'événement d'Halloween<br>pour gagner 1 ticket rare !
-9531|[Campagne Débutant] Termine %d niv. de L'empire des Chats.<br>(N'importe quel niveau) (%d sur %d)|Consulte les missions spéciales pour accéder<br>aux défis limités de la Campagne Débutant !
-9532|[Campagne Débutant] Termine %d niv. de L'empire des Chats.<br>(N'importe quel niveau) (%d sur %d)
-9533|[Campagne Débutant] Termine %d niv. de L'empire des Chats.<br>(N'importe quel niveau) (%d sur %d)
-9534|[Campagne Débutant] Termine le niv. Japon de L'empire des<br>Chats et gagne un ticket rare pour des Chapsules rares !
-9535|[Campagne Débutant] Termine le niv. Japon de L'empire des<br>Chats et gagne de l'Autorité pour récupérer du Charburant !
+9531|[Campagne Départ en trombe] Termine n’importe quel<br>niveau de L’empire des Chats %d fois ! (%d sur %d)|Consulte les missions spéciales pour accéder<br>aux défis Départ en trombe à durée limitée !
+9532|[Campagne Départ en trombe] Termine n’importe quel<br>niveau de L’empire des Chats %d fois ! (%d sur %d)
+9533|[Campagne Départ en trombe] Termine n’importe quel<br>niveau de L’empire des Chats %d fois ! (%d sur %d)
+9534|[Campagne Départ en trombe] Termine le niv. Japon<br>de L’empire des Chats et gagne un ticket rare !
+9535|[Campagne Départ en trombe] Termine le niv. Japon<br>de L’empire des Chats et gagne une Autorité !
 66|Viens à bout de la forme de vie dans le Labyrinthe<br>de l'ancienne forêt, niveau 1 étape 6.
 67|[Championnats Griffélin] Termine les %d niveaux du Rang 1.<br>Accède au Dojo Griffélin pour explorer ce niveau (%d sur %d)|Des missions Championnats Griffélin<br>ont été ajoutées aux Missions principales !
 68|[Championnats Griffélin] Obtiens %d Chats légendaires. Progresse dans les niveaux<br>légendaires pour les récupérer dans les niveaux spéciaux (%d sur %d)|Des missions Championnats Griffélin<br>ont été ajoutées aux Missions principales !
@@ -1037,8 +1037,29 @@
 9591||
 9592|
 9593|
-9594||
-9595|
-9596|
-9597|
-9598|
+9594|Clear any "Sonic the Hedgehog" collab<br>stage %d times! (%d of %d)|Sonic the Hedgehog Collab Missions<br>added to the Special Missions!
+9595|Clear any "Sonic the Hedgehog" collab<br>stage %d times! (%d of %d)
+9596|Clear any "Sonic the Hedgehog" collab<br>stage %d times! (%d of %d)
+9597|Clear any "Sonic the Hedgehog" collab<br>stage %d times! (%d of %d)
+9598|Complete %d Gamatoto Expeditions during <br>the collab: %d of %d times!
+9599|Mission de retour ① :<br>Termine n’importe quel niveau %d fois %d sur %d)|Ah, te revoilà ! Des missions de retour ont été<br>ajoutées aux missions spéciales !
+9600|Mission de retour ② :<br>Termine n’importe quel niveau %d fois %d sur %d)
+9601|Mission de retour ③ :<br>Termine n’importe quel niveau %d fois %d sur %d)
+9602|Mission de retour ④ :<br>Termine n’importe quel niveau %d fois %d sur %d)
+9603|Mission de retour ⑤ :<br>Termine n’importe quel niveau %d fois %d sur %d)
+9604|Mission de retour ⑥ :<br>Termine n’importe quel niveau %d fois %d sur %d)
+9605|Mission de retour ⑦ :<br>Termine n’importe quel niveau %d fois %d sur %d)
+9606|Mission de retour ⑧ :<br>Termine n’importe quel niveau %d fois %d sur %d)
+9607|[1 : Évasion du naufragé] ④ : Survie dans la nature<br>Termine %d niveaux de Naufragé ! (%d sur %d)
+9608|[1 : Évasion du naufragé] ① : Recherche de nourriture<br>Termine %d niveaux de Survive! Mola Mola! (%d sur %d)
+9609|[1 : Évasion du naufragé] ② : Recherche de nourriture<br>Termine %d niveaux de Survive! Mola Mola! (%d sur %d)
+9610|[1 : Évasion du naufragé] ③ : Recherche de nourriture<br>Termine %d niveaux de Survive! Mola Mola! (%d sur %d)
+9611|[1 : Évasion du naufragé] ④ : Recherche de nourriture<br>Récupère 3 Sardines dans les Chapsules d’événement !
+9612|[1 : Évasion du naufragé] ⑤ : Recherche de nourriture<br>Récupère 3 Calmars dans les Chapsules d’événement !
+9613|[1 : Évasion du naufragé] ⑥ : Recherche de nourriture<br>Récupère 3 Crabes géants dans les Chapsules d’événement !
+9614|[1 : Évasion du naufragé] ⑦ : Recherche de nourriture<br>Récupère 3 Œufs N206 dans les Chapsules d’événement !
+9615|[1 : Évasion du naufragé] ① : Tempête<br>Termine le niv. Prévisions sans précédent %d fois (%d sur %d)
+9616|[1 : Évasion du naufragé] ② : Tempête<br>Termine le niv. Prévisions sans précédent %d fois (%d sur %d)
+9617|[1 : Évasion du naufragé] ③ : Tempête<br>Termine le niv. Prévisions sans précédent %d fois (%d sur %d)
+9618|[1 : Évasion du naufragé] ④ : Tempête<br>Termine le niv. Prévisions sans précédent %d fois (%d sur %d)
+9619|[3 : Évasion du naufragé] : Île obscure<br>Termine le niv. 1 des Défenseurs de l’île !|Des missions de la 3e partie de l’Évasion du naufragé<br>ont été ajoutées aux missions spéciales !
